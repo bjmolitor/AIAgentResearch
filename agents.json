@@ -26,13 +26,14 @@
       "pricing_model": "Based on API token consumption. Average cost of ~$6 per developer per day. Average monthly cost of ~$100-200 per developer per month with Sonnet 4. Usage included for Pro and Max plan users.",
       "benchmarks": {
         "swe_bench_score": 49,
+        "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High (for developers comfortable with the command line)",
+        "documentation_quality": "High",
+        "onboarding_experience": "Very easy, with a clear 'Get started in 30 seconds' guide in the official documentation."
       }
     },
     {
@@ -52,32 +53,40 @@
       ],
       "pricing_model": "Subscription-based (part of Gemini Code Assist)",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": "18.00% (for SWE-agent + GPT 4)",
+        "swe_bench_source": "https://www.swebench.com/",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High, with a focus on natural language interaction.",
+        "documentation_quality": "High, with a comprehensive README and a docs directory in the GitHub repository.",
+        "onboarding_experience": "Very easy, with clear and simple installation instructions for Node.js and Homebrew."
       }
     },
     {
       "name": "Qwen CLI",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://github.com/QwenLM/qwen-code",
+      "developer": "Alibaba",
+      "key_features": [
+        "Navigate and understand complex codebases",
+        "Detect and fix coding issues",
+        "Generate code and unit tests",
+        "Create documentation and flowcharts"
+      ],
+      "supported_models": [
+        "Qwen3-Coder"
+      ],
+      "pricing_model": "Based on API key usage from Alibaba Cloud or third-party services like OpenRouter.",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High (for developers comfortable with the command line)",
+        "documentation_quality": "High (based on the DataCamp tutorial and GitHub repository)",
+        "onboarding_experience": "Straightforward, with a step-by-step guide available in the DataCamp tutorial."
       }
     },
     {
@@ -102,18 +111,42 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High (rated 8.8/10 on G2Crowd for the Logz.io platform). The AI Agent uses natural language queries.",
+        "documentation_quality": "High, with clear and comprehensive official documentation.",
+        "onboarding_experience": "Very easy for existing Logz.io users, accessible with a single button click in the platform."
       }
     }
   ],
   "ide_embedded": [
     {
       "name": "Roo Code",
+      "website": "https://roo.ai/",
+      "developer": "ROO.AI",
+      "key_features": [
+        "NOTE: Roo Code is not a publicly available product. The information is based on the ROO.AI platform.",
+        "Connected worker technology with a visual interface, Bots, and AI Agents.",
+        "Uses cloud-based custom AI models or APIs like ChatGPT for AI Agent assistance."
+      ],
+      "supported_models": [
+        "Cloud-based custom AI models or APIs like ChatGPT"
+      ],
+      "pricing_model": "Not specified for a 'Roo Code' product. ROO.AI has its own pricing model for its platform.",
+      "benchmarks": {
+        "swe_bench_score": "Not applicable",
+        "task_success_rate": "Not applicable",
+        "resource_usage": "Not applicable"
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "Not applicable",
+        "documentation_quality": "Not applicable",
+        "onboarding_experience": "Not applicable"
+      }
+    },
+    {
+      "name": "Kilo",
       "website": "Not found",
       "developer": "Not found",
-      "key_features": ["Not found"],
+      "key_features": ["Information not found"],
       "supported_models": ["Not found"],
       "pricing_model": "Not found",
       "benchmarks": {
@@ -128,57 +161,69 @@
       }
     },
     {
-      "name": "Kilo",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
-      "benchmarks": {
-        "swe_bench_score": null,
-        "task_success_rate": null,
-        "resource_usage": ""
-      },
-      "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
-      }
-    },
-    {
       "name": "Cline",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://cline.bot/",
+      "developer": "Cline Bot Inc.",
+      "key_features": [
+        "Plan Mode for complex tasks",
+        "Complete transparency",
+        "Use your own models and API keys",
+        ".clinerules for project-specific instructions",
+        "MCP Integration",
+        "Context Intelligence",
+        "Terminal Mastery",
+        "100% Open Source"
+      ],
+      "supported_models": [
+        "Model-agnostic (supports Claude, Gemini, DeepSeek, and any other model)"
+      ],
+      "pricing_model": "Free and open source. Users pay for the AI models they use. A 'Cline Teams' plan is available for enterprises.",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High, with a focus on natural language interaction and a clear UI.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward, with a clear installation process and a 'Getting Started' guide for new coders."
       }
     },
     {
       "name": "Cursor",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://cursor.com/",
+      "developer": "Anysphere",
+      "key_features": [
+        "Powerful autocomplete",
+        "Multi-Line Edits",
+        "Smart Rewrites",
+        "Agent mode for end-to-end tasks",
+        "Finds Context using custom retrieval models",
+        "Runs Commands",
+        "Loops on Errors",
+        "Fast Edits",
+        "Proprietary Models",
+        "Reference your Code with @ symbols",
+        "Use Images",
+        "Ask the Web",
+        "Use Documentation",
+        "Inline Edit (Ctrl + K)",
+        "Terminal Ctrl K",
+        "Quick Questions"
+      ],
+      "supported_models": [
+        "Proprietary models and custom retrieval models, alongside APIs."
+      ],
+      "pricing_model": "Tiered (Free, Pro, Business). Pro plan is $16/month, Business plan is $32/user/month.",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High, with a focus on intuitive keyboard shortcuts and a seamless user interface.",
+        "documentation_quality": "High, with official documentation available at docs.cursor.com.",
+        "onboarding_experience": "Straightforward, with a simple download and installation process."
       }
     }
   ],
@@ -201,14 +246,15 @@
       ],
       "pricing_model": "Tiered (Free, Pro, Ultra)",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": 52.2,
+        "swe_bench_source": "https://aiagentindex.mit.edu/jules/",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High, with a simple, prompt-based interface and interactive planning.",
+        "documentation_quality": "High, with a clear and comprehensive 'Getting started' guide.",
+        "onboarding_experience": "Straightforward, with a step-by-step guide for connecting to GitHub and starting a task."
       }
     },
     {
@@ -261,9 +307,9 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "Information not available in English.",
+        "documentation_quality": "Information not available in English.",
+        "onboarding_experience": "Information not available in English."
       }
     },
     {
@@ -279,17 +325,19 @@
         "Has access to a shell, code editor, and browser",
         "Collaborates with the user"
       ],
-      "supported_models": [],
-      "pricing_model": "",
+      "supported_models": [
+        "Not specified"
+      ],
+      "pricing_model": "Tiered (Core, Teams). Pricing is based on Agent Compute Units (ACUs).",
       "benchmarks": {
         "swe_bench_score": 13.86,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High, with a conversational UI and embedded IDE. Requires clear instructions and task breakdown for complex tasks.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward for teams, with a clear 'Get Started' guide."
       }
     },
     {
@@ -339,29 +387,40 @@
         "resource_usage": "No public benchmarks found"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "Medium for beginners, High for experienced developers. The framework is powerful but can be complex.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward for developers, with a clear 'Get Started' guide."
       }
     }
   ],
   "agent_frameworks": [
     {
       "name": "CrewAI",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://www.crewai.com/",
+      "developer": "CrewAI Inc.",
+      "key_features": [
+        "Role-Based Agents",
+        "Flexible Tools",
+        "Intelligent Collaboration",
+        "Task Management",
+        "Event-Driven Orchestration",
+        "Fine-Grained Control",
+        "Native Crew Integration",
+        "Deterministic Execution"
+      ],
+      "supported_models": [
+        "Any LLM"
+      ],
+      "pricing_model": "Open-source framework with enterprise-focused pricing for the full platform.",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "High for developers, with a clear and comprehensive documentation.",
+        "documentation_quality": "High, with detailed guides, examples, and API reference.",
+        "onboarding_experience": "Straightforward for developers, with a 'Quickstart' guide and detailed installation instructions."
       }
     },
     {
@@ -392,20 +451,26 @@
     },
     {
       "name": "LangGraph",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://langchain-ai.github.io/langgraph/",
+      "developer": "LangChain, Inc.",
+      "key_features": [
+        "Reliability and controllability",
+        "Low-level and extensible",
+        "First-class streaming support"
+      ],
+      "supported_models": [
+        "Any LLM supported by LangChain"
+      ],
+      "pricing_model": "Open-source",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "Medium for beginners, High for experienced developers. The framework is powerful but can be complex.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward for developers, with a series of tutorials to guide them."
       }
     }
   ]

@@ -8,7 +8,7 @@ Devin is the world's first fully autonomous AI software engineer, created by Cog
 
 - **Developer:** Cognition
 - **Website:** [https://devin.ai/](https://devin.ai/)
-- **Pricing:** Not available
+- **Pricing:** Tiered (Core, Teams). Pricing is based on Agent Compute Units (ACUs).
 
 ## Key Features
 
@@ -22,7 +22,7 @@ Devin is the world's first fully autonomous AI software engineer, created by Cog
 
 ## Supported Models
 
-Not available
+- Not specified
 
 ## Benchmarks
 
@@ -32,6 +32,6 @@ Not available
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Not rated
-- **Documentation Quality:** Not rated
-- **Onboarding Experience:** Not available
+- **Ease of Use:** High, with a conversational UI and embedded IDE. Requires clear instructions and task breakdown for complex tasks.
+- **Documentation Quality:** High, with comprehensive and well-structured official documentation.
+- **Onboarding Experience:** Straightforward for teams, with a clear 'Get Started' guide.
