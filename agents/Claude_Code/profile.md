@@ -6,7 +6,7 @@ Claude Code is a terminal-based AI agent developed by Anthropic. It is designed 
 
 - **Developer:** Anthropic
 - **Website:** [https://docs.anthropic.com/en/docs/claude-code/overview](https://docs.anthropic.com/en/docs/claude-code/overview)
-- **Pricing:** Based on API token consumption, with an average cost of ~$6 per developer per day. Usage is also included in Anthropic's Pro and Max plans.
+- **Pricing:** Based on API token consumption. Average cost of ~$6 per developer per day. Average monthly cost of ~$100-200 per developer per month with Sonnet 4. Usage included for Pro and Max plan users.
 
 ## Key Features
 
@@ -35,3 +35,9 @@ Claude Code supports the following models from the Claude family:
 
 - **SWE-bench Verified:** 49% (Claude 3.5 Sonnet)
 - **SWE-bench Verified:** 22% (Claude 3 Opus)
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Not available

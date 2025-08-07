@@ -6,6 +6,12 @@ Manus is an autonomous artificial intelligence agent developed by the Chinese st
 
 The official launch of Manus was on March 6, 2025. It was described as a major advance because it could autonomously handle complex tasks, including writing and deploying code.
 
+## Key Information
+
+- **Developer:** Monica (also known as Butterfly Effect AI)
+- **Website:** [https://manus.im/](https://manus.im/)
+- **Pricing:** Proprietary
+
 ## Key Features
 
 *   **Autonomous Operation:** Can operate entirely without direct human intervention.
@@ -14,9 +20,21 @@ The official launch of Manus was on March 6, 2025. It was described as a major a
 *   **Dynamic Planning:** Can create and adapt plans to achieve goals.
 *   **Web-Based Interface:** Accessible through a web application at [manus.im](https://manus.im/).
 
-## Developer
+## Supported Models
 
-Manus was developed by Monica (also known as Butterfly Effect AI). The key person behind Manus.im is Xiao Hong.
+Not available
+
+## Benchmarks
+
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Web-based interface with standard sign-up and sign-in.
 
 ## Recent Developments
 

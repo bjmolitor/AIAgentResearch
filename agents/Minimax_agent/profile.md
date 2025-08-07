@@ -23,4 +23,12 @@
 - **MiniMax Hailuo 02 (video):** Starting from $0.28 per video
 
 ## Benchmarks
-- No public benchmarks found.
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** No public benchmarks found
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Not available

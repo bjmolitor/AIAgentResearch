@@ -4,6 +4,11 @@
 
 LogiQCLI is the AI Agent from Logz.io, part of their Observability IQ suite. It provides a chat-based interface for users to interact with their data, offering real-time insights into metrics, anomalies, trends, and overall system health.
 
+## Key Information
+
+- **Developer:** Logz.io
+- **Website:** [https://docs.logz.io/docs/user-guide/observability/assistantiq/](https://docs.logz.io/docs/user-guide/observability/assistantiq/)
+
 ## Key Features
 
 *   **Chat-Based Interface:** Allows for dynamic, conversational data analysis.
@@ -18,8 +23,16 @@ LogiQCLI is the AI Agent from Logz.io, part of their Observability IQ suite. It 
 
 ## Pricing Model
 
-LogiQCLI uses a pay-as-you-go model based on data volume that exceeds a customer's daily plan. The cost is calculated based on the plan's per-GB overage rate, with an additional 40% charge. For specific pricing details, customers need to contact their account manager.
+Pay-as-you-go model for data that exceeds the daily volume limit of a customer's plan. The price is based on the plan's cost per 1GB of overage plus a 40% additional charge. Specific pricing requires contacting a sales representative.
 
 ## Benchmarks
 
-No public benchmarks such as SWE-Bench were found during the research.
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Not available

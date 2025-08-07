@@ -27,6 +27,18 @@ The Gemini CLI is available as part of the Gemini Code Assist subscription, whic
 
 Each tier has different request limits for the Gemini CLI and Agent Mode.
 
+## Benchmarks
+
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Not available
+
 ## Website
 
 *   **Official Documentation:** [https://cloud.google.com/gemini/docs/codeassist/gemini-cli](https://cloud.google.com/gemini/docs/codeassist/gemini-cli)

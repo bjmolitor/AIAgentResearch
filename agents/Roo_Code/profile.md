@@ -2,22 +2,28 @@
 
 **Note:** No information could be found about the "Roo Code" AI agent through online research. The information in `agents.json` and this profile are placeholders.
 
-## Overview
+## Key Information
 
-Information not available.
+- **Developer:** Not found
+- **Website:** Not found
+- **Pricing:** Not found
 
 ## Key Features
 
-- Information not available.
+- Not found
 
 ## Supported Models
 
-- Information not available.
-
-## Pricing
-
-- Information not available.
+- Not found
 
 ## Benchmarks
 
-- Information not available.
+- **SWE-bench score:** Not found
+- **Task Success Rate:** Not found
+- **Resource Usage:** Not found
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not found
+- **Documentation Quality:** Not found
+- **Onboarding Experience:** Not found

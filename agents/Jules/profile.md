@@ -15,6 +15,22 @@ Jules is an experimental, asynchronous coding agent developed by Google. It is d
 - **AGENTS.md Awareness:** Jules can read and interpret `AGENTS.md` files in a repository to better understand the project's structure and conventions.
 - **Notifications:** Browser notifications keep the user updated on the status of their tasks.
 
+## Supported Models
+
+- Gemini 2.5 Pro
+
+## Benchmarks
+
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
+
+## Qualitative Assessment
+
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Not available
+
 ## Pricing
 
 Jules offers a tiered pricing model:
