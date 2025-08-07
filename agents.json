@@ -94,11 +94,15 @@
     },
     {
       "name": "Kilo",
-      "website": "",
-      "developer": "",
-      "key_features": [],
+      "website": "https://viewsourcecode.org/snaptoken/kilo/",
+      "developer": "Salvatore Sanfilippo (antirez), snaptoken",
+      "key_features": [
+        "Minimalist, dependency-free text editor",
+        "Written in C",
+        "Features syntax highlighting and search"
+      ],
       "supported_models": [],
-      "pricing_model": "",
+      "pricing_model": "Not applicable",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -107,7 +111,7 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
+        "onboarding_experience": "Note: 'Kilo' is not an AI agent, but a text editor from a tutorial. The entry is likely a miscategorization."
       }
     },
     {
@@ -264,11 +268,32 @@
   "agent_frameworks": [
     {
       "name": "CrewAI",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://www.crewai.com/",
+      "developer": "CrewAI™, Inc.",
+      "key_features": [
+        "Autonomous agent teams",
+        "Role-based agents with flexible tools",
+        "Intelligent collaboration and task management",
+        "Open-source framework with both high-level and low-level control",
+        "Support for a wide range of LLMs through LiteLLM",
+        "Event-driven workflows with 'Flows'",
+        "Enterprise-ready with a focus on security and scalability"
+      ],
+      "supported_models": [
+        "OpenAI (default: gpt-4o-mini)",
+        "Anthropic",
+        "Google (Vertex AI, Gemini)",
+        "Azure OpenAI",
+        "AWS (Bedrock, SageMaker)",
+        "Cohere",
+        "VoyageAI",
+        "Hugging Face",
+        "Ollama",
+        "Mistral AI",
+        "Replicate",
+        "Together AI"
+      ],
+      "pricing_model": "Freemium",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -300,20 +325,29 @@
     },
     {
       "name": "LangGraph",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://langchain-ai.github.io/langgraph/",
+      "developer": "LangChain, Inc.",
+      "key_features": [
+        "Reliability and Controllability",
+        "Low-level and Extensible",
+        "First-class Streaming Support"
+      ],
+      "supported_models": [
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "and many others through LangChain"
+      ],
+      "pricing_model": "Open-Source",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "N/A"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,.
-        "onboarding_experience": ""
+        "ease_of_use": 4,
+        "documentation_quality": 5,
+        "onboarding_experience": 4
       }
     }
   ]
