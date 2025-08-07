@@ -20,11 +20,20 @@
     },
     {
       "name": "Gemini CLI",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://github.com/google-gemini/gemini-cli",
+      "developer": "Google",
+      "key_features": [
+        "Open-source AI agent",
+        "Direct terminal access",
+        "Reason and Act (ReAct) loop",
+        "Integration with local and remote tools",
+        "Coding-focused, but versatile",
+        "Integration with Gemini Code Assist"
+      ],
+      "supported_models": [
+        "Gemini"
+      ],
+      "pricing_model": "Subscription-based (part of Gemini Code Assist)",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
