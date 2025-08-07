@@ -1,0 +1,316 @@
+{
+  "terminal_based": [
+    {
+      "name": "Claude Code",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Gemini CLI",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Qwen CLI",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "LogiQCL",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ],
+  "ide_embedded": [
+    {
+      "name": "Roo Code",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Kilo",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Cline",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Cursor",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ],
+  "web_virtualized": [
+    {
+      "name": "Jules",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "ChatGPT agent",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "z.ai",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "devin",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "manus",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Minimax agent",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ],
+  "agent_frameworks": [
+    {
+      "name": "CrewAI",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "LangChain",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "LangGraph",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ]
+}
