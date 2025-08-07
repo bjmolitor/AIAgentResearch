@@ -2,25 +2,17 @@
 
 ## Overview
 
-Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is part of the Amazon Q Developer suite of tools.
-
-## Key Information
-
-- **Developer:** Amazon Web Services (AWS)
-- **Website:** [https://aws.amazon.com/codewhisperer/](https://aws.amazon.com/codewhisperer/)
-- **Pricing:** Tiered (Free, Pro at $19/month per user)
+Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is in the process of being integrated into Amazon Q Developer.
 
 ## Key Features
 
-- **Code recommendations:** Get code recommendations based on natural language comments.
-- **Security scanning:** Detect security vulnerabilities in your code.
-- **Reference tracker:** Detect when generated code may be similar to training data.
-- **Bias detection and filtering:** Remove code recommendations that may be considered biased or unfair.
-- **Wide language support:** Supports 15+ programming languages, including Python, Java, and JavaScript.
+- Generates code recommendations based on natural language comments and existing code.
+- Supports multiple IDEs, including VS Code, JetBrains IDEs, and AWS services like SageMaker Studio and Lambda.
+- Is becoming a part of Amazon Q Developer.
 
 ## Supported Models
 
-- Not specified
+Amazon CodeWhisperer is powered by AWS's own large language models.
 
 ## Benchmarks
 
@@ -30,6 +22,19 @@ Amazon CodeWhisperer is a machine learning (ML)–powered service that helps imp
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with seamless integration into popular IDEs.
-- **Documentation Quality:** High, with comprehensive official documentation.
-- **Onboarding Experience:** Straightforward, with a clear 'Get started' guide in the documentation.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Amazon CodeWhisperer is available through the Amazon Q Developer pricing tiers:
+
+- **Free Tier:** Includes a limited number of agentic requests per month.
+- **Pro Tier:** $19/month per user, with increased limits.
+
+For the most up-to-date pricing information, please refer to the [Amazon Q Developer pricing page](https://aws.amazon.com/q/developer/pricing/).
+
+## Getting Started
+
+To get started with Amazon CodeWhisperer, you can visit the [official website](https://aws.amazon.com/codewhisperer/) and follow the instructions to enable it in your IDE.

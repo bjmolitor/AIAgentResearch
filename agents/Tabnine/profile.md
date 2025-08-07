@@ -31,6 +31,15 @@ Tabnine is an AI code assistant that accelerates and simplifies software develop
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with a focus on seamless integration into the IDE and intuitive features.
-- **Documentation Quality:** High, with comprehensive and well-structured official documentation.
-- **Onboarding Experience:** Straightforward, with a 'Quickstart Guide' and detailed installation instructions.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Pricing information for Tabnine was not publicly available at the time of this writing. Please visit the [official website](https://www.tabnine.com/pricing/) for the latest pricing information.
+
+## Getting Started
+
+To get started with Tabnine, you can visit the [official website](https://www.tabnine.com/) and sign up for a plan.
+
