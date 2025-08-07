@@ -204,13 +204,21 @@
     },
     {
       "name": "devin",
-      "website": "",
-      "developer": "",
-      "key_features": [],
+      "website": "https://devin.ai/",
+      "developer": "Cognition",
+      "key_features": [
+        "Fully autonomous AI software engineer",
+        "Can learn unfamiliar technologies",
+        "Can build and deploy apps end-to-end",
+        "Can autonomously find and fix bugs in codebases",
+        "Can train and fine-tune its own AI models",
+        "Has access to a shell, code editor, and browser",
+        "Collaborates with the user"
+      ],
       "supported_models": [],
       "pricing_model": "",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": 13.86,
         "task_success_rate": null,
         "resource_usage": ""
       },
