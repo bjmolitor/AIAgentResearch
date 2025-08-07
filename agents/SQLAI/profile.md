@@ -35,3 +35,4 @@ SQLAI.ai offers a free trial and paid plans (Explorer, Pro, and Pro XL) starting
 ## Getting Started
 
 To get started with SQLAI.ai, you can visit the [official website](https://www.sqlai.ai/) and sign up for a plan.
+

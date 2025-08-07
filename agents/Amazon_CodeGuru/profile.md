@@ -2,16 +2,25 @@
 
 ## Overview
 
-Amazon CodeGuru is a developer tool from Amazon Web Services (AWS) that provides intelligent recommendations to improve code quality and identify an application’s most expensive lines of code. It consists of two main services: CodeGuru Reviewer and CodeGuru Profiler.
+
+Amazon CodeGuru is a static application security testing (SAST) tool that combines machine learning (ML) and automated reasoning to identify vulnerabilities in your code, provide recommendations on how to fix them, and track their status until closure.
+
+## Key Information
+
+- **Developer:** Amazon Web Services (AWS)
+- **Website:** [https://aws.amazon.com/codeguru/](https://aws.amazon.com/codeguru/)
+- **Pricing:** Monthly fixed rate based on the number of lines of code scanned. For example, $10 for every 100k lines of code.
 
 ## Key Features
 
-- **CodeGuru Reviewer:** A static application security testing (SAST) tool that combines machine learning (ML) and automated reasoning to identify vulnerabilities in your code, provide recommendations on how to fix them, and track their status until closure.
-- **CodeGuru Profiler:** Helps developers find an application’s most expensive lines of code by helping them understand the runtime behavior of their applications, identify and remove code inefficiencies, improve performance, and significantly decrease compute costs.
+- **Static Application Security Testing (SAST):** Identifies vulnerabilities in your code without running it.
+- **ML-powered analysis:** Combines machine learning and automated reasoning to detect vulnerabilities with high precision.
+- **Vulnerability tracking:** Automatically tracks the status of vulnerabilities until they are closed.
+- **CI/CD integration:** Integrates with your CI/CD tooling to identify vulnerabilities early in the development process.
 
 ## Supported Models
 
-Amazon CodeGuru uses machine learning models to provide its recommendations.
+- Not specified
 
 ## Benchmarks
 
@@ -36,3 +45,4 @@ For the most up-to-date pricing information, please refer to the [official prici
 ## Getting Started
 
 To get started with Amazon CodeGuru, you can visit the [official website](https://aws.amazon.com/codeguru/) and sign up for an AWS account.
+

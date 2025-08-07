@@ -2,21 +2,24 @@
 
 ## Overview
 
-Replit AI, also known as Replit Agent, is an AI-powered assistant that helps users build and deploy applications and websites using natural language prompts.
+Replit AI is an AI-powered software development platform that allows users to build and deploy applications and websites using natural language prompts. It is designed to be accessible to both technical and non-technical creators.
+
+## Key Information
+
+- **Developer:** Replit, Inc.
+- **Website:** [https://replit.com/ai](https://replit.com/ai)
+- **Pricing:** Tiered (Starter, Replit Core, Teams, Enterprise). Replit Core is $20/month.
 
 ## Key Features
 
-- Builds apps and websites from natural language prompts.
-- Can create a working prototype from an idea.
-- Can build an app from a screenshot.
-- Fixes bugs automatically.
+- **Natural language to app:** Turn your ideas into apps and websites by describing them in plain English.
+- **Automatic building:** The AI agent builds the application for you automatically.
+- **No-code needed:** You don't need to write any code to get started.
+- **Bug fixing:** The AI is smart enough to fix bugs for you.
 
 ## Supported Models
 
-Replit AI has access to a variety of models, including:
-
-- Claude Sonnet 4
-- OpenAI GPT-4o
+- Not specified
 
 ## Benchmarks
 
@@ -44,3 +47,4 @@ For the most up-to-date pricing information, please refer to the [official prici
 ## Getting Started
 
 To get started with Replit AI, you can visit the [official website](https://replit.com/ai) and sign up for a plan.
+

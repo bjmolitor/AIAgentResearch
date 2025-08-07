@@ -1,21 +1,26 @@
-# SWE-agent (Open SWE)
+# SWE-agent
 
 ## Overview
 
-Open SWE (formerly SWE-agent) is an open-source, asynchronous, cloud-hosted coding agent from LangChain. It is designed to operate like another engineer on your team, with the ability to research a codebase, create a detailed execution plan, write code, run tests, review its own work, and open a pull request when it's finished.
+SWE-agent is an open-source, cloud-based coding agent from LangChain that can autonomously understand, plan, and execute code changes across entire repositories. It is built with LangGraph and features a multi-agent architecture.
+
+## Key Information
+
+- **Developer:** LangChain
+- **Website:** [https://github.com/langchain-ai/open-swe](https://github.com/langchain-ai/open-swe)
+- **Pricing:** Open-source, with users paying for the underlying model APIs.
 
 ## Key Features
 
-- Open-source, asynchronous, cloud-hosted coding agent.
-- Connects directly to GitHub repositories.
-- Can research a codebase, create a detailed execution plan, write code, run tests, review its own work, and open a pull request.
-- Human-in-the-loop for plan approval.
-- Runs in an isolated sandbox.
-- Uses a multi-agent architecture with Manager, Planner, and Programmer/Reviewer agents.
+- **Autonomous code changes:** Understands, plans, and executes code changes across entire repositories.
+- **Multi-agent architecture:** Uses a Manager, Planner, and Programmer to orchestrate the workflow.
+- **Human-in-the-loop:** Allows for manual review and approval of the execution plan.
+- **Cloud-based and asynchronous:** Runs in the acloud and can work on multiple tasks in parallel.
+- **GitHub integration:** Can be triggered by GitHub webhooks and opens pull requests when done.
 
 ## Supported Models
 
-Open SWE uses Claude models and requires an Anthropic API key to run.
+- Anthropic's models (e.g., Claude)
 
 ## Benchmarks
 
@@ -36,3 +41,4 @@ Open SWE is an open-source project. The hosted version at [swe.langchain.com](ht
 ## Getting Started
 
 To get started with Open SWE, you can visit the [official website](https://swe.langchain.com/) or check out the [GitHub repository](https://github.com/langchain-ai/open-swe).
+

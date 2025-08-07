@@ -2,17 +2,24 @@
 
 ## Overview
 
-Android Studio Bot is an AI-powered conversational experience integrated into Android Studio. It is designed to help developers write high-quality code for Android by generating code, answering questions, and fixing errors.
+Android Studio Bot is an AI-powered conversational experience integrated into Android Studio. It is designed to make Android developers more productive by helping them generate code, answer questions, and fix errors.
+
+## Key Information
+
+- **Developer:** Google
+- **Website:** [https://developer.android.com/studio](https://developer.android.com/studio)
+- **Pricing:** Included with Android Studio
 
 ## Key Features
 
-- AI-powered conversational experience in Android Studio.
-- Helps generate code, answer questions about Android development, and fix errors.
-- Leverages Codey, Google's foundation model for coding, which is a descendant of PaLM 2.
+- **AI-powered conversational experience:** Chat with Studio Bot to get help with your code.
+- **Code generation:** Generate code for your app.
+- **Q&A:** Ask questions about Android development.
+- **Error fixing:** Get help with fixing errors in your code.
 
 ## Supported Models
 
-Android Studio Bot is powered by Codey, a foundation model for coding from Google.
+- Codey (descendant of PaLM 2)
 
 ## Benchmarks
 

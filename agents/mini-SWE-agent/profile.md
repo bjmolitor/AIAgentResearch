@@ -2,23 +2,28 @@
 
 ## Overview
 
-mini-SWE-agent is a minimalist AI agent that is implemented in just 100 lines of Python code. Despite its small size, it achieves an impressive 65% on the SWE-bench verified benchmark.
+mini-SWE-agent is a lightweight version of SWE-agent, implemented in just 100 lines of code. It is designed to be a simple and hackable agent for fixing issues in real GitHub repositories.
+
+## Key Information
+
+- **Developer:** Princeton University and Stanford University researchers
+- **Website:** [https://swe-agent.com/](https://swe-agent.com/)
+- **Pricing:** Open-source, with users paying for the underlying model APIs.
 
 ## Key Features
 
-- An AI agent implemented in 100 lines of Python code.
-- Achieves 65% on SWE-bench verified.
+- **Lightweight implementation:** Implemented in just 100 lines of code.
+- **High performance:** Achieves 65% on SWE-bench verified.
 
 ## Supported Models
-
-mini-SWE-agent supports the following models:
 
 - GPT-4o
 - Claude Sonnet 4
 
 ## Benchmarks
 
-- **SWE-bench score:** 65% (verified)
+
+- **SWE-bench score:** 65% on SWE-bench verified ([Source](https://swe-agent.com/))
 - **Task Success Rate:** Not available
 - **Resource Usage:** Not available
 

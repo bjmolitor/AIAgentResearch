@@ -119,6 +119,263 @@
   ],
   "ide_embedded": [
     {
+      "name": "GitHub Copilot",
+      "website": "https://github.com/copilot",
+      "developer": "GitHub",
+      "key_features": [
+        "Code suggestions as you type",
+        "Chat with Copilot",
+        "Copilot in the CLI",
+        "Copilot Spaces for task-specific context",
+        "Pull request description generation",
+        "Knowledge bases for context-aware chat",
+        "Coding agent for end-to-end tasks"
+      ],
+      "supported_models": [
+        "GPT-4.1",
+        "o3",
+        "o4-mini",
+        "Claude Opus 4.1",
+        "Claude Opus 4",
+        "Claude Sonnet 3.5",
+        "Claude Sonnet 3.7",
+        "Claude Sonnet 4",
+        "Gemini 2.5 Pro",
+        "Gemini 2.0 Flash"
+      ],
+      "pricing_model": "Tiered (Free, Pro, Business)",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with seamless integration into the IDE and other developer tools.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward, with a clear 'Get started' guide for individuals and organizations."
+      }
+    },
+    {
+      "name": "Tabnine",
+      "website": "https://www.tabnine.com/",
+      "developer": "Tabnine",
+      "key_features": [
+        "Code completions",
+        "Inline Actions",
+        "Tabnine Chat",
+        "Test Agent",
+        "Code Review Agent"
+      ],
+      "supported_models": [
+        "GPT-4o mini (for Code Review Agent)",
+        "Other models for chat and code completion"
+      ],
+      "pricing_model": "Tiered (Dev, Enterprise)",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with a focus on seamless integration into the IDE and intuitive features.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward, with a 'Quickstart Guide' and detailed installation instructions."
+      }
+    },
+    {
+      "name": "Amazon CodeWhisperer",
+      "website": "https://aws.amazon.com/codewhisperer/",
+      "developer": "Amazon Web Services (AWS)",
+      "key_features": [
+        "Code recommendations based on natural language comments",
+        "Security scanning to detect vulnerabilities",
+        "Reference tracker to detect similarity to training data",
+        "Bias detection and filtering",
+        "Supports 15+ programming languages, including Python, Java, and JavaScript"
+      ],
+      "supported_models": [
+        "Not specified"
+      ],
+      "pricing_model": "Tiered (Free, Pro at $19/month per user)",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with seamless integration into popular IDEs.",
+        "documentation_quality": "High, with comprehensive official documentation.",
+        "onboarding_experience": "Straightforward, with a clear 'Get started' guide in the documentation."
+      }
+    },
+    {
+      "name": "Replit AI",
+      "website": "https://replit.com/ai",
+      "developer": "Replit, Inc.",
+      "key_features": [
+        "Turn natural language into apps and websites",
+        "Builds automatically from a simple chat",
+        "No-code needed",
+        "The AI is smart enough to fix bugs for you"
+      ],
+      "supported_models": [
+        "Not specified"
+      ],
+      "pricing_model": "Tiered (Starter, Replit Core, Teams, Enterprise). Replit Core is $20/month.",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with a focus on natural language interaction and a no-code experience.",
+        "documentation_quality": "High, with official documentation available at docs.replit.com.",
+        "onboarding_experience": "Straightforward, with a 'Start building' button and a simple interface."
+      }
+    },
+    {
+      "name": "Android Studio Bot",
+      "website": "https://developer.android.com/studio",
+      "developer": "Google",
+      "key_features": [
+        "AI-powered conversational experience",
+        "Generates code",
+        "Answers questions about Android development",
+        "Helps fix errors"
+      ],
+      "supported_models": [
+        "Codey (descendant of PaLM 2)"
+      ],
+      "pricing_model": "Included with Android Studio",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, as it is integrated directly into the Android Studio IDE.",
+        "documentation_quality": "High, as it is part of the official Android Studio documentation.",
+        "onboarding_experience": "Straightforward, as it is included in Android Studio."
+      }
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "website": "https://sourcegraph.com/cody",
+      "developer": "Sourcegraph, Inc.",
+      "key_features": [
+        "Developer chat with the most powerful models and context",
+        "Code completions, code edits, and customizable prompts",
+        "Extensive context from local and remote codebases",
+        "Debug code",
+        "Context Filters"
+      ],
+      "supported_models": [
+        "Latest LLMs, including models from OpenAI (GPT) and Anthropic (Claude)"
+      ],
+      "pricing_model": "Enterprise-focused pricing.",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with seamless integration into popular IDEs and a focus on providing deep codebase context.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Straightforward, with clear installation instructions for various IDEs."
+      }
+    },
+    {
+      "name": "AskCodi",
+      "website": "Not found",
+      "developer": "Not found",
+      "key_features": ["Information not found"],
+      "supported_models": ["Not found"],
+      "pricing_model": "Not found",
+      "benchmarks": {
+        "swe_bench_score": "Not found",
+        "task_success_rate": "Not found",
+        "resource_usage": "Not found"
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "Not found",
+        "documentation_quality": "Not found",
+        "onboarding_experience": "Not found"
+      }
+    },
+    {
+      "name": "SQLAI",
+      "website": "Not found",
+      "developer": "Not found",
+      "key_features": ["Information not found"],
+      "supported_models": ["Not found"],
+      "pricing_model": "Not found",
+      "benchmarks": {
+        "swe_bench_score": "Not found",
+        "task_success_rate": "Not found",
+        "resource_usage": "Not found"
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "Not found",
+        "documentation_quality": "Not found",
+        "onboarding_experience": "Not found"
+      }
+    },
+    {
+      "name": "DeepCode AI",
+      "website": "https://snyk.io/platform/deepcode-ai/",
+      "developer": "Snyk",
+      "key_features": [
+        "Static Application Security Testing (SAST)",
+        "Integration with Snyk's vulnerability database",
+        "Code analysis using abstract syntax trees (AST)",
+        "Security vulnerability detection",
+        "Code quality checks"
+      ],
+      "supported_models": [
+        "Machine learning models trained on hundreds of thousands of repositories"
+      ],
+      "pricing_model": "Tiered (Free, Team, Enterprise). Team plan starts at $25/month.",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with a focus on real-time scanning and integration into the development workflow.",
+        "documentation_quality": "Information not found.",
+        "onboarding_experience": "Information not found."
+      }
+    },
+    {
+      "name": "Amazon CodeGuru",
+      "website": "https://aws.amazon.com/codeguru/",
+      "developer": "Amazon Web Services (AWS)",
+      "key_features": [
+        "Static application security testing (SAST)",
+        "Combines machine learning (ML) and automated reasoning",
+        "Identifies vulnerabilities in your code",
+        "Provides recommendations on how to fix vulnerabilities",
+        "Tracks the status of vulnerabilities until closure",
+        "Integrates with CI/CD tooling",
+        "Reduces false-positive detections",
+        "Automatically tracks bug closure"
+      ],
+      "supported_models": [
+        "Not specified"
+      ],
+      "pricing_model": "Monthly fixed rate based on the number of lines of code scanned. For example, $10 for every 100k lines of code.",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with a focus on seamless integration into the development workflow.",
+        "documentation_quality": "High, with comprehensive official documentation.",
+        "onboarding_experience": "Straightforward, with a 'Get started' guide in the documentation."
+      }
+    },
+    {
       "name": "Roo Code",
       "website": "https://roo.ai/",
       "developer": "ROO.AI",
@@ -554,6 +811,39 @@
   ],
   "web_virtualized": [
     {
+      "name": "Trae",
+      "website": "https://www.trae.ai/",
+      "developer": "Trae AI",
+      "key_features": [
+        "A coding agent called the Builder",
+        "Sidebar and inline chat",
+        "Built-in terminal access, MCP support, and web search capabilities",
+        "SOLO mode for end-to-end software engineering",
+        "One-click deployment of web apps to Vercel",
+        "Built-in browser for previewing web applications",
+        "Voice input",
+        "Custom AI agents through MCP"
+      ],
+      "supported_models": [
+        "Claude 4 Sonnet",
+        "Gemini 2.5 Pro",
+        "Grok 4",
+        "Kimi K2"
+      ],
+      "pricing_model": "$10 per month, with the first month discounted to $3.",
+      "benchmarks": {
+        "swe_bench_score": "Top score on SWE-bench Verified as of July 2025",
+        "swe_bench_source": "https://www.datacamp.com/tutorial/trae-ai",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High, with a clean and modern IDE layout and natural language interaction.",
+        "documentation_quality": "High, with a detailed tutorial and official documentation.",
+        "onboarding_experience": "Very smooth, with a simple installer and settings import."
+      }
+    },
+    {
       "name": "Jules",
       "website": "https://jules.google/",
       "developer": "Google",
@@ -745,6 +1035,56 @@
     }
   ],
   "agent_frameworks": [
+    {
+      "name": "mini-SWE-agent",
+      "website": "https://swe-agent.com/",
+      "developer": "Princeton University and Stanford University researchers",
+      "key_features": [
+        "A lightweight version of SWE-agent, implemented in 100 lines of code."
+      ],
+      "supported_models": [
+        "GPT-4o",
+        "Claude Sonnet 4"
+      ],
+      "pricing_model": "Open-source, with users paying for the underlying model APIs.",
+      "benchmarks": {
+        "swe_bench_score": "65% on SWE-bench verified",
+        "swe_bench_source": "https://swe-agent.com/",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "Medium, as it requires a development setup.",
+        "documentation_quality": "High, as part of the comprehensive SWE-agent documentation.",
+        "onboarding_experience": "Requires development setup, with installation instructions available in the SWE-agent documentation."
+      }
+    },
+    {
+      "name": "SWE-agent",
+      "website": "https://github.com/langchain-ai/open-swe",
+      "developer": "LangChain",
+      "key_features": [
+        "Open-source cloud-based coding agent",
+        "Built with LangGraph",
+        "Autonomously understand, plan, and execute code changes",
+        "Multi-agent architecture (Manager, Planner, Programmer)",
+        "Can be used through a web interface or triggered by GitHub webhooks"
+      ],
+      "supported_models": [
+        "Anthropic's models (e.g., Claude)"
+      ],
+      "pricing_model": "Open-source, with users paying for the underlying model APIs.",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "Medium, as it requires a development setup.",
+        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
+        "onboarding_experience": "Requires development setup, with a detailed guide in the documentation."
+      }
+    },
     {
       "name": "CrewAI",
       "website": "https://www.crewai.com/",
