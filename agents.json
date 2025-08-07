@@ -154,11 +154,21 @@
   "web_virtualized": [
     {
       "name": "Jules",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://jules.google/",
+      "developer": "Google",
+      "key_features": [
+        "Asynchronous task handling",
+        "GitHub integration",
+        "Interactive planning",
+        "Code modifications with diff view",
+        "Customizable environment",
+        "AGENTS.md awareness",
+        "Browser notifications"
+      ],
+      "supported_models": [
+        "Gemini 2.5 Pro"
+      ],
+      "pricing_model": "Tiered (Free, Pro, Ultra)",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
