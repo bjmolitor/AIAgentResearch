@@ -129,24 +129,20 @@
     },
     {
       "name": "Kilo",
-      "website": "https://viewsourcecode.org/snaptoken/kilo/",
-      "developer": "Salvatore Sanfilippo (antirez), snaptoken",
-      "key_features": [
-        "Minimalist, dependency-free text editor",
-        "Written in C",
-        "Features syntax highlighting and search"
-      ],
+      "website": "",
+      "developer": "",
+      "key_features": [],
       "supported_models": [],
-      "pricing_model": "Not applicable",
+      "pricing_model": "",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_.usage": ""
+        "resource_usage": ""
       },
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": "Note: 'Kilo' is not an AI agent, but a text editor from a tutorial. The entry is likely a miscategorization."
+        "onboarding_experience": ""
       }
     },
     {
@@ -243,17 +239,24 @@
     },
     {
       "name": "z.ai",
-      "website": "https://z.ai",
+      "website": "https://z.ai/",
       "developer": "Zhipu AI",
       "key_features": [
-        "Free AI Chatbot"
+        "Agentic capabilities (reasoning, coding, tool use)",
+        "128k context length",
+        "Native function calling",
+        "Web browsing capabilities",
+        "Full-stack development capabilities",
+        "Can be integrated with Claude Code, Roo Code, and CodeGeex",
+        "Creates artifacts like mini-games, simulations, and presentations"
       ],
       "supported_models": [
-        "GLM-4.5"
+        "GLM-4.5",
+        "GLM-4.5-Air"
       ],
-      "pricing_model": "Free",
+      "pricing_model": "Freemium/Open-Source",
       "benchmarks": {
-        "swe_bench_.jsonscore": null,
+        "swe_bench_score": 64.2,
         "task_success_rate": null,
         "resource_usage": ""
       },
@@ -345,32 +348,11 @@
   "agent_frameworks": [
     {
       "name": "CrewAI",
-      "website": "https://www.crewai.com/",
-      "developer": "CrewAI™, Inc.",
-      "key_features": [
-        "Autonomous agent teams",
-        "Role-based agents with flexible tools",
-        "Intelligent collaboration and task management",
-        "Open-source framework with both high-level and low-level control",
-        "Support for a wide range of LLMs through LiteLLM",
-        "Event-driven workflows with 'Flows'",
-        "Enterprise-ready with a focus on security and scalability"
-      ],
-      "supported_models": [
-        "OpenAI (default: gpt-4o-mini)",
-        "Anthropic",
-        "Google (Vertex AI, Gemini)",
-        "Azure OpenAI",
-        "AWS (Bedrock, SageMaker)",
-        "Cohere",
-        "VoyageAI",
-        "Hugging Face",
-        "Ollama",
-        "Mistral AI",
-        "Replicate",
-        "Together AI"
-      ],
-      "pricing_model": "Freemium",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -410,29 +392,20 @@
     },
     {
       "name": "LangGraph",
-      "website": "https://langchain-ai.github.io/langgraph/",
-      "developer": "LangChain, Inc.",
-      "key_features": [
-        "Reliability and Controllability",
-        "Low-level and Extensible",
-        "First-class Streaming Support"
-      ],
-      "supported_models": [
-        "Google",
-        "OpenAI",
-        "Anthropic",
-        "and many others through LangChain"
-      ],
-      "pricing_model": "Open-Source",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": "N/A"
+        "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": 4,
-        "documentation_quality": 5,
-        "onboarding_experience": 4
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
       }
     }
   ]
