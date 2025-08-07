@@ -94,11 +94,15 @@
     },
     {
       "name": "Kilo",
-      "website": "",
-      "developer": "",
-      "key_features": [],
+      "website": "https://viewsourcecode.org/snaptoken/kilo/",
+      "developer": "Salvatore Sanfilippo (antirez), snaptoken",
+      "key_features": [
+        "Minimalist, dependency-free text editor",
+        "Written in C",
+        "Features syntax highlighting and search"
+      ],
       "supported_models": [],
-      "pricing_model": "",
+      "pricing_model": "Not applicable",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -107,7 +111,7 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
+        "onboarding_experience": "Note: 'Kilo' is not an AI agent, but a text editor from a tutorial. The entry is likely a miscategorization."
       }
     },
     {
