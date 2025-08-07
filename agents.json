@@ -64,12 +64,21 @@
       }
     },
     {
-      "name": "LogiQCL",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "name": "LogiQCLI",
+      "website": "https://docs.logz.io/docs/user-guide/observability/assistantiq/",
+      "developer": "Logz.io",
+      "key_features": [
+        "Chat-based interface to interact with data",
+        "Provides real-time insights into metrics, anomalies, trends, and system health",
+        "Suggests queries to start analysis",
+        "Can turn insights into dashboards and alerts",
+        "Includes a Root Cause Analyzer (RCA) powered by GenAI to diagnose exceptions",
+        "Keeps a history of conversations"
+      ],
+      "supported_models": [
+        "Claude 3"
+      ],
+      "pricing_model": "Pay-as-you-go model for data that exceeds the daily volume limit of a customer's plan. The price is based on the plan's cost per 1GB of overage plus a 40% additional charge. Specific pricing requires contacting a sales representative.",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
