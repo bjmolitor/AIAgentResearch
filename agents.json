@@ -27,6 +27,8 @@
       "benchmarks": {
         "swe_bench_score": 49,
         "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
+        "terminal_bench_score": "43.2% ± 1.3",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
       },
@@ -114,6 +116,96 @@
         "ease_of_use": "High (rated 8.8/10 on G2Crowd for the Logz.io platform). The AI Agent uses natural language queries.",
         "documentation_quality": "High, with clear and comprehensive official documentation.",
         "onboarding_experience": "Very easy for existing Logz.io users, accessible with a single button click in the platform."
+      }
+    },
+    {
+      "name": "Warp",
+      "website": "https://www.warp.dev/",
+      "developer": "Warp",
+      "key_features": [
+        "Agentic Development Environment",
+        "Run multiple agents in parallel",
+        "Terminal with AI built-in",
+        "\"Drive\" for centralizing knowledge and context",
+        "Can write code, debug, create PRs",
+        "Works across multi-repo codebases",
+        "Access to MCP servers"
+      ],
+      "supported_models": [
+        "Claude Opus 4.1",
+        "Claude Sonnet 4",
+        "OpenAI o3",
+        "Gemini 2.5 Pro"
+      ],
+      "pricing_model": "Tiered (Free, Pro, Turbo, Business, Lightspeed, Enterprise)",
+      "benchmarks": {
+        "terminal_bench_score": "#1",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "swe_bench_verified_score": "71%",
+        "swe_bench_source": "https://www.warp.dev/",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
+      }
+    },
+    {
+      "name": "Goose",
+      "website": "https://block.github.io/goose/",
+      "developer": "Block",
+      "key_features": [
+        "Open source AI agent",
+        "Runs locally",
+        "Extensible (custom LLM, MCP server, API)",
+        "Autonomous (debugging to deployment)"
+      ],
+      "supported_models": [
+        "Model-agnostic"
+      ],
+      "pricing_model": "Open-source",
+      "benchmarks": {
+        "terminal_bench_score": "42.0% ± 1.3",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
+      }
+    },
+    {
+      "name": "Codex CLI",
+      "website": "https://github.com/openai/codex",
+      "developer": "OpenAI",
+      "key_features": [
+        "Lightweight coding agent that runs in the terminal.",
+        "Can read, modify, and run code locally.",
+        "Chat-driven development.",
+        "Full auto-approval mode with sandboxing.",
+        "Multimodal (can accept screenshots or diagrams).",
+        "Supports open-source models like Ollama.",
+        "Supports MCP servers.",
+        "Aware of AGENTS.md files for extra instructions."
+      ],
+      "supported_models": [
+        "Any model available with the OpenAI Responses API (defaults to o4-mini)"
+      ],
+      "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
+      "benchmarks": {
+        "terminal_bench_score": "20.0% ± 1.5",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
       }
     }
   ],
@@ -231,6 +323,36 @@
         "ease_of_use": "High, with a focus on natural language interaction and a no-code experience.",
         "documentation_quality": "High, with official documentation available at docs.replit.com.",
         "onboarding_experience": "Straightforward, with a 'Start building' button and a simple interface."
+      }
+    },
+    {
+      "name": "CodeGPT",
+      "website": "https://codegpt.co/",
+      "developer": "Judini Inc",
+      "key_features": [
+        "AI Agent Platform for Software Development",
+        "Automate PR reviews",
+        "Onboard developers",
+        "Context-aware across your codebase",
+        "SOC2 Type II certified",
+        "Self-Hosted Option"
+      ],
+      "supported_models": [
+        "OpenAI",
+        "Anthropic",
+        "Gemini",
+        "Llama"
+      ],
+      "pricing_model": "Tiered (Free, Plus, Enterprise)",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
       }
     },
     {
@@ -681,6 +803,38 @@
         "documentation_quality": "High, with comprehensive and well-structured official documentation.",
         "onboarding_experience": "Straightforward for developers, with a clear 'Get Started' guide."
       }
+    },
+    {
+      "name": "Engine",
+      "website": "https://enginelabs.ai/",
+      "developer": "Engine Labs",
+      "key_features": [
+        "Remote AI software engineer",
+        "Works without supervision in its own VM",
+        "Turns issues into pull requests",
+        "Integrates with Linear, Trello, Jira, ClickUp, Slack, GitHub, GitLab",
+        "Responds to code reviews and CI/CD actions",
+        "Works in its own remote development environment",
+        "Provides an IDE to work alongside the AI",
+        "Autopilot mode"
+      ],
+      "supported_models": [
+        "Anthropic (Claude 4)",
+        "OpenAI (o3)",
+        "Google"
+      ],
+      "pricing_model": "Tiered (Intern, Junior, Senior, Staff)",
+      "benchmarks": {
+        "terminal_bench_score": "#2",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
+      }
     }
   ],
   "agent_frameworks": [
@@ -811,6 +965,88 @@
         "ease_of_use": "Medium for beginners, High for experienced developers. The framework is powerful but can be complex.",
         "documentation_quality": "High, with comprehensive and well-structured official documentation.",
         "onboarding_experience": "Straightforward for developers, with a series of tutorials to guide them."
+      }
+    },
+    {
+      "name": "Letta",
+      "website": "https://www.letta.com/",
+      "developer": "Letta",
+      "key_features": [
+        "Platform for stateful AI agents",
+        "Advanced memory and infinite context (powered by MemGPT)",
+        "Agents are exposed as REST API endpoints",
+        "Agent Development Environment (ADE) to visualize memory, reasoning, and tool calls",
+        "Support for custom tools and MCP",
+        "Framework agnostic (Python, Node.js, Vercel AI SDK, Next.js, React)"
+      ],
+      "supported_models": [
+        "Model-agnostic"
+      ],
+      "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
+      "benchmarks": {
+        "terminal_bench_score": "42.5% ± 0.8",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
+      }
+    },
+    {
+      "name": "Terminus",
+      "website": "https://www.tbench.ai/terminus",
+      "developer": "Mike Merrill and Alex Shaw",
+      "key_features": [
+        "Research-preview agent for evaluating language models in the terminal.",
+        "Operates entirely autonomously.",
+        "Agnostic to specific language models (supports any API or locally hosted model through LiteLLM).",
+        "Remotely connects to its dockerized execution environment through a tmux session.",
+        "Has only a single tool: an interactive tmux session."
+      ],
+      "supported_models": [
+        "Model-agnostic"
+      ],
+      "pricing_model": "Research project, likely free to use.",
+      "benchmarks": {
+        "terminal_bench_score": "39.9% ± 1.0",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "Medium, as it is a research preview.",
+        "documentation_quality": "High",
+        "onboarding_experience": "Requires development setup."
+      }
+    },
+    {
+      "name": "OpenHands",
+      "website": "https://openhands.daytona.io/",
+      "developer": "Daytona",
+      "key_features": [
+        "AI Coding Agent that can do anything a human developer can.",
+        "Built on the agent-agnostic middleware Daytona.",
+        "Parallel Work Capability",
+        "Integrated Workspace with Shell, Browser, Editor, and Planner",
+        "Natural Language Collaboration"
+      ],
+      "supported_models": [
+        "Model-agnostic"
+      ],
+      "pricing_model": "Not specified, but seems to be part of the Daytona platform.",
+      "benchmarks": {
+        "terminal_bench_score": "41.3% ± 0.7",
+        "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": "High",
+        "documentation_quality": "High",
+        "onboarding_experience": "Straightforward"
       }
     }
   ]
