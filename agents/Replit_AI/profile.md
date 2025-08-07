@@ -29,6 +29,22 @@ Replit AI is an AI-powered software development platform that allows users to bu
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with a focus on natural language interaction and a no-code experience.
-- **Documentation Quality:** High, with official documentation available at [docs.replit.com](https://docs.replit.com/).
-- **Onboarding Experience:** Straightforward, with a 'Start building' button and a simple interface.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Replit offers a tiered pricing model:
+
+- **Starter:** Free, with limited access to Replit Agent.
+- **Replit Core:** $20/month, with full Replit Agent access.
+- **Replit Teams:** $35/user/month, with additional features for teams.
+- **Replit Enterprise:** Custom pricing for large organizations.
+
+For the most up-to-date pricing information, please refer to the [official pricing page](https://replit.com/pricing).
+
+## Getting Started
+
+To get started with Replit AI, you can visit the [official website](https://replit.com/ai) and sign up for a plan.
+

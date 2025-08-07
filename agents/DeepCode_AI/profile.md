@@ -30,6 +30,14 @@ DeepCode AI, developed by Snyk, is a powerful tool for automated code review, em
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with a focus on real-time scanning and integration into the development workflow.
-- **Documentation Quality:** Information not found.
-- **Onboarding Experience:** Information not found.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Snyk offers a free plan with limited tests. Paid plans (Team and Enterprise) are available with more features and higher limits, starting at $25/month per contributing developer. For the most up-to-date pricing information, please refer to the [official pricing page](https://snyk.io/plans/).
+
+## Getting Started
+
+To get started with DeepCode AI, you can visit the [official website](https://snyk.io/platform/deepcode-ai/) and sign up for a plan.

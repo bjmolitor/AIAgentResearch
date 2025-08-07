@@ -22,12 +22,21 @@ mini-SWE-agent is a lightweight version of SWE-agent, implemented in just 100 li
 
 ## Benchmarks
 
+
 - **SWE-bench score:** 65% on SWE-bench verified ([Source](https://swe-agent.com/))
 - **Task Success Rate:** Not available
 - **Resource Usage:** Not available
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Medium, as it requires a development setup.
-- **Documentation Quality:** High, as part of the comprehensive SWE-agent documentation.
-- **Onboarding Experience:** Requires development setup, with installation instructions available in the SWE-agent documentation.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+mini-SWE-agent is an open-source project and is free to use.
+
+## Getting Started
+
+To get started with mini-SWE-agent, you can visit the [GitHub repository](https://github.com/SWE-agent/mini-SWE-agent).

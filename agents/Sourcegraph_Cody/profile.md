@@ -31,6 +31,15 @@ Sourcegraph Cody is an AI coding assistant that uses the latest LLMs and your de
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with seamless integration into popular IDEs and a focus on providing deep codebase context.
-- **Documentation Quality:** High, with comprehensive and well-structured official documentation.
-- **Onboarding Experience:** Straightforward, with clear installation instructions for various IDEs.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Sourcegraph Cody is an enterprise-focused product. For pricing information, you need to contact the sales team.
+
+## Getting Started
+
+To get started with Sourcegraph Cody, you can visit the [official website](https://sourcegraph.com/cody) and request a demo.
+

@@ -29,6 +29,14 @@ Android Studio Bot is an AI-powered conversational experience integrated into An
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, as it is integrated directly into the Android Studio IDE.
-- **Documentation Quality:** High, as it is part of the official Android Studio documentation.
-- **Onboarding Experience:** Straightforward, as it is included in Android Studio.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Android Studio Bot is a free feature integrated into Android Studio.
+
+## Getting Started
+
+To get started with Android Studio Bot, you can download the latest version of Android Studio and enable the feature in the settings. For more information, you can refer to the [official announcement blog post](https://android-developers.googleblog.com/2023/05/android-studio-io-23-announcing-studio-bot.html).

@@ -30,6 +30,15 @@ SWE-agent is an open-source, cloud-based coding agent from LangChain that can au
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Medium, as it requires a development setup.
-- **Documentation Quality:** High, with comprehensive and well-structured official documentation.
-- **Onboarding Experience:** Requires development setup, with a detailed guide in the documentation.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Open SWE is an open-source project. The hosted version at [swe.langchain.com](https://swe.langchain.com/) requires an Anthropic API key, so the pricing is based on the usage of the underlying model.
+
+## Getting Started
+
+To get started with Open SWE, you can visit the [official website](https://swe.langchain.com/) or check out the [GitHub repository](https://github.com/langchain-ai/open-swe).
+

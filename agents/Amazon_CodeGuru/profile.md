@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 Amazon CodeGuru is a static application security testing (SAST) tool that combines machine learning (ML) and automated reasoning to identify vulnerabilities in your code, provide recommendations on how to fix them, and track their status until closure.
 
 ## Key Information
@@ -29,6 +30,19 @@ Amazon CodeGuru is a static application security testing (SAST) tool that combin
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with a focus on seamless integration into the development workflow.
-- **Documentation Quality:** High, with comprehensive official documentation.
-- **Onboarding Experience:** Straightforward, with a 'Get started' guide in the documentation.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+- **CodeGuru Security:** Currently available for free in public preview.
+- **CodeGuru Reviewer:** Free tier for 90 days for up to 100K lines of code. Paid plans are based on the size of the repository.
+- **CodeGuru Profiler:** Free tier for 90 days. Paid plans are based on the number of sampling hours.
+
+For the most up-to-date pricing information, please refer to the [official pricing page](https://aws.amazon.com/codeguru/pricing/).
+
+## Getting Started
+
+To get started with Amazon CodeGuru, you can visit the [official website](https://aws.amazon.com/codeguru/) and sign up for an AWS account.
+

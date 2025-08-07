@@ -33,6 +33,15 @@ Trae AI is an AI-powered coding IDE that aims to be a "real AI engineer". It pro
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High, with a clean and modern IDE layout and natural language interaction.
-- **Documentation Quality:** High, with a detailed tutorial and official documentation.
-- **Onboarding Experience:** Very smooth, with a simple installer and settings import.
+- **Ease of Use:** High
+- **Documentation Quality:** High
+- **Onboarding Experience:** Straightforward
+
+## Pricing
+
+Trae AI offers a free plan with limited requests and a Pro plan with more requests and faster response times. Pricing is not yet available in all regions. For the most up-to-date pricing information, please refer to the [official pricing page](https://www.trae.ai/pricing).
+
+## Getting Started
+
+To get started with Trae AI, you can visit the [official website](https://www.trae.ai/) and download the application.
+
