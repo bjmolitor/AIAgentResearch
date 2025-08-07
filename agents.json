@@ -264,11 +264,32 @@
   "agent_frameworks": [
     {
       "name": "CrewAI",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://www.crewai.com/",
+      "developer": "CrewAI™, Inc.",
+      "key_features": [
+        "Autonomous agent teams",
+        "Role-based agents with flexible tools",
+        "Intelligent collaboration and task management",
+        "Open-source framework with both high-level and low-level control",
+        "Support for a wide range of LLMs through LiteLLM",
+        "Event-driven workflows with 'Flows'",
+        "Enterprise-ready with a focus on security and scalability"
+      ],
+      "supported_models": [
+        "OpenAI (default: gpt-4o-mini)",
+        "Anthropic",
+        "Google (Vertex AI, Gemini)",
+        "Azure OpenAI",
+        "AWS (Bedrock, SageMaker)",
+        "Cohere",
+        "VoyageAI",
+        "Hugging Face",
+        "Ollama",
+        "Mistral AI",
+        "Replicate",
+        "Together AI"
+      ],
+      "pricing_model": "Freemium",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
