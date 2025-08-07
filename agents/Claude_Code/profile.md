@@ -33,11 +33,11 @@ Claude Code supports the following models from the Claude family:
 
 ## Benchmarks
 
-- **SWE-bench Verified:** 49% (Claude 3.5 Sonnet)
+- **SWE-bench Verified:** 49% (Claude 3.5 Sonnet) - [Source](https://www.anthropic.com/research/swe-bench-sonnet)
 - **SWE-bench Verified:** 22% (Claude 3 Opus)
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Not rated
-- **Documentation Quality:** Not rated
-- **Onboarding Experience:** Not available
+- **Ease of Use:** High (for developers comfortable with the command line)
+- **Documentation Quality:** High
+- **Onboarding Experience:** Very easy, with a clear 'Get started in 30 seconds' guide in the official documentation.

@@ -27,7 +27,7 @@ Only user-initiated messages that advance the agent's task count towards this li
 
 ## Benchmarks
 
-- **SWE-bench score:** Not available
+- **SWE-bench score:** 18.00% (for SWE-agent + GPT 4) - [Source](https://www.swebench.com/)
 - **Task Success Rate:** Not available
 - **Resource Usage:** Not available
 

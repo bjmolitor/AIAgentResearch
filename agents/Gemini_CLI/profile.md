@@ -35,9 +35,9 @@ Each tier has different request limits for the Gemini CLI and Agent Mode.
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Not rated
-- **Documentation Quality:** Not rated
-- **Onboarding Experience:** Not available
+- **Ease of Use:** High, with a focus on natural language interaction.
+- **Documentation Quality:** High, with a comprehensive README and a docs directory in the GitHub repository.
+- **Onboarding Experience:** Very easy, with clear and simple installation instructions for Node.js and Homebrew.
 
 ## Website
 

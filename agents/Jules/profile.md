@@ -21,15 +21,15 @@ Jules is an experimental, asynchronous coding agent developed by Google. It is d
 
 ## Benchmarks
 
-- **SWE-bench score:** Not available
+- **SWE-bench score:** 52.2% ([Source](https://aiagentindex.mit.edu/jules/))
 - **Task Success Rate:** Not available
 - **Resource Usage:** Not available
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Not rated
-- **Documentation Quality:** Not rated
-- **Onboarding Experience:** Not available
+- **Ease of Use:** High, with a simple, prompt-based interface and interactive planning.
+- **Documentation Quality:** High, with a clear and comprehensive 'Getting started' guide.
+- **Onboarding Experience:** Straightforward, with a step-by-step guide for connecting to GitHub and starting a task.
 
 ## Pricing
 

@@ -31,6 +31,6 @@
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Not rated
-- **Documentation Quality:** Not rated
-- **Onboarding Experience:** Not available
+- **Ease of Use:** Information not available in English.
+- **Documentation Quality:** Information not available in English.
+- **Onboarding Experience:** Information not available in English.
