@@ -227,7 +227,7 @@
       ],
       "pricing_model": "Free",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_.jsonscore": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
@@ -358,13 +358,21 @@
     },
     {
       "name": "LangChain",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://www.langchain.com/",
+      "developer": "LangChain",
+      "key_features": [
+        "LangGraph: A framework for building stateful, multi-actor applications with LLMs.",
+        "LangChain: A framework for developing context-aware reasoning applications.",
+        "LangSmith: A platform for debugging, testing, evaluating, and monitoring LLM applications.",
+        "Integrations: Over 600 integrations with models, databases, and tools.",
+        "Deployment: Tools for deploying and managing agents."
+      ],
+      "supported_models": [
+        "Wide variety of models through its integration system"
+      ],
+      "pricing_model": "Tiered (Free, Plus, Enterprise)",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": 0.486,
         "task_success_rate": null,
         "resource_usage": ""
       },
