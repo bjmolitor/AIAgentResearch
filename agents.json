@@ -191,20 +191,28 @@
     },
     {
       "name": "ChatGPT agent",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://openai.com/index/introducing-chatgpt-agent/",
+      "developer": "OpenAI",
+      "key_features": [
+        "Iterative and collaborative workflows",
+        "Interruptible for real-time clarification",
+        "Deep Research for multi-step research and report generation",
+        "Operator for remote visual browser-based task execution",
+        "Terminal tool for code execution and data analysis"
+      ],
+      "supported_models": [
+        "Latest models available to ChatGPT users"
+      ],
+      "pricing_model": "Subscription-based with usage limits (Pro: 400 messages/month, Plus: 40 messages/month)",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": 5,
+        "documentation_quality": 4,
+        "onboarding_experience": "Easy activation through 'Agent mode' or slash command (/agent) in the ChatGPT interface."
       }
     },
     {
