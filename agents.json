@@ -296,20 +296,29 @@
     },
     {
       "name": "LangGraph",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://langchain-ai.github.io/langgraph/",
+      "developer": "LangChain, Inc.",
+      "key_features": [
+        "Reliability and Controllability",
+        "Low-level and Extensible",
+        "First-class Streaming Support"
+      ],
+      "supported_models": [
+        "Google",
+        "OpenAI",
+        "Anthropic",
+        "and many others through LangChain"
+      ],
+      "pricing_model": "Open-Source",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "N/A"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": 4,
+        "documentation_quality": 5,
+        "onboarding_experience": 4
       }
     }
   ]
