@@ -102,7 +102,7 @@
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_.usage": ""
       },
       "qualitative_assessment": {
         "ease_of_use": null,
@@ -186,11 +186,15 @@
     },
     {
       "name": "z.ai",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://z.ai",
+      "developer": "Zhipu AI",
+      "key_features": [
+        "Free AI Chatbot"
+      ],
+      "supported_models": [
+        "GLM-4.5"
+      ],
+      "pricing_model": "Free",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -308,7 +312,7 @@
       },
       "qualitative_assessment": {
         "ease_of_use": null,
-        "documentation_quality": null,
+        "documentation_quality": null,.
         "onboarding_experience": ""
       }
     }
