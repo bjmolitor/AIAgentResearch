@@ -1,0 +1,260 @@
+{
+  "ide_embedded": [
+    {
+      "name": "GitHub Copilot",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Tabnine",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Amazon CodeWhisperer",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Replit AI",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "CodeWP",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Android Studio Bot",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "AskCodi",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "SQLAI",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "DeepCode AI",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "Amazon CodeGuru",
+      "website": "",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ],
+  "web_virtualized": [
+    {
+      "name": "Trae",
+      "website": "https://www.trae.ai/",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ],
+  "agent_frameworks": [
+    {
+      "name": "SWE-agent",
+      "website": "https://swe-agent.com/",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    },
+    {
+      "name": "mini-SWE-agent",
+      "website": "https://mini-swe-agent.com/",
+      "developer": "",
+      "key_features": [],
+      "supported_models": [],
+      "pricing_model": "",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": ""
+      }
+    }
+  ]
+}
