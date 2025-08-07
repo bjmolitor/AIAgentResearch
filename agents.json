@@ -76,20 +76,20 @@
   "ide_embedded": [
     {
       "name": "Roo Code",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "Not found",
+      "developer": "Not found",
+      "key_features": ["Not found"],
+      "supported_models": ["Not found"],
+      "pricing_model": "Not found",
       "benchmarks": {
-        "swe_bench_score": null,
-        "task_success_rate": null,
-        "resource_usage": ""
+        "swe_bench_score": "Not found",
+        "task_success_rate": "Not found",
+        "resource_usage": "Not found"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "Not found",
+        "documentation_quality": "Not found",
+        "onboarding_experience": "Not found"
       }
     },
     {
