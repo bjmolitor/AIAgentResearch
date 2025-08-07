@@ -2,13 +2,30 @@
   "terminal_based": [
     {
       "name": "Claude Code",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://docs.anthropic.com/en/docs/claude-code/overview",
+      "developer": "Anthropic",
+      "key_features": [
+        "Build features from natural language descriptions.",
+        "Debug and fix issues from error messages.",
+        "Navigate and understand codebases.",
+        "Automate tasks like fixing lint issues and writing release notes.",
+        "Works in the terminal.",
+        "Can take actions like editing files, running commands, and creating commits.",
+        "Composable and scriptable (Unix philosophy).",
+        "Enterprise-ready (can be self-hosted on AWS or GCP)."
+      ],
+      "supported_models": [
+        "Claude Opus 4.1",
+        "Claude Opus 4",
+        "Claude Sonnet 4",
+        "Claude Sonnet 3.7",
+        "Claude Sonnet 3.5",
+        "Claude Haiku 3.5",
+        "Claude Haiku 3"
+      ],
+      "pricing_model": "Based on API token consumption. Average cost of ~$6 per developer per day. Average monthly cost of ~$100-200 per developer per month with Sonnet 4. Usage included for Pro and Max plan users.",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": 49,
         "task_success_rate": null,
         "resource_usage": ""
       },
@@ -20,11 +37,20 @@
     },
     {
       "name": "Gemini CLI",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://github.com/google-gemini/gemini-cli",
+      "developer": "Google",
+      "key_features": [
+        "Open-source AI agent",
+        "Direct terminal access",
+        "Reason and Act (ReAct) loop",
+        "Integration with local and remote tools",
+        "Coding-focused, but versatile",
+        "Integration with Gemini Code Assist"
+      ],
+      "supported_models": [
+        "Gemini"
+      ],
+      "pricing_model": "Subscription-based (part of Gemini Code Assist)",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -55,12 +81,21 @@
       }
     },
     {
-      "name": "LogiQCL",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "name": "LogiQCLI",
+      "website": "https://docs.logz.io/docs/user-guide/observability/assistantiq/",
+      "developer": "Logz.io",
+      "key_features": [
+        "Chat-based interface to interact with data",
+        "Provides real-time insights into metrics, anomalies, trends, and system health",
+        "Suggests queries to start analysis",
+        "Can turn insights into dashboards and alerts",
+        "Includes a Root Cause Analyzer (RCA) powered by GenAI to diagnose exceptions",
+        "Keeps a history of conversations"
+      ],
+      "supported_models": [
+        "Claude 3"
+      ],
+      "pricing_model": "Pay-as-you-go model for data that exceeds the daily volume limit of a customer's plan. The price is based on the plan's cost per 1GB of overage plus a 40% additional charge. Specific pricing requires contacting a sales representative.",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -76,20 +111,20 @@
   "ide_embedded": [
     {
       "name": "Roo Code",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "Not found",
+      "developer": "Not found",
+      "key_features": ["Not found"],
+      "supported_models": ["Not found"],
+      "pricing_model": "Not found",
       "benchmarks": {
-        "swe_bench_score": null,
-        "task_success_rate": null,
-        "resource_usage": ""
+        "swe_bench_score": "Not found",
+        "task_success_rate": "Not found",
+        "resource_usage": "Not found"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": "Not found",
+        "documentation_quality": "Not found",
+        "onboarding_experience": "Not found"
       }
     },
     {
@@ -150,11 +185,21 @@
   "web_virtualized": [
     {
       "name": "Jules",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://jules.google/",
+      "developer": "Google",
+      "key_features": [
+        "Asynchronous task handling",
+        "GitHub integration",
+        "Interactive planning",
+        "Code modifications with diff view",
+        "Customizable environment",
+        "AGENTS.md awareness",
+        "Browser notifications"
+      ],
+      "supported_models": [
+        "Gemini 2.5 Pro"
+      ],
+      "pricing_model": "Tiered (Free, Pro, Ultra)",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -168,20 +213,28 @@
     },
     {
       "name": "ChatGPT agent",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://openai.com/index/introducing-chatgpt-agent/",
+      "developer": "OpenAI",
+      "key_features": [
+        "Iterative and collaborative workflows",
+        "Interruptible for real-time clarification",
+        "Deep Research for multi-step research and report generation",
+        "Operator for remote visual browser-based task execution",
+        "Terminal tool for code execution and data analysis"
+      ],
+      "supported_models": [
+        "Latest models available to ChatGPT users"
+      ],
+      "pricing_model": "Subscription-based with usage limits (Pro: 400 messages/month, Plus: 40 messages/month)",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": ""
+        "ease_of_use": 5,
+        "documentation_quality": 4,
+        "onboarding_experience": "Easy activation through 'Agent mode' or slash command (/agent) in the ChatGPT interface."
       }
     },
     {
@@ -215,13 +268,21 @@
     },
     {
       "name": "devin",
-      "website": "",
-      "developer": "",
-      "key_features": [],
+      "website": "https://devin.ai/",
+      "developer": "Cognition",
+      "key_features": [
+        "Fully autonomous AI software engineer",
+        "Can learn unfamiliar technologies",
+        "Can build and deploy apps end-to-end",
+        "Can autonomously find and fix bugs in codebases",
+        "Can train and fine-tune its own AI models",
+        "Has access to a shell, code editor, and browser",
+        "Collaborates with the user"
+      ],
       "supported_models": [],
       "pricing_model": "",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": 13.86,
         "task_success_rate": null,
         "resource_usage": ""
       },
@@ -233,11 +294,17 @@
     },
     {
       "name": "manus",
-      "website": "",
-      "developer": "",
-      "key_features": [],
+      "website": "https://manus.im/",
+      "developer": "Monica (also known as Butterfly Effect AI)",
+      "key_features": [
+        "Autonomous AI agent",
+        "Can independently carry out complex real-world tasks",
+        "Capable of independent thinking, dynamic planning, and decision-making",
+        "Can write and deploy code",
+        "Multimodal"
+      ],
       "supported_models": [],
-      "pricing_model": "",
+      "pricing_model": "Proprietary",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -246,20 +313,30 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
+        "onboarding_experience": "Web-based interface with standard sign-up and sign-in."
       }
     },
     {
       "name": "Minimax agent",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://www.minimaxi.com/",
+      "developer": "MiniMax",
+      "key_features": [
+        "Text Model (MiniMax M1) with 1M token input",
+        "Video Model (MiniMax Hailuo 02) with 1080p output",
+        "Audio Model (MiniMax Speech 02) for speech generation",
+        "MCP Server for developers (Video, Image, Speech generation, Voice Cloning)",
+        "AI-native applications: MiniMax Chat, MiniMax Agent, Hailuo Video, MiniMax Audio, Talkie"
+      ],
+      "supported_models": [
+        "MiniMax M1 (Text)",
+        "MiniMax Hailuo 02 (Video)",
+        "MiniMax Speech 02 (Audio)"
+      ],
+      "pricing_model": "MiniMax-M1 (text): Starts at $0.4/M tokens input, Speech-02-HD (audio): $100 per 1M characters, MiniMax Hailuo 02 (video): Starting from $0.28 per video",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "No public benchmarks found"
       },
       "qualitative_assessment": {
         "ease_of_use": null,
@@ -289,13 +366,21 @@
     },
     {
       "name": "LangChain",
-      "website": "",
-      "developer": "",
-      "key_features": [],
-      "supported_models": [],
-      "pricing_model": "",
+      "website": "https://www.langchain.com/",
+      "developer": "LangChain",
+      "key_features": [
+        "LangGraph: A framework for building stateful, multi-actor applications with LLMs.",
+        "LangChain: A framework for developing context-aware reasoning applications.",
+        "LangSmith: A platform for debugging, testing, evaluating, and monitoring LLM applications.",
+        "Integrations: Over 600 integrations with models, databases, and tools.",
+        "Deployment: Tools for deploying and managing agents."
+      ],
+      "supported_models": [
+        "Wide variety of models through its integration system"
+      ],
+      "pricing_model": "Tiered (Free, Plus, Enterprise)",
       "benchmarks": {
-        "swe_bench_score": null,
+        "swe_bench_score": 0.486,
         "task_success_rate": null,
         "resource_usage": ""
       },
