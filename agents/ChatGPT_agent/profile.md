@@ -25,8 +25,14 @@ The ChatGPT agent's usage is tied to a user's ChatGPT subscription plan, with mo
 
 Only user-initiated messages that advance the agent's task count towards this limit.
 
+## Benchmarks
+
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
+
 ## Qualitative Assessment
 
-*   **Ease of Use:** The agent is designed to be highly interactive and user-friendly, allowing for natural language instructions and real-time adjustments.
-*   **Documentation Quality:** OpenAI provides official documentation through its Help Center, including articles specifically about the ChatGPT agent.
+*   **Ease of Use:** 5/5 - The agent is designed to be highly interactive and user-friendly, allowing for natural language instructions and real-time adjustments.
+*   **Documentation Quality:** 4/5 - OpenAI provides official documentation through its Help Center, including articles specifically about the ChatGPT agent.
 *   **Onboarding Experience:** The agent can be easily activated within the ChatGPT interface by selecting "Agent mode" or using a slash command (`/agent`).

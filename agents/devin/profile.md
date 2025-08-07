@@ -4,6 +4,12 @@
 
 Devin is the world's first fully autonomous AI software engineer, created by Cognition. It is designed to be a tireless, skilled teammate that can work alongside human engineers or independently complete tasks.
 
+## Key Information
+
+- **Developer:** Cognition
+- **Website:** [https://devin.ai/](https://devin.ai/)
+- **Pricing:** Not available
+
 ## Key Features
 
 *   **Autonomous Development:** Devin can plan and execute complex engineering tasks that require thousands of decisions. It can recall relevant context, learn over time, and fix its own mistakes.
@@ -14,14 +20,18 @@ Devin is the world's first fully autonomous AI software engineer, created by Cog
 *   **Bug Fixing:** It can autonomously find and fix bugs in codebases, including open-source repositories.
 *   **AI Model Training:** Devin can train and fine-tune its own AI models.
 
+## Supported Models
+
+Not available
+
 ## Benchmarks
 
-Devin has set a new state of the art on the SWE-bench coding benchmark, correctly resolving 13.86% of the issues end-to-end without assistance. This significantly surpasses the previous state-of-the-art of 1.96%.
+- **SWE-bench score:** 13.86%
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
 
-## Developer
+## Qualitative Assessment
 
-Cognition
-
-## Website
-
-[https://devin.ai/](https://devin.ai/)
+- **Ease of Use:** Not rated
+- **Documentation Quality:** Not rated
+- **Onboarding Experience:** Not available
