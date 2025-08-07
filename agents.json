@@ -257,11 +257,17 @@
     },
     {
       "name": "manus",
-      "website": "",
-      "developer": "",
-      "key_features": [],
+      "website": "https://manus.im/",
+      "developer": "Monica (also known as Butterfly Effect AI)",
+      "key_features": [
+        "Autonomous AI agent",
+        "Can independently carry out complex real-world tasks",
+        "Capable of independent thinking, dynamic planning, and decision-making",
+        "Can write and deploy code",
+        "Multimodal"
+      ],
       "supported_models": [],
-      "pricing_model": "",
+      "pricing_model": "Proprietary",
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
@@ -270,7 +276,7 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
+        "onboarding_experience": "Web-based interface with standard sign-up and sign-in."
       }
     },
     {
