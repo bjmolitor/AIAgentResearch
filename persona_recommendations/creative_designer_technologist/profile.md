@@ -3,9 +3,9 @@
 Designers and artists exploring interactive or multimedia experiences with the help of AI.
 
 ### Key Criteria
-- **Multimodal Support** – generate or mix text, image, and audio assets.
-- **Rapid Prototyping** – quickly iterate on interactive concepts.
-- **Creative Coding Guidance** – ideate and scaffold unconventional code snippets.
+- **Creative Multimodal Exploration** – mix text, image, and audio assets.
+- **Visual/No-Code Development** – prototype quickly with templates.
+- **Data & Experimental Flexibility** – adapt models and data for creative projects.
 
 ## Recommended Tools
 - **Gemini_CLI** – experiment with text, image, and audio generation.

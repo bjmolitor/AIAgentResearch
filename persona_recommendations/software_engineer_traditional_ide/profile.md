@@ -3,9 +3,9 @@
 Engineers accustomed to Visual Studio, IntelliJ, or similar IDEs who want AI assistance without leaving familiar workflows.
 
 ### Key Criteria
-- **IDE Integration** – seamless operation as plugins inside existing editors.
-- **Code Quality Assurance** – suggestions that improve readability and safety.
-- **Cloud Tooling Alignment** – support for cloud providers and enterprise stacks.
+- **Codebase Comprehension** – understand large projects within familiar IDEs.
+- **Code Quality & Testing** – improve reliability and safety.
+- **Automation & Productivity** – streamline coding inside existing workflows.
 
 ## Recommended Tools
 - **GitHub_Copilot** – inline code suggestions directly in major IDEs.

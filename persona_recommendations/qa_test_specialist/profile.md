@@ -3,9 +3,9 @@
 Quality engineers dedicated to test creation, bug detection, and code review.
 
 ### Key Criteria
-- **Automated Test Generation** – create unit and integration tests from code or specs.
-- **Bug Detection** – highlight vulnerabilities and anti-patterns before release.
-- **Debugging Support** – propose fixes and guide troubleshooting.
+- **Code Quality & Testing** – generate tests and detect bugs automatically.
+- **Codebase Comprehension** – navigate complex code for review.
+- **Automation & Productivity** – speed up verification with AI assistance.
 
 ## Recommended Tools
 - **Amazon_CodeGuru** – automated code review with performance insights.

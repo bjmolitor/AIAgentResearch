@@ -3,9 +3,9 @@
 Non-traditional coders building applications to support a business idea with minimal formal training.
 
 ### Key Criteria
-- **Rapid Prototyping** – move from idea to demo quickly.
-- **Minimal Setup** – avoid complex local environments.
-- **Creative Flexibility** – support unconventional or multimodal features.
+- **Beginner-Friendly Onboarding** – intuitive tooling that gets ideas running fast.
+- **Visual/No-Code Development** – assemble features without heavy coding.
+- **Creative Multimodal Exploration** – add innovative features across media.
 
 ## Recommended Tools
 - **Cursor** – intuitive AI coding environment that emphasizes usability.

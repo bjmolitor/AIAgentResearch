@@ -3,9 +3,9 @@
 Entrepreneurs or domain experts assembling full applications through low-code interfaces rather than traditional coding.
 
 ### Key Criteria
-- **Visual Development** – build apps using drag-and-drop or form-based interfaces.
-- **Component Templates** – access libraries of pre-built modules and integrations.
-- **One-Click Deployment** – publish apps without managing infrastructure.
+- **Beginner-Friendly Onboarding** – start building with minimal setup.
+- **Visual/No-Code Development** – drag-and-drop or template-based creation.
+- **Automation & Productivity** – quickly assemble workflows and deploy.
 
 ## Recommended Tools
 - **Replit_AI** – build and deploy apps from a browser.

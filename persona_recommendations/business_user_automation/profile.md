@@ -3,9 +3,9 @@
 Sales, presales, and management professionals who need to automate reports, presentations, or simple data analysis without becoming full developers.
 
 ### Key Criteria
-- **No-Code Accessibility** – automation without traditional programming.
-- **Business Data Integration** – connect to spreadsheets, CRM, and documents.
-- **Productivity Gains** – reduce time spent on routine tasks.
+- **Visual/No-Code Development** – build workflows using drag-and-drop components.
+- **Automation & Productivity** – reduce manual work and repetitive tasks.
+- **Data & Experimental Flexibility** – connect to spreadsheets, CRMs, or other data sources.
 
 ## Recommended Tools
 - **ChatGPT_agent** – draft presentations and automate document formatting.

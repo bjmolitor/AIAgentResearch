@@ -3,9 +3,9 @@
 Developers integrating and orchestrating AI capabilities into user-facing products.
 
 ### Key Criteria
-- **Workflow Composition** – build complex AI pipelines from modular components.
-- **Multi-Agent Coordination** – manage interactions between specialized agents.
-- **Model Flexibility** – experiment with diverse local or hosted models.
+- **Workflow & Agent Orchestration** – compose complex pipelines and manage interacting agents.
+- **Data & Experimental Flexibility** – connect to diverse models and data for experimentation.
+- **Creative Multimodal Exploration** – explore novel features across text, image, or audio.
 
 ## Recommended Tools
 - **LangChain** – compose LLM-powered workflows.

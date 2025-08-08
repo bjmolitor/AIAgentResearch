@@ -3,9 +3,9 @@
 Students and hobbyists starting their coding journey and eager to learn through experimentation.
 
 ### Key Criteria
-- **Ease of Use** – tools must be simple to set up and operate.
-- **Guided Learning** – built-in explanations or tutorials aid skill growth.
-- **Affordability** – free tiers or low cost for budget-conscious learners.
+- **Beginner-Friendly Onboarding** – simple setup, guidance, and affordability.
+- **Visual/No-Code Development** – drag-and-drop or template-driven prototyping.
+- **Creative Multimodal Exploration** – experiment with text, image, or audio outputs.
 
 ## Recommended Tools
 - **Replit_AI** – in-browser development with instant feedback.

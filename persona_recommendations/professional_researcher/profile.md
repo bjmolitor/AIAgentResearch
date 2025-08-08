@@ -3,9 +3,9 @@
 Researchers who write papers, analyze literature, and prototype algorithms across domains.
 
 ### Key Criteria
-- **Literature Coverage** – access to broad and credible academic sources.
-- **Experiment Orchestration** – coordinate multiple models and datasets.
-- **Code Reusability** – find and adapt existing research code.
+- **Data & Experimental Flexibility** – manage datasets, models, and reproducible experiments.
+- **Workflow & Agent Orchestration** – coordinate multi-step research pipelines.
+- **Codebase Comprehension** – find and reuse existing research code.
 
 ## Recommended Tools
 - **Perplexity_Labs** – comprehensive search over academic sources.

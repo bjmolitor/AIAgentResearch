@@ -1,310 +1,89 @@
 [
   {
-    "id": "ease_of_use",
-    "name": "Ease of Use",
-    "description": "simple interfaces that require minimal setup.",
+    "id": "beginner_friendly_onboarding",
+    "name": "Beginner-Friendly Onboarding",
+    "description": "simple setup, guided learning, and budget-conscious access.",
     "personas": [
-      "Beginner Student",
-      "Creator"
-    ]
-  },
-  {
-    "id": "guided_learning",
-    "name": "Guided Learning",
-    "description": "built-in tutorials and explanations supporting education.",
-    "personas": [
-      "Beginner Student",
-      "Creator"
-    ]
-  },
-  {
-    "id": "affordability",
-    "name": "Affordability",
-    "description": "low-cost or free options suitable for tight budgets.",
-    "personas": [
-      "Beginner Student",
-      "Creator"
-    ]
-  },
-  {
-    "id": "no_code_accessibility",
-    "name": "No-Code Accessibility",
-    "description": "automate tasks without traditional programming.",
-    "personas": [
+      "Beginner Student Creator",
+      "Vibe Coder Entrepreneur",
+      "No-Code App Builder",
       "Business User Automation Seeker"
     ]
   },
   {
-    "id": "business_data_integration",
-    "name": "Business Data Integration",
-    "description": "connect seamlessly to spreadsheets, CRM systems, and documents.",
+    "id": "visual_no_code_development",
+    "name": "Visual/No-Code Development",
+    "description": "drag-and-drop building, component templates, and one-click deployment for rapid prototyping.",
     "personas": [
-      "Business User Automation Seeker"
-    ]
-  },
-  {
-    "id": "productivity_gains",
-    "name": "Productivity Gains",
-    "description": "significantly reduce time spent on routine business tasks.",
-    "personas": [
-      "Business User Automation Seeker"
-    ]
-  },
-  {
-    "id": "data_pipeline_integration",
-    "name": "Data Pipeline Integration",
-    "description": "work smoothly with common data processing frameworks.",
-    "personas": [
-      "Data Scientist"
-    ]
-  },
-  {
-    "id": "reproducibility",
-    "name": "Reproducibility",
-    "description": "support experiment tracking and version control for reliable results.",
-    "personas": [
-      "Data Scientist"
-    ]
-  },
-  {
-    "id": "scalability",
-    "name": "Scalability",
-    "description": "handle large datasets and complex models efficiently.",
-    "personas": [
-      "Data Scientist"
-    ]
-  },
-  {
-    "id": "fast_reacclimation",
-    "name": "Fast Reacclimation",
-    "description": "help users regain coding fluency quickly.",
-    "personas": [
-      "Returning Engineering Manager"
-    ]
-  },
-  {
-    "id": "codebase_navigation",
-    "name": "Codebase Navigation",
-    "description": "surface relevant context across large or unfamiliar projects.",
-    "personas": [
-      "Returning Engineering Manager"
-    ]
-  },
-  {
-    "id": "architectural_insight",
-    "name": "Architectural Insight",
-    "description": "assist in evaluating design patterns and trade-offs.",
-    "personas": [
-      "Returning Engineering Manager"
-    ]
-  },
-  {
-    "id": "literature_coverage",
-    "name": "Literature Coverage",
-    "description": "provide access to broad and credible academic sources.",
-    "personas": [
-      "Professional Researcher"
-    ]
-  },
-  {
-    "id": "experiment_orchestration",
-    "name": "Experiment Orchestration",
-    "description": "coordinate multiple models, datasets, and evaluation steps.",
-    "personas": [
-      "Professional Researcher"
-    ]
-  },
-  {
-    "id": "code_reusability",
-    "name": "Code Reusability",
-    "description": "enable discovery and adaptation of existing research code.",
-    "personas": [
-      "Professional Researcher"
-    ]
-  },
-  {
-    "id": "automation_efficiency",
-    "name": "Automation Efficiency",
-    "description": "deliver results with minimal manual intervention.",
-    "personas": [
-      "Self-Employed Consultant"
-    ]
-  },
-  {
-    "id": "client_customization",
-    "name": "Client Customization",
-    "description": "easily tailor solutions to diverse client needs.",
-    "personas": [
-      "Self-Employed Consultant"
-    ]
-  },
-  {
-    "id": "reliability",
-    "name": "Reliability",
-    "description": "produce maintainable solutions that run unattended.",
-    "personas": [
-      "Self-Employed Consultant"
-    ]
-  },
-  {
-    "id": "ide_integration",
-    "name": "IDE Integration",
-    "description": "function as plugins within established development environments.",
-    "personas": [
-      "Traditional IDE Software Engineer"
-    ]
-  },
-  {
-    "id": "code_quality_assurance",
-    "name": "Code Quality Assurance",
-    "description": "enhance readability and safety of produced code.",
-    "personas": [
-      "Traditional IDE Software Engineer"
-    ]
-  },
-  {
-    "id": "cloud_tooling_alignment",
-    "name": "Cloud Tooling Alignment",
-    "description": "integrate smoothly with cloud providers and enterprise stacks.",
-    "personas": [
-      "Traditional IDE Software Engineer"
-    ]
-  },
-  {
-    "id": "rapid_prototyping",
-    "name": "Rapid Prototyping",
-    "description": "move from concept to demo quickly.",
-    "personas": [
+      "No-Code App Builder",
+      "Business User Automation Seeker",
       "Vibe Coder Entrepreneur",
       "Creative Designer Technologist"
     ]
   },
   {
-    "id": "minimal_setup",
-    "name": "Minimal Setup",
-    "description": "avoid complex local environment configuration.",
+    "id": "automation_productivity",
+    "name": "Automation & Productivity",
+    "description": "reduce manual work and adapt workflows for efficiency.",
     "personas": [
-      "Vibe Coder Entrepreneur"
-    ]
-  },
-  {
-    "id": "creative_flexibility",
-    "name": "Creative Flexibility",
-    "description": "support unconventional or multimodal features.",
-    "personas": [
-      "Vibe Coder Entrepreneur"
-    ]
-  },
-  {
-    "id": "infrastructure_orchestration",
-    "name": "Infrastructure Orchestration",
-    "description": "automate provisioning and configuration across environments.",
-    "personas": [
-      "DevOps Automation Engineer"
-    ]
-  },
-  {
-    "id": "ci_cd_integration",
-    "name": "CI/CD Integration",
-    "description": "connect seamlessly with continuous integration and deployment pipelines.",
-    "personas": [
-      "DevOps Automation Engineer"
-    ]
-  },
-  {
-    "id": "cloud_environment_management",
-    "name": "Cloud Environment Management",
-    "description": "manage multi-cloud resources and permissions.",
-    "personas": [
-      "DevOps Automation Engineer"
-    ]
-  },
-  {
-    "id": "automated_test_generation",
-    "name": "Automated Test Generation",
-    "description": "create unit and integration tests automatically.",
-    "personas": [
+      "Business User Automation Seeker",
+      "Self-Employed Consultant",
+      "DevOps Automation Engineer",
       "QA Test Specialist"
     ]
   },
   {
-    "id": "bug_detection",
-    "name": "Bug Detection",
-    "description": "surface vulnerabilities and code smells early.",
+    "id": "data_experimental_flexibility",
+    "name": "Data & Experimental Flexibility",
+    "description": "connect to diverse data sources and manage scalable, reproducible experiments.",
     "personas": [
+      "Data Scientist",
+      "Professional Researcher",
+      "AI Application Engineer",
+      "Self-Employed Consultant"
+    ]
+  },
+  {
+    "id": "workflow_agent_orchestration",
+    "name": "Workflow & Agent Orchestration",
+    "description": "compose complex pipelines, coordinate agents, and manage infrastructure or CI/CD.",
+    "personas": [
+      "AI Application Engineer",
+      "DevOps Automation Engineer",
+      "Self-Employed Consultant",
+      "Professional Researcher"
+    ]
+  },
+  {
+    "id": "codebase_comprehension",
+    "name": "Codebase Comprehension",
+    "description": "navigate large codebases and surface architectural context quickly.",
+    "personas": [
+      "Returning Engineering Manager",
+      "Traditional IDE Software Engineer",
       "QA Test Specialist"
     ]
   },
   {
-    "id": "debugging_support",
-    "name": "Debugging Support",
-    "description": "propose fixes and guide troubleshooting.",
+    "id": "code_quality_testing",
+    "name": "Code Quality & Testing",
+    "description": "automated test generation, bug detection, and debugging support for reliable code.",
     "personas": [
-      "QA Test Specialist"
+      "QA Test Specialist",
+      "Traditional IDE Software Engineer",
+      "Self-Employed Consultant",
+      "DevOps Automation Engineer"
     ]
   },
   {
-    "id": "workflow_composition",
-    "name": "Workflow Composition",
-    "description": "build complex AI pipelines from modular components.",
+    "id": "creative_multimodal_exploration",
+    "name": "Creative Multimodal Exploration",
+    "description": "support imaginative features and experimentation across text, image, or audio.",
     "personas": [
-      "AI Application Engineer"
-    ]
-  },
-  {
-    "id": "multi_agent_coordination",
-    "name": "Multi-Agent Coordination",
-    "description": "manage interactions among specialized agents.",
-    "personas": [
-      "AI Application Engineer"
-    ]
-  },
-  {
-    "id": "model_flexibility",
-    "name": "Model Flexibility",
-    "description": "experiment with diverse local or hosted models.",
-    "personas": [
-      "AI Application Engineer"
-    ]
-  },
-  {
-    "id": "visual_development",
-    "name": "Visual Development",
-    "description": "enable drag-and-drop or form-based app creation.",
-    "personas": [
-      "No-Code App Builder"
-    ]
-  },
-  {
-    "id": "component_templates",
-    "name": "Component Templates",
-    "description": "offer libraries of pre-built modules and integrations.",
-    "personas": [
-      "No-Code App Builder"
-    ]
-  },
-  {
-    "id": "one_click_deployment",
-    "name": "One-Click Deployment",
-    "description": "publish applications without managing infrastructure.",
-    "personas": [
-      "No-Code App Builder"
-    ]
-  },
-  {
-    "id": "multimodal_support",
-    "name": "Multimodal Support",
-    "description": "generate or mix text, image, and audio assets.",
-    "personas": [
-      "Creative Designer Technologist"
-    ]
-  },
-  {
-    "id": "creative__coding_guidance",
-    "name": "Creative Coding Guidance",
-    "description": "scaffold unconventional or artistic code.",
-    "personas": [
-      "Creative Designer Technologist"
+      "Creative Designer Technologist",
+      "Vibe Coder Entrepreneur",
+      "AI Application Engineer",
+      "Beginner Student Creator"
     ]
   }
 ]

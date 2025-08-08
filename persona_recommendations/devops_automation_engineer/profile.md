@@ -3,9 +3,9 @@
 Operators focused on infrastructure, CI/CD pipelines, and cloud management who rely on AI tools to automate scripts and manage environments.
 
 ### Key Criteria
-- **Infrastructure Orchestration** – automate provisioning and configuration across environments.
-- **CI/CD Integration** – hook into continuous integration and deployment pipelines.
-- **Cloud Environment Management** – manage multi-cloud resources and permissions.
+- **Workflow & Agent Orchestration** – automate infrastructure and CI/CD pipelines.
+- **Automation & Productivity** – streamline environment management.
+- **Code Quality & Testing** – catch issues in scripts and deployment pipelines.
 
 ## Recommended Tools
 - **Warp** – AI-assisted terminal for efficient command-line workflows.
