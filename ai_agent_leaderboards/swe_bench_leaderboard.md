@@ -42,6 +42,15 @@ The "Lite" benchmark is a smaller subset of 300 issues for faster evaluation. Th
 
 The full SWE-bench benchmark consists of 2,294 issues. There is no public leaderboard for the full benchmark. However, the `README.md` of the SWE-bench repository states that **SWE-agent** is the "state-of-the-art" on the full test set. A previous search result snippet mentioned a score of **12.47%** for SWE-agent.
 
+## Recent News
+
+- Jan. 13, 2025: Integrated SWE-bench Multimodal with a private test split and sb-cli submission.
+- Jan. 11, 2025: Modal support enables cloud-based evaluations.
+- Aug. 13, 2024: Released SWE-bench Verified, a set of 500 human-validated problems.
+- Jun. 27, 2024: Transitioned to a containerized evaluation harness using Docker.
+- Apr. 2, 2024: Released SWE-agent, achieving state-of-the-art results on the full test set.
+- Jan. 16, 2024: SWE-bench accepted to ICLR 2024 as an oral presentation.
+
 ## Conclusion on SWE-bench data
 
 The SWE-bench leaderboard data is fragmented and not fully public. The most reliable data is for the "Verified" benchmark. For the "Lite" and "Full" benchmarks, only partial data is available. The evaluation for the main benchmark seems to be private, with submissions handled via a command-line tool (`sb-cli`). This makes a complete and up-to-date comparison difficult.
