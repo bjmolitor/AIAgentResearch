@@ -32,3 +32,6 @@ Qwen Code CLI is a command-line interface designed to facilitate agentic coding 
 - **Ease of Use:** High (for developers comfortable with the command line)
 - **Documentation Quality:** High (based on the DataCamp tutorial and GitHub repository)
 - **Onboarding Experience:** Straightforward, with a step-by-step guide available in the DataCamp tutorial.
+
+## Missing Data
+No public benchmark results or resource usage statistics are available for Qwen CLI as of May 2025.

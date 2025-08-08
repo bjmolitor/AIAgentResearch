@@ -19,9 +19,12 @@ OpenAI Codex is a descendant of GPT-3 that translates natural language into code
 ## Benchmarks
 - **SWE-bench score:** Not available
 - **Task Success Rate:** Not available
-- **Resource Usage:** Not available
+- **Resource Usage:** Depends on API usage; no public metrics
 
 ## Qualitative Assessment
-- **Ease of Use:** Not evaluated
-- **Documentation Quality:** Not evaluated
-- **Onboarding Experience:** Not evaluated
+- **Ease of Use:** Moderate – API usage requires programming knowledge.
+- **Documentation Quality:** Moderate – basic API references and guides.
+- **Onboarding Experience:** Moderate – requires API key setup and integration work.
+
+## Missing Data
+OpenAI has not published benchmark results or resource usage statistics for the Codex model as of May 2025.

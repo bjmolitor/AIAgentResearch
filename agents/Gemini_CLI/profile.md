@@ -43,3 +43,6 @@ Each tier has different request limits for the Gemini CLI and Agent Mode.
 
 *   **Official Documentation:** [https://cloud.google.com/gemini/docs/codeassist/gemini-cli](https://cloud.google.com/gemini/docs/codeassist/gemini-cli)
 *   **GitHub Repository:** [https://github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+
+## Missing Data
+No public benchmark results or resource usage statistics are available for Gemini CLI as of May 2025.

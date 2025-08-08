@@ -36,3 +36,6 @@ Pay-as-you-go model for data that exceeds the daily volume limit of a customer's
 - **Ease of Use:** High (rated 8.8/10 on G2Crowd for the Logz.io platform). The AI Agent uses natural language queries.
 - **Documentation Quality:** High, with clear and comprehensive official documentation.
 - **Onboarding Experience:** Very easy for existing Logz.io users, accessible with a single button click in the platform.
+
+## Missing Data
+No public benchmark results or resource usage statistics are available for LogiQCLI as of May 2025.
