@@ -26,3 +26,21 @@ This leaderboard evaluates the performance of various AI models on a range of ta
 | nova-lite-v1 | Amazon | 0.16 | 0.55 | 0.0031 | Proprietary |
 | magistral-small-2506 | Mistral | 0.16 | 0.53 | 0.0301 | Open source |
 | mistral-medium-2505 | Mistral | 0.16 | 0.52 | 0.0293 | Proprietary |
+
+## Overview
+
+An evaluation framework for AI agents across real-world business scenarios. The project offers two versions: v1 for tool-calling performance and v2 with synthetic dataset generation and a simulation engine for evaluating task completion and tool use.
+
+## Version 2 Features
+
+- Dataset generation combining tools, personas, and scenarios across domains.
+- Agent evaluation that simulates conversations to assess performance.
+- Results analysis that aggregates metrics such as action completion and tool selection quality.
+
+## Environment Setup
+
+Version 2 targets Python 3.12 and requires API keys for providers such as OpenAI and Anthropic. Install dependencies inside the `v2` directory with:
+
+```bash
+pip install -r requirements.txt
+```

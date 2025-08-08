@@ -33,3 +33,17 @@ Terminal-Bench is a benchmark that evaluates AI agents on their ability to perfo
 | 23 | Codex CLI | gpt-4.1 | 2025-05-15 | OpenAI | OpenAI | 8.3% ± 1.4 |
 | 24 | Terminus 1 | Qwen3-235B | 2025-05-15 | Stanford | Alibaba | 6.6% ± 1.4 |
 | 25 | Terminus 1 | DeepSeek-R1 | 2025-05-15 | Stanford | DeepSeek | 5.7% ± 0.7 |
+
+## About Terminal-Bench
+
+Terminal-Bench evaluates AI agents in real terminal environments, covering tasks such as compiling code, training models, and setting up servers. The suite consists of a dataset of tasks and an execution harness that connects a language model to a sandboxed terminal.
+
+## Quickstart
+
+Install the CLI with:
+
+```bash
+uv tool install terminal-bench
+```
+
+Further installation and contribution details are available in the official documentation.
