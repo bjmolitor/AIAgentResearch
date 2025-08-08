@@ -1,5 +1,7 @@
 # Vision: The AI Agent Benchmarking Report
 
+The long-term objective is to cultivate a deep, shared research foundation on AI coding agents and ultimately surface that knowledge through a public leaderboard-style website. The project begins by collecting and organizing reliable information about existing agents into a structured dataset and written report.
+
 The goal is to produce a comprehensive, well-structured Markdown report that compares different AI agents. This report will be generated automatically based on web research.
 
 ### 1. Structure and Categories
@@ -56,3 +58,7 @@ This process is designed to be executed by an AI agent (like Jules) in a single,
 ### Step 4: Completion
 
 *   The agent's work is complete when `agents.json` is fully populated and `REPORT.md` is generated. This process requires minimal human intervention.
+
+## Toward a Public Leaderboard
+
+With the research corpus established, the next phase is to translate the data into an interactive website. This site will present agents in a leaderboard format, allow filtering by category or benchmark results, and be updated as new research findings are added.
