@@ -27,7 +27,7 @@
       "benchmarks": {
         "swe_bench_score": 49,
         "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
-        "terminal_bench_score": "43.2% \u00b1 1.3",
+        "terminal_bench_score": "43.2% ± 1.3",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": "Claude 2 (assisted) scored 4.80% on SWE-bench"
@@ -57,7 +57,7 @@
       ],
       "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
       "benchmarks": {
-        "terminal_bench_score": "20.0% \u00b1 1.5",
+        "terminal_bench_score": "20.0% ± 1.5",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
@@ -111,7 +111,7 @@
       ],
       "pricing_model": "Open-source",
       "benchmarks": {
-        "terminal_bench_score": "42.0% \u00b1 1.3",
+        "terminal_bench_score": "42.0% ± 1.3",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
@@ -201,6 +201,30 @@
         "task_success_rate": null,
         "resource_usage": "",
         "swe_bench_score": "71%"
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
+    },
+    {
+      "name": "OpenAI Codex",
+      "website": "https://openai.com/blog/openai-codex",
+      "developer": "OpenAI",
+      "key_features": [
+        "Translates natural language into code",
+        "Supports multiple programming languages",
+        "Available via API or integrated tools"
+      ],
+      "supported_models": [
+        "Codex series (e.g., code-davinci-002, code-cushman-001)"
+      ],
+      "pricing_model": "Usage-based via the OpenAI API",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
       },
       "qualitative_assessment": {
         "ease_of_use": null,
@@ -933,6 +957,30 @@
         "documentation_quality": null,
         "onboarding_experience": null
       }
+    },
+    {
+      "name": "Perplexity",
+      "website": "https://www.perplexity.ai/",
+      "developer": "Perplexity Labs",
+      "key_features": [
+        "AI-powered search interface",
+        "Provides cited answers from web sources",
+        "Supports follow-up questions and conversations"
+      ],
+      "supported_models": [
+        "Mixture of proprietary and open-source models"
+      ],
+      "pricing_model": "Free tier with optional Pro subscription",
+      "benchmarks": {
+        "swe_bench_score": null,
+        "task_success_rate": null,
+        "resource_usage": ""
+      },
+      "qualitative_assessment": {
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     }
   ],
   "agent_frameworks": [
@@ -1032,7 +1080,7 @@
       ],
       "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
       "benchmarks": {
-        "terminal_bench_score": "42.5% \u00b1 0.8",
+        "terminal_bench_score": "42.5% ± 0.8",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard"
       },
       "qualitative_assessment": {
@@ -1082,7 +1130,7 @@
       ],
       "pricing_model": "Not specified, but seems to be part of the Daytona platform.",
       "benchmarks": {
-        "terminal_bench_score": "41.3% \u00b1 0.7",
+        "terminal_bench_score": "41.3% ± 0.7",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
@@ -1142,7 +1190,7 @@
       ],
       "pricing_model": "Research project, likely free to use.",
       "benchmarks": {
-        "terminal_bench_score": "39.9% \u00b1 1.0",
+        "terminal_bench_score": "39.9% ± 1.0",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
