@@ -23,6 +23,7 @@ The following agents have been profiled in this repository:
 - Gemini CLI
 - Qwen CLI
 - LogiQCLI
+- OpenAI Codex
 
 ### IDE-Embedded Agents
 - Roo Code
@@ -37,6 +38,7 @@ The following agents have been profiled in this repository:
 - devin
 - manus
 - Minimax agent
+- Perplexity Labs
 
 ### Agent Frameworks
 - CrewAI
