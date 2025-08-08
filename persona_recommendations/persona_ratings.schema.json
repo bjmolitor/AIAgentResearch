@@ -1,0 +1,243 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "patternProperties": {
+    ".*": {
+      "type": "object",
+      "properties": {
+        "ease_of_use": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "guided_learning": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "affordability": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "no_code_accessibility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "business_data_integration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "productivity_gains": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "data_pipeline_integration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reproducibility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "scalability": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "fast_reacclimation": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "codebase_navigation": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "architectural_insight": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "literature_coverage": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "experiment_orchestration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "code_reusability": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "automation_efficiency": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "client_customization": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reliability": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "ide_integration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "code_quality_assurance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "cloud_tooling_alignment": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "rapid_prototyping": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "minimal_setup": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "creative_flexibility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "infrastructure_orchestration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "ci_cd_integration": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "cloud_environment_management": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "automated_test_generation": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "bug_detection": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "debugging_support": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "workflow_composition": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "multi_agent_coordination": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "model_flexibility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "visual_development": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "component_templates": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "one_click_deployment": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "multimodal_support": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "creative_coding_guidance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "ease_of_use",
+        "guided_learning",
+        "affordability",
+        "no_code_accessibility",
+        "business_data_integration",
+        "productivity_gains",
+        "data_pipeline_integration",
+        "reproducibility",
+        "scalability",
+        "fast_reacclimation",
+        "codebase_navigation",
+        "architectural_insight",
+        "literature_coverage",
+        "experiment_orchestration",
+        "code_reusability",
+        "automation_efficiency",
+        "client_customization",
+        "reliability",
+        "ide_integration",
+        "code_quality_assurance",
+        "cloud_tooling_alignment",
+        "rapid_prototyping",
+        "minimal_setup",
+        "creative_flexibility",
+        "infrastructure_orchestration",
+        "ci_cd_integration",
+        "cloud_environment_management",
+        "automated_test_generation",
+        "bug_detection",
+        "debugging_support",
+        "workflow_composition",
+        "multi_agent_coordination",
+        "model_flexibility",
+        "visual_development",
+        "component_templates",
+        "one_click_deployment",
+        "multimodal_support",
+        "creative_coding_guidance"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
