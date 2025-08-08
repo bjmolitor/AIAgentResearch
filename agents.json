@@ -27,17 +27,16 @@
       "benchmarks": {
         "swe_bench_score": 49,
         "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
-        "terminal_bench_score": "43.2% ± 1.3",
+        "terminal_bench_score": "43.2% \u00b1 1.3",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": "Claude 2 (assisted) scored 4.80% on SWE-bench"
       },
       "qualitative_assessment": {
-        "ease_of_use": "High (for developers comfortable with the command line)",
-        "documentation_quality": "High",
-        "onboarding_experience": "Very easy, with a clear 'Get started in 30 seconds' guide in the official documentation."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Codex CLI",
@@ -58,17 +57,16 @@
       ],
       "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
       "benchmarks": {
-        "terminal_bench_score": "20.0% ± 1.5",
+        "terminal_bench_score": "20.0% \u00b1 1.5",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High",
-        "documentation_quality": "High",
-        "onboarding_experience": "Straightforward"
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Gemini CLI",
@@ -93,11 +91,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on natural language interaction.",
-        "documentation_quality": "High, with a comprehensive README and a docs directory in the GitHub repository.",
-        "onboarding_experience": "Very easy, with clear and simple installation instructions for Node.js and Homebrew."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Goose",
@@ -114,17 +111,16 @@
       ],
       "pricing_model": "Open-source",
       "benchmarks": {
-        "terminal_bench_score": "42.0% ± 1.3",
+        "terminal_bench_score": "42.0% \u00b1 1.3",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High",
-        "documentation_quality": "High",
-        "onboarding_experience": "Straightforward"
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "LogiQCLI",
@@ -148,11 +144,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High (rated 8.8/10 on G2Crowd for the Logz.io platform). The AI Agent uses natural language queries.",
-        "documentation_quality": "High, with clear and comprehensive official documentation.",
-        "onboarding_experience": "Very easy for existing Logz.io users, accessible with a single button click in the platform."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Qwen CLI",
@@ -174,11 +169,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High (for developers comfortable with the command line)",
-        "documentation_quality": "High (based on the DataCamp tutorial and GitHub repository)",
-        "onboarding_experience": "Straightforward, with a step-by-step guide available in the DataCamp tutorial."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Warp",
@@ -203,17 +197,16 @@
       "benchmarks": {
         "terminal_bench_score": "#1",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-        "swe_bench_verified_score": "71%",
         "swe_bench_source": "https://www.warp.dev/",
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "",
+        "swe_bench_score": "71%"
       },
       "qualitative_assessment": {
-        "ease_of_use": "High",
-        "documentation_quality": "High",
-        "onboarding_experience": "Straightforward"
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     }
   ],
   "ide_embedded": [
@@ -243,11 +236,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on seamless integration into the development workflow.",
-        "documentation_quality": "High, with comprehensive official documentation.",
-        "onboarding_experience": "Straightforward, with a 'Get started' guide in the documentation."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Amazon CodeWhisperer",
@@ -274,11 +266,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with seamless integration into popular IDEs.",
-        "documentation_quality": "High, with comprehensive official documentation.",
-        "onboarding_experience": "Straightforward, with a clear 'Get started' guide in the documentation."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Android Studio Bot",
@@ -301,11 +292,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, as it is integrated directly into the Android Studio IDE.",
-        "documentation_quality": "High, as it is part of the official Android Studio documentation.",
-        "onboarding_experience": "Straightforward, as it is included in Android Studio."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "AskCodi",
@@ -344,9 +334,8 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Cline",
@@ -372,11 +361,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on natural language interaction and a clear UI.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward, with a clear installation process and a 'Getting Started' guide for new coders."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "CodeGPT",
@@ -403,11 +391,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High",
-        "documentation_quality": "High",
-        "onboarding_experience": "Straightforward"
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "CodeWP",
@@ -432,9 +419,8 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Cursor",
@@ -468,11 +454,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on intuitive keyboard shortcuts and a seamless user interface.",
-        "documentation_quality": "High, with official documentation available at docs.cursor.com.",
-        "onboarding_experience": "Straightforward, with a simple download and installation process."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "DeepCode AI",
@@ -502,11 +487,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on real-time scanning and integration into the development workflow.",
-        "documentation_quality": "Information not found.",
-        "onboarding_experience": "Information not found."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "GitHub Copilot",
@@ -545,11 +529,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with seamless integration into the IDE and other developer tools.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward, with a clear 'Get started' guide for individuals and organizations."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Kilo",
@@ -564,15 +547,14 @@
       "pricing_model": "Not found",
       "benchmarks": {
         "swe_bench_score": "Not found",
-        "task_success_rate": "Not found",
+        "task_success_rate": null,
         "resource_usage": "Not found"
       },
       "qualitative_assessment": {
-        "ease_of_use": "Not found",
-        "documentation_quality": "Not found",
-        "onboarding_experience": "Not found"
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Replit AI",
@@ -600,11 +582,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on natural language interaction and a no-code experience.",
-        "documentation_quality": "High, with official documentation available at docs.replit.com.",
-        "onboarding_experience": "Straightforward, with a 'Start building' button and a simple interface."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Roo Code",
@@ -621,15 +602,14 @@
       "pricing_model": "Not specified for a 'Roo Code' product. ROO.AI has its own pricing model for its platform.",
       "benchmarks": {
         "swe_bench_score": "Not applicable",
-        "task_success_rate": "Not applicable",
+        "task_success_rate": null,
         "resource_usage": "Not applicable"
       },
       "qualitative_assessment": {
-        "ease_of_use": "Not applicable",
-        "documentation_quality": "Not applicable",
-        "onboarding_experience": "Not applicable"
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Sourcegraph Cody",
@@ -659,11 +639,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with seamless integration into popular IDEs and a focus on providing deep codebase context.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward, with clear installation instructions for various IDEs."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "SQLAI.ai",
@@ -688,9 +667,8 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Tabnine",
@@ -719,11 +697,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a focus on seamless integration into the IDE and intuitive features.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward, with a 'Quickstart Guide' and detailed installation instructions."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     }
   ],
   "web_virtualized": [
@@ -749,11 +726,10 @@
         "resource_usage": "GPT-4 (assisted). GPT-3.5 (assisted) scored 1.34% on SWE-bench"
       },
       "qualitative_assessment": {
-        "ease_of_use": 5,
-        "documentation_quality": 4,
-        "onboarding_experience": "Easy activation through 'Agent mode' or slash command (/agent) in the ChatGPT interface."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "devin",
@@ -778,11 +754,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a conversational UI and embedded IDE. Requires clear instructions and task breakdown for complex tasks.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward for teams, with a clear 'Get Started' guide."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Engine",
@@ -811,11 +786,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High",
-        "documentation_quality": "High",
-        "onboarding_experience": "Straightforward"
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Jules",
@@ -841,11 +815,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a simple, prompt-based interface and interactive planning.",
-        "documentation_quality": "High, with a clear and comprehensive 'Getting started' guide.",
-        "onboarding_experience": "Straightforward, with a step-by-step guide for connecting to GitHub and starting a task."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "manus",
@@ -868,9 +841,8 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": "Web-based interface with standard sign-up and sign-in."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Minimax agent",
@@ -895,11 +867,10 @@
         "resource_usage": "No public benchmarks found"
       },
       "qualitative_assessment": {
-        "ease_of_use": "Medium for beginners, High for experienced developers. The framework is powerful but can be complex.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward for developers, with a clear 'Get Started' guide."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Trae",
@@ -929,11 +900,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High, with a clean and modern IDE layout and natural language interaction.",
-        "documentation_quality": "High, with a detailed tutorial and official documentation.",
-        "onboarding_experience": "Very smooth, with a simple installer and settings import."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "z.ai",
@@ -959,11 +929,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "Information not available in English.",
-        "documentation_quality": "Information not available in English.",
-        "onboarding_experience": "Information not available in English."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     }
   ],
   "agent_frameworks": [
@@ -991,11 +960,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High for developers, with a clear and comprehensive documentation.",
-        "documentation_quality": "High, with detailed guides, examples, and API reference.",
-        "onboarding_experience": "Straightforward for developers, with a 'Quickstart' guide and detailed installation instructions."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "LangChain",
@@ -1020,9 +988,8 @@
       "qualitative_assessment": {
         "ease_of_use": null,
         "documentation_quality": null,
-        "onboarding_experience": ""
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "onboarding_experience": null
+      }
     },
     {
       "name": "LangGraph",
@@ -1043,11 +1010,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "Medium for beginners, High for experienced developers. The framework is powerful but can be complex.",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation.",
-        "onboarding_experience": "Straightforward for developers, with a series of tutorials to guide them."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Letta",
@@ -1066,15 +1032,14 @@
       ],
       "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
       "benchmarks": {
-        "terminal_bench_score": "42.5% ± 0.8",
+        "terminal_bench_score": "42.5% \u00b1 0.8",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard"
       },
       "qualitative_assessment": {
-        "ease_of_use": "Not found",
-        "documentation_quality": "Not found",
-        "onboarding_experience": "Not found"
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "mini-SWE-agent",
@@ -1096,11 +1061,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "Medium, as it requires a development setup.",
-        "documentation_quality": "High, as part of the comprehensive SWE-agent documentation.",
-        "onboarding_experience": "Requires development setup, with installation instructions available in the SWE-agent documentation."
-      },
-      "GPT-5 impact": "High: existing OpenAI/GPT support could immediately leverage GPT-5 for better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "OpenHands",
@@ -1118,17 +1082,16 @@
       ],
       "pricing_model": "Not specified, but seems to be part of the Daytona platform.",
       "benchmarks": {
-        "terminal_bench_score": "41.3% ± 0.7",
+        "terminal_bench_score": "41.3% \u00b1 0.7",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "High",
-        "documentation_quality": "High",
-        "onboarding_experience": "Straightforward"
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "SWE-agent",
@@ -1158,11 +1121,10 @@
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "Medium, as it requires a development setup. High",
-        "documentation_quality": "High, with comprehensive and well-structured official documentation. High",
-        "onboarding_experience": "Requires development setup, with a detailed guide in the documentation. Straightforward"
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     },
     {
       "name": "Terminus",
@@ -1180,17 +1142,16 @@
       ],
       "pricing_model": "Research project, likely free to use.",
       "benchmarks": {
-        "terminal_bench_score": "39.9% ± 1.0",
+        "terminal_bench_score": "39.9% \u00b1 1.0",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "task_success_rate": null,
         "resource_usage": ""
       },
       "qualitative_assessment": {
-        "ease_of_use": "Medium, as it is a research preview.",
-        "documentation_quality": "High",
-        "onboarding_experience": "Requires development setup."
-      },
-      "GPT-5 impact": "Moderate: would require adding GPT-5 support but could gain better reasoning, code generation, and autonomy."
+        "ease_of_use": null,
+        "documentation_quality": null,
+        "onboarding_experience": null
+      }
     }
   ]
 }
