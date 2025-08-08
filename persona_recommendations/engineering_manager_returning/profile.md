@@ -3,9 +3,9 @@
 A manager who stepped away from daily coding and wants to regain hands-on experience using modern AI tools.
 
 ### Key Criteria
-- **Fast Reacclimation** – quickly recall syntax and modern practices.
-- **Codebase Navigation** – understand large or unfamiliar projects.
-- **Architectural Insight** – explore design patterns and trade-offs.
+- **Codebase Comprehension** – regain context across large or unfamiliar projects.
+- **Automation & Productivity** – leverage AI to ramp up efficiency quickly.
+- **Code Quality & Testing** – evaluate reliability and design trade-offs.
 
 ## Recommended Tools
 - **GitHub_Copilot** – quickly recall syntax and patterns with inline guidance.

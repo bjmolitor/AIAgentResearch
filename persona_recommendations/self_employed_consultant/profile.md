@@ -3,9 +3,9 @@
 Independent professionals who automate workflows to serve more clients efficiently.
 
 ### Key Criteria
-- **Automation Efficiency** – deliver results with minimal manual work.
-- **Client Customization** – adapt tools to varied client requirements.
-- **Reliability** – produce maintainable solutions that can run unattended.
+- **Automation & Productivity** – deliver results with minimal manual work.
+- **Workflow & Agent Orchestration** – assemble reusable automation pipelines.
+- **Data & Experimental Flexibility** – adapt to varied client data environments.
 
 ## Recommended Tools
 - **LangGraph** – design reusable automation pipelines.
