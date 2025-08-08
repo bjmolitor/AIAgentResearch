@@ -48,3 +48,33 @@
   Important for: Vibe Coder Entrepreneur
 - **Creative Flexibility** – support unconventional or multimodal features.  
   Important for: Vibe Coder Entrepreneur
+- **Infrastructure Orchestration** – automate provisioning and configuration across environments.
+  Important for: DevOps Automation Engineer
+- **CI/CD Integration** – connect seamlessly with continuous integration and deployment pipelines.
+  Important for: DevOps Automation Engineer
+- **Cloud Environment Management** – manage multi-cloud resources and permissions.
+  Important for: DevOps Automation Engineer
+- **Automated Test Generation** – create unit and integration tests automatically.
+  Important for: QA Test Specialist
+- **Bug Detection** – surface vulnerabilities and code smells early.
+  Important for: QA Test Specialist
+- **Debugging Support** – propose fixes and guide troubleshooting.
+  Important for: QA Test Specialist
+- **Workflow Composition** – build complex AI pipelines from modular components.
+  Important for: AI Application Engineer
+- **Multi-Agent Coordination** – manage interactions among specialized agents.
+  Important for: AI Application Engineer
+- **Model Flexibility** – experiment with diverse local or hosted models.
+  Important for: AI Application Engineer
+- **Visual Development** – enable drag-and-drop or form-based app creation.
+  Important for: No-Code App Builder
+- **Component Templates** – offer libraries of pre-built modules and integrations.
+  Important for: No-Code App Builder
+- **One-Click Deployment** – publish applications without managing infrastructure.
+  Important for: No-Code App Builder
+- **Multimodal Support** – generate or mix text, image, and audio assets.
+  Important for: Creative Designer Technologist
+- **Rapid Prototyping** – quickly iterate on interactive concepts.
+  Important for: Creative Designer Technologist
+- **Creative Coding Guidance** – scaffold unconventional or artistic code.
+  Important for: Creative Designer Technologist
