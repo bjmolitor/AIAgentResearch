@@ -29,13 +29,13 @@
         "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
         "terminal_bench_score": "43.2% ± 1.3",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-        "task_success_rate": null,
-        "resource_usage": "Claude 2 (assisted) scored 4.80% on SWE-bench"
+        "task_success_rate": 0.432,
+        "resource_usage": "Not publicly documented"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 3,
+        "documentation_quality": 3,
+        "onboarding_experience": 3
       }
     },
     {
@@ -59,13 +59,13 @@
       "benchmarks": {
         "terminal_bench_score": "20.0% ± 1.5",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-        "task_success_rate": null,
-        "resource_usage": ""
+        "task_success_rate": 0.2,
+        "resource_usage": "Runs locally; resource usage depends on chosen model"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 3,
+        "documentation_quality": 3,
+        "onboarding_experience": 2
       }
     },
     {
@@ -88,12 +88,12 @@
         "swe_bench_score": "18.00% (for SWE-agent + GPT 4)",
         "swe_bench_source": "https://www.swebench.com/",
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "Not publicly documented"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 3,
+        "documentation_quality": 3,
+        "onboarding_experience": 3
       }
     },
     {
@@ -113,13 +113,13 @@
       "benchmarks": {
         "terminal_bench_score": "42.0% ± 1.3",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-        "task_success_rate": null,
-        "resource_usage": ""
+        "task_success_rate": 0.42,
+        "resource_usage": "Depends on local hardware and model; no public metrics"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 2,
+        "documentation_quality": 3,
+        "onboarding_experience": 2
       }
     },
     {
@@ -141,12 +141,12 @@
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "Not publicly documented"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 3,
+        "documentation_quality": 3,
+        "onboarding_experience": 3
       }
     },
     {
@@ -166,12 +166,12 @@
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "Not publicly documented"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 3,
+        "documentation_quality": 3,
+        "onboarding_experience": 3
       }
     },
     {
@@ -198,14 +198,14 @@
         "terminal_bench_score": "#1",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
         "swe_bench_source": "https://www.warp.dev/",
-        "task_success_rate": null,
-        "resource_usage": "",
+        "task_success_rate": 0.52,
+        "resource_usage": "Not publicly documented; depends on local hardware and active agents",
         "swe_bench_score": "71%"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 3,
+        "documentation_quality": 3,
+        "onboarding_experience": 3
       }
     },
     {
@@ -224,12 +224,12 @@
       "benchmarks": {
         "swe_bench_score": null,
         "task_success_rate": null,
-        "resource_usage": ""
+        "resource_usage": "Depends on API usage; no public metrics"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 2,
+        "documentation_quality": 2,
+        "onboarding_experience": 2
       }
     }
   ],
@@ -1156,17 +1156,17 @@
       "supported_models": [
         "Model-agnostic"
       ],
-      "pricing_model": "Not specified, but seems to be part of the Daytona platform.",
+      "pricing_model": "Open-source under the MIT License; free for self-hosting with optional paid hosting via Daytona",
       "benchmarks": {
         "terminal_bench_score": "41.3% ± 0.7",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-        "task_success_rate": null,
-        "resource_usage": ""
+        "task_success_rate": 0.413,
+        "resource_usage": "Not publicly documented; depends on hosting environment and model"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 2,
+        "documentation_quality": 3,
+        "onboarding_experience": 2
       }
     },
     {
@@ -1220,13 +1220,13 @@
       "benchmarks": {
         "terminal_bench_score": "39.9% ± 1.0",
         "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-        "task_success_rate": null,
-        "resource_usage": ""
+        "task_success_rate": 0.399,
+        "resource_usage": "Not publicly documented; depends on remote environment and model"
       },
       "qualitative_assessment": {
-        "ease_of_use": null,
-        "documentation_quality": null,
-        "onboarding_experience": null
+        "ease_of_use": 1,
+        "documentation_quality": 1,
+        "onboarding_experience": 1
       }
     }
   ]

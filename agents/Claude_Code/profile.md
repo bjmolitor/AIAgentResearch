@@ -1,28 +1,22 @@
 # Claude Code
 
-Claude Code is a terminal-based AI agent developed by Anthropic. It is designed to help developers with a variety of coding tasks, from building features to debugging and fixing issues.
+Claude Code is a terminal-based AI agent developed by Anthropic to help developers build features, debug issues, and navigate codebases directly from the command line.
 
 ## Key Information
-
 - **Developer:** Anthropic
 - **Website:** [https://docs.anthropic.com/en/docs/claude-code/overview](https://docs.anthropic.com/en/docs/claude-code/overview)
-- **Pricing:** Based on API token consumption. Average cost of ~$6 per developer per day. Average monthly cost of ~$100-200 per developer per month with Sonnet 4. Usage included for Pro and Max plan users.
+- **Pricing:** Based on API token consumption; approximately $6 per developer per day using Sonnet 4.
 
 ## Key Features
-
-- **Natural Language to Code:** Build features from plain English descriptions.
-- **Debugging and Fixing:** Analyze codebases and fix bugs based on error messages.
-- **Codebase Navigation:** Understand and answer questions about any codebase.
-- **Task Automation:** Automate tedious tasks like fixing lint issues and writing release notes.
-- **Terminal-Based:** Works directly in the user's terminal.
-- **Action-Oriented:** Can edit files, run commands, and create commits.
-- **Scriptable:** Designed with the Unix philosophy in mind, making it composable and scriptable.
-- **Enterprise-Ready:** Can be self-hosted on AWS or GCP for enhanced security and privacy.
+- Natural language to code generation.
+- Debugging and lint fixing based on error messages.
+- Codebase navigation and Q&A.
+- Automates tasks like release notes and test writing.
+- Action-oriented: can edit files, run commands, and create commits.
+- Scriptable and composable with Unix philosophy.
+- Enterprise-ready with self-hosting options on AWS or GCP.
 
 ## Supported Models
-
-Claude Code supports the following models from the Claude family:
-
 - Claude Opus 4.1
 - Claude Opus 4
 - Claude Sonnet 4
@@ -32,12 +26,16 @@ Claude Code supports the following models from the Claude family:
 - Claude Haiku 3
 
 ## Benchmarks
-
-- **SWE-bench Verified:** 49% (Claude 3.5 Sonnet) - [Source](https://www.anthropic.com/research/swe-bench-sonnet)
-- **SWE-bench Verified:** 22% (Claude 3 Opus)
+- **SWE-bench Verified:** 49% (Claude 3.5 Sonnet) – [Anthropic research](https://www.anthropic.com/research/swe-bench-sonnet)
+- **SWE-bench Verified:** 22% (Claude 3 Opus) – [Anthropic research](https://www.anthropic.com/research/swe-bench-sonnet)
+- **Terminal-Bench Accuracy:** 43.2% ± 1.3 – [Terminal-Bench Leaderboard](https://www.tbench.ai/leaderboard)
+- **Task Success Rate:** 0.432 (from Terminal-Bench accuracy)
+- **Resource Usage:** Not publicly documented.
 
 ## Qualitative Assessment
+- **Ease of Use:** High (3) – effective for developers comfortable with the command line.
+- **Documentation Quality:** High (3) – comprehensive official docs.
+- **Onboarding Experience:** High (3) – "Get started in 30 seconds" guide provided.
 
-- **Ease of Use:** High (for developers comfortable with the command line)
-- **Documentation Quality:** High
-- **Onboarding Experience:** Very easy, with a clear 'Get started in 30 seconds' guide in the official documentation.
+## Missing Data
+No standardized resource usage metrics beyond benchmark scores are published for Claude Code as of May 2025.
