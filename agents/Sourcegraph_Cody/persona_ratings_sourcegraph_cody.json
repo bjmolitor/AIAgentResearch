@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Cody is designed to improve developer productivity with features like intelligent code completion, chat-based assistance for generating and modifying code, and an 'auto-edit' feature. Case studies from companies like Coinbase and Qualtrics claim significant time savings and faster task completion [1, 2]. The main limitation is that the most powerful productivity features are primarily available in the paid Enterprise plan."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "While Cody offers a free tier and is easy to install via IDE extensions, the core AI features like autocomplete and chat are severely limited or absent in the free and lower-priced tiers ('Enterprise Starter'). To access the full capabilities that make Cody a powerful assistant, users must subscribe to the expensive Enterprise plan, which is not budget-conscious for beginners or students. This creates a significant barrier to entry for trying out the product's main value proposition."
   },
   "code_quality_testing": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Cody assists in improving code quality by generating unit tests, detecting bugs, and providing debugging support. Its deep understanding of the codebase allows it to suggest contextually accurate and idiomatic code, which can help maintain consistency and adhere to best practices. However, it does not appear to have dedicated features for managing test suites or deep integration with CI/CD pipelines for automated testing."
   },
   "codebase_comprehension": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "This is Cody's standout feature. Leveraging Sourcegraph's powerful code search engine, Cody has a deep understanding of the entire codebase, including cross-repository dependencies. It can quickly answer questions about complex code, explain the purpose of different components, and provide context from multiple files and even remote repositories. This makes it an excellent tool for developers who need to quickly get up to speed on large or unfamiliar codebases."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "There is no evidence that Sourcegraph Cody supports any creative or multimodal capabilities. Its focus is strictly on code and text-based interactions. It does not handle images, audio, or other media."
   },
   "data_experimental_flexibility": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Cody offers significant flexibility by supporting a wide range of LLMs from providers like Anthropic, OpenAI, Google, and Mistral. Enterprise users can even bring their own LLM keys. Furthermore, Cody can connect to non-code data sources such as Jira, Notion, and Google Docs via OpenCtx, allowing it to pull in a broader range of context for its responses. The main limitation is that the most advanced flexibility features are restricted to the Enterprise plan."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "Sourcegraph Cody is a tool for developers who write code. It does not offer any visual or no-code development features like drag-and-drop interfaces, component templates, or one-click deployment."
   },
   "workflow_agent_orchestration": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Cody is not a full-fledged agent orchestration platform, but it does have an 'Agentic Chat' feature that exhibits some agent-like capabilities. This feature can autonomously use tools like Code Search, terminal commands (with permission), and web search to gather context and answer questions. While this is a step towards agentic workflows, it is not designed for composing complex pipelines or managing infrastructure in the way that a dedicated orchestration tool would."
   }
 }
