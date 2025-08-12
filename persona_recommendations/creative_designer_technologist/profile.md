@@ -5,7 +5,6 @@ Designers and artists exploring interactive or multimedia experiences with the h
 ### Key Criteria
 - **Creative Multimodal Exploration** – mix text, image, and audio assets.
 - **Visual/No-Code Development** – prototype quickly with templates.
-- **Data & Experimental Flexibility** – adapt models and data for creative projects.
 
 ## Recommended Tools
 - **Gemini_CLI** – experiment with text, image, and audio generation.

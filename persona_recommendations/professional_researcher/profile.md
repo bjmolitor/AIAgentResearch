@@ -5,7 +5,6 @@ Researchers who write papers, analyze literature, and prototype algorithms acros
 ### Key Criteria
 - **Data & Experimental Flexibility** – manage datasets, models, and reproducible experiments.
 - **Workflow & Agent Orchestration** – coordinate multi-step research pipelines.
-- **Codebase Comprehension** – find and reuse existing research code.
 
 ## Recommended Tools
 - **Perplexity_Labs** – comprehensive search over academic sources.

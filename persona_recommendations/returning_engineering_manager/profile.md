@@ -4,8 +4,6 @@ A manager who stepped away from daily coding and wants to regain hands-on experi
 
 ### Key Criteria
 - **Codebase Comprehension** – regain context across large or unfamiliar projects.
-- **Automation & Productivity** – leverage AI to ramp up efficiency quickly.
-- **Code Quality & Testing** – evaluate reliability and design trade-offs.
 
 ## Recommended Tools
 - **GitHub_Copilot** – quickly recall syntax and patterns with inline guidance.

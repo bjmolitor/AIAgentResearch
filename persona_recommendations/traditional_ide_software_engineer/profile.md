@@ -5,7 +5,6 @@ Engineers accustomed to Visual Studio, IntelliJ, or similar IDEs who want AI ass
 ### Key Criteria
 - **Codebase Comprehension** – understand large projects within familiar IDEs.
 - **Code Quality & Testing** – improve reliability and safety.
-- **Automation & Productivity** – streamline coding inside existing workflows.
 
 ## Recommended Tools
 - **GitHub_Copilot** – inline code suggestions directly in major IDEs.
