@@ -1,6468 +1,1428 @@
 {
-  "Claude Code": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Codex CLI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Gemini CLI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Goose": {
-    "ease_of_use": {
-      "rating": 2,
-      "reasoning": "Steeper learning curve or setup challenges."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "LogiQCLI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Qwen CLI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Warp": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "OpenAI Codex": {
-    "ease_of_use": {
-      "rating": 2,
-      "reasoning": "Steeper learning curve or setup challenges."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
   "Amazon CodeGuru": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "Amazon CodeWhisperer": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "Android Studio Bot": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "AskCodi": {
-    "ease_of_use": {
+    "automation_productivity": {
       "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Cline": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "CodeGPT": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "CodeWP": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Cursor": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "DeepCode AI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "GitHub Copilot": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Kilo": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Replit AI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Roo Code": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Sourcegraph Cody": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "SQLAI.ai": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Tabnine": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multi_agent_coordination": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "model_flexibility": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "visual_development": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "component_templates": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "one_click_deployment": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multimodal_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "ChatGPT agent": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "business_data_integration": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
-  "devin": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+  "Claude Code": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
-  "Engine": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+  "Cline": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
-  "Jules": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+  "CodeGPT": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
-  "manus": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+  "CodeWP": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
-  "Minimax agent": {
-    "ease_of_use": {
+  "Codex CLI": {
+    "automation_productivity": {
       "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Trae": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 3,
-      "reasoning": "Pricing unclear; treated as average affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "z.ai": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "chat.z.ai": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
-  "Perplexity": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "business_data_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "productivity_gains": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_pipeline_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reproducibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "scalability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multi_agent_coordination": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "model_flexibility": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "visual_development": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "component_templates": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "one_click_deployment": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multimodal_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "CrewAI": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Cursor": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "architectural_insight": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "literature_coverage": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "experiment_orchestration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_reusability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automation_efficiency": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "client_customization": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "DeepCode AI": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reliability": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ide_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_quality_assurance": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_tooling_alignment": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "rapid_prototyping": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "minimal_setup": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_flexibility": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Engine": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "infrastructure_orchestration": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ci_cd_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_environment_management": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automated_test_generation": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "bug_detection": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "debugging_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "workflow_composition": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Gemini CLI": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multi_agent_coordination": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "model_flexibility": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "visual_development": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "component_templates": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "one_click_deployment": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multimodal_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "GitHub Copilot": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Goose": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Jules": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Kilo": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "LangChain": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "LangGraph": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "Letta": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "business_data_integration": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "architectural_insight": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "literature_coverage": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "experiment_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_reusability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automation_efficiency": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "client_customization": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "reliability": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ide_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_assurance": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_tooling_alignment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "rapid_prototyping": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "minimal_setup": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 4,
-      "reasoning": "Above average based on positive indications."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
-  "mini-SWE-agent": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+  "LogiQCLI": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Minimax agent": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "architectural_insight": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "literature_coverage": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "experiment_orchestration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_reusability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automation_efficiency": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "client_customization": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "OpenAI Codex": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reliability": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ide_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_quality_assurance": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_tooling_alignment": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "rapid_prototyping": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "minimal_setup": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "OpenHands": {
-    "ease_of_use": {
-      "rating": 2,
-      "reasoning": "Steeper learning curve or setup challenges."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Perplexity": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "architectural_insight": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "literature_coverage": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "experiment_orchestration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_reusability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automation_efficiency": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "client_customization": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Qwen CLI": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reliability": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ide_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_quality_assurance": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_tooling_alignment": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "rapid_prototyping": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "minimal_setup": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_flexibility": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Replit AI": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "infrastructure_orchestration": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ci_cd_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_environment_management": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automated_test_generation": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "bug_detection": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "debugging_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "workflow_composition": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Roo Code": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multi_agent_coordination": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "model_flexibility": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "visual_development": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "component_templates": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "one_click_deployment": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multimodal_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "SQLAI.ai": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "SWE-agent": {
-    "ease_of_use": {
-      "rating": 3,
-      "reasoning": "Standard usability with no major hurdles noted."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Sourcegraph Cody": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "architectural_insight": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "literature_coverage": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "experiment_orchestration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_reusability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automation_efficiency": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "client_customization": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Tabnine": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reliability": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ide_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_quality_assurance": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_tooling_alignment": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "rapid_prototyping": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "minimal_setup": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "infrastructure_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "ci_cd_integration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "cloud_environment_management": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "automated_test_generation": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "bug_detection": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "debugging_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_composition": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multi_agent_coordination": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "model_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "component_templates": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "one_click_deployment": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "multimodal_support": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
   },
   "Terminus": {
-    "ease_of_use": {
-      "rating": 1,
-      "reasoning": "Complex interface or setup severely hinders usability."
-    },
-    "guided_learning": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "affordability": {
-      "rating": 5,
-      "reasoning": "Free and open-source, maximizing affordability."
-    },
-    "no_code_accessibility": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "business_data_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "productivity_gains": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "data_pipeline_integration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reproducibility": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "scalability": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "fast_reacclimation": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Trae": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "codebase_navigation": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "architectural_insight": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "literature_coverage": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "experiment_orchestration": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_reusability": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automation_efficiency": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "client_customization": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "Warp": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "reliability": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ide_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "code_quality_assurance": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_tooling_alignment": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "rapid_prototyping": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "minimal_setup": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_flexibility": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "chat.z.ai": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "infrastructure_orchestration": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "ci_cd_integration": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "cloud_environment_management": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "automated_test_generation": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "bug_detection": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "debugging_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "workflow_composition": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "devin": {
+    "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multi_agent_coordination": {
+    "beginner_friendly_onboarding": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "model_flexibility": {
+    "code_quality_testing": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "visual_development": {
+    "codebase_comprehension": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "component_templates": {
+    "creative_multimodal_exploration": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "one_click_deployment": {
+    "data_experimental_flexibility": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "multimodal_support": {
+    "visual_no_code_development": {
       "rating": 3,
       "reasoning": "Research to be done."
     },
-    "creative_coding_guidance": {
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "manus": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "mini-SWE-agent": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    }
+  },
+  "z.ai": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Research to be done."
+    },
+    "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Research to be done."
     }
