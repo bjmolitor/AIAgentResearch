@@ -5,7 +5,7 @@ Sales, presales, and management professionals who need to automate reports, pres
 ### Key Criteria
 - **Visual/No-Code Development** – build workflows using drag-and-drop components.
 - **Automation & Productivity** – reduce manual work and repetitive tasks.
-- **Data & Experimental Flexibility** – connect to spreadsheets, CRMs, or other data sources.
+- **Beginner-Friendly Onboarding** – simple setup, guidance, and affordability.
 
 ## Recommended Tools
 - **ChatGPT_agent** – draft presentations and automate document formatting.

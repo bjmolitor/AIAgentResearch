@@ -6,6 +6,7 @@ Independent professionals who automate workflows to serve more clients efficient
 - **Automation & Productivity** – deliver results with minimal manual work.
 - **Workflow & Agent Orchestration** – assemble reusable automation pipelines.
 - **Data & Experimental Flexibility** – adapt to varied client data environments.
+- **Code Quality & Testing** – ensure reliable, maintainable implementations.
 
 ## Recommended Tools
 - **LangGraph** – design reusable automation pipelines.
