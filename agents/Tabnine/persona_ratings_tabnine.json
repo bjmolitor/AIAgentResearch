@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "Tabnine is heavily focused on developer productivity. It offers a wide range of features designed to automate and accelerate the software development process, including AI-powered code completion, natural language-to-code generation, and autonomous implementation and validation of Atlassian Jira issues."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Tabnine has a simple and well-documented installation process for major IDEs. The 'Dev' plan is designed for individual developers, which makes it accessible to beginners. The quickstart guide and the intuitive nature of code completion help new users get started quickly. The lack of a permanently free tier (beyond a trial) can be a barrier for students and hobbyists."
   },
   "code_quality_testing": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Tabnine provides strong support for code quality and testing. The test generation feature helps developers create comprehensive test plans. The Code Review Agent, although in private preview, is a powerful tool for enforcing coding standards and best practices. The rating is not 5 because the Code Review Agent is not yet generally available."
   },
   "codebase_comprehension": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "The code explanation feature is a key tool for codebase comprehension, allowing developers to quickly understand the purpose of a piece of code. This is particularly useful for onboarding new team members or working with legacy code. It does not get a top score as it lacks advanced architectural analysis or visualization tools."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "The documentation mentions 'Image Prompts', which suggests some multimodal capabilities. However, this does not appear to be a core feature, and there is no other evidence of support for creative or multimodal exploration across text, image, or audio. Tabnine's focus is clearly on code."
   },
   "data_experimental_flexibility": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "The on-premise deployment option for the Enterprise plan gives companies the flexibility to use Tabnine with their own private data. However, Tabnine does not offer specific features for data science experimentation, such as integrations with data sources or experiment tracking tools."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "Tabnine is a tool designed for developers who write code. There is no evidence of any visual or no-code development features, such as a drag-and-drop interface or component templates."
   },
   "workflow_agent_orchestration": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "For enterprise customers, Tabnine offers strong workflow and orchestration capabilities through its self-hosted, on-premise deployment option. The Jira integration is also a plus. However, for individual developers, these capabilities are limited."
   }
 }
