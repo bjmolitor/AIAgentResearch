@@ -5,160 +5,40 @@
     ".*": {
       "type": "object",
       "properties": {
-        "affordability": {
+        "beginner_friendly_onboarding": {
           "$ref": "#/definitions/rating"
         },
-        "architectural_insight": {
+        "visual_no_code_development": {
           "$ref": "#/definitions/rating"
         },
-        "automated_test_generation": {
+        "automation_productivity": {
           "$ref": "#/definitions/rating"
         },
-        "automation_efficiency": {
+        "data_experimental_flexibility": {
           "$ref": "#/definitions/rating"
         },
-        "bug_detection": {
+        "workflow_agent_orchestration": {
           "$ref": "#/definitions/rating"
         },
-        "business_data_integration": {
+        "codebase_comprehension": {
           "$ref": "#/definitions/rating"
         },
-        "ci_cd_integration": {
+        "code_quality_testing": {
           "$ref": "#/definitions/rating"
         },
-        "client_customization": {
-          "$ref": "#/definitions/rating"
-        },
-        "cloud_environment_management": {
-          "$ref": "#/definitions/rating"
-        },
-        "cloud_tooling_alignment": {
-          "$ref": "#/definitions/rating"
-        },
-        "code_quality_assurance": {
-          "$ref": "#/definitions/rating"
-        },
-        "code_reusability": {
-          "$ref": "#/definitions/rating"
-        },
-        "codebase_navigation": {
-          "$ref": "#/definitions/rating"
-        },
-        "component_templates": {
-          "$ref": "#/definitions/rating"
-        },
-        "creative_coding_guidance": {
-          "$ref": "#/definitions/rating"
-        },
-        "creative_flexibility": {
-          "$ref": "#/definitions/rating"
-        },
-        "data_pipeline_integration": {
-          "$ref": "#/definitions/rating"
-        },
-        "debugging_support": {
-          "$ref": "#/definitions/rating"
-        },
-        "ease_of_use": {
-          "$ref": "#/definitions/rating"
-        },
-        "experiment_orchestration": {
-          "$ref": "#/definitions/rating"
-        },
-        "fast_reacclimation": {
-          "$ref": "#/definitions/rating"
-        },
-        "guided_learning": {
-          "$ref": "#/definitions/rating"
-        },
-        "ide_integration": {
-          "$ref": "#/definitions/rating"
-        },
-        "infrastructure_orchestration": {
-          "$ref": "#/definitions/rating"
-        },
-        "literature_coverage": {
-          "$ref": "#/definitions/rating"
-        },
-        "minimal_setup": {
-          "$ref": "#/definitions/rating"
-        },
-        "model_flexibility": {
-          "$ref": "#/definitions/rating"
-        },
-        "multi_agent_coordination": {
-          "$ref": "#/definitions/rating"
-        },
-        "multimodal_support": {
-          "$ref": "#/definitions/rating"
-        },
-        "no_code_accessibility": {
-          "$ref": "#/definitions/rating"
-        },
-        "one_click_deployment": {
-          "$ref": "#/definitions/rating"
-        },
-        "productivity_gains": {
-          "$ref": "#/definitions/rating"
-        },
-        "rapid_prototyping": {
-          "$ref": "#/definitions/rating"
-        },
-        "reliability": {
-          "$ref": "#/definitions/rating"
-        },
-        "reproducibility": {
-          "$ref": "#/definitions/rating"
-        },
-        "scalability": {
-          "$ref": "#/definitions/rating"
-        },
-        "visual_development": {
-          "$ref": "#/definitions/rating"
-        },
-        "workflow_composition": {
+        "creative_multimodal_exploration": {
           "$ref": "#/definitions/rating"
         }
       },
       "required": [
-        "affordability",
-        "architectural_insight",
-        "automated_test_generation",
-        "automation_efficiency",
-        "bug_detection",
-        "business_data_integration",
-        "ci_cd_integration",
-        "client_customization",
-        "cloud_environment_management",
-        "cloud_tooling_alignment",
-        "code_quality_assurance",
-        "code_reusability",
-        "codebase_navigation",
-        "component_templates",
-        "creative_coding_guidance",
-        "creative_flexibility",
-        "data_pipeline_integration",
-        "debugging_support",
-        "ease_of_use",
-        "experiment_orchestration",
-        "fast_reacclimation",
-        "guided_learning",
-        "ide_integration",
-        "infrastructure_orchestration",
-        "literature_coverage",
-        "minimal_setup",
-        "model_flexibility",
-        "multi_agent_coordination",
-        "multimodal_support",
-        "no_code_accessibility",
-        "one_click_deployment",
-        "productivity_gains",
-        "rapid_prototyping",
-        "reliability",
-        "reproducibility",
-        "scalability",
-        "visual_development",
-        "workflow_composition"
+        "beginner_friendly_onboarding",
+        "visual_no_code_development",
+        "automation_productivity",
+        "data_experimental_flexibility",
+        "workflow_agent_orchestration",
+        "codebase_comprehension",
+        "code_quality_testing",
+        "creative_multimodal_exploration"
       ],
       "additionalProperties": false
     }
