@@ -17,9 +17,10 @@
   ],
   "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
   "benchmarks": {
-    "terminal_bench_score": "20.0% ± 1.5",
+    "terminal_bench_score": "20.0% \u00b1 1.5",
     "terminal_bench_source": "https://www.tbench.ai/leaderboard",
     "task_success_rate": 0.2,
-    "resource_usage": "Runs locally; resource usage depends on chosen model"
+    "resource_usage": "Runs locally; resource usage depends on chosen model",
+    "terminal_bench_score_from_leaderboard": "20.0% \u00b1 1.5"
   }
 }
