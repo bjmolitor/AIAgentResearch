@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 3,
+    "reasoning": "Generates designs and prototypes from prompts, reducing manual drafting."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 4,
+    "reasoning": "Runs inside Figma's familiar interface with guided prompts."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Focused on design generation and lacks code testing features."
+  },
+  "codebase_comprehension": {
+    "rating": 2,
+    "reasoning": "Understands design systems and components but not source code."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 4,
+    "reasoning": "Supports text-to-design and image generation for creative exploration."
+  },
+  "data_experimental_flexibility": {
+    "rating": 2,
+    "reasoning": "Limited controls over model parameters or dataset customization."
+  },
+  "visual_no_code_development": {
+    "rating": 5,
+    "reasoning": "Enables drag-and-drop design and prototyping without coding."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 2,
+    "reasoning": "Integrates with Figma projects but lacks broader automation orchestration."
+  }
+}

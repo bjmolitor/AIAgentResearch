@@ -37,6 +37,7 @@ The following agents have been profiled in this repository:
 - CodeWP
 - Cursor
 - DeepCode AI
+- Figma Make
 - GitHub Copilot
 - Kilo
 - Replit AI
