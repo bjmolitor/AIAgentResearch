@@ -1,0 +1,109 @@
+{
+  "tasks": [
+    {
+      "id": "A.1",
+      "description": "Set up the basic project structure with Vite, Vue.js, and Tailwind CSS.",
+      "dependencies": []
+    },
+    {
+      "id": "A.2",
+      "description": "Create the basic HTML structure for the landing page, including the header, main content area, and footer.",
+      "dependencies": []
+    },
+    {
+      "id": "A.3",
+      "description": "Configure Tailwind CSS with the color palette and fonts from the style_guide.md.",
+      "dependencies": ["A.1"]
+    },
+    {
+      "id": "B.1",
+      "description": "Create a Vue component for the agent table and fetch the data from agents.json to display it.",
+      "dependencies": ["A.1", "A.2", "A.3"]
+    },
+    {
+      "id": "B.2",
+      "description": "Style the agent table according to the style_guide.md.",
+      "dependencies": ["B.1"]
+    },
+    {
+      "id": "C.1",
+      "description": "Create a Vue component for the agent detail modal.",
+      "dependencies": ["A.1", "A.2", "A.3"]
+    },
+    {
+      "id": "C.2",
+      "description": "Implement the functionality to open the agent detail modal when an agent's name is clicked in the table.",
+      "dependencies": ["B.1", "C.1"]
+    },
+    {
+      "id": "C.3",
+      "description": "Populate the agent detail modal with the data from the selected agent.",
+      "dependencies": ["C.2"]
+    },
+    {
+      "id": "C.4",
+      "description": "Style the agent detail modal according to the style_guide.md.",
+      "dependencies": ["C.3"]
+    },
+    {
+      "id": "D.1",
+      "description": "Create the 'Can you recommend something?' button on the landing page.",
+      "dependencies": ["A.2"]
+    },
+    {
+      "id": "D.2",
+      "description": "Create a Vue component for the personas overlay.",
+      "dependencies": ["A.1", "A.2", "A.3"]
+    },
+    {
+      "id": "D.3",
+      "description": "Implement the functionality to open the personas overlay when the 'Can you recommend something?' button is clicked.",
+      "dependencies": ["D.1", "D.2"]
+    },
+    {
+      "id": "D.4",
+      "description": "Fetch the data from personas.json and display the personas as cards in the overlay.",
+      "dependencies": ["D.3"]
+    },
+    {
+      "id": "D.5",
+      "description": "Style the personas overlay and cards according to the style_guide.md.",
+      "dependencies": ["D.4"]
+    },
+    {
+      "id": "E.1",
+      "description": "Create the persona detail page.",
+      "dependencies": ["A.1", "A.2", "A.3"]
+    },
+    {
+      "id": "E.2",
+      "description": "Implement the navigation from a persona card to the corresponding persona detail page.",
+      "dependencies": ["D.4", "E.1"]
+    },
+    {
+      "id": "E.3",
+      "description": "Display the detailed information for the selected persona on the page.",
+      "dependencies": ["E.2"]
+    },
+    {
+      "id": "E.4",
+      "description": "Display the recommended agents for the selected persona on the page.",
+      "dependencies": ["E.3", "B.1"]
+    },
+    {
+      "id": "E.5",
+      "description": "Style the persona detail page according to the style_guide.md.",
+      "dependencies": ["E.4"]
+    },
+    {
+      "id": "F.1",
+      "description": "Implement interactive filtering and sorting for the agent table.",
+      "dependencies": ["B.2"]
+    },
+    {
+      "id": "F.2",
+      "description": "Add a search bar to filter agents by name.",
+      "dependencies": ["B.2"]
+    }
+  ]
+}
