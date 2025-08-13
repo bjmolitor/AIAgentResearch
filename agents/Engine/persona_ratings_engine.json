@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "Engine turns issues into pull requests, responds to code reviews and CI/CD, and can operate in autopilot in its own VM, reducing manual work."
   },
   "beginner_friendly_onboarding": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Tiered plans and web onboarding make start simple, but understanding integration with project tools requires some expertise."
   },
   "code_quality_testing": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "The agent reacts to code reviews and CI actions to ensure generated changes pass checks, though it lacks dedicated test generation."
   },
   "codebase_comprehension": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Engine works inside a full development environment and uses repository context to modify code and produce targeted pull requests."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "The platform is focused on software engineering and does not handle images, audio, or other creative modalities."
   },
   "data_experimental_flexibility": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Supports multiple LLMs and service integrations but has no built-in tools for data science experimentation or tracking."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Provides a browser IDE to collaborate with the agent, yet development remains code-centric without drag-and-drop interfaces."
   },
   "workflow_agent_orchestration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "Designed for workflow automation with integrations to Linear, Jira, Slack, and Git platforms, enabling autonomous end-to-end task execution."
   }
 }
