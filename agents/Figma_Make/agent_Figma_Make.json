@@ -1,0 +1,20 @@
+{
+  "name": "Figma Make",
+  "website": "https://www.figma.com/ai/",
+  "developer": "Figma Inc.",
+  "key_features": [
+    "Generate UI mockups from text prompts using 'Make Designs'",
+    "Automatically build interactive flows with 'Make Prototypes'",
+    "Produce placeholder copy and imagery for designs",
+    "Leverage existing components and auto layout for consistency"
+  ],
+  "supported_models": [
+    "Proprietary Figma generative models (details undisclosed)"
+  ],
+  "pricing_model": "Included with Figma subscription; AI features currently in beta",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}

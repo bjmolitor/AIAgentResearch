@@ -49,6 +49,7 @@ The following agents have been profiled in this repository:
 - ChatGPT agent (`agents/ChatGPT_agent`)
 - devin (`agents/devin`)
 - enginelabs (`agents/enginelabs`)
+- Figma Make (`agents/Figma_Make`)
 - Google Vertex AI Engine (`agents/google_vertex_ai_engine`)
 - Jules (`agents/Jules`)
 - manus (`agents/manus`)
