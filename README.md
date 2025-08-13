@@ -55,7 +55,6 @@ The following agents have been profiled in this repository:
 - manus (`agents/manus`)
 - Minimax agent (`agents/Minimax_agent`)
 - Trae (`agents/Trae`)
-- z.ai (`agents/z.ai`)
 - chat.z.ai (`agents/chat.z.ai`)
 - Perplexity Labs (`agents/Perplexity_Labs`)
 - v0.app (`agents/v0.app`)

@@ -9,11 +9,9 @@ Designers and artists exploring interactive or multimedia experiences with the h
 ## Recommended Tools
 - **Gemini_CLI** – experiment with text, image, and audio generation.
 - **Claude_Code** – ideate and scaffold creative code snippets.
-- **z.ai** – brainstorm and refine narratives or copy.
 - **Replit_AI** – prototype interactive concepts quickly.
 
 ## Why These Tools
 - **Gemini_CLI** enables multimodal experimentation across media types.
 - **Claude_Code** assists in crafting imaginative code structures.
-- **z.ai** supports brainstorming and narrative refinement.
 - **Replit_AI** allows fast prototyping of interactive ideas.
