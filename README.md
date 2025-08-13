@@ -20,30 +20,54 @@ The following agents have been profiled in this repository:
 
 ### Terminal-Based Agents
 - Claude Code
+- Codex CLI
 - Gemini CLI
-- Qwen CLI
+- Goose
 - LogiQCLI
+- Qwen CLI
+- Warp
 - OpenAI Codex
+- Aider
 
 ### IDE-Embedded Agents
-- Roo Code
-- Kilo
+- Amazon CodeGuru
+- Amazon CodeWhisperer
+- Android Studio Bot
+- AskCodi
 - Cline
+- CodeGPT
+- CodeWP
 - Cursor
+- DeepCode AI
+- GitHub Copilot
+- Kilo
+- Replit AI
+- Roo Code
+- Sourcegraph Cody
+- SQLAI.ai
+- Tabnine
 
 ### Web & Virtualized Agents
-- Jules
 - ChatGPT agent
-- z.ai
 - devin
+- Engine
+- Jules
 - manus
 - Minimax agent
-- Perplexity Labs
+- Trae
+- z.ai
+- chat.z.ai
+- Perplexity
 
 ### Agent Frameworks
 - CrewAI
 - LangChain
 - LangGraph
+- Letta
+- mini-SWE-agent
+- OpenHands
+- SWE-agent
+- Terminus
 
 ## Contributing
 
