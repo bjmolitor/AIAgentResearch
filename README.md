@@ -6,11 +6,9 @@ This repository contains a curated list of AI agents, categorized and profiled t
 
 The repository is organized as follows:
 
-- **`agents.json`**: This file contains the structured data for all the profiled AI agents. It is the single source of truth for the information presented in this repository.
+- **Agent JSON files**: Each agent's subdirectory contains a structured `agent_<name>.json` file with all collected data about that agent. These files conform to `agents.schema.json` and serve as the source of truth for the repository.
 
-- **`agents/`**: This directory contains individual profiles for each AI agent. Each agent has its own subdirectory, which includes a `profile.md` file.
-
-- **`profile.md`**: Each `profile.md` file provides a human-readable summary of the corresponding agent's data from `agents.json`.
+- **`agents/`**: This directory contains individual folders for each AI agent. Every folder includes the `agent_<name>.json` file and a `profile.md` with a human-readable summary.
 
 - **`VISION.md`**: This document outlines the long-term vision for this project, including plans for automated research and report generation.
 
@@ -74,7 +72,7 @@ The following agents have been profiled in this repository:
 Contributions to this project are welcome. If you would like to add a new agent or update the information for an existing one, please follow these steps:
 
 1.  **Fork the repository.**
-2.  **Add or update the agent's data in `agents.json`.** Please ensure that the data is accurate and well-sourced.
+2.  **Add or update the agent's data in the appropriate `agent_<name>.json` file inside `agents/<name>/`.** Please ensure that the data is accurate and well-sourced.
 3.  **Create or update the corresponding `profile.md` file.** This can be done manually or with a script that generates the Markdown from the JSON data.
 4.  **Submit a pull request.**
 

@@ -1,0 +1,32 @@
+{
+  "name": "Engine",
+  "website": "https://enginelabs.ai/",
+  "developer": "Engine Labs",
+  "key_features": [
+    "Remote AI software engineer",
+    "Works without supervision in its own VM",
+    "Turns issues into pull requests",
+    "Integrates with Linear, Trello, Jira, ClickUp, Slack, GitHub, GitLab",
+    "Responds to code reviews and CI/CD actions",
+    "Works in its own remote development environment",
+    "Provides an IDE to work alongside the AI",
+    "Autopilot mode"
+  ],
+  "supported_models": [
+    "Anthropic (Claude 4)",
+    "OpenAI (o3)",
+    "Google"
+  ],
+  "pricing_model": "Tiered (Intern, Junior, Senior, Staff)",
+  "benchmarks": {
+    "terminal_bench_score": "#2",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mini-SWE-agent",
+  "website": "https://swe-agent.com/",
+  "developer": "Princeton University and Stanford University researchers",
+  "key_features": [
+    "A lightweight version of SWE-agent, implemented in 100 lines of code.",
+    "Achieves 65% on SWE-bench verified."
+  ],
+  "supported_models": [
+    "GPT-4o",
+    "Claude Sonnet 4"
+  ],
+  "pricing_model": "Open-source, with users paying for the underlying model APIs.",
+  "benchmarks": {
+    "swe_bench_score": "65% on SWE-bench verified",
+    "swe_bench_source": "https://swe-agent.com/",
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

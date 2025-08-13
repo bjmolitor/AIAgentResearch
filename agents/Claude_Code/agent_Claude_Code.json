@@ -1,0 +1,38 @@
+{
+  "name": "Claude Code",
+  "website": "https://docs.anthropic.com/en/docs/claude-code/overview",
+  "developer": "Anthropic",
+  "key_features": [
+    "Build features from natural language descriptions.",
+    "Debug and fix issues from error messages.",
+    "Navigate and understand codebases.",
+    "Automate tasks like fixing lint issues and writing release notes.",
+    "Works in the terminal.",
+    "Can take actions like editing files, running commands, and creating commits.",
+    "Composable and scriptable (Unix philosophy).",
+    "Enterprise-ready (can be self-hosted on AWS or GCP)."
+  ],
+  "supported_models": [
+    "Claude Opus 4.1",
+    "Claude Opus 4",
+    "Claude Sonnet 4",
+    "Claude Sonnet 3.7",
+    "Claude Sonnet 3.5",
+    "Claude Haiku 3.5",
+    "Claude Haiku 3"
+  ],
+  "pricing_model": "Based on API token consumption. Average cost of ~$6 per developer per day. Average monthly cost of ~$100-200 per developer per month with Sonnet 4. Usage included for Pro and Max plan users.",
+  "benchmarks": {
+    "swe_bench_score": 49,
+    "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
+    "terminal_bench_score": "43.2% ± 1.3",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+    "task_success_rate": 0.432,
+    "resource_usage": "Not publicly documented"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": 3,
+    "documentation_quality": 3,
+    "onboarding_experience": 3
+  }
+}

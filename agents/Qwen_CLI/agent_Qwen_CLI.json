@@ -1,0 +1,25 @@
+{
+  "name": "Qwen CLI",
+  "website": "https://github.com/QwenLM/qwen-code",
+  "developer": "Alibaba",
+  "key_features": [
+    "Navigate and understand complex codebases",
+    "Detect and fix coding issues",
+    "Generate code and unit tests",
+    "Create documentation and flowcharts"
+  ],
+  "supported_models": [
+    "Qwen3-Coder"
+  ],
+  "pricing_model": "Based on API key usage from Alibaba Cloud or third-party services like OpenRouter.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": "Not publicly documented"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": 3,
+    "documentation_quality": 3,
+    "onboarding_experience": 3
+  }
+}

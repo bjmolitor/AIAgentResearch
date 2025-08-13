@@ -1,0 +1,24 @@
+{
+  "name": "LangGraph",
+  "website": "https://langchain-ai.github.io/langgraph/",
+  "developer": "LangChain, Inc.",
+  "key_features": [
+    "Reliability and controllability",
+    "Low-level and extensible",
+    "First-class streaming support"
+  ],
+  "supported_models": [
+    "Any LLM supported by LangChain"
+  ],
+  "pricing_model": "Open-source",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

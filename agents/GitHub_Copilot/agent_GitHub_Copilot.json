@@ -1,0 +1,42 @@
+{
+  "name": "GitHub Copilot",
+  "website": "https://github.com/features/copilot",
+  "developer": "GitHub/Microsoft",
+  "key_features": [
+    "Code suggestions as you type",
+    "Chat with Copilot",
+    "Copilot in the CLI",
+    "Copilot Spaces for task-specific context",
+    "Pull request description generation",
+    "Knowledge bases for context-aware chat",
+    "Coding agent for end-to-end tasks",
+    "Code suggestions in the IDE",
+    "Command-line assistance",
+    "Knowledge base creation (Enterprise only)",
+    "Code changes and pull request creation (Pro+, Business, Enterprise)"
+  ],
+  "supported_models": [
+    "GPT-4.1",
+    "o3",
+    "o4-mini",
+    "Claude Opus 4.1",
+    "Claude Opus 4",
+    "Claude Sonnet 3.5",
+    "Claude Sonnet 3.7",
+    "Claude Sonnet 4",
+    "Gemini 2.5 Pro",
+    "Gemini 2.0 Flash",
+    "Models from OpenAI, GitHub, and Microsoft"
+  ],
+  "pricing_model": "Tiered (Free, Pro, Business, Enterprise)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

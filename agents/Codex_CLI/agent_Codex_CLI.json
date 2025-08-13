@@ -1,0 +1,30 @@
+{
+  "name": "Codex CLI",
+  "website": "https://github.com/openai/codex",
+  "developer": "OpenAI",
+  "key_features": [
+    "Lightweight coding agent that runs in the terminal.",
+    "Can read, modify, and run code locally.",
+    "Chat-driven development.",
+    "Full auto-approval mode with sandboxing.",
+    "Multimodal (can accept screenshots or diagrams).",
+    "Supports open-source models like Ollama.",
+    "Supports MCP servers.",
+    "Aware of AGENTS.md files for extra instructions."
+  ],
+  "supported_models": [
+    "Any model available with the OpenAI Responses API (defaults to o4-mini)"
+  ],
+  "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
+  "benchmarks": {
+    "terminal_bench_score": "20.0% ± 1.5",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+    "task_success_rate": 0.2,
+    "resource_usage": "Runs locally; resource usage depends on chosen model"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": 3,
+    "documentation_quality": 3,
+    "onboarding_experience": 2
+  }
+}

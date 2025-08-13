@@ -1,0 +1,33 @@
+{
+  "name": "DeepCode AI",
+  "website": "https://snyk.io/platform/deepcode-ai/",
+  "developer": "Snyk",
+  "key_features": [
+    "Static Application Security Testing (SAST)",
+    "Integration with Snyk's vulnerability database",
+    "Code analysis using abstract syntax trees (AST)",
+    "Security vulnerability detection",
+    "Code quality checks",
+    "AI-powered code review.",
+    "Identifies security vulnerabilities and quality issues.",
+    "Provides security autofixes.",
+    "Scans code in real-time.",
+    "Risk-based prioritization powered by AI.",
+    "Simplified rules creation with DeepCode AI Search."
+  ],
+  "supported_models": [
+    "Machine learning models trained on hundreds of thousands of repositories",
+    "Multiple fine-tuned AI models (hybrid of symbolic and generative AI)"
+  ],
+  "pricing_model": "Tiered (Free, Team, Enterprise). Team plan starts at $25/month per contributing developer.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

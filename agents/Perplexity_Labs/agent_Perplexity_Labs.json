@@ -1,0 +1,24 @@
+{
+  "name": "Perplexity",
+  "website": "https://www.perplexity.ai/",
+  "developer": "Perplexity Labs",
+  "key_features": [
+    "AI-powered search interface",
+    "Provides cited answers from web sources",
+    "Supports follow-up questions and conversations"
+  ],
+  "supported_models": [
+    "Mixture of proprietary and open-source models"
+  ],
+  "pricing_model": "Free tier with optional Pro subscription",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

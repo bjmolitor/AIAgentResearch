@@ -1,0 +1,30 @@
+{
+  "name": "Amazon CodeWhisperer",
+  "website": "https://aws.amazon.com/codewhisperer/",
+  "developer": "Amazon Web Services (AWS)",
+  "key_features": [
+    "Code recommendations based on natural language comments",
+    "Security scanning to detect vulnerabilities",
+    "Reference tracker to detect similarity to training data",
+    "Bias detection and filtering",
+    "Supports 15+ programming languages, including Python, Java, and JavaScript",
+    "Generates code recommendations based on natural language comments and existing code.",
+    "Supports multiple IDEs, including VS Code, JetBrains IDEs, and AWS services like SageMaker Studio and Lambda.",
+    "Is becoming a part of Amazon Q Developer."
+  ],
+  "supported_models": [
+    "Not specified",
+    "AWS models"
+  ],
+  "pricing_model": "Tiered (Free, Pro at $19/month per user). See Amazon Q Developer pricing for details.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

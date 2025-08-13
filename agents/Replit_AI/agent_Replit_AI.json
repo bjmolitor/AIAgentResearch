@@ -1,0 +1,31 @@
+{
+  "name": "Replit AI",
+  "website": "https://replit.com/ai",
+  "developer": "Replit, Inc.",
+  "key_features": [
+    "Turn natural language into apps and websites",
+    "Builds automatically from a simple chat",
+    "No-code needed",
+    "The AI is smart enough to fix bugs for you",
+    "Builds apps and websites from natural language prompts.",
+    "Can create a working prototype from an idea.",
+    "Can build an app from a screenshot.",
+    "Fixes bugs automatically."
+  ],
+  "supported_models": [
+    "Not specified",
+    "Claude Sonnet 4",
+    "OpenAI GPT-4o"
+  ],
+  "pricing_model": "Tiered (Starter, Replit Core, Teams, Enterprise). Replit Core is $20/month.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

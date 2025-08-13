@@ -1,0 +1,31 @@
+{
+  "name": "Amazon CodeGuru",
+  "website": "https://aws.amazon.com/codeguru/",
+  "developer": "Amazon Web Services (AWS)",
+  "key_features": [
+    "Static application security testing (SAST)",
+    "Combines machine learning (ML) and automated reasoning",
+    "Identifies vulnerabilities in your code",
+    "Provides recommendations on how to fix vulnerabilities",
+    "Tracks the status of vulnerabilities until closure",
+    "Integrates with CI/CD tooling",
+    "Reduces false-positive detections",
+    "Automatically tracks bug closure",
+    "Includes CodeGuru Profiler for finding an application's most expensive lines of code."
+  ],
+  "supported_models": [
+    "Not specified",
+    "Machine learning models"
+  ],
+  "pricing_model": "Monthly fixed rate based on the number of lines of code scanned. For example, $10 for every 100k lines of code. CodeGuru Security is free in public preview. CodeGuru Reviewer and Profiler have free tiers and paid plans based on usage.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

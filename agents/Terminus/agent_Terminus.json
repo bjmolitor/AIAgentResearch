@@ -1,0 +1,27 @@
+{
+  "name": "Terminus",
+  "website": "https://www.tbench.ai/terminus",
+  "developer": "Mike Merrill and Alex Shaw",
+  "key_features": [
+    "Research-preview agent for evaluating language models in the terminal.",
+    "Operates entirely autonomously.",
+    "Agnostic to specific language models (supports any API or locally hosted model through LiteLLM).",
+    "Remotely connects to its dockerized execution environment through a tmux session.",
+    "Has only a single tool: an interactive tmux session."
+  ],
+  "supported_models": [
+    "Model-agnostic"
+  ],
+  "pricing_model": "Research project, likely free to use.",
+  "benchmarks": {
+    "terminal_bench_score": "39.9% ± 1.0",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+    "task_success_rate": 0.399,
+    "resource_usage": "Not publicly documented; depends on remote environment and model"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": 1,
+    "documentation_quality": 1,
+    "onboarding_experience": 1
+  }
+}

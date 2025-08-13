@@ -1,0 +1,28 @@
+{
+  "name": "Aider",
+  "website": "https://aider.chat/",
+  "developer": "Paul Gauthier",
+  "key_features": [
+    "Chat-based pair programming in the terminal",
+    "Deep Git integration with automatic commits",
+    "Edits multiple files with model-generated patches",
+    "Runs tests and applies fixes iteratively"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4 family",
+    "Anthropic Claude 3 models",
+    "Google Gemini models",
+    "Local models via OpenRouter or Ollama"
+  ],
+  "pricing_model": "Open-source; users pay for underlying model API usage",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

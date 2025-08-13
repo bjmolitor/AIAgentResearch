@@ -1,0 +1,29 @@
+{
+  "name": "Cline",
+  "website": "https://cline.bot/",
+  "developer": "Cline Bot Inc.",
+  "key_features": [
+    "Plan Mode for complex tasks",
+    "Complete transparency",
+    "Use your own models and API keys",
+    ".clinerules for project-specific instructions",
+    "MCP Integration",
+    "Context Intelligence",
+    "Terminal Mastery",
+    "100% Open Source"
+  ],
+  "supported_models": [
+    "Model-agnostic (supports Claude, Gemini, DeepSeek, and any other model)"
+  ],
+  "pricing_model": "Free and open source. Users pay for the AI models they use. A 'Cline Teams' plan is available for enterprises.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "devin",
+  "website": "https://devin.ai/",
+  "developer": "Cognition",
+  "key_features": [
+    "Fully autonomous AI software engineer",
+    "Can learn unfamiliar technologies",
+    "Can build and deploy apps end-to-end",
+    "Can autonomously find and fix bugs in codebases",
+    "Can train and fine-tune its own AI models",
+    "Has access to a shell, code editor, and browser",
+    "Collaborates with the user"
+  ],
+  "supported_models": [
+    "Not specified"
+  ],
+  "pricing_model": "Tiered (Core, Teams). Pricing is based on Agent Compute Units (ACUs).",
+  "benchmarks": {
+    "swe_bench_score": 13.86,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

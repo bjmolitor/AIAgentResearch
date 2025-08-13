@@ -1,0 +1,26 @@
+{
+  "name": "Letta",
+  "website": "https://www.letta.com/",
+  "developer": "Letta",
+  "key_features": [
+    "Platform for stateful AI agents",
+    "Advanced memory and infinite context (powered by MemGPT)",
+    "Agents are exposed as REST API endpoints",
+    "Agent Development Environment (ADE) to visualize memory, reasoning, and tool calls",
+    "Support for custom tools and MCP",
+    "Framework agnostic (Python, Node.js, Vercel AI SDK, Next.js, React)"
+  ],
+  "supported_models": [
+    "Model-agnostic"
+  ],
+  "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
+  "benchmarks": {
+    "terminal_bench_score": "42.5% ± 0.8",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

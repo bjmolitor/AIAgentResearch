@@ -1,0 +1,33 @@
+{
+  "name": "Sourcegraph Cody",
+  "website": "https://sourcegraph.com/cody",
+  "developer": "Sourcegraph, Inc.",
+  "key_features": [
+    "Developer chat with the most powerful models and context",
+    "Code completions, code edits, and customizable prompts",
+    "Extensive context from local and remote codebases",
+    "Debug code",
+    "Context Filters",
+    "AI coding assistant for writing, fixing, and maintaining code.",
+    "Powered by a \"code graph\".",
+    "Code Search for exploring the entire codebase.",
+    "Works with VS Code, JetBrains IDEs, and other editors.",
+    "Chat, autocomplete, and inline edit features."
+  ],
+  "supported_models": [
+    "Latest LLMs, including models from OpenAI (GPT) and Anthropic (Claude)",
+    "Claude Sonnet 4",
+    "GPT-4o"
+  ],
+  "pricing_model": "Enterprise-focused pricing. 'Talk to sales' option. No public pricing for individuals.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Tabnine",
+  "website": "https://www.tabnine.com/",
+  "developer": "Tabnine",
+  "key_features": [
+    "Code completions",
+    "Inline Actions",
+    "Tabnine Chat",
+    "Test Agent",
+    "Code Review Agent",
+    "AI code completion",
+    "Supports a wide range of programming languages and IDEs",
+    "Can predict full lines and snippets of code",
+    "AI-powered chat agent for generating, explaining, and testing code"
+  ],
+  "supported_models": [
+    "GPT-4o mini (for Code Review Agent)",
+    "Other models for chat and code completion",
+    "Large-language models"
+  ],
+  "pricing_model": "Tiered (Dev, Enterprise)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

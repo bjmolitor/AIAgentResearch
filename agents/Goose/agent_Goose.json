@@ -1,0 +1,26 @@
+{
+  "name": "Goose",
+  "website": "https://block.github.io/goose/",
+  "developer": "Block",
+  "key_features": [
+    "Open source AI agent",
+    "Runs locally",
+    "Extensible (custom LLM, MCP server, API)",
+    "Autonomous (debugging to deployment)"
+  ],
+  "supported_models": [
+    "Model-agnostic"
+  ],
+  "pricing_model": "Open-source",
+  "benchmarks": {
+    "terminal_bench_score": "42.0% ± 1.3",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+    "task_success_rate": 0.42,
+    "resource_usage": "Depends on local hardware and model; no public metrics"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": 2,
+    "documentation_quality": 3,
+    "onboarding_experience": 2
+  }
+}
