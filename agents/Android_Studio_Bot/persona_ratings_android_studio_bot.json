@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Provides code generation and error-fix suggestions inside Android Studio, speeding up routine development tasks, but it does not yet handle end-to-end automation or project management."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Activation is a simple opt-in within Android Studio and the feature is backed by detailed guides and codelabs, though availability is limited to certain regions."
   },
   "code_quality_testing": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Can propose fixes and generate unit tests for Kotlin and Java, but developers still need to run tests and review results manually."
   },
   "codebase_comprehension": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Uses project context to explain code and APIs, yet its understanding is limited to files that are open or indexed in the IDE."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "Interaction is text-only with no support for image, audio, or other modalities."
   },
   "data_experimental_flexibility": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Focuses on Android project code and lacks native tools for arbitrary data analysis or custom data connections."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "Designed for code-centric workflows rather than drag-and-drop or no-code development."
   },
   "workflow_agent_orchestration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Acts as a single assistant within the IDE and does not coordinate multiple agents or automate deployments."
   }
 }

@@ -3,19 +3,23 @@
   "website": "https://developer.android.com/studio",
   "developer": "Google",
   "key_features": [
-    "AI-powered conversational experience",
-    "Generates code",
-    "Answers questions about Android development",
-    "Helps fix errors",
-    "Leverages Codey, Google's foundation model for coding, which is a descendant of PaLM 2."
+    "Conversational assistant integrated into Android Studio",
+    "Context-aware Kotlin and Java code generation",
+    "Answers Android development questions with links to official documentation",
+    "Suggests fixes for build and runtime errors",
+    "Generates unit tests and Jetpack Compose UI snippets",
+    "Explains existing code and APIs"
   ],
   "supported_models": [
-    "Codey (descendant of PaLM 2)"
+    "Gemini (fine-tuned for Android development; initially Codey based on PaLM 2)"
   ],
   "pricing_model": "Included with Android Studio",
   "benchmarks": {
     "swe_bench_score": null,
+    "swe_bench_source": null,
+    "terminal_bench_score": null,
+    "terminal_bench_source": null,
     "task_success_rate": null,
-    "resource_usage": ""
+    "resource_usage": null
   }
 }
