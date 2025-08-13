@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SNP Icons - Final Collection</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif; 
+            background: linear-gradient(135deg, #142ED9 0%, #151975 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #00FFEB;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            text-align: center;
+            font-size: 1.3em;
+            color: #9FDB9D;
+            margin-bottom: 50px;
+            opacity: 0.9;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .stat-card {
+            background: rgba(98,98,98,0.1);
+            border-radius: 12px;
+            padding: 20px 30px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #00FFEB;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+        
+        .section {
+            margin-bottom: 60px;
+        }
+        
+        .section-title {
+            font-size: 2em;
+            color: #00FFEB;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #00FFEB, #9FDB9D);
+            border-radius: 2px;
+        }
+        
+        .icon-grid {
+            display: grid;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .slide1-grid {
+            grid-template-columns: repeat(10, 1fr);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .other-grid {
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+        
+        .icon-card {
+            background: rgba(21, 25, 117, 0.8);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0, 98, 235, 0.2);
+        }
+        
+        .icon-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 98, 235, 0.1), transparent);
+            transition: left 0.5s;
+        }
+        
+        .icon-card:hover::before {
+            left: 100%;
+        }
+        
+        .icon-card:hover {
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 98, 235, 0.3);
+            border-color: #00FFEB;
+        }
+        
+        .icon-card img {
+            width: 60px;
+            height: 60px;
+            filter: brightness(0) invert(1);
+            transition: all 0.3s;
+            margin-bottom: 12px;
+        }
+        
+        .icon-card:hover img {
+            filter: brightness(0) invert(1) drop-shadow(0 0 10px #00FFEB);
+            transform: scale(1.1);
+        }
+        
+        .icon-name {
+            font-size: 11px;
+            color: #00FFEB;
+            text-transform: capitalize;
+            opacity: 0.9;
+            line-height: 1.3;
+        }
+        
+        .download-all {
+            text-align: center;
+            margin: 50px 0;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #00FFEB, #9FDB9D);
+            color: #142ED9;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 98, 235, 0.4);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 98, 235, 0.6);
+        }
+        
+        @media (max-width: 1200px) {
+            .slide1-grid { grid-template-columns: repeat(8, 1fr); }
+        }
+        
+        @media (max-width: 900px) {
+            .slide1-grid { grid-template-columns: repeat(6, 1fr); }
+            .other-grid { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
+        }
+        
+        @media (max-width: 600px) {
+            .slide1-grid { grid-template-columns: repeat(4, 1fr); }
+            h1 { font-size: 2em; }
+            .stats { flex-direction: column; align-items: center; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SNP Icon Collection</h1>
+        <p class="subtitle">Professional SVG Icons Extracted from PowerPoint Presentation</p>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">58</div>
+                <div class="stat-label">Named Icons</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">98</div>
+                <div class="stat-label">Additional Icons</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">156</div>
+                <div class="stat-label">Total Icons</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Slide 1 - Named Icons</h2>
+            <div class="icon-grid slide1-grid">
+
+                <div class="icon-card" onclick="downloadIcon('add_plus.svg')">
+                    <img src="circle_add.svg" alt="add plus">
+                    <div class="icon-name">add plus</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('ai_brain.svg')">
+                    <img src="gear_settings.svg" alt="ai brain">
+                    <div class="icon-name">ai brain</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('analytics_chart.svg')">
+                    <img src="people_analytics.svg" alt="analytics chart">
+                    <div class="icon-name">analytics chart</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('arrow_back.svg')">
+                    <img src="arrow_left_circle.svg" alt="arrow back">
+                    <div class="icon-name">arrow back</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('arrow_up.svg')">
+                    <img src="arrow_up.svg" alt="arrow up">
+                    <div class="icon-name">arrow up</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('bug_testing.svg')">
+                    <img src="idea_lightbulb.svg" alt="bug testing">
+                    <div class="icon-name">bug testing</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('building_office.svg')">
+                    <img src="buildings.svg" alt="building office">
+                    <div class="icon-name">building office</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('calendar_schedule.svg')">
+                    <img src="clock.svg" alt="calendar schedule">
+                    <div class="icon-name">calendar schedule</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('calendar_grid.svg')">
+                    <img src="calendar_grid.svg" alt="calendar grid">
+                    <div class="icon-name">close x</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('trophy_award.svg')">
+                    <img src="award_achievement.svg" alt="trophy award">
+                    <div class="icon-name">chat conversation</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('headset_support.svg')">
+                    <img src="headset_audio.svg" alt="headset support">
+                    <div class="icon-name">headset support</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('cloud_weather.svg')">
+                    <img src="cloud_weather.svg" alt="cloud weather">
+                    <div class="icon-name">check complete</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('gear_cog.svg')">
+                    <img src="gear_cog.svg" alt="gear cog">
+                    <div class="icon-name">chevron up</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('clipboard_list.svg')">
+                    <img src="clipboard_list.svg" alt="clipboard list">
+                    <div class="icon-name">clipboard list</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('clock_time.svg')">
+                    <img src="stopwatch_timer.svg" alt="clock time">
+                    <div class="icon-name">clock time</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('clock_timer.svg')">
+                    <img src="folder_document.svg" alt="clock timer">
+                    <div class="icon-name">clock timer</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('triangle_up.svg')">
+                    <img src="triangle_up.svg" alt="triangle up">
+                    <div class="icon-name">cloud network</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('database_cylinder.svg')">
+                    <img src="database_cylinder.svg" alt="database cylinder">
+                    <div class="icon-name">cylinder storage</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('database_report.svg')">
+                    <img src="database_chart.svg" alt="database report">
+                    <div class="icon-name">database report</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('database_secure.svg')">
+                    <img src="database_shield.svg" alt="database secure">
+                    <div class="icon-name">database secure</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('database_stack.svg')">
+                    <img src="database_stack.svg" alt="database stack">
+                    <div class="icon-name">database stack</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('database_storage.svg')">
+                    <img src="grid_table.svg" alt="database storage">
+                    <div class="icon-name">database storage</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('database_valid.svg')">
+                    <img src="database_checkmark.svg" alt="database valid">
+                    <div class="icon-name">database valid</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('diamond_quality.svg')">
+                    <img src="diamond_quality.svg" alt="diamond quality">
+                    <div class="icon-name">diamond quality</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('diamond_value.svg')">
+                    <img src="diamond_value.svg" alt="diamond value">
+                    <div class="icon-name">diamond value</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('document_verified.svg')">
+                    <img src="document_certificate.svg" alt="document verified">
+                    <div class="icon-name">document verified</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('documents_folder.svg')">
+                    <img src="documents_folder.svg" alt="documents folder">
+                    <div class="icon-name">documents folder</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('drill_tool.svg')">
+                    <img src="drill_tool.svg" alt="drill tool">
+                    <div class="icon-name">drill tool</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('flag_milestone.svg')">
+                    <img src="flag_milestone.svg" alt="flag milestone">
+                    <div class="icon-name">flag milestone</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('folder_hierarchy.svg')">
+                    <img src="tree_folder.svg" alt="folder hierarchy">
+                    <div class="icon-name">folder hierarchy</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('folder_open.svg')">
+                    <img src="gears_mechanism.svg" alt="folder open">
+                    <div class="icon-name">folder open</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('gear_refresh.svg')">
+                    <img src="gear_arrow.svg" alt="gear refresh">
+                    <div class="icon-name">gear refresh</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('process_gears.svg')">
+                    <img src="gears_process.svg" alt="process gears">
+                    <div class="icon-name">process gears</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('gears_settings.svg')">
+                    <img src="multiple_gears.svg" alt="gears settings">
+                    <div class="icon-name">gears settings</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('globe_network.svg')">
+                    <img src="world_globe.svg" alt="globe network">
+                    <div class="icon-name">globe network</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('partnership_handshake.svg')">
+                    <img src="handshake_business.svg" alt="partnership handshake">
+                    <div class="icon-name">partnership handshake</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('org_hierarchy.svg')">
+                    <img src="hierarchy_organization.svg" alt="org hierarchy">
+                    <div class="icon-name">org hierarchy</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('layout_grid.svg')">
+                    <img src="grid_layout.svg" alt="layout grid">
+                    <div class="icon-name">layout grid</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('lightbulb_idea.svg')">
+                    <img src="bulb_brain.svg" alt="lightbulb idea">
+                    <div class="icon-name">lightbulb idea</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('link_chain.svg')">
+                    <img src="chain_connect.svg" alt="link chain">
+                    <div class="icon-name">link chain</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('mountain_goal.svg')">
+                    <img src="mountain_peak.svg" alt="mountain goal">
+                    <div class="icon-name">mountain goal</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('network_nodes.svg')">
+                    <img src="network_diagram.svg" alt="network nodes">
+                    <div class="icon-name">network nodes</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('piggybank_savings.svg')">
+                    <img src="savings_piggy.svg" alt="piggybank savings">
+                    <div class="icon-name">piggybank savings</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('server_building.svg')">
+                    <img src="database_server.svg" alt="server building">
+                    <div class="icon-name">server building</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('server_rack.svg')">
+                    <img src="server_cabinet.svg" alt="server rack">
+                    <div class="icon-name">server rack</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('server_stack.svg')">
+                    <img src="servers_multiple.svg" alt="server stack">
+                    <div class="icon-name">server stack</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('settings_gear.svg')">
+                    <img src="gear_configure.svg" alt="settings gear">
+                    <div class="icon-name">settings gear</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('sync_refresh.svg')">
+                    <img src="refresh_sync.svg" alt="sync refresh">
+                    <div class="icon-name">sync refresh</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('team_collaboration.svg')">
+                    <img src="collaborate_group.svg" alt="team collaboration">
+                    <div class="icon-name">team collaboration</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('team_hierarchy.svg')">
+                    <img src="hierarchy_team.svg" alt="team hierarchy">
+                    <div class="icon-name">team hierarchy</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('tools_config.svg')">
+                    <img src="configuration_tools.svg" alt="tools config">
+                    <div class="icon-name">tools config</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('tools_maintenance.svg')">
+                    <img src="maintenance_repair.svg" alt="tools maintenance">
+                    <div class="icon-name">tools maintenance</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('touch_interact.svg')">
+                    <img src="interaction_touch.svg" alt="touch interact">
+                    <div class="icon-name">touch interact</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('user_laptop.svg')">
+                    <img src="laptop_computer.svg" alt="user laptop">
+                    <div class="icon-name">user laptop</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('user_presentation.svg')">
+                    <img src="presentation_screen.svg" alt="user presentation">
+                    <div class="icon-name">user presentation</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('user_profile.svg')">
+                    <img src="profile_avatar.svg" alt="user profile">
+                    <div class="icon-name">user profile</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('users_team.svg')">
+                    <img src="team_people.svg" alt="users team">
+                    <div class="icon-name">users team</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('verified_check.svg')">
+                    <img src="verification_badge.svg" alt="verified check">
+                    <div class="icon-name">verified check</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Slide 2 Icons</h2>
+            <div class="icon-grid other-grid">
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon00.svg')">
+                    <img src="slide2_icon00.svg" alt="slide2_icon00">
+                    <div class="icon-name">slide2 icon00</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon01.svg')">
+                    <img src="slide2_icon01.svg" alt="slide2_icon01">
+                    <div class="icon-name">slide2 icon01</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon02.svg')">
+                    <img src="slide2_icon02.svg" alt="slide2_icon02">
+                    <div class="icon-name">slide2 icon02</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon03.svg')">
+                    <img src="slide2_icon03.svg" alt="slide2_icon03">
+                    <div class="icon-name">slide2 icon03</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon04.svg')">
+                    <img src="slide2_icon04.svg" alt="slide2_icon04">
+                    <div class="icon-name">slide2 icon04</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon05.svg')">
+                    <img src="slide2_icon05.svg" alt="slide2_icon05">
+                    <div class="icon-name">slide2 icon05</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon06.svg')">
+                    <img src="slide2_icon06.svg" alt="slide2_icon06">
+                    <div class="icon-name">slide2 icon06</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon07.svg')">
+                    <img src="slide2_icon07.svg" alt="slide2_icon07">
+                    <div class="icon-name">slide2 icon07</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon08.svg')">
+                    <img src="slide2_icon08.svg" alt="slide2_icon08">
+                    <div class="icon-name">slide2 icon08</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon09.svg')">
+                    <img src="slide2_icon09.svg" alt="slide2_icon09">
+                    <div class="icon-name">slide2 icon09</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon10.svg')">
+                    <img src="slide2_icon10.svg" alt="slide2_icon10">
+                    <div class="icon-name">slide2 icon10</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon11.svg')">
+                    <img src="slide2_icon11.svg" alt="slide2_icon11">
+                    <div class="icon-name">slide2 icon11</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon12.svg')">
+                    <img src="slide2_icon12.svg" alt="slide2_icon12">
+                    <div class="icon-name">slide2 icon12</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon13.svg')">
+                    <img src="slide2_icon13.svg" alt="slide2_icon13">
+                    <div class="icon-name">slide2 icon13</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon14.svg')">
+                    <img src="slide2_icon14.svg" alt="slide2_icon14">
+                    <div class="icon-name">slide2 icon14</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon15.svg')">
+                    <img src="slide2_icon15.svg" alt="slide2_icon15">
+                    <div class="icon-name">slide2 icon15</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon16.svg')">
+                    <img src="slide2_icon16.svg" alt="slide2_icon16">
+                    <div class="icon-name">slide2 icon16</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon17.svg')">
+                    <img src="slide2_icon17.svg" alt="slide2_icon17">
+                    <div class="icon-name">slide2 icon17</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon18.svg')">
+                    <img src="slide2_icon18.svg" alt="slide2_icon18">
+                    <div class="icon-name">slide2 icon18</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon19.svg')">
+                    <img src="slide2_icon19.svg" alt="slide2_icon19">
+                    <div class="icon-name">slide2 icon19</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon20.svg')">
+                    <img src="slide2_icon20.svg" alt="slide2_icon20">
+                    <div class="icon-name">slide2 icon20</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon21.svg')">
+                    <img src="slide2_icon21.svg" alt="slide2_icon21">
+                    <div class="icon-name">slide2 icon21</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon22.svg')">
+                    <img src="slide2_icon22.svg" alt="slide2_icon22">
+                    <div class="icon-name">slide2 icon22</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon23.svg')">
+                    <img src="slide2_icon23.svg" alt="slide2_icon23">
+                    <div class="icon-name">slide2 icon23</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon24.svg')">
+                    <img src="slide2_icon24.svg" alt="slide2_icon24">
+                    <div class="icon-name">slide2 icon24</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon25.svg')">
+                    <img src="slide2_icon25.svg" alt="slide2_icon25">
+                    <div class="icon-name">slide2 icon25</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon26.svg')">
+                    <img src="slide2_icon26.svg" alt="slide2_icon26">
+                    <div class="icon-name">slide2 icon26</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon27.svg')">
+                    <img src="slide2_icon27.svg" alt="slide2_icon27">
+                    <div class="icon-name">slide2 icon27</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon28.svg')">
+                    <img src="slide2_icon28.svg" alt="slide2_icon28">
+                    <div class="icon-name">slide2 icon28</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon29.svg')">
+                    <img src="slide2_icon29.svg" alt="slide2_icon29">
+                    <div class="icon-name">slide2 icon29</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon30.svg')">
+                    <img src="slide2_icon30.svg" alt="slide2_icon30">
+                    <div class="icon-name">slide2 icon30</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon32.svg')">
+                    <img src="slide2_icon32.svg" alt="slide2_icon32">
+                    <div class="icon-name">slide2 icon32</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon33.svg')">
+                    <img src="slide2_icon33.svg" alt="slide2_icon33">
+                    <div class="icon-name">slide2 icon33</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon34.svg')">
+                    <img src="slide2_icon34.svg" alt="slide2_icon34">
+                    <div class="icon-name">slide2 icon34</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon35.svg')">
+                    <img src="slide2_icon35.svg" alt="slide2_icon35">
+                    <div class="icon-name">slide2 icon35</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon36.svg')">
+                    <img src="slide2_icon36.svg" alt="slide2_icon36">
+                    <div class="icon-name">slide2 icon36</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon37.svg')">
+                    <img src="slide2_icon37.svg" alt="slide2_icon37">
+                    <div class="icon-name">slide2 icon37</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon38.svg')">
+                    <img src="slide2_icon38.svg" alt="slide2_icon38">
+                    <div class="icon-name">slide2 icon38</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon39.svg')">
+                    <img src="slide2_icon39.svg" alt="slide2_icon39">
+                    <div class="icon-name">slide2 icon39</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon40.svg')">
+                    <img src="slide2_icon40.svg" alt="slide2_icon40">
+                    <div class="icon-name">slide2 icon40</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon41.svg')">
+                    <img src="slide2_icon41.svg" alt="slide2_icon41">
+                    <div class="icon-name">slide2 icon41</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon42.svg')">
+                    <img src="slide2_icon42.svg" alt="slide2_icon42">
+                    <div class="icon-name">slide2 icon42</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon43.svg')">
+                    <img src="slide2_icon43.svg" alt="slide2_icon43">
+                    <div class="icon-name">slide2 icon43</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon44.svg')">
+                    <img src="slide2_icon44.svg" alt="slide2_icon44">
+                    <div class="icon-name">slide2 icon44</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon45.svg')">
+                    <img src="slide2_icon45.svg" alt="slide2_icon45">
+                    <div class="icon-name">slide2 icon45</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon46.svg')">
+                    <img src="slide2_icon46.svg" alt="slide2_icon46">
+                    <div class="icon-name">slide2 icon46</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon47.svg')">
+                    <img src="slide2_icon47.svg" alt="slide2_icon47">
+                    <div class="icon-name">slide2 icon47</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon48.svg')">
+                    <img src="slide2_icon48.svg" alt="slide2_icon48">
+                    <div class="icon-name">slide2 icon48</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon49.svg')">
+                    <img src="slide2_icon49.svg" alt="slide2_icon49">
+                    <div class="icon-name">slide2 icon49</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon50.svg')">
+                    <img src="slide2_icon50.svg" alt="slide2_icon50">
+                    <div class="icon-name">slide2 icon50</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon51.svg')">
+                    <img src="slide2_icon51.svg" alt="slide2_icon51">
+                    <div class="icon-name">slide2 icon51</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon52.svg')">
+                    <img src="slide2_icon52.svg" alt="slide2_icon52">
+                    <div class="icon-name">slide2 icon52</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon53.svg')">
+                    <img src="slide2_icon53.svg" alt="slide2_icon53">
+                    <div class="icon-name">slide2 icon53</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon54.svg')">
+                    <img src="slide2_icon54.svg" alt="slide2_icon54">
+                    <div class="icon-name">slide2 icon54</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon55.svg')">
+                    <img src="slide2_icon55.svg" alt="slide2_icon55">
+                    <div class="icon-name">slide2 icon55</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide2_icon56.svg')">
+                    <img src="slide2_icon56.svg" alt="slide2_icon56">
+                    <div class="icon-name">slide2 icon56</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Slide 3 Icons</h2>
+            <div class="icon-grid other-grid">
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon00.svg')">
+                    <img src="slide3_icon00.svg" alt="slide3_icon00">
+                    <div class="icon-name">slide3 icon00</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon01.svg')">
+                    <img src="slide3_icon01.svg" alt="slide3_icon01">
+                    <div class="icon-name">slide3 icon01</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon02.svg')">
+                    <img src="slide3_icon02.svg" alt="slide3_icon02">
+                    <div class="icon-name">slide3 icon02</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon03.svg')">
+                    <img src="slide3_icon03.svg" alt="slide3_icon03">
+                    <div class="icon-name">slide3 icon03</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon04.svg')">
+                    <img src="slide3_icon04.svg" alt="slide3_icon04">
+                    <div class="icon-name">slide3 icon04</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon05.svg')">
+                    <img src="slide3_icon05.svg" alt="slide3_icon05">
+                    <div class="icon-name">slide3 icon05</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon06.svg')">
+                    <img src="slide3_icon06.svg" alt="slide3_icon06">
+                    <div class="icon-name">slide3 icon06</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon07.svg')">
+                    <img src="slide3_icon07.svg" alt="slide3_icon07">
+                    <div class="icon-name">slide3 icon07</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon08.svg')">
+                    <img src="slide3_icon08.svg" alt="slide3_icon08">
+                    <div class="icon-name">slide3 icon08</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon09.svg')">
+                    <img src="slide3_icon09.svg" alt="slide3_icon09">
+                    <div class="icon-name">slide3 icon09</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon10.svg')">
+                    <img src="slide3_icon10.svg" alt="slide3_icon10">
+                    <div class="icon-name">slide3 icon10</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon11.svg')">
+                    <img src="slide3_icon11.svg" alt="slide3_icon11">
+                    <div class="icon-name">slide3 icon11</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon12.svg')">
+                    <img src="slide3_icon12.svg" alt="slide3_icon12">
+                    <div class="icon-name">slide3 icon12</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon13.svg')">
+                    <img src="slide3_icon13.svg" alt="slide3_icon13">
+                    <div class="icon-name">slide3 icon13</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon14.svg')">
+                    <img src="slide3_icon14.svg" alt="slide3_icon14">
+                    <div class="icon-name">slide3 icon14</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon15.svg')">
+                    <img src="slide3_icon15.svg" alt="slide3_icon15">
+                    <div class="icon-name">slide3 icon15</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon16.svg')">
+                    <img src="slide3_icon16.svg" alt="slide3_icon16">
+                    <div class="icon-name">slide3 icon16</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon17.svg')">
+                    <img src="slide3_icon17.svg" alt="slide3_icon17">
+                    <div class="icon-name">slide3 icon17</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon18.svg')">
+                    <img src="slide3_icon18.svg" alt="slide3_icon18">
+                    <div class="icon-name">slide3 icon18</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon19.svg')">
+                    <img src="slide3_icon19.svg" alt="slide3_icon19">
+                    <div class="icon-name">slide3 icon19</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon20.svg')">
+                    <img src="slide3_icon20.svg" alt="slide3_icon20">
+                    <div class="icon-name">slide3 icon20</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon21.svg')">
+                    <img src="slide3_icon21.svg" alt="slide3_icon21">
+                    <div class="icon-name">slide3 icon21</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon22.svg')">
+                    <img src="slide3_icon22.svg" alt="slide3_icon22">
+                    <div class="icon-name">slide3 icon22</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon23.svg')">
+                    <img src="slide3_icon23.svg" alt="slide3_icon23">
+                    <div class="icon-name">slide3 icon23</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon24.svg')">
+                    <img src="slide3_icon24.svg" alt="slide3_icon24">
+                    <div class="icon-name">slide3 icon24</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon26.svg')">
+                    <img src="slide3_icon26.svg" alt="slide3_icon26">
+                    <div class="icon-name">slide3 icon26</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon27.svg')">
+                    <img src="slide3_icon27.svg" alt="slide3_icon27">
+                    <div class="icon-name">slide3 icon27</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon28.svg')">
+                    <img src="slide3_icon28.svg" alt="slide3_icon28">
+                    <div class="icon-name">slide3 icon28</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon29.svg')">
+                    <img src="slide3_icon29.svg" alt="slide3_icon29">
+                    <div class="icon-name">slide3 icon29</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon30.svg')">
+                    <img src="slide3_icon30.svg" alt="slide3_icon30">
+                    <div class="icon-name">slide3 icon30</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon31.svg')">
+                    <img src="slide3_icon31.svg" alt="slide3_icon31">
+                    <div class="icon-name">slide3 icon31</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon32.svg')">
+                    <img src="slide3_icon32.svg" alt="slide3_icon32">
+                    <div class="icon-name">slide3 icon32</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon33.svg')">
+                    <img src="slide3_icon33.svg" alt="slide3_icon33">
+                    <div class="icon-name">slide3 icon33</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon34.svg')">
+                    <img src="slide3_icon34.svg" alt="slide3_icon34">
+                    <div class="icon-name">slide3 icon34</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon35.svg')">
+                    <img src="slide3_icon35.svg" alt="slide3_icon35">
+                    <div class="icon-name">slide3 icon35</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon36.svg')">
+                    <img src="slide3_icon36.svg" alt="slide3_icon36">
+                    <div class="icon-name">slide3 icon36</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon37.svg')">
+                    <img src="slide3_icon37.svg" alt="slide3_icon37">
+                    <div class="icon-name">slide3 icon37</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon38.svg')">
+                    <img src="slide3_icon38.svg" alt="slide3_icon38">
+                    <div class="icon-name">slide3 icon38</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon39.svg')">
+                    <img src="slide3_icon39.svg" alt="slide3_icon39">
+                    <div class="icon-name">slide3 icon39</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon40.svg')">
+                    <img src="slide3_icon40.svg" alt="slide3_icon40">
+                    <div class="icon-name">slide3 icon40</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon41.svg')">
+                    <img src="slide3_icon41.svg" alt="slide3_icon41">
+                    <div class="icon-name">slide3 icon41</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide3_icon42.svg')">
+                    <img src="slide3_icon42.svg" alt="slide3_icon42">
+                    <div class="icon-name">slide3 icon42</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Slide 4 Icons</h2>
+            <div class="icon-grid other-grid">
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon00.svg')">
+                    <img src="slide4_icon00.svg" alt="slide4_icon00">
+                    <div class="icon-name">slide4 icon00</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon01.svg')">
+                    <img src="slide4_icon01.svg" alt="slide4_icon01">
+                    <div class="icon-name">slide4 icon01</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon02.svg')">
+                    <img src="slide4_icon02.svg" alt="slide4_icon02">
+                    <div class="icon-name">slide4 icon02</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon03.svg')">
+                    <img src="slide4_icon03.svg" alt="slide4_icon03">
+                    <div class="icon-name">slide4 icon03</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon04.svg')">
+                    <img src="slide4_icon04.svg" alt="slide4_icon04">
+                    <div class="icon-name">slide4 icon04</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon05.svg')">
+                    <img src="slide4_icon05.svg" alt="slide4_icon05">
+                    <div class="icon-name">slide4 icon05</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon06.svg')">
+                    <img src="slide4_icon06.svg" alt="slide4_icon06">
+                    <div class="icon-name">slide4 icon06</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon07.svg')">
+                    <img src="slide4_icon07.svg" alt="slide4_icon07">
+                    <div class="icon-name">slide4 icon07</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon08.svg')">
+                    <img src="slide4_icon08.svg" alt="slide4_icon08">
+                    <div class="icon-name">slide4 icon08</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon09.svg')">
+                    <img src="slide4_icon09.svg" alt="slide4_icon09">
+                    <div class="icon-name">slide4 icon09</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon10.svg')">
+                    <img src="slide4_icon10.svg" alt="slide4_icon10">
+                    <div class="icon-name">slide4 icon10</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon11.svg')">
+                    <img src="slide4_icon11.svg" alt="slide4_icon11">
+                    <div class="icon-name">slide4 icon11</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon12.svg')">
+                    <img src="slide4_icon12.svg" alt="slide4_icon12">
+                    <div class="icon-name">slide4 icon12</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon13.svg')">
+                    <img src="slide4_icon13.svg" alt="slide4_icon13">
+                    <div class="icon-name">slide4 icon13</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon14.svg')">
+                    <img src="slide4_icon14.svg" alt="slide4_icon14">
+                    <div class="icon-name">slide4 icon14</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon15.svg')">
+                    <img src="slide4_icon15.svg" alt="slide4_icon15">
+                    <div class="icon-name">slide4 icon15</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon16.svg')">
+                    <img src="slide4_icon16.svg" alt="slide4_icon16">
+                    <div class="icon-name">slide4 icon16</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon17.svg')">
+                    <img src="slide4_icon17.svg" alt="slide4_icon17">
+                    <div class="icon-name">slide4 icon17</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon18.svg')">
+                    <img src="slide4_icon18.svg" alt="slide4_icon18">
+                    <div class="icon-name">slide4 icon18</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon19.svg')">
+                    <img src="slide4_icon19.svg" alt="slide4_icon19">
+                    <div class="icon-name">slide4 icon19</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon20.svg')">
+                    <img src="slide4_icon20.svg" alt="slide4_icon20">
+                    <div class="icon-name">slide4 icon20</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon21.svg')">
+                    <img src="slide4_icon21.svg" alt="slide4_icon21">
+                    <div class="icon-name">slide4 icon21</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon22.svg')">
+                    <img src="slide4_icon22.svg" alt="slide4_icon22">
+                    <div class="icon-name">slide4 icon22</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon23.svg')">
+                    <img src="slide4_icon23.svg" alt="slide4_icon23">
+                    <div class="icon-name">slide4 icon23</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon24.svg')">
+                    <img src="slide4_icon24.svg" alt="slide4_icon24">
+                    <div class="icon-name">slide4 icon24</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon26.svg')">
+                    <img src="slide4_icon26.svg" alt="slide4_icon26">
+                    <div class="icon-name">slide4 icon26</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon27.svg')">
+                    <img src="slide4_icon27.svg" alt="slide4_icon27">
+                    <div class="icon-name">slide4 icon27</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon28.svg')">
+                    <img src="slide4_icon28.svg" alt="slide4_icon28">
+                    <div class="icon-name">slide4 icon28</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon29.svg')">
+                    <img src="slide4_icon29.svg" alt="slide4_icon29">
+                    <div class="icon-name">slide4 icon29</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon30.svg')">
+                    <img src="slide4_icon30.svg" alt="slide4_icon30">
+                    <div class="icon-name">slide4 icon30</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon31.svg')">
+                    <img src="slide4_icon31.svg" alt="slide4_icon31">
+                    <div class="icon-name">slide4 icon31</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon32.svg')">
+                    <img src="slide4_icon32.svg" alt="slide4_icon32">
+                    <div class="icon-name">slide4 icon32</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon33.svg')">
+                    <img src="slide4_icon33.svg" alt="slide4_icon33">
+                    <div class="icon-name">slide4 icon33</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon34.svg')">
+                    <img src="slide4_icon34.svg" alt="slide4_icon34">
+                    <div class="icon-name">slide4 icon34</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon35.svg')">
+                    <img src="slide4_icon35.svg" alt="slide4_icon35">
+                    <div class="icon-name">slide4 icon35</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon36.svg')">
+                    <img src="slide4_icon36.svg" alt="slide4_icon36">
+                    <div class="icon-name">slide4 icon36</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon37.svg')">
+                    <img src="slide4_icon37.svg" alt="slide4_icon37">
+                    <div class="icon-name">slide4 icon37</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon38.svg')">
+                    <img src="slide4_icon38.svg" alt="slide4_icon38">
+                    <div class="icon-name">slide4 icon38</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon39.svg')">
+                    <img src="slide4_icon39.svg" alt="slide4_icon39">
+                    <div class="icon-name">slide4 icon39</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon40.svg')">
+                    <img src="slide4_icon40.svg" alt="slide4_icon40">
+                    <div class="icon-name">slide4 icon40</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon41.svg')">
+                    <img src="slide4_icon41.svg" alt="slide4_icon41">
+                    <div class="icon-name">slide4 icon41</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon42.svg')">
+                    <img src="slide4_icon42.svg" alt="slide4_icon42">
+                    <div class="icon-name">slide4 icon42</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon43.svg')">
+                    <img src="slide4_icon43.svg" alt="slide4_icon43">
+                    <div class="icon-name">slide4 icon43</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon44.svg')">
+                    <img src="slide4_icon44.svg" alt="slide4_icon44">
+                    <div class="icon-name">slide4 icon44</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon45.svg')">
+                    <img src="slide4_icon45.svg" alt="slide4_icon45">
+                    <div class="icon-name">slide4 icon45</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon46.svg')">
+                    <img src="slide4_icon46.svg" alt="slide4_icon46">
+                    <div class="icon-name">slide4 icon46</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon47.svg')">
+                    <img src="slide4_icon47.svg" alt="slide4_icon47">
+                    <div class="icon-name">slide4 icon47</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon48.svg')">
+                    <img src="slide4_icon48.svg" alt="slide4_icon48">
+                    <div class="icon-name">slide4 icon48</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon49.svg')">
+                    <img src="slide4_icon49.svg" alt="slide4_icon49">
+                    <div class="icon-name">slide4 icon49</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon50.svg')">
+                    <img src="slide4_icon50.svg" alt="slide4_icon50">
+                    <div class="icon-name">slide4 icon50</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon51.svg')">
+                    <img src="slide4_icon51.svg" alt="slide4_icon51">
+                    <div class="icon-name">slide4 icon51</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon52.svg')">
+                    <img src="slide4_icon52.svg" alt="slide4_icon52">
+                    <div class="icon-name">slide4 icon52</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon53.svg')">
+                    <img src="slide4_icon53.svg" alt="slide4_icon53">
+                    <div class="icon-name">slide4 icon53</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon54.svg')">
+                    <img src="slide4_icon54.svg" alt="slide4_icon54">
+                    <div class="icon-name">slide4 icon54</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon55.svg')">
+                    <img src="slide4_icon55.svg" alt="slide4_icon55">
+                    <div class="icon-name">slide4 icon55</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon56.svg')">
+                    <img src="slide4_icon56.svg" alt="slide4_icon56">
+                    <div class="icon-name">slide4 icon56</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon57.svg')">
+                    <img src="slide4_icon57.svg" alt="slide4_icon57">
+                    <div class="icon-name">slide4 icon57</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon58.svg')">
+                    <img src="slide4_icon58.svg" alt="slide4_icon58">
+                    <div class="icon-name">slide4 icon58</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide4_icon59.svg')">
+                    <img src="slide4_icon59.svg" alt="slide4_icon59">
+                    <div class="icon-name">slide4 icon59</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Slide 5 Icons</h2>
+            <div class="icon-grid other-grid">
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon00.svg')">
+                    <img src="slide5_icon00.svg" alt="slide5_icon00">
+                    <div class="icon-name">slide5 icon00</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon01.svg')">
+                    <img src="slide5_icon01.svg" alt="slide5_icon01">
+                    <div class="icon-name">slide5 icon01</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon02.svg')">
+                    <img src="slide5_icon02.svg" alt="slide5_icon02">
+                    <div class="icon-name">slide5 icon02</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon03.svg')">
+                    <img src="slide5_icon03.svg" alt="slide5_icon03">
+                    <div class="icon-name">slide5 icon03</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon04.svg')">
+                    <img src="slide5_icon04.svg" alt="slide5_icon04">
+                    <div class="icon-name">slide5 icon04</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon05.svg')">
+                    <img src="slide5_icon05.svg" alt="slide5_icon05">
+                    <div class="icon-name">slide5 icon05</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon06.svg')">
+                    <img src="slide5_icon06.svg" alt="slide5_icon06">
+                    <div class="icon-name">slide5 icon06</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon07.svg')">
+                    <img src="slide5_icon07.svg" alt="slide5_icon07">
+                    <div class="icon-name">slide5 icon07</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon08.svg')">
+                    <img src="slide5_icon08.svg" alt="slide5_icon08">
+                    <div class="icon-name">slide5 icon08</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon09.svg')">
+                    <img src="slide5_icon09.svg" alt="slide5_icon09">
+                    <div class="icon-name">slide5 icon09</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon10.svg')">
+                    <img src="slide5_icon10.svg" alt="slide5_icon10">
+                    <div class="icon-name">slide5 icon10</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon11.svg')">
+                    <img src="slide5_icon11.svg" alt="slide5_icon11">
+                    <div class="icon-name">slide5 icon11</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon12.svg')">
+                    <img src="slide5_icon12.svg" alt="slide5_icon12">
+                    <div class="icon-name">slide5 icon12</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon13.svg')">
+                    <img src="slide5_icon13.svg" alt="slide5_icon13">
+                    <div class="icon-name">slide5 icon13</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon14.svg')">
+                    <img src="slide5_icon14.svg" alt="slide5_icon14">
+                    <div class="icon-name">slide5 icon14</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon15.svg')">
+                    <img src="slide5_icon15.svg" alt="slide5_icon15">
+                    <div class="icon-name">slide5 icon15</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon16.svg')">
+                    <img src="slide5_icon16.svg" alt="slide5_icon16">
+                    <div class="icon-name">slide5 icon16</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon17.svg')">
+                    <img src="slide5_icon17.svg" alt="slide5_icon17">
+                    <div class="icon-name">slide5 icon17</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon18.svg')">
+                    <img src="slide5_icon18.svg" alt="slide5_icon18">
+                    <div class="icon-name">slide5 icon18</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon19.svg')">
+                    <img src="slide5_icon19.svg" alt="slide5_icon19">
+                    <div class="icon-name">slide5 icon19</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon20.svg')">
+                    <img src="slide5_icon20.svg" alt="slide5_icon20">
+                    <div class="icon-name">slide5 icon20</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon21.svg')">
+                    <img src="slide5_icon21.svg" alt="slide5_icon21">
+                    <div class="icon-name">slide5 icon21</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon22.svg')">
+                    <img src="slide5_icon22.svg" alt="slide5_icon22">
+                    <div class="icon-name">slide5 icon22</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon23.svg')">
+                    <img src="slide5_icon23.svg" alt="slide5_icon23">
+                    <div class="icon-name">slide5 icon23</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon24.svg')">
+                    <img src="slide5_icon24.svg" alt="slide5_icon24">
+                    <div class="icon-name">slide5 icon24</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon25.svg')">
+                    <img src="slide5_icon25.svg" alt="slide5_icon25">
+                    <div class="icon-name">slide5 icon25</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon26.svg')">
+                    <img src="slide5_icon26.svg" alt="slide5_icon26">
+                    <div class="icon-name">slide5 icon26</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon27.svg')">
+                    <img src="slide5_icon27.svg" alt="slide5_icon27">
+                    <div class="icon-name">slide5 icon27</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon28.svg')">
+                    <img src="slide5_icon28.svg" alt="slide5_icon28">
+                    <div class="icon-name">slide5 icon28</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon29.svg')">
+                    <img src="slide5_icon29.svg" alt="slide5_icon29">
+                    <div class="icon-name">slide5 icon29</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon30.svg')">
+                    <img src="slide5_icon30.svg" alt="slide5_icon30">
+                    <div class="icon-name">slide5 icon30</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon32.svg')">
+                    <img src="slide5_icon32.svg" alt="slide5_icon32">
+                    <div class="icon-name">slide5 icon32</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon33.svg')">
+                    <img src="slide5_icon33.svg" alt="slide5_icon33">
+                    <div class="icon-name">slide5 icon33</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon34.svg')">
+                    <img src="slide5_icon34.svg" alt="slide5_icon34">
+                    <div class="icon-name">slide5 icon34</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon35.svg')">
+                    <img src="slide5_icon35.svg" alt="slide5_icon35">
+                    <div class="icon-name">slide5 icon35</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon36.svg')">
+                    <img src="slide5_icon36.svg" alt="slide5_icon36">
+                    <div class="icon-name">slide5 icon36</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon37.svg')">
+                    <img src="slide5_icon37.svg" alt="slide5_icon37">
+                    <div class="icon-name">slide5 icon37</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon38.svg')">
+                    <img src="slide5_icon38.svg" alt="slide5_icon38">
+                    <div class="icon-name">slide5 icon38</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon39.svg')">
+                    <img src="slide5_icon39.svg" alt="slide5_icon39">
+                    <div class="icon-name">slide5 icon39</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon40.svg')">
+                    <img src="slide5_icon40.svg" alt="slide5_icon40">
+                    <div class="icon-name">slide5 icon40</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon41.svg')">
+                    <img src="slide5_icon41.svg" alt="slide5_icon41">
+                    <div class="icon-name">slide5 icon41</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon42.svg')">
+                    <img src="slide5_icon42.svg" alt="slide5_icon42">
+                    <div class="icon-name">slide5 icon42</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon43.svg')">
+                    <img src="slide5_icon43.svg" alt="slide5_icon43">
+                    <div class="icon-name">slide5 icon43</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon44.svg')">
+                    <img src="slide5_icon44.svg" alt="slide5_icon44">
+                    <div class="icon-name">slide5 icon44</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon45.svg')">
+                    <img src="slide5_icon45.svg" alt="slide5_icon45">
+                    <div class="icon-name">slide5 icon45</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon46.svg')">
+                    <img src="slide5_icon46.svg" alt="slide5_icon46">
+                    <div class="icon-name">slide5 icon46</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon47.svg')">
+                    <img src="slide5_icon47.svg" alt="slide5_icon47">
+                    <div class="icon-name">slide5 icon47</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon48.svg')">
+                    <img src="slide5_icon48.svg" alt="slide5_icon48">
+                    <div class="icon-name">slide5 icon48</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon49.svg')">
+                    <img src="slide5_icon49.svg" alt="slide5_icon49">
+                    <div class="icon-name">slide5 icon49</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon50.svg')">
+                    <img src="slide5_icon50.svg" alt="slide5_icon50">
+                    <div class="icon-name">slide5 icon50</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon51.svg')">
+                    <img src="slide5_icon51.svg" alt="slide5_icon51">
+                    <div class="icon-name">slide5 icon51</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon52.svg')">
+                    <img src="slide5_icon52.svg" alt="slide5_icon52">
+                    <div class="icon-name">slide5 icon52</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon53.svg')">
+                    <img src="slide5_icon53.svg" alt="slide5_icon53">
+                    <div class="icon-name">slide5 icon53</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon54.svg')">
+                    <img src="slide5_icon54.svg" alt="slide5_icon54">
+                    <div class="icon-name">slide5 icon54</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon55.svg')">
+                    <img src="slide5_icon55.svg" alt="slide5_icon55">
+                    <div class="icon-name">slide5 icon55</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide5_icon56.svg')">
+                    <img src="slide5_icon56.svg" alt="slide5_icon56">
+                    <div class="icon-name">slide5 icon56</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Slide 6 Icons</h2>
+            <div class="icon-grid other-grid">
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon00.svg')">
+                    <img src="slide6_icon00.svg" alt="slide6_icon00">
+                    <div class="icon-name">slide6 icon00</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon01.svg')">
+                    <img src="slide6_icon01.svg" alt="slide6_icon01">
+                    <div class="icon-name">slide6 icon01</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon02.svg')">
+                    <img src="slide6_icon02.svg" alt="slide6_icon02">
+                    <div class="icon-name">slide6 icon02</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon03.svg')">
+                    <img src="slide6_icon03.svg" alt="slide6_icon03">
+                    <div class="icon-name">slide6 icon03</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon04.svg')">
+                    <img src="slide6_icon04.svg" alt="slide6_icon04">
+                    <div class="icon-name">slide6 icon04</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon05.svg')">
+                    <img src="slide6_icon05.svg" alt="slide6_icon05">
+                    <div class="icon-name">slide6 icon05</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon06.svg')">
+                    <img src="slide6_icon06.svg" alt="slide6_icon06">
+                    <div class="icon-name">slide6 icon06</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon07.svg')">
+                    <img src="slide6_icon07.svg" alt="slide6_icon07">
+                    <div class="icon-name">slide6 icon07</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon08.svg')">
+                    <img src="slide6_icon08.svg" alt="slide6_icon08">
+                    <div class="icon-name">slide6 icon08</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon09.svg')">
+                    <img src="slide6_icon09.svg" alt="slide6_icon09">
+                    <div class="icon-name">slide6 icon09</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon10.svg')">
+                    <img src="slide6_icon10.svg" alt="slide6_icon10">
+                    <div class="icon-name">slide6 icon10</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon11.svg')">
+                    <img src="slide6_icon11.svg" alt="slide6_icon11">
+                    <div class="icon-name">slide6 icon11</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon12.svg')">
+                    <img src="slide6_icon12.svg" alt="slide6_icon12">
+                    <div class="icon-name">slide6 icon12</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon13.svg')">
+                    <img src="slide6_icon13.svg" alt="slide6_icon13">
+                    <div class="icon-name">slide6 icon13</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon14.svg')">
+                    <img src="slide6_icon14.svg" alt="slide6_icon14">
+                    <div class="icon-name">slide6 icon14</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon15.svg')">
+                    <img src="slide6_icon15.svg" alt="slide6_icon15">
+                    <div class="icon-name">slide6 icon15</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon16.svg')">
+                    <img src="slide6_icon16.svg" alt="slide6_icon16">
+                    <div class="icon-name">slide6 icon16</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon17.svg')">
+                    <img src="slide6_icon17.svg" alt="slide6_icon17">
+                    <div class="icon-name">slide6 icon17</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon18.svg')">
+                    <img src="slide6_icon18.svg" alt="slide6_icon18">
+                    <div class="icon-name">slide6 icon18</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon19.svg')">
+                    <img src="slide6_icon19.svg" alt="slide6_icon19">
+                    <div class="icon-name">slide6 icon19</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon20.svg')">
+                    <img src="slide6_icon20.svg" alt="slide6_icon20">
+                    <div class="icon-name">slide6 icon20</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon21.svg')">
+                    <img src="slide6_icon21.svg" alt="slide6_icon21">
+                    <div class="icon-name">slide6 icon21</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon22.svg')">
+                    <img src="slide6_icon22.svg" alt="slide6_icon22">
+                    <div class="icon-name">slide6 icon22</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon23.svg')">
+                    <img src="slide6_icon23.svg" alt="slide6_icon23">
+                    <div class="icon-name">slide6 icon23</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon24.svg')">
+                    <img src="slide6_icon24.svg" alt="slide6_icon24">
+                    <div class="icon-name">slide6 icon24</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon26.svg')">
+                    <img src="slide6_icon26.svg" alt="slide6_icon26">
+                    <div class="icon-name">slide6 icon26</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon27.svg')">
+                    <img src="slide6_icon27.svg" alt="slide6_icon27">
+                    <div class="icon-name">slide6 icon27</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon28.svg')">
+                    <img src="slide6_icon28.svg" alt="slide6_icon28">
+                    <div class="icon-name">slide6 icon28</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon29.svg')">
+                    <img src="slide6_icon29.svg" alt="slide6_icon29">
+                    <div class="icon-name">slide6 icon29</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon30.svg')">
+                    <img src="slide6_icon30.svg" alt="slide6_icon30">
+                    <div class="icon-name">slide6 icon30</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon31.svg')">
+                    <img src="slide6_icon31.svg" alt="slide6_icon31">
+                    <div class="icon-name">slide6 icon31</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon32.svg')">
+                    <img src="slide6_icon32.svg" alt="slide6_icon32">
+                    <div class="icon-name">slide6 icon32</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon33.svg')">
+                    <img src="slide6_icon33.svg" alt="slide6_icon33">
+                    <div class="icon-name">slide6 icon33</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon34.svg')">
+                    <img src="slide6_icon34.svg" alt="slide6_icon34">
+                    <div class="icon-name">slide6 icon34</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon35.svg')">
+                    <img src="slide6_icon35.svg" alt="slide6_icon35">
+                    <div class="icon-name">slide6 icon35</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon36.svg')">
+                    <img src="slide6_icon36.svg" alt="slide6_icon36">
+                    <div class="icon-name">slide6 icon36</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon37.svg')">
+                    <img src="slide6_icon37.svg" alt="slide6_icon37">
+                    <div class="icon-name">slide6 icon37</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon38.svg')">
+                    <img src="slide6_icon38.svg" alt="slide6_icon38">
+                    <div class="icon-name">slide6 icon38</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon39.svg')">
+                    <img src="slide6_icon39.svg" alt="slide6_icon39">
+                    <div class="icon-name">slide6 icon39</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon40.svg')">
+                    <img src="slide6_icon40.svg" alt="slide6_icon40">
+                    <div class="icon-name">slide6 icon40</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon41.svg')">
+                    <img src="slide6_icon41.svg" alt="slide6_icon41">
+                    <div class="icon-name">slide6 icon41</div>
+                </div>
+
+                <div class="icon-card" onclick="downloadIcon('slide6_icon42.svg')">
+                    <img src="slide6_icon42.svg" alt="slide6_icon42">
+                    <div class="icon-name">slide6 icon42</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="download-all">
+            <a href="#" class="download-btn" onclick="downloadAllIcons()">Download All Icons</a>
+        </div>
+    </div>
+    
+    <script>
+        function downloadIcon(filename) {
+            const link = document.createElement('a');
+            link.href = filename;
+            link.download = filename;
+            link.click();
+        }
+        
+        function downloadAllIcons() {
+            alert('To download all icons, please use a file archiver or contact the developer for a ZIP package.');
+        }
+    </script>
+</body>
+</html>
