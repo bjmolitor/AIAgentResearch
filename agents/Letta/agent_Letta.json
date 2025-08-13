@@ -17,10 +17,5 @@
   "benchmarks": {
     "terminal_bench_score": "42.5% ± 0.8",
     "terminal_bench_source": "https://www.tbench.ai/leaderboard"
-  },
-  "qualitative_assessment": {
-    "ease_of_use": null,
-    "documentation_quality": null,
-    "onboarding_experience": null
   }
 }

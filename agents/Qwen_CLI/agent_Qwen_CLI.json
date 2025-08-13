@@ -16,10 +16,5 @@
     "swe_bench_score": null,
     "task_success_rate": null,
     "resource_usage": "Not publicly documented"
-  },
-  "qualitative_assessment": {
-    "ease_of_use": 3,
-    "documentation_quality": 3,
-    "onboarding_experience": 3
   }
 }
