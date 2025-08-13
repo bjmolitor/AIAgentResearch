@@ -142,12 +142,19 @@
         .icon-visual img {
             width: 40px;
             height: 40px;
-            background: white;
             border-radius: 6px;
             padding: 6px;
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
         
+        .icon-visual .png-icon {
+            background: white;
+        }
+
+        .icon-visual .svg-icon {
+            background: #142ED9;
+        }
+
         .icon-name {
             font-family: 'Inter', sans-serif;
             font-weight: 600;
@@ -912,9 +919,9 @@
                 card.innerHTML = `
                     <div class="icon-display">
                         <div class="icon-visual">
-                            <img src="pngs/${icon.name}.png" alt="${icon.name} PNG" title="PNG Version" 
+                            <img class="png-icon" src="pngs/${icon.name}.png" alt="${icon.name} PNG" title="PNG Version"
                                  onerror="this.style.display='none';">
-                            <img src="svgs/${icon.name}.svg" alt="${icon.name} SVG" title="SVG Version"
+                            <img class="svg-icon" src="svgs/${icon.name}.svg" alt="${icon.name} SVG" title="SVG Version"
                                  onerror="this.style.display='none';">
                         </div>
                         <div class="icon-name">${icon.name}</div>
