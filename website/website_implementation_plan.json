@@ -2,7 +2,7 @@
   "tasks": [
     {
       "id": "A.1",
-      "description": "Set up the basic project structure with Vite, Vue.js, and Tailwind CSS.",
+      "description": "Set up the basic project structure with Vite, React, and Tailwind CSS.",
       "dependencies": []
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "id": "B.1",
-      "description": "Create a Vue component for the agent table and fetch the data from agents.json to display it.",
+      "description": "Create a React component for the agent table and fetch the data from agents.json to display it.",
       "dependencies": ["A.1", "A.2", "A.3"]
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "id": "C.1",
-      "description": "Create a Vue component for the agent detail modal.",
+      "description": "Create a React component for the agent detail modal.",
       "dependencies": ["A.1", "A.2", "A.3"]
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "id": "D.2",
-      "description": "Create a Vue component for the personas overlay.",
+      "description": "Create a React component for the personas overlay.",
       "dependencies": ["A.1", "A.2", "A.3"]
     },
     {
