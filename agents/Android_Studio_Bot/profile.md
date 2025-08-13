@@ -2,41 +2,43 @@
 
 ## Overview
 
-Android Studio Bot is an AI-powered conversational experience integrated into Android Studio. It is designed to make Android developers more productive by helping them generate code, answer questions, and fix errors.
+Android Studio Bot, also branded as Gemini in Android Studio, is a conversational AI assistant built into Android Studio. Introduced at Google I/O 2023 and upgraded to Gemini models in 2024, it helps Android developers generate code, answer questions, and resolve errors within the IDE.
 
 ## Key Information
 
 - **Developer:** Google
 - **Website:** [https://developer.android.com/studio](https://developer.android.com/studio)
+- **Release:** Preview announced May 2023; Gemini update rolled out with Android Studio Koala in 2024
 - **Pricing:** Included with Android Studio
 
 ## Key Features
 
-- **AI-powered conversational experience:** Chat with Studio Bot to get help with your code.
-- **Code generation:** Generate code for your app.
-- **Q&A:** Ask questions about Android development.
-- **Error fixing:** Get help with fixing errors in your code.
+- Conversational assistant embedded directly in Android Studio
+- Context-aware Kotlin and Java code generation
+- Explains APIs, best practices, and Android concepts
+- Suggests fixes for build and runtime errors with links to docs
+- Generates unit tests and Jetpack Compose UI snippets
 
 ## Supported Models
 
-- Codey (descendant of PaLM 2)
+- Gemini models fine-tuned for Android development (initially Codey, a PaLM 2 descendant)
 
 ## Benchmarks
 
-- **SWE-bench score:** Not available
-- **Task Success Rate:** Not available
-- **Resource Usage:** Not available
+- **SWE-bench score:** Not publicly reported
+- **Task Success Rate:** Not publicly reported
+- **Resource Usage:** Not publicly reported
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High
-- **Documentation Quality:** High
-- **Onboarding Experience:** Straightforward
+- **Ease of Use:** High – accessed through the Gemini chat panel after signing in
+- **Documentation Quality:** High – official developer guides and in-IDE tips
+- **Onboarding Experience:** Straightforward – enable from `Tools > Gemini > Enable` and start conversing
 
 ## Pricing
 
-Android Studio Bot is a free feature integrated into Android Studio.
+Android Studio Bot is included at no additional cost for users of Android Studio.
 
 ## Getting Started
 
-To get started with Android Studio Bot, you can download the latest version of Android Studio and enable the feature in the settings. For more information, you can refer to the [official announcement blog post](https://android-developers.googleblog.com/2023/05/android-studio-io-23-announcing-studio-bot.html).
+Install the latest version of Android Studio, sign in with a Google account, and enable the Gemini or Studio Bot feature from the IDE settings to begin chatting.
