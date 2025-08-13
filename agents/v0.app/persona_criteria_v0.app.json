@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 3,
+    "reasoning": "Generates front-end code rapidly, reducing manual UI development time."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 4,
+    "reasoning": "Web-based interface with prompt-driven workflow and minimal setup."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Focuses on prototyping without built-in testing capabilities."
+  },
+  "codebase_comprehension": {
+    "rating": 2,
+    "reasoning": "Produces isolated components but does not analyze existing codebases."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 4,
+    "reasoning": "Supports visual and textual exploration of interface ideas."
+  },
+  "data_experimental_flexibility": {
+    "rating": 2,
+    "reasoning": "Limited integration with external data sources for experiments."
+  },
+  "visual_no_code_development": {
+    "rating": 5,
+    "reasoning": "Designed for prompt-based UI creation with copyable React components."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 1,
+    "reasoning": "Does not provide tools for multi-agent workflows or CI/CD orchestration."
+  }
+}
