@@ -22,13 +22,13 @@ The official launch of Manus was on March 6, 2025. It was described as a major a
 
 ## Supported Models
 
-Not available
+- Claude 3.5 Sonnet (used for coding tasks)
 
 ## Benchmarks
 
-- **SWE-bench score:** Not available
-- **Task Success Rate:** Not available
-- **Resource Usage:** Not available
+- **SWE-bench score:** Not publicly reported
+- **Task Success Rate:** Not publicly reported
+- **Resource Usage:** Not publicly reported
 
 ## Qualitative Assessment
 
