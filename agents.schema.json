@@ -6,72 +6,114 @@
   "properties": {
     "terminal_based": {
       "type": "array",
-      "items": { "$ref": "#/definitions/agent" }
+      "items": {
+        "$ref": "#/definitions/agent"
+      }
     },
     "ide_embedded": {
       "type": "array",
-      "items": { "$ref": "#/definitions/agent" }
+      "items": {
+        "$ref": "#/definitions/agent"
+      }
     },
     "web_virtualized": {
       "type": "array",
-      "items": { "$ref": "#/definitions/agent" }
+      "items": {
+        "$ref": "#/definitions/agent"
+      }
     },
     "agent_frameworks": {
       "type": "array",
-      "items": { "$ref": "#/definitions/agent" }
+      "items": {
+        "$ref": "#/definitions/agent"
+      }
     }
   },
-  "required": ["terminal_based", "ide_embedded", "web_virtualized", "agent_frameworks"],
+  "required": [
+    "terminal_based",
+    "ide_embedded",
+    "web_virtualized",
+    "agent_frameworks"
+  ],
   "definitions": {
     "agent": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "name": { "type": "string" },
-        "website": { "type": ["string", "null"] },
-        "developer": { "type": ["string", "null"] },
+        "name": {
+          "type": "string"
+        },
+        "website": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "developer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "key_features": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
         "supported_models": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
-        "pricing_model": { "type": ["string", "null"] },
+        "pricing_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "benchmarks": {
           "type": "object",
           "additionalProperties": false,
           "properties": {
-            "swe_bench_score": { "type": ["number", "string", "null"] },
-            "swe_bench_source": { "type": ["string", "null"] },
-            "terminal_bench_score": { "type": ["number", "string", "null"] },
-            "terminal_bench_source": { "type": ["string", "null"] },
-            "task_success_rate": { "type": ["number", "null"] },
-            "resource_usage": { "type": ["string", "null"] }
-          }
-        },
-        "qualitative_assessment": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "ease_of_use": {
-              "description": "Rating of how easy the agent is to use (1=low, 3=high)",
-              "type": ["integer", "null"],
-              "minimum": 1,
-              "maximum": 3
+            "swe_bench_score": {
+              "type": [
+                "number",
+                "string",
+                "null"
+              ]
             },
-            "documentation_quality": {
-              "description": "Rating of how comprehensive the documentation is (1=poor, 3=excellent)",
-              "type": ["integer", "null"],
-              "minimum": 1,
-              "maximum": 3
+            "swe_bench_source": {
+              "type": [
+                "string",
+                "null"
+              ]
             },
-            "onboarding_experience": {
-              "description": "Rating of the onboarding experience (1=difficult, 3=very easy)",
-              "type": ["integer", "null"],
-              "minimum": 1,
-              "maximum": 3
+            "terminal_bench_score": {
+              "type": [
+                "number",
+                "string",
+                "null"
+              ]
+            },
+            "terminal_bench_source": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "task_success_rate": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "resource_usage": {
+              "type": [
+                "string",
+                "null"
+              ]
             }
           }
         }
@@ -81,8 +123,7 @@
         "key_features",
         "supported_models",
         "pricing_model",
-        "benchmarks",
-        "qualitative_assessment"
+        "benchmarks"
       ]
     }
   }

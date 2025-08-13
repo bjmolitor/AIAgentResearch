@@ -25,10 +25,5 @@
     "task_success_rate": 0.52,
     "resource_usage": "Not publicly documented; depends on local hardware and active agents",
     "swe_bench_score": "71%"
-  },
-  "qualitative_assessment": {
-    "ease_of_use": 3,
-    "documentation_quality": 3,
-    "onboarding_experience": 3
   }
 }

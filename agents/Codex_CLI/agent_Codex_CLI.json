@@ -21,10 +21,5 @@
     "terminal_bench_source": "https://www.tbench.ai/leaderboard",
     "task_success_rate": 0.2,
     "resource_usage": "Runs locally; resource usage depends on chosen model"
-  },
-  "qualitative_assessment": {
-    "ease_of_use": 3,
-    "documentation_quality": 3,
-    "onboarding_experience": 2
   }
 }

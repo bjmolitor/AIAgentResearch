@@ -18,10 +18,5 @@
     "terminal_bench_source": "https://www.tbench.ai/leaderboard",
     "task_success_rate": 0.413,
     "resource_usage": "Not publicly documented; depends on hosting environment and model"
-  },
-  "qualitative_assessment": {
-    "ease_of_use": 2,
-    "documentation_quality": 3,
-    "onboarding_experience": 2
   }
 }
