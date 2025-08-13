@@ -1,0 +1,27 @@
+{
+  "name": "ChatGPT agent",
+  "website": "https://openai.com/index/introducing-chatgpt-agent/",
+  "developer": "OpenAI",
+  "key_features": [
+    "Iterative and collaborative workflows",
+    "Interruptible for real-time clarification",
+    "Deep Research for multi-step research and report generation",
+    "Operator for remote visual browser-based task execution",
+    "Terminal tool for code execution and data analysis"
+  ],
+  "supported_models": [
+    "Latest models available to ChatGPT users"
+  ],
+  "pricing_model": "Subscription-based with usage limits (Pro: 400 messages/month, Plus: 40 messages/month)",
+  "benchmarks": {
+    "swe_bench_score": 4.04,
+    "swe_bench_source": "https://cognition.ai/blog/swe-bench-technical-report",
+    "task_success_rate": null,
+    "resource_usage": "GPT-4 (assisted). GPT-3.5 (assisted) scored 1.34% on SWE-bench"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

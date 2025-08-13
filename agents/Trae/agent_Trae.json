@@ -1,0 +1,33 @@
+{
+  "name": "Trae",
+  "website": "https://www.trae.ai/",
+  "developer": "Trae AI",
+  "key_features": [
+    "A coding agent called the Builder",
+    "Sidebar and inline chat",
+    "Built-in terminal access, MCP support, and web search capabilities",
+    "SOLO mode for end-to-end software engineering",
+    "One-click deployment of web apps to Vercel",
+    "Built-in browser for previewing web applications",
+    "Voice input",
+    "Custom AI agents through MCP"
+  ],
+  "supported_models": [
+    "Claude 4 Sonnet",
+    "Gemini 2.5 Pro",
+    "Grok 4",
+    "Kimi K2"
+  ],
+  "pricing_model": "$10 per month, with the first month discounted to $3.",
+  "benchmarks": {
+    "swe_bench_score": "Top score on SWE-bench Verified as of July 2025",
+    "swe_bench_source": "https://www.datacamp.com/tutorial/trae-ai",
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

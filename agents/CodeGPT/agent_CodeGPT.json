@@ -1,0 +1,30 @@
+{
+  "name": "CodeGPT",
+  "website": "https://codegpt.co/",
+  "developer": "Judini Inc",
+  "key_features": [
+    "AI Agent Platform for Software Development",
+    "Automate PR reviews",
+    "Onboard developers",
+    "Context-aware across your codebase",
+    "SOC2 Type II certified",
+    "Self-Hosted Option"
+  ],
+  "supported_models": [
+    "OpenAI",
+    "Anthropic",
+    "Gemini",
+    "Llama"
+  ],
+  "pricing_model": "Tiered (Free, Plus, Enterprise)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

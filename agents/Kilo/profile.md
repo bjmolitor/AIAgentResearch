@@ -1,6 +1,6 @@
 # Kilo
 
-**Note:** No information could be found about the "Kilo" AI agent through online research. The information in `agents.json` and this profile are placeholders.
+**Note:** No information could be found about the "Kilo" AI agent through online research. The information in `agent_Kilo.json` and this profile are placeholders.
 
 ## Key Information
 

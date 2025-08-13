@@ -1,0 +1,29 @@
+{
+  "name": "Jules",
+  "website": "https://jules.google/",
+  "developer": "Google",
+  "key_features": [
+    "Asynchronous task handling",
+    "GitHub integration",
+    "Interactive planning",
+    "Code modifications with diff view",
+    "Customizable environment",
+    "AGENTS.md awareness",
+    "Browser notifications"
+  ],
+  "supported_models": [
+    "Gemini 2.5 Pro"
+  ],
+  "pricing_model": "Tiered (Free, Pro, Ultra)",
+  "benchmarks": {
+    "swe_bench_score": 52.2,
+    "swe_bench_source": "https://aiagentindex.mit.edu/jules/",
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

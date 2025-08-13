@@ -1,0 +1,37 @@
+{
+  "name": "Cursor",
+  "website": "https://cursor.com/",
+  "developer": "Anysphere",
+  "key_features": [
+    "Powerful autocomplete",
+    "Multi-Line Edits",
+    "Smart Rewrites",
+    "Agent mode for end-to-end tasks",
+    "Finds Context using custom retrieval models",
+    "Runs Commands",
+    "Loops on Errors",
+    "Fast Edits",
+    "Proprietary Models",
+    "Reference your Code with @ symbols",
+    "Use Images",
+    "Ask the Web",
+    "Use Documentation",
+    "Inline Edit (Ctrl + K)",
+    "Terminal Ctrl K",
+    "Quick Questions"
+  ],
+  "supported_models": [
+    "Proprietary models and custom retrieval models, alongside APIs."
+  ],
+  "pricing_model": "Tiered (Free, Pro, Business). Pro plan is $16/month, Business plan is $32/user/month.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

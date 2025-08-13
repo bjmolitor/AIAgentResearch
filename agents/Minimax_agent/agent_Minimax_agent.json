@@ -1,0 +1,28 @@
+{
+  "name": "Minimax agent",
+  "website": "https://www.minimaxi.com/",
+  "developer": "MiniMax",
+  "key_features": [
+    "Text Model (MiniMax M1) with 1M token input",
+    "Video Model (MiniMax Hailuo 02) with 1080p output",
+    "Audio Model (MiniMax Speech 02) for speech generation",
+    "MCP Server for developers (Video, Image, Speech generation, Voice Cloning)",
+    "AI-native applications: MiniMax Chat, MiniMax Agent, Hailuo Video, MiniMax Audio, Talkie"
+  ],
+  "supported_models": [
+    "MiniMax M1 (Text)",
+    "MiniMax Hailuo 02 (Video)",
+    "MiniMax Speech 02 (Audio)"
+  ],
+  "pricing_model": "MiniMax-M1 (text): Starts at $0.4/M tokens input, Speech-02-HD (audio): $100 per 1M characters, MiniMax Hailuo 02 (video): Starting from $0.28 per video",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": "No public benchmarks found"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

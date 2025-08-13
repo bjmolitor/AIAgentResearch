@@ -1,0 +1,26 @@
+{
+  "name": "SQLAI.ai",
+  "website": "https://www.sqlai.ai/",
+  "developer": "SQLAI.ai",
+  "key_features": [
+    "AI-powered SQL generator that can generate, optimize, validate, simplify, and explain SQL queries.",
+    "Supports most database engines (SQL & NoSQL).",
+    "Can connect to data sources to increase accuracy.",
+    "Has a query converter to migrate queries between database engines.",
+    "Can optimize databases with database indexes."
+  ],
+  "supported_models": [
+    "Custom tuned advanced AI model"
+  ],
+  "pricing_model": "Free trial, with paid plans (Explorer, Pro, Pro XL) starting at $6/month.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

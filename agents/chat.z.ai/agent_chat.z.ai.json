@@ -1,0 +1,28 @@
+{
+  "name": "chat.z.ai",
+  "website": "https://chat.z.ai/",
+  "developer": "Zhipu AI",
+  "key_features": [
+    "Web-based conversational interface for GLM models",
+    "Supports reasoning, coding, and tool use",
+    "128k context length",
+    "Native function calling and plugin support",
+    "Web browsing capabilities",
+    "Full-stack development features"
+  ],
+  "supported_models": [
+    "GLM-4.5",
+    "GLM-4.5-Air"
+  ],
+  "pricing_model": "Freemium/Open-Source",
+  "benchmarks": {
+    "swe_bench_score": 64.2,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

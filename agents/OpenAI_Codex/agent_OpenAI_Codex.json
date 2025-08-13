@@ -1,0 +1,24 @@
+{
+  "name": "OpenAI Codex",
+  "website": "https://openai.com/blog/openai-codex",
+  "developer": "OpenAI",
+  "key_features": [
+    "Translates natural language into code",
+    "Supports multiple programming languages",
+    "Available via API or integrated tools"
+  ],
+  "supported_models": [
+    "Codex series (e.g., code-davinci-002, code-cushman-001)"
+  ],
+  "pricing_model": "Usage-based via the OpenAI API",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": "Depends on API usage; no public metrics"
+  },
+  "qualitative_assessment": {
+    "ease_of_use": 2,
+    "documentation_quality": 2,
+    "onboarding_experience": 2
+  }
+}
