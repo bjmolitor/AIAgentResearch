@@ -1,0 +1,24 @@
+{
+  "name": "Open SWE",
+  "website": "https://github.com/langchain-ai/open-swe",
+  "developer": "LangChain",
+  "key_features": [
+    "Open-source asynchronous coding agent built with LangGraph",
+    "Dedicated planning step with optional human approval",
+    "Multi-agent architecture coordinating Manager, Planner, Programmer, and Reviewer roles",
+    "Parallel cloud execution in an isolated sandbox",
+    "End-to-end GitHub workflow that creates issues, runs tests, reviews code, and opens pull requests"
+  ],
+  "supported_models": [
+    "Anthropic Claude models (user-supplied API key)"
+  ],
+  "pricing_model": "Open-source; hosted demo requires users to pay for underlying model usage via their API keys.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "terminal_bench_score": null,
+    "terminal_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  }
+}
