@@ -1,0 +1,28 @@
+{
+  "name": "Google Vertex AI Engine",
+  "website": "https://cloud.google.com/vertex-ai",
+  "developer": "Google",
+  "key_features": [
+    "Code generation from natural language",
+    "Code completion",
+    "Interactive code chat",
+    "Supports multiple programming languages",
+    "Infrastructure as Code support"
+  ],
+  "supported_models": [
+    "code-bison",
+    "code-gecko",
+    "code-chat-bison"
+  ],
+  "pricing_model": "Usage-based, part of Google Cloud Platform",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "qualitative_assessment": {
+    "ease_of_use": null,
+    "documentation_quality": null,
+    "onboarding_experience": null
+  }
+}

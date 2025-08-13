@@ -48,7 +48,8 @@ The following agents have been profiled in this repository:
 ### Web & Virtualized Agents
 - ChatGPT agent
 - devin
-- Engine
+- enginelabs
+- Google Vertex AI Engine
 - Jules
 - manus
 - Minimax agent
