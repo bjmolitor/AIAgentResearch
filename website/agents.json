@@ -1,0 +1,1110 @@
+[
+  {
+    "name": "Android Studio Bot",
+    "website": "https://developer.android.com/studio",
+    "developer": "Google",
+    "key_features": [
+      "Conversational assistant integrated into Android Studio",
+      "Context-aware Kotlin and Java code generation",
+      "Answers Android development questions with links to official documentation",
+      "Suggests fixes for build and runtime errors",
+      "Generates unit tests and Jetpack Compose UI snippets",
+      "Explains existing code and APIs"
+    ],
+    "supported_models": [
+      "Gemini (fine-tuned for Android development; initially Codey based on PaLM 2)"
+    ],
+    "pricing_model": "Included with Android Studio",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "terminal_bench_score": null,
+      "terminal_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    }
+  },
+  {
+    "name": "Qwen CLI",
+    "website": "https://github.com/QwenLM/qwen-code",
+    "developer": "Alibaba",
+    "key_features": [
+      "Navigate and understand complex codebases",
+      "Detect and fix coding issues",
+      "Generate code and unit tests",
+      "Create documentation and flowcharts"
+    ],
+    "supported_models": [
+      "Qwen3-Coder"
+    ],
+    "pricing_model": "Based on API key usage from Alibaba Cloud or third-party services like OpenRouter.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "Not publicly documented"
+    }
+  },
+  {
+    "name": "AskCodi",
+    "website": "https://www.askcodi.com/",
+    "developer": "Assistiv AI",
+    "key_features": [
+      "AI coding assistant with a wide range of tools, including a code generator, refactorer, fixer, and translator.",
+      "Can write Makefiles, queries, regex, and unit tests.",
+      "Has a CI/CD pipeline writer, Dockerfile writer, and Kubernetes writer.",
+      "Includes a Big-O analyzer, bug detector, and code explainer.",
+      "Has a sandbox for building and testing front-end code.",
+      "Integrates with VS Code, JetBrains, and Sublime Text."
+    ],
+    "supported_models": [
+      "GPT 4.1 nano",
+      "Claude 3.5 Haiku",
+      "Qwen QwQ-32b",
+      "Mistral Nemo",
+      "Kimi K2",
+      "Gemini 2.5 Flash",
+      "Llama 4 Scout",
+      "Claude 3.7 Sonnet",
+      "GPT 4.1",
+      "DeepSeek V3",
+      "DeepSeek R1",
+      "Llama 4 Maverick",
+      "Gemini 2.5 Pro",
+      "Mistral Large 2"
+    ],
+    "pricing_model": "Free plan with limited features. Paid plans (Premium and Ultimate) with more features and higher limits, starting at $149.99/year.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "SWE-agent",
+    "website": "https://github.com/langchain-ai/open-swe",
+    "developer": "LangChain",
+    "key_features": [
+      "Open-source cloud-based coding agent",
+      "Built with LangGraph",
+      "Autonomously understand, plan, and execute code changes",
+      "Multi-agent architecture (Manager, Planner, Programmer)",
+      "Can be used through a web interface or triggered by GitHub webhooks",
+      "Open-source, asynchronous, cloud-hosted coding agent.",
+      "Connects directly to GitHub repositories.",
+      "Can research a codebase, create a detailed execution plan, write code, run tests, review its own work, and open a pull request.",
+      "Human-in-the-loop for plan approval.",
+      "Runs in an isolated sandbox.",
+      "Uses a multi-agent architecture with Manager, Planner, and Programmer/Reviewer agents."
+    ],
+    "supported_models": [
+      "Anthropic's models (e.g., Claude)",
+      "Claude models (requires Anthropic API key)"
+    ],
+    "pricing_model": "Open-source. Hosted version at swe.langchain.com requires an Anthropic API key, so pricing is based on model usage.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "CodeWP",
+    "website": "https://codewp.ai/",
+    "developer": "WPAI, Inc.",
+    "key_features": [
+      "AI chat and coding tools trained specifically for WordPress.",
+      "Can create accurate, complex WordPress plugins and code snippets.",
+      "Can troubleshoot and fix fatal errors.",
+      "Has a security scanning feature.",
+      "Has a community where users can share snippets."
+    ],
+    "supported_models": [
+      "Proprietary AI models"
+    ],
+    "pricing_model": "Free plan with limited actions. Paid plans (Pro and Agency) with more features and higher limits, starting at $18/month.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "LangGraph",
+    "website": "https://langchain-ai.github.io/langgraph/",
+    "developer": "LangChain, Inc.",
+    "key_features": [
+      "Reliability and controllability",
+      "Low-level and extensible",
+      "First-class streaming support"
+    ],
+    "supported_models": [
+      "Any LLM supported by LangChain"
+    ],
+    "pricing_model": "Open-source",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Amazon CodeGuru",
+    "website": "https://aws.amazon.com/codeguru/",
+    "developer": "Amazon Web Services (AWS)",
+    "key_features": [
+      "Static application security testing (SAST)",
+      "Combines machine learning (ML) and automated reasoning",
+      "Identifies vulnerabilities in your code",
+      "Provides recommendations on how to fix vulnerabilities",
+      "Tracks the status of vulnerabilities until closure",
+      "Integrates with CI/CD tooling",
+      "Reduces false-positive detections",
+      "Automatically tracks bug closure",
+      "Includes CodeGuru Profiler for finding an application's most expensive lines of code."
+    ],
+    "supported_models": [
+      "Not specified",
+      "Machine learning models"
+    ],
+    "pricing_model": "Monthly fixed rate based on the number of lines of code scanned. For example, $10 for every 100k lines of code. CodeGuru Security is free in public preview. CodeGuru Reviewer and Profiler have free tiers and paid plans based on usage.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "OpenAI Codex",
+    "website": "https://openai.com/blog/openai-codex",
+    "developer": "OpenAI",
+    "key_features": [
+      "Translates natural language into code",
+      "Supports multiple programming languages",
+      "Available via API or integrated tools"
+    ],
+    "supported_models": [
+      "Codex series (e.g., code-davinci-002, code-cushman-001)"
+    ],
+    "pricing_model": "Usage-based via the OpenAI API",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "Depends on API usage; no public metrics"
+    }
+  },
+  {
+    "name": "Letta",
+    "website": "https://www.letta.com/",
+    "developer": "Letta",
+    "key_features": [
+      "Platform for stateful AI agents",
+      "Advanced memory and infinite context (powered by MemGPT)",
+      "Agents are exposed as REST API endpoints",
+      "Agent Development Environment (ADE) to visualize memory, reasoning, and tool calls",
+      "Support for custom tools and MCP",
+      "Framework agnostic (Python, Node.js, Vercel AI SDK, Next.js, React)"
+    ],
+    "supported_models": [
+      "Model-agnostic"
+    ],
+    "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
+    "benchmarks": {
+      "terminal_bench_score": "42.5% ± 0.8",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "terminal_bench_score_from_leaderboard": "42.5% ± 0.8"
+    }
+  },
+  {
+    "name": "Codex CLI",
+    "website": "https://github.com/openai/codex",
+    "developer": "OpenAI",
+    "key_features": [
+      "Lightweight coding agent that runs in the terminal.",
+      "Can read, modify, and run code locally.",
+      "Chat-driven development.",
+      "Full auto-approval mode with sandboxing.",
+      "Multimodal (can accept screenshots or diagrams).",
+      "Supports open-source models like Ollama.",
+      "Supports MCP servers.",
+      "Aware of AGENTS.md files for extra instructions."
+    ],
+    "supported_models": [
+      "Any model available with the OpenAI Responses API (defaults to o4-mini)"
+    ],
+    "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
+    "benchmarks": {
+      "terminal_bench_score": "20.0% ± 1.5",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "task_success_rate": 0.2,
+      "resource_usage": "Runs locally; resource usage depends on chosen model",
+      "terminal_bench_score_from_leaderboard": "20.0% ± 1.5"
+    }
+  },
+  {
+    "name": "Trae",
+    "website": "https://www.trae.ai/",
+    "developer": "Trae AI",
+    "key_features": [
+      "A coding agent called the Builder",
+      "Sidebar and inline chat",
+      "Built-in terminal access, MCP support, and web search capabilities",
+      "SOLO mode for end-to-end software engineering",
+      "One-click deployment of web apps to Vercel",
+      "Built-in browser for previewing web applications",
+      "Voice input",
+      "Custom AI agents through MCP"
+    ],
+    "supported_models": [
+      "Claude 4 Sonnet",
+      "Gemini 2.5 Pro",
+      "Grok 4",
+      "Kimi K2"
+    ],
+    "pricing_model": "$10 per month, with the first month discounted to $3.",
+    "benchmarks": {
+      "swe_bench_score": "Top score on SWE-bench Verified as of July 2025",
+      "swe_bench_source": "https://www.datacamp.com/tutorial/trae-ai",
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "DeepCode AI",
+    "website": "https://snyk.io/platform/deepcode-ai/",
+    "developer": "Snyk",
+    "key_features": [
+      "Static Application Security Testing (SAST)",
+      "Integration with Snyk's vulnerability database",
+      "Code analysis using abstract syntax trees (AST)",
+      "Security vulnerability detection",
+      "Code quality checks",
+      "AI-powered code review.",
+      "Identifies security vulnerabilities and quality issues.",
+      "Provides security autofixes.",
+      "Scans code in real-time.",
+      "Risk-based prioritization powered by AI.",
+      "Simplified rules creation with DeepCode AI Search."
+    ],
+    "supported_models": [
+      "Machine learning models trained on hundreds of thousands of repositories",
+      "Multiple fine-tuned AI models (hybrid of symbolic and generative AI)"
+    ],
+    "pricing_model": "Tiered (Free, Team, Enterprise). Team plan starts at $25/month per contributing developer.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "GitHub Copilot",
+    "website": "https://github.com/features/copilot",
+    "developer": "GitHub/Microsoft",
+    "key_features": [
+      "Code suggestions as you type",
+      "Chat with Copilot",
+      "Copilot in the CLI",
+      "Copilot Spaces for task-specific context",
+      "Pull request description generation",
+      "Knowledge bases for context-aware chat",
+      "Coding agent for end-to-end tasks",
+      "Code suggestions in the IDE",
+      "Command-line assistance",
+      "Knowledge base creation (Enterprise only)",
+      "Code changes and pull request creation (Pro+, Business, Enterprise)"
+    ],
+    "supported_models": [
+      "GPT-4.1",
+      "o3",
+      "o4-mini",
+      "Claude Opus 4.1",
+      "Claude Opus 4",
+      "Claude Sonnet 3.5",
+      "Claude Sonnet 3.7",
+      "Claude Sonnet 4",
+      "Gemini 2.5 Pro",
+      "Gemini 2.0 Flash",
+      "Models from OpenAI, GitHub, and Microsoft"
+    ],
+    "pricing_model": "Tiered (Free, Pro, Business, Enterprise)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Amazon CodeWhisperer",
+    "website": "https://aws.amazon.com/codewhisperer/",
+    "developer": "Amazon Web Services (AWS)",
+    "key_features": [
+      "Code recommendations based on natural language comments",
+      "Security scanning to detect vulnerabilities",
+      "Reference tracker to detect similarity to training data",
+      "Bias detection and filtering",
+      "Supports 15+ programming languages, including Python, Java, and JavaScript",
+      "Generates code recommendations based on natural language comments and existing code.",
+      "Supports multiple IDEs, including VS Code, JetBrains IDEs, and AWS services like SageMaker Studio and Lambda.",
+      "Is becoming a part of Amazon Q Developer."
+    ],
+    "supported_models": [
+      "Not specified",
+      "AWS models"
+    ],
+    "pricing_model": "Tiered (Free, Pro at $19/month per user). See Amazon Q Developer pricing for details.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Tabnine",
+    "website": "https://www.tabnine.com/",
+    "developer": "Tabnine",
+    "key_features": [
+      "Code completions",
+      "Inline Actions",
+      "Tabnine Chat",
+      "Test Agent",
+      "Code Review Agent",
+      "AI code completion",
+      "Supports a wide range of programming languages and IDEs",
+      "Can predict full lines and snippets of code",
+      "AI-powered chat agent for generating, explaining, and testing code"
+    ],
+    "supported_models": [
+      "GPT-4o mini (for Code Review Agent)",
+      "Other models for chat and code completion",
+      "Large-language models"
+    ],
+    "pricing_model": "Tiered (Dev, Enterprise)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "mini-SWE-agent",
+    "website": "https://swe-agent.com/",
+    "developer": "Princeton University and Stanford University researchers",
+    "key_features": [
+      "A lightweight version of SWE-agent, implemented in 100 lines of code.",
+      "Achieves 65% on SWE-bench verified."
+    ],
+    "supported_models": [
+      "GPT-4o",
+      "Claude Sonnet 4"
+    ],
+    "pricing_model": "Open-source, with users paying for the underlying model APIs.",
+    "benchmarks": {
+      "swe_bench_score": "65% on SWE-bench verified",
+      "swe_bench_source": "https://swe-agent.com/",
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Figma Make",
+    "website": "https://www.figma.com/ai/",
+    "developer": "Figma Inc.",
+    "key_features": [
+      "Generate UI mockups from text prompts using 'Make Designs'",
+      "Automatically build interactive flows with 'Make Prototypes'",
+      "Produce placeholder copy and imagery for designs",
+      "Leverage existing components and auto layout for consistency"
+    ],
+    "supported_models": [
+      "Proprietary Figma generative models (details undisclosed)"
+    ],
+    "pricing_model": "Included with Figma subscription; AI features currently in beta",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Engine",
+    "website": "https://enginelabs.ai/",
+    "developer": "Engine Labs",
+    "key_features": [
+      "Remote AI software engineer",
+      "Works without supervision in its own VM",
+      "Turns issues into pull requests",
+      "Integrates with Linear, Trello, Jira, ClickUp, Slack, GitHub, GitLab",
+      "Responds to code reviews and CI/CD actions",
+      "Works in its own remote development environment",
+      "Provides an IDE to work alongside the AI",
+      "Autopilot mode"
+    ],
+    "supported_models": [
+      "Anthropic (Claude 4)",
+      "OpenAI (o3)",
+      "Google"
+    ],
+    "pricing_model": "Tiered (Intern, Junior, Senior, Staff)",
+    "benchmarks": {
+      "terminal_bench_score": "#2",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Minimax agent",
+    "website": "https://www.minimaxi.com/",
+    "developer": "MiniMax",
+    "key_features": [
+      "Text Model (MiniMax M1) with 1M token input",
+      "Video Model (MiniMax Hailuo 02) with 1080p output",
+      "Audio Model (MiniMax Speech 02) for speech generation",
+      "MCP Server for developers (Video, Image, Speech generation, Voice Cloning)",
+      "AI-native applications: MiniMax Chat, MiniMax Agent, Hailuo Video, MiniMax Audio, Talkie"
+    ],
+    "supported_models": [
+      "MiniMax M1 (Text)",
+      "MiniMax Hailuo 02 (Video)",
+      "MiniMax Speech 02 (Audio)"
+    ],
+    "pricing_model": "MiniMax-M1 (text): Starts at $0.4/M tokens input, Speech-02-HD (audio): $100 per 1M characters, MiniMax Hailuo 02 (video): Starting from $0.28 per video",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "No public benchmarks found"
+    }
+  },
+  {
+    "name": "Gemini CLI",
+    "website": "https://github.com/google-gemini/gemini-cli",
+    "developer": "Google",
+    "key_features": [
+      "Open-source AI agent",
+      "Direct terminal access",
+      "Reason and Act (ReAct) loop",
+      "Integration with local and remote tools",
+      "Coding-focused, but versatile",
+      "Integration with Gemini Code Assist"
+    ],
+    "supported_models": [
+      "Gemini"
+    ],
+    "pricing_model": "Subscription-based (part of Gemini Code Assist)",
+    "benchmarks": {
+      "swe_bench_score": "18.00% (for SWE-agent + GPT 4)",
+      "swe_bench_source": "https://www.swebench.com/",
+      "task_success_rate": null,
+      "resource_usage": "Not publicly documented"
+    }
+  },
+  {
+    "name": "Kilo",
+    "website": "Not found",
+    "developer": "Not found",
+    "key_features": [
+      "Information not found"
+    ],
+    "supported_models": [
+      "Not found"
+    ],
+    "pricing_model": "Not found",
+    "benchmarks": {
+      "swe_bench_score": "Not found",
+      "task_success_rate": null,
+      "resource_usage": "Not found"
+    }
+  },
+  {
+    "name": "manus",
+    "website": "https://manus.im/",
+    "developer": "Monica (also known as Butterfly Effect AI)",
+    "key_features": [
+      "Autonomous AI agent",
+      "Can independently carry out complex real-world tasks",
+      "Capable of independent thinking, dynamic planning, and decision-making",
+      "Can write and deploy code",
+      "Multimodal"
+    ],
+    "supported_models": [],
+    "pricing_model": "Proprietary",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "Not publicly reported"
+    }
+  },
+  {
+    "name": "LangChain",
+    "website": "https://www.langchain.com/",
+    "developer": "LangChain",
+    "key_features": [
+      "LangGraph: A framework for building stateful, multi-actor applications with LLMs.",
+      "LangChain: A framework for developing context-aware reasoning applications.",
+      "LangSmith: A platform for debugging, testing, evaluating, and monitoring LLM applications.",
+      "Integrations: Over 600 integrations with models, databases, and tools.",
+      "Deployment: Tools for deploying and managing agents."
+    ],
+    "supported_models": [
+      "Wide variety of models through its integration system"
+    ],
+    "pricing_model": "Tiered (Free, Plus, Enterprise)",
+    "benchmarks": {
+      "swe_bench_score": 0.486,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "v0",
+    "website": "https://v0.app/",
+    "developer": "Vercel",
+    "key_features": [
+      "Generates React/Next.js UI from natural language prompts",
+      "Allows iterative refinement of designs with code export",
+      "Provides ready-to-use Tailwind CSS components"
+    ],
+    "supported_models": [
+      "Not specified (leverages OpenAI models)"
+    ],
+    "pricing_model": "Free tier with paid usage-based plans",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Sourcegraph Cody",
+    "website": "https://sourcegraph.com/cody",
+    "developer": "Sourcegraph, Inc.",
+    "key_features": [
+      "Developer chat with the most powerful models and context",
+      "Code completions, code edits, and customizable prompts",
+      "Extensive context from local and remote codebases",
+      "Debug code",
+      "Context Filters",
+      "AI coding assistant for writing, fixing, and maintaining code.",
+      "Powered by a \"code graph\".",
+      "Code Search for exploring the entire codebase.",
+      "Works with VS Code, JetBrains IDEs, and other editors.",
+      "Chat, autocomplete, and inline edit features."
+    ],
+    "supported_models": [
+      "Latest LLMs, including models from OpenAI (GPT) and Anthropic (Claude)",
+      "Claude Sonnet 4",
+      "GPT-4o"
+    ],
+    "pricing_model": "Enterprise-focused pricing. 'Talk to sales' option. No public pricing for individuals.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "CrewAI",
+    "website": "https://www.crewai.com/",
+    "developer": "CrewAI Inc.",
+    "key_features": [
+      "Role-Based Agents",
+      "Flexible Tools",
+      "Intelligent Collaboration",
+      "Task Management",
+      "Event-Driven Orchestration",
+      "Fine-Grained Control",
+      "Native Crew Integration",
+      "Deterministic Execution"
+    ],
+    "supported_models": [
+      "Any LLM"
+    ],
+    "pricing_model": "Open-source framework with enterprise-focused pricing for the full platform.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "CodeGPT",
+    "website": "https://codegpt.co/",
+    "developer": "Judini Inc",
+    "key_features": [
+      "AI Agent Platform for Software Development",
+      "Automate PR reviews",
+      "Onboard developers",
+      "Context-aware across your codebase",
+      "SOC2 Type II certified",
+      "Self-Hosted Option"
+    ],
+    "supported_models": [
+      "OpenAI",
+      "Anthropic",
+      "Gemini",
+      "Llama"
+    ],
+    "pricing_model": "Tiered (Free, Plus, Enterprise)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Claude Code",
+    "website": "https://docs.anthropic.com/en/docs/claude-code/overview",
+    "developer": "Anthropic",
+    "key_features": [
+      "Build features from natural language descriptions.",
+      "Debug and fix issues from error messages.",
+      "Navigate and understand codebases.",
+      "Automate tasks like fixing lint issues and writing release notes.",
+      "Works in the terminal.",
+      "Can take actions like editing files, running commands, and creating commits.",
+      "Composable and scriptable (Unix philosophy).",
+      "Enterprise-ready (can be self-hosted on AWS or GCP)."
+    ],
+    "supported_models": [
+      "Claude Opus 4.1",
+      "Claude Opus 4",
+      "Claude Sonnet 4",
+      "Claude Sonnet 3.7",
+      "Claude Sonnet 3.5",
+      "Claude Haiku 3.5",
+      "Claude Haiku 3"
+    ],
+    "pricing_model": "Based on API token consumption. Average cost of ~$6 per developer per day. Average monthly cost of ~$100-200 per developer per month with Sonnet 4. Usage included for Pro and Max plan users.",
+    "benchmarks": {
+      "swe_bench_score": 49,
+      "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
+      "terminal_bench_score": "43.2% ± 1.3",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "task_success_rate": 0.432,
+      "resource_usage": "Not publicly documented",
+      "terminal_bench_score_from_leaderboard": "43.2% ± 1.3"
+    }
+  },
+  {
+    "name": "OpenHands",
+    "website": "https://openhands.daytona.io/",
+    "developer": "Daytona",
+    "key_features": [
+      "AI Coding Agent that can do anything a human developer can.",
+      "Built on the agent-agnostic middleware Daytona.",
+      "Parallel Work Capability",
+      "Integrated Workspace with Shell, Browser, Editor, and Planner",
+      "Natural Language Collaboration"
+    ],
+    "supported_models": [
+      "Model-agnostic"
+    ],
+    "pricing_model": "Open-source under the MIT License; free for self-hosting with optional paid hosting via Daytona",
+    "benchmarks": {
+      "terminal_bench_score": "41.3% ± 0.7",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "task_success_rate": 0.413,
+      "resource_usage": "Not publicly documented; depends on hosting environment and model",
+      "terminal_bench_score_from_leaderboard": "41.3% ± 0.7"
+    }
+  },
+  {
+    "name": "devin",
+    "website": "https://devin.ai/",
+    "developer": "Cognition",
+    "key_features": [
+      "Fully autonomous AI software engineer",
+      "Can learn unfamiliar technologies",
+      "Can build and deploy apps end-to-end",
+      "Can autonomously find and fix bugs in codebases",
+      "Can train and fine-tune its own AI models",
+      "Has access to a shell, code editor, and browser",
+      "Collaborates with the user"
+    ],
+    "supported_models": [
+      "Not specified"
+    ],
+    "pricing_model": "Tiered (Core, Teams). Pricing is based on Agent Compute Units (ACUs).",
+    "benchmarks": {
+      "swe_bench_score": 13.86,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Roo Code",
+    "website": "https://roo.ai/",
+    "developer": "ROO.AI",
+    "key_features": [
+      "NOTE: Roo Code is not a publicly available product. The information is based on the ROO.AI platform.",
+      "Connected worker technology with a visual interface, Bots, and AI Agents.",
+      "Uses cloud-based custom AI models or APIs like ChatGPT for AI Agent assistance."
+    ],
+    "supported_models": [
+      "Cloud-based custom AI models or APIs like ChatGPT"
+    ],
+    "pricing_model": "Not specified for a 'Roo Code' product. ROO.AI has its own pricing model for its platform.",
+    "benchmarks": {
+      "swe_bench_score": "Not applicable",
+      "task_success_rate": null,
+      "resource_usage": "Not applicable"
+    }
+  },
+  {
+    "name": "ChatGPT agent",
+    "website": "https://openai.com/index/introducing-chatgpt-agent/",
+    "developer": "OpenAI",
+    "key_features": [
+      "Iterative and collaborative workflows",
+      "Interruptible for real-time clarification",
+      "Deep Research for multi-step research and report generation",
+      "Operator for remote visual browser-based task execution",
+      "Terminal tool for code execution and data analysis"
+    ],
+    "supported_models": [
+      "Latest models available to ChatGPT users"
+    ],
+    "pricing_model": "Subscription-based with usage limits (Pro: 400 messages/month, Plus: 40 messages/month)",
+    "benchmarks": {
+      "swe_bench_score": 4.04,
+      "swe_bench_source": "https://cognition.ai/blog/swe-bench-technical-report",
+      "task_success_rate": null,
+      "resource_usage": "GPT-4 (assisted). GPT-3.5 (assisted) scored 1.34% on SWE-bench"
+    }
+  },
+  {
+    "name": "Minimax Agent",
+    "website": "https://www.minimaxi.com/",
+    "developer": "MiniMax",
+    "key_features": [
+      "MiniMax M1 text model with 1M token context window",
+      "Hailuo 02 video model for 1080p generation",
+      "Speech 02 model for high-quality speech synthesis and voice cloning",
+      "MCP server and toolkits for video, image, and speech workflows",
+      "AI-native applications: MiniMax Chat, MiniMax Agent, Hailuo Video, MiniMax Audio, Talkie"
+    ],
+    "supported_models": [
+      "MiniMax M1 (Text)",
+      "MiniMax Hailuo 02 (Video)",
+      "MiniMax Speech 02 (Audio)"
+    ],
+    "pricing_model": "MiniMax M1 from $0.4 per 1M input tokens; Speech-02-HD from $100 per 1M characters; Hailuo 02 video from $0.28 per video",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "No public benchmarks found"
+    }
+  },
+  {
+    "name": "Aider",
+    "website": "https://aider.chat/",
+    "developer": "Paul Gauthier",
+    "key_features": [
+      "Chat-based pair programming in the terminal",
+      "Deep Git integration with automatic commits",
+      "Edits multiple files with model-generated patches",
+      "Runs tests and applies fixes iteratively"
+    ],
+    "supported_models": [
+      "OpenAI GPT-4 family",
+      "Anthropic Claude 3 models",
+      "Google Gemini models",
+      "Local models via OpenRouter or Ollama"
+    ],
+    "pricing_model": "Open-source; users pay for underlying model API usage",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Jules",
+    "website": "https://jules.google/",
+    "developer": "Google",
+    "key_features": [
+      "Asynchronous task handling",
+      "GitHub integration",
+      "Interactive planning",
+      "Code modifications with diff view",
+      "Customizable environment",
+      "AGENTS.md awareness",
+      "Browser notifications"
+    ],
+    "supported_models": [
+      "Gemini 2.5 Pro"
+    ],
+    "pricing_model": "Tiered (Free, Pro, Ultra)",
+    "benchmarks": {
+      "swe_bench_score": 52.2,
+      "swe_bench_source": "https://aiagentindex.mit.edu/jules/",
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Goose",
+    "website": "https://block.github.io/goose/",
+    "developer": "Block",
+    "key_features": [
+      "Open source AI agent",
+      "Runs locally",
+      "Extensible (custom LLM, MCP server, API)",
+      "Autonomous (debugging to deployment)"
+    ],
+    "supported_models": [
+      "Model-agnostic"
+    ],
+    "pricing_model": "Open-source",
+    "benchmarks": {
+      "terminal_bench_score": "42.0% ± 1.3",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "task_success_rate": 0.42,
+      "resource_usage": "Depends on local hardware and model; no public metrics",
+      "terminal_bench_score_from_leaderboard": "42.0% ± 1.3"
+    }
+  },
+  {
+    "name": "Open SWE",
+    "website": "https://github.com/langchain-ai/open-swe",
+    "developer": "LangChain",
+    "key_features": [
+      "Open-source asynchronous coding agent built with LangGraph",
+      "Dedicated planning step with optional human approval",
+      "Multi-agent architecture coordinating Manager, Planner, Programmer, and Reviewer roles",
+      "Parallel cloud execution in an isolated sandbox",
+      "End-to-end GitHub workflow that creates issues, runs tests, reviews code, and opens pull requests"
+    ],
+    "supported_models": [
+      "Anthropic Claude models (user-supplied API key)"
+    ],
+    "pricing_model": "Open-source; hosted demo requires users to pay for underlying model usage via their API keys.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "terminal_bench_score": null,
+      "terminal_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    }
+  },
+  {
+    "name": "Terminus",
+    "website": "https://www.tbench.ai/terminus",
+    "developer": "Mike Merrill and Alex Shaw",
+    "key_features": [
+      "Research-preview agent for evaluating language models in the terminal.",
+      "Operates entirely autonomously.",
+      "Agnostic to specific language models (supports any API or locally hosted model through LiteLLM).",
+      "Remotely connects to its dockerized execution environment through a tmux session.",
+      "Has only a single tool: an interactive tmux session."
+    ],
+    "supported_models": [
+      "Model-agnostic"
+    ],
+    "pricing_model": "Research project, likely free to use.",
+    "benchmarks": {
+      "terminal_bench_score": "39.9% ± 1.0",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "task_success_rate": 0.399,
+      "resource_usage": "Not publicly documented; depends on remote environment and model"
+    }
+  },
+  {
+    "name": "Cline",
+    "website": "https://cline.bot/",
+    "developer": "Cline Bot Inc.",
+    "key_features": [
+      "Plan Mode for complex tasks",
+      "Complete transparency",
+      "Use your own models and API keys",
+      ".clinerules for project-specific instructions",
+      "MCP Integration",
+      "Context Intelligence",
+      "Terminal Mastery",
+      "100% Open Source"
+    ],
+    "supported_models": [
+      "Model-agnostic (supports Claude, Gemini, DeepSeek, and any other model)"
+    ],
+    "pricing_model": "Free and open source. Users pay for the AI models they use. A 'Cline Teams' plan is available for enterprises.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Perplexity",
+    "website": "https://www.perplexity.ai/",
+    "developer": "Perplexity Labs",
+    "key_features": [
+      "AI-powered search interface",
+      "Provides cited answers from web sources",
+      "Supports follow-up questions and conversations"
+    ],
+    "supported_models": [
+      "Mixture of proprietary and open-source models"
+    ],
+    "pricing_model": "Free tier with optional Pro subscription",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Warp",
+    "website": "https://www.warp.dev/",
+    "developer": "Warp",
+    "key_features": [
+      "Agentic Development Environment",
+      "Run multiple agents in parallel",
+      "Terminal with AI built-in",
+      "\"Drive\" for centralizing knowledge and context",
+      "Can write code, debug, create PRs",
+      "Works across multi-repo codebases",
+      "Access to MCP servers"
+    ],
+    "supported_models": [
+      "Claude Opus 4.1",
+      "Claude Sonnet 4",
+      "OpenAI o3",
+      "Gemini 2.5 Pro"
+    ],
+    "pricing_model": "Tiered (Free, Pro, Turbo, Business, Lightspeed, Enterprise)",
+    "benchmarks": {
+      "terminal_bench_score": "#1",
+      "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+      "swe_bench_source": "https://www.warp.dev/",
+      "task_success_rate": 0.52,
+      "resource_usage": "Not publicly documented; depends on local hardware and active agents",
+      "swe_bench_score": "71%",
+      "terminal_bench_score_from_leaderboard": "52.0% ± 1.0"
+    }
+  },
+  {
+    "name": "SQLAI.ai",
+    "website": "https://www.sqlai.ai/",
+    "developer": "SQLAI.ai",
+    "key_features": [
+      "AI-powered SQL generator that can generate, optimize, validate, simplify, and explain SQL queries.",
+      "Supports most database engines (SQL & NoSQL).",
+      "Can connect to data sources to increase accuracy.",
+      "Has a query converter to migrate queries between database engines.",
+      "Can optimize databases with database indexes."
+    ],
+    "supported_models": [
+      "Custom tuned advanced AI model"
+    ],
+    "pricing_model": "Free trial, with paid plans (Explorer, Pro, Pro XL) starting at $6/month.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Cursor",
+    "website": "https://cursor.com/",
+    "developer": "Anysphere",
+    "key_features": [
+      "Powerful autocomplete",
+      "Multi-Line Edits",
+      "Smart Rewrites",
+      "Agent mode for end-to-end tasks",
+      "Finds Context using custom retrieval models",
+      "Runs Commands",
+      "Loops on Errors",
+      "Fast Edits",
+      "Proprietary Models",
+      "Reference your Code with @ symbols",
+      "Use Images",
+      "Ask the Web",
+      "Use Documentation",
+      "Inline Edit (Ctrl + K)",
+      "Terminal Ctrl K",
+      "Quick Questions"
+    ],
+    "supported_models": [
+      "Proprietary models and custom retrieval models, alongside APIs."
+    ],
+    "pricing_model": "Tiered (Free, Pro, Business). Pro plan is $16/month, Business plan is $32/user/month.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Replit AI",
+    "website": "https://replit.com/ai",
+    "developer": "Replit, Inc.",
+    "key_features": [
+      "Turn natural language into apps and websites",
+      "Builds automatically from a simple chat",
+      "No-code needed",
+      "The AI is smart enough to fix bugs for you",
+      "Builds apps and websites from natural language prompts.",
+      "Can create a working prototype from an idea.",
+      "Can build an app from a screenshot.",
+      "Fixes bugs automatically."
+    ],
+    "supported_models": [
+      "Not specified",
+      "Claude Sonnet 4",
+      "OpenAI GPT-4o"
+    ],
+    "pricing_model": "Tiered (Starter, Replit Core, Teams, Enterprise). Replit Core is $20/month.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "LogiQCLI",
+    "website": "https://docs.logz.io/docs/user-guide/observability/assistantiq/",
+    "developer": "Logz.io",
+    "key_features": [
+      "Chat-based interface to interact with data",
+      "Provides real-time insights into metrics, anomalies, trends, and system health",
+      "Suggests queries to start analysis",
+      "Can turn insights into dashboards and alerts",
+      "Includes a Root Cause Analyzer (RCA) powered by GenAI to diagnose exceptions",
+      "Keeps a history of conversations"
+    ],
+    "supported_models": [
+      "Claude 3"
+    ],
+    "pricing_model": "Pay-as-you-go model for data that exceeds the daily volume limit of a customer's plan. The price is based on the plan's cost per 1GB of overage plus a 40% additional charge. Specific pricing requires contacting a sales representative.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "Not publicly documented"
+    }
+  },
+  {
+    "name": "chat.z.ai",
+    "website": "https://chat.z.ai/",
+    "developer": "Zhipu AI",
+    "key_features": [
+      "Web-based conversational interface for GLM models",
+      "Supports reasoning, coding, and tool use",
+      "128k context length",
+      "Native function calling and plugin support",
+      "Web browsing capabilities",
+      "Full-stack development features"
+    ],
+    "supported_models": [
+      "GLM-4.5",
+      "GLM-4.5-Air"
+    ],
+    "pricing_model": "Freemium/Open-Source",
+    "benchmarks": {
+      "swe_bench_score": 64.2,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  }
+]
