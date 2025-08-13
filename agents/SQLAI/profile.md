@@ -2,7 +2,14 @@
 
 ## Overview
 
-SQLAI.ai is an AI-powered SQL multi-tool that helps users generate, optimize, and understand SQL queries. It supports a wide range of SQL and NoSQL database engines.
+SQLAI.ai is an AI-powered SQL multi-tool that helps users generate, optimize, and understand SQL queries.
+It supports a wide range of SQL and NoSQL database engines.
+
+## Key Information
+
+- **Developer:** SQLAI.ai
+- **Website:** [https://www.sqlai.ai/](https://www.sqlai.ai/)
+- **Pricing:** Free trial; paid plans starting at $6/month
 
 ## Key Features
 
@@ -30,7 +37,8 @@ SQLAI.ai uses a custom-tuned advanced AI model.
 
 ## Pricing
 
-SQLAI.ai offers a free trial and paid plans (Explorer, Pro, and Pro XL) starting at $6/month. For the most up-to-date pricing information, please refer to the [official pricing page](https://www.sqlai.ai/pricing).
+SQLAI.ai offers a free trial and paid plans (Explorer, Pro, and Pro XL) starting at $6/month.
+For the most up-to-date pricing information, please refer to the [official pricing page](https://www.sqlai.ai/pricing).
 
 ## Getting Started
 
