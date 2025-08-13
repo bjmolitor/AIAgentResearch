@@ -17,57 +17,58 @@ The repository is organized as follows:
 The following agents have been profiled in this repository:
 
 ### Terminal-Based Agents
-- Claude Code
-- Codex CLI
-- Gemini CLI
-- Goose
-- LogiQCLI
-- Qwen CLI
-- Warp
-- OpenAI Codex
-- Aider
+- Claude Code (`agents/Claude_Code`)
+- Codex CLI (`agents/Codex_CLI`)
+- Gemini CLI (`agents/Gemini_CLI`)
+- Goose (`agents/Goose`)
+- LogiQCLI (`agents/LogiQCLI`)
+- Qwen CLI (`agents/Qwen_CLI`)
+- Warp (`agents/Warp`)
+- OpenAI Codex (`agents/OpenAI_Codex`)
+- Aider (`agents/Aider`)
 
 ### IDE-Embedded Agents
-- Amazon CodeGuru
-- Amazon CodeWhisperer
-- Android Studio Bot
-- AskCodi
-- Cline
-- CodeGPT
-- CodeWP
-- Cursor
-- DeepCode AI
-- Figma Make
-- GitHub Copilot
-- Kilo
-- Replit AI
-- Roo Code
-- Sourcegraph Cody
-- SQLAI.ai
-- Tabnine
+- Amazon CodeGuru (`agents/Amazon_CodeGuru`)
+- Amazon CodeWhisperer (`agents/Amazon_CodeWhisperer`)
+- Android Studio Bot (`agents/Android_Studio_Bot`)
+- AskCodi (`agents/AskCodi`)
+- Cline (`agents/Cline`)
+- CodeGPT (`agents/CodeGPT`)
+- CodeWP (`agents/CodeWP`)
+- Cursor (`agents/Cursor`)
+- DeepCode AI (`agents/DeepCode_AI`)
+- GitHub Copilot (`agents/GitHub_Copilot`)
+- Kilo (`agents/Kilo`)
+- Replit AI (`agents/Replit_AI`)
+- Roo Code (`agents/Roo_Code`)
+- Sourcegraph Cody (`agents/Sourcegraph_Cody`)
+- SQLAI.ai (`agents/SQLAI`)
+- Tabnine (`agents/Tabnine`)
 
 ### Web & Virtualized Agents
-- ChatGPT agent
-- devin
-- enginelabs
-- Google Vertex AI Engine
-- Jules
-- manus
-- Minimax agent
-- Trae
-- z.ai
-- chat.z.ai
-- Perplexity
+- ChatGPT agent (`agents/ChatGPT_agent`)
+- devin (`agents/devin`)
+- enginelabs (`agents/enginelabs`)
+- Figma Make (`agents/Figma_Make`)
+- Google Vertex AI Engine (`agents/google_vertex_ai_engine`)
+- Jules (`agents/Jules`)
+- manus (`agents/manus`)
+- Minimax agent (`agents/Minimax_agent`)
+- Trae (`agents/Trae`)
+- z.ai (`agents/z.ai`)
+- chat.z.ai (`agents/chat.z.ai`)
+- Perplexity Labs (`agents/Perplexity_Labs`)
+- v0.app (`agents/v0.app`)
 
 ### Agent Frameworks
-- CrewAI
-- LangChain
-- LangGraph
-- Letta
-- mini-SWE-agent
-- OpenHands
-- SWE-agent
-- Terminus
+- CrewAI (`agents/CrewAI`)
+- LangChain (`agents/LangChain`)
+- LangGraph (`agents/LangGraph`)
+- Letta (`agents/Letta`)
+- mini-SWE-agent (`agents/mini-SWE-agent`)
+- OpenHands (`agents/OpenHands`)
+- SWE-agent (`agents/SWE-agent`)
+- Terminus (`agents/Terminus`)
 
 ## Contributing
 
