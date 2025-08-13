@@ -15,7 +15,8 @@
   ],
   "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
   "benchmarks": {
-    "terminal_bench_score": "42.5% ± 0.8",
-    "terminal_bench_source": "https://www.tbench.ai/leaderboard"
+    "terminal_bench_score": "42.5% \u00b1 0.8",
+    "terminal_bench_source": "https://www.tbench.ai/leaderboard",
+    "terminal_bench_score_from_leaderboard": "42.5% \u00b1 0.8"
   }
 }

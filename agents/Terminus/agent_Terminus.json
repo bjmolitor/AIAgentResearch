@@ -14,7 +14,7 @@
   ],
   "pricing_model": "Research project, likely free to use.",
   "benchmarks": {
-    "terminal_bench_score": "39.9% ± 1.0",
+    "terminal_bench_score": "39.9% \u00b1 1.0",
     "terminal_bench_source": "https://www.tbench.ai/leaderboard",
     "task_success_rate": 0.399,
     "resource_usage": "Not publicly documented; depends on remote environment and model"

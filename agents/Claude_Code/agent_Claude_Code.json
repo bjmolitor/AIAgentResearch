@@ -25,9 +25,10 @@
   "benchmarks": {
     "swe_bench_score": 49,
     "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
-    "terminal_bench_score": "43.2% ± 1.3",
+    "terminal_bench_score": "43.2% \u00b1 1.3",
     "terminal_bench_source": "https://www.tbench.ai/leaderboard",
     "task_success_rate": 0.432,
-    "resource_usage": "Not publicly documented"
+    "resource_usage": "Not publicly documented",
+    "terminal_bench_score_from_leaderboard": "43.2% \u00b1 1.3"
   }
 }

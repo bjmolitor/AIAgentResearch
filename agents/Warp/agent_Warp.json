@@ -24,6 +24,7 @@
     "swe_bench_source": "https://www.warp.dev/",
     "task_success_rate": 0.52,
     "resource_usage": "Not publicly documented; depends on local hardware and active agents",
-    "swe_bench_score": "71%"
+    "swe_bench_score": "71%",
+    "terminal_bench_score_from_leaderboard": "52.0% \u00b1 1.0"
   }
 }
