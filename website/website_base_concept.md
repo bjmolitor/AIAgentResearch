@@ -63,3 +63,12 @@ To facilitate the development of the website, the agent and persona data, which 
 - **`website/personas.json`**: An object where keys are persona names and values are the content of their profile markdown files. This will be used for the "Can you recommend something?" feature.
 
 The website will be a static application (HTML, CSS, JavaScript) that fetches these JSON files to populate its content. This approach simplifies the architecture and leverages the existing data structure of the repository. Any updates to the agent or persona data in the main repository will require a regeneration of these consolidated JSON files.
+
+## Technical Concept
+
+To build a responsive, and maintainable website, the following technical stack is proposed:
+
+- **Framework:** A modern JavaScript framework like **Vue.js** or **React** will be used. This allows for a component-based architecture, which is ideal for managing the different parts of the application (e.g., agent table, agent detail modal, persona cards). It also simplifies the handling of dynamic data from the JSON files.
+- **Styling:** **Tailwind CSS** is recommended as the CSS framework. As a utility-first framework, it will allow for rapid UI development and ensure that the styling is consistent with the `style_guide.md`. It is highly customizable and will allow for the implementation of the specified color palette and typography.
+- **Build Tool:** A modern build tool like **Vite** will be used to set up the development environment, and bundle the application for production. Vite offers a fast development experience with features like Hot Module Replacement (HMR).
+- **Deployment:** The final output will be a set of static HTML, CSS, and JavaScript files that can be easily deployed on any static hosting service (like GitHub Pages, Netlify, or Vercel).
