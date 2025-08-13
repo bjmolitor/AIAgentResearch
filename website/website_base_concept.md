@@ -23,7 +23,7 @@ A clear call-to-action button with the text "Can you recommend something?" will 
 
 ### Personas Overlay
 
-Clicking this button will open an overlay that showcases different user personas. Each persona will be represented by a card or a brief description.
+Clicking this button will open an overlay that showcases the six different user personas. Each persona will be represented by a card, a schematic visual representation and a brief description.
 
 ### Persona Detail and Recommendations
 
@@ -45,23 +45,14 @@ Clicking on a specific persona will navigate the user to a detailed page for tha
 
 - **Blog/News Section:** A section for articles about new agents, updates to existing ones, or general news in the AI agent space.
 - **User Accounts:** Allow users to create accounts to save their favorite agents, create custom personas, or share their own agent configurations.
-- **API Access:** Provide an API for other developers to access the agent data and benchmark results.
 - **Newsletter:** A newsletter to keep users updated on the latest changes to the website and the AI agent landscape.
 
 ## Plans
-
+- **"Custom" option in persona selection:** which allows the user to select their own set of criteria for the solution recommendations.
 - **Interactive Filtering and Sorting:** Allow users to filter and sort the agent table based on different criteria like benchmarking scores, solution category, etc.
 - **Comparison Tool:** A feature to select multiple agents from the table and compare their specifications and benchmarks side-by-side.
 - **Community Ratings and Reviews:** Incorporate a system for users to rate and review agents, adding a layer of community feedback.
 - **Visualizations:** Use charts and graphs to visualize benchmarking data, making it easier to understand and compare agent performance.
-
-## Open Questions
-
-- How should the UI for the persona selection be designed to be intuitive and engaging?
-- What is the best way to visually represent the `persona_criteria` in the main table and agent detail pages?
-- What process should be established for updating the static JSON data as new information becomes available?
-- Should we develop a script to automatically pull logos and screenshots from agent websites?
-- What are the key priorities for the next iteration of the website after the initial version is launched?
 
 ## Data Sources
 
