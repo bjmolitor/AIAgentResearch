@@ -1,6 +1,6 @@
 # Vision: The AI Agent Benchmarking Report
 
-The long-term objective is to cultivate a deep, shared research foundation on AI coding agents and ultimately surface that knowledge through a public leaderboard-style website. The project begins by collecting and organizing reliable information about existing agents into a structured dataset and written report.
+The long-term objective is to cultivate a deep, shared research foundation on AI coding agents and ultimately surface that knowledge through a public leaderboard-style website. The first round of research has been completed, resulting in a structured dataset and written report.
 
 The goal is to produce a comprehensive, well-structured Markdown report that compares different AI agents. This report will be generated automatically based on web research.
 
@@ -61,4 +61,4 @@ This process is designed to be executed by an AI agent (like Jules) in a single,
 
 ## Toward a Public Leaderboard
 
-With the research corpus established, the next phase is to translate the data into an interactive website. This site will present agents in a leaderboard format, allow filtering by category or benchmark results, and be updated as new research findings are added.
+With the research corpus established and the first round of research complete, the next step is to build a comprehensive website to display the results. This site will present agents in a leaderboard format, allow filtering by category or benchmark results, and be updated as new research findings are added.
