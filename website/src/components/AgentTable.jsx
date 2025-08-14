@@ -71,8 +71,15 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
     return filled + empty;
   };
 
-  const getAgentKey = (name) =>
-    name?.toLowerCase().replace(/\s+/g, "_");
+  const getAgentKey = (name) => {
+    if (!name) return "";
+    const lower = name.toLowerCase();
+    const base = lower.split(".")[0];
+    const withSpaces = base.replace(/\s+/g, "_");
+    const sanitized = withSpaces.replace(/[^a-z0-9_]/g, "_");
+    const candidates = [sanitized, lower, withSpaces];
+    return candidates.find((k) => ratings[k]) || sanitized;
+  };
 
   const handleSort = (key) => {
     setSortConfig((prev) => ({
