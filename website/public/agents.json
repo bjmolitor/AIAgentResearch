@@ -732,7 +732,7 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "Devin is the world's first fully autonomous AI software engineer, created by Cognition. It is designed to be a tireless, skilled teammate that can work alongside human engineers or independently complete tasks."
+    "description": "Devin is the world's first fully autonomous AI software engineer from Cognition. Equipped with a shell, code editor, and browser, it can plan, build, test, and deploy software projects end to end, learning new frameworks from documentation and reporting progress in real time."
   },
   {
     "name": "Roo Code",
