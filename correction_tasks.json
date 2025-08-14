@@ -1,0 +1,53 @@
+[
+  {
+    "task_description": "Resolve inconsistent directory naming and merge duplicate agent data. There are several agent directories that are duplicated with different casing. For example, 'Android_Studio_Bot' and 'android_studio_bot'. The content of these directories is often different, with one being more up-to-date. The task is to identify the correct and most current version of each duplicated agent, merge any unique information, and remove the obsolete directory.",
+    "relevant_files": [
+      "agents/Android_Studio_Bot/",
+      "agents/android_studio_bot/",
+      "agents/Minimax_agent/",
+      "agents/minimax_agent/",
+      "agents/SWE-agent/",
+      "agents/swe_agent/"
+    ],
+    "reason": "Duplicate and inconsistent directories make the repository confusing to navigate and maintain. It can lead to contributors updating the wrong files, and it creates uncertainty about which data is canonical.",
+    "risk": "There is a risk of data loss if the merge is not done carefully. The more up-to-date information must be correctly identified and preserved. There's also a risk of breaking any scripts or processes that might be relying on the old paths, although this is unlikely in this repository."
+  },
+  {
+    "task_description": "Standardize the naming of JSON files. The file 'agents/google_vertex_ai_engine/agents_google_vertex_ai_engine.json' is named with a plural 'agents' but contains data for a single agent. It should be renamed to 'agent_google_vertex_ai_engine.json' to be consistent with other agent data files. Similarly, there are inconsistencies in persona rating file names that need to be standardized.",
+    "relevant_files": [
+      "agents/google_vertex_ai_engine/agents_google_vertex_ai_engine.json",
+      "agents/v0.app/persona_ratings_v0.json",
+      "agents/v0.app/persona_criteria_v0.app.json"
+    ],
+    "reason": "Consistent naming conventions are crucial for maintainability and for programmatic processing of these files. Inconsistent names can lead to errors in scripts that process this data.",
+    "risk": "Low. The main risk is that any code referencing the old filenames will break. A search for the old filenames should be conducted to update any references."
+  },
+  {
+    "task_description": "Complete missing data in persona ratings. The file 'agents/AskCodi/persona_ratings_askcodi.json' has 'Research to be done.' as a placeholder for all 'reasoning' fields. This data needs to be researched and filled in to provide a complete and useful dataset.",
+    "relevant_files": [
+      "agents/AskCodi/persona_ratings_askcodi.json"
+    ],
+    "reason": "The dataset is incomplete and therefore not as useful as it could be. Missing data can mislead users or automated analyses of the data.",
+    "risk": "Low. The risk is that the new data might not be accurate. The research should be done carefully to ensure the quality of the information."
+  },
+  {
+    "task_description": "Remove unused or temporary files. Files like 'agents/Jules/test.json', 'agents/Sourcegraph_Cody/test_file.txt', and 'website/public/vite.svg' appear to be temporary or boilerplate files that are not used in the project. They should be removed to clean up the repository.",
+    "relevant_files": [
+      "agents/Jules/test.json",
+      "agents/Sourcegraph_Cody/test_file.txt",
+      "website/public/vite.svg"
+    ],
+    "reason": "Unused files clutter the repository, making it harder to navigate and understand the project's structure. Removing them improves the overall quality and maintainability of the codebase.",
+    "risk": "Low. There is a small risk that these files are used in some undocumented way. A quick search for references to these files in the codebase should be performed before deleting them."
+  },
+  {
+    "task_description": "Fix casing of enginelabs and its persona_ratings_engine.json file. The directory `agents/enginelabs/` and its `persona_ratings_engine.json` file have inconsistent casing. The directory should be renamed to `EngineLabs` and the file to `persona_ratings_enginelabs.json` to match the agent's name and the convention of other files.",
+    "relevant_files": [
+      "agents/enginelabs/agent_enginelabs.json",
+      "agents/enginelabs/persona_ratings_engine.json",
+      "agents/enginelabs/profile.md"
+    ],
+    "reason": "Inconsistent casing and naming conventions for agent directories and files make the repository harder to navigate and maintain. Standardizing the names improves consistency and readability.",
+    "risk": "Low. The main risk is breaking any internal references to these files. A search for the old paths should be conducted to update any references."
+  }
+]
