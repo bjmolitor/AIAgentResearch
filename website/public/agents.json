@@ -22,7 +22,8 @@
       "terminal_bench_source": null,
       "task_success_rate": null,
       "resource_usage": null
-    }
+    },
+    "description": "Android Studio Bot, also branded as Gemini in Android Studio, is a conversational AI assistant built into Android Studio. Introduced at Google I/O 2023 and upgraded to Gemini models in 2024, it helps Android developers generate code, answer questions, and resolve errors within the IDE."
   },
   {
     "name": "Qwen CLI",
@@ -42,7 +43,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "Not publicly documented"
-    }
+    },
+    "description": "Qwen Code CLI is a command-line interface designed to facilitate agentic coding tasks. It is a fork of Gemini CLI and has been adapted specifically for use with the Qwen3-Coder model. It is developed and open-sourced by Alibaba."
   },
   {
     "name": "AskCodi",
@@ -77,7 +79,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "AskCodi is an AI coding assistant from Assistiv AI that provides a wide range of tools to help developers write, refactor, and test their code."
   },
   {
     "name": "SWE-agent",
@@ -100,7 +103,8 @@
       "swe_bench_source": "https://swe-agent.com/latest/",
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "SWE-agent is an open-source research agent that lets large language models autonomously use developer tools to fix issues in real GitHub repositories."
   },
   {
     "name": "LangGraph",
@@ -119,7 +123,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "LangGraph is a library for building stateful, multi-agent applications with LLMs. It is part of the LangChain ecosystem and provides a low-level and extensible framework for creating reliable and controllable AI agents."
   },
   {
     "name": "Amazon CodeGuru",
@@ -145,7 +150,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Amazon CodeGuru is a static application security testing (SAST) tool that combines machine learning (ML) and automated reasoning to identify vulnerabilities in your code, provide recommendations on how to fix them, and track their status until closure."
   },
   {
     "name": "OpenAI Codex",
@@ -164,7 +170,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "Depends on API usage; no public metrics"
-    }
+    },
+    "description": "OpenAI Codex is a descendant of GPT-3 that translates natural language into code."
   },
   {
     "name": "Letta",
@@ -186,7 +193,8 @@
       "terminal_bench_score": "42.5% ± 0.8",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "terminal_bench_score_from_leaderboard": "42.5% ± 0.8"
-    }
+    },
+    "description": "Letta is a platform for building stateful AI agents that retain long-term memory and expose their capabilities through REST APIs. Built on MemGPT, it offers tools to visualize agent reasoning and integrate custom tools across multiple frameworks."
   },
   {
     "name": "Codex CLI",
@@ -212,7 +220,8 @@
       "task_success_rate": 0.2,
       "resource_usage": "Runs locally; resource usage depends on chosen model",
       "terminal_bench_score_from_leaderboard": "20.0% ± 1.5"
-    }
+    },
+    "description": "Codex CLI is an open-source coding agent from OpenAI that runs locally on your computer and interacts with your terminal."
   },
   {
     "name": "Trae",
@@ -240,7 +249,8 @@
       "swe_bench_source": "https://www.datacamp.com/tutorial/trae-ai",
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Trae AI is an AI-powered coding IDE that aims to be a \"real AI engineer\". It provides a suite of features to help developers build software faster, including a coding agent called the Builder, sidebar and inline chat, and a SOLO mode for end-to-end software engineering."
   },
   {
     "name": "DeepCode AI",
@@ -268,7 +278,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "DeepCode AI, developed by Snyk, is a powerful tool for automated code review, emphasizing static application security testing (SAST). It uses sophisticated algorithms to analyze your code repositories and identifies security vulnerabilities and quality issues by scanning code in real-time."
   },
   {
     "name": "GitHub Copilot",
@@ -305,7 +316,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration. It is developed by GitHub and is available as an extension in various IDEs and other developer tools."
   },
   {
     "name": "Amazon CodeWhisperer",
@@ -330,7 +342,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is in the process of being integrated into Amazon Q Developer."
   },
   {
     "name": "Tabnine",
@@ -357,7 +370,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Tabnine is an AI code assistant that accelerates and simplifies software development. It provides a suite of AI-powered tools to help developers write better code faster, while keeping the code private, secure, and compliant."
   },
   {
     "name": "mini-SWE-agent",
@@ -377,7 +391,8 @@
       "swe_bench_source": "https://swe-agent.com/",
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "mini-SWE-agent is a lightweight version of SWE-agent, implemented in just 100 lines of code. It is designed to be a simple and hackable agent for fixing issues in real GitHub repositories."
   },
   {
     "name": "Figma Make",
@@ -397,7 +412,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Figma Make is an AI assistant built into Figma that transforms text prompts into design files. It can create mockups, prototypes, and filler content to accelerate interface design."
   },
   {
     "name": "Engine",
@@ -424,7 +440,8 @@
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Engine is a remote AI software engineer from Engine Labs that works in an isolated virtual machine to turn issues into pull requests. It integrates with popular project management tools and can run in autopilot mode to respond to code reviews and CI/CD events."
   },
   {
     "name": "Minimax agent",
@@ -447,7 +464,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "No public benchmarks found"
-    }
+    },
+    "description": ""
   },
   {
     "name": "Gemini CLI",
@@ -470,7 +488,8 @@
       "swe_bench_source": "https://www.swebench.com/",
       "task_success_rate": null,
       "resource_usage": "Not publicly documented"
-    }
+    },
+    "description": "The Gemini command line interface (CLI) is an open-source AI agent developed by Google that provides access to Gemini directly in your terminal. It uses a reason and act (ReAct) loop with your built-in tools and local or remote MCP servers to complete complex use cases like fixing bugs, creating new features, and improving test coverage. While the Gemini CLI excels at coding, it's also a versatile local utility that you can use for a wide range of tasks, from content generation and problem-solving to deep research and task management."
   },
   {
     "name": "Kilo",
@@ -487,7 +506,8 @@
       "swe_bench_score": "Not found",
       "task_success_rate": null,
       "resource_usage": "Not found"
-    }
+    },
+    "description": ""
   },
   {
     "name": "manus",
@@ -506,7 +526,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "Not publicly reported"
-    }
+    },
+    "description": "Manus is an autonomous artificial intelligence agent developed by the Chinese startup Monica, which is also known as Butterfly Effect AI and based in Singapore. The agent is designed to independently carry out complex real-world tasks without direct or continuous human guidance. It is recognized as one of the world's first autonomous agents capable of independent thinking, dynamic planning, and decision-making.  The official launch of Manus was on March 6, 2025. It was described as a major advance because it could autonomously handle complex tasks, including writing and deploying code."
   },
   {
     "name": "LangChain",
@@ -527,7 +548,8 @@
       "swe_bench_score": 0.486,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "LangChain is a framework for developing applications powered by language models. It provides tools and abstractions to build context-aware and reasoning applications. LangChain offers a suite of products, including LangGraph for building stateful multi-agent applications, LangSmith for monitoring and evaluation, and a wide range of integrations with other tools and services."
   },
   {
     "name": "v0",
@@ -546,7 +568,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "v0 is a generative UI builder that turns natural language prompts into production-ready React and Tailwind components."
   },
   {
     "name": "Sourcegraph Cody",
@@ -574,7 +597,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Sourcegraph Cody is an AI coding assistant that uses the latest LLMs and your development context to help you understand, write, and fix code faster. It is developed by Sourcegraph, Inc. and is available as an extension for various IDEs."
   },
   {
     "name": "CrewAI",
@@ -598,7 +622,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "CrewAI is a Python framework for orchestrating role-playing, autonomous AI agents. It empowers developers to build and deploy sophisticated multi-agent systems that can work together to solve complex tasks."
   },
   {
     "name": "CodeGPT",
@@ -623,7 +648,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "CodeGPT is an AI agent platform for software development from Judini Inc. It provides chat-based tooling that can review pull requests, onboard developers, and generate or refactor code with context from an entire repository."
   },
   {
     "name": "Claude Code",
@@ -657,7 +683,8 @@
       "task_success_rate": 0.432,
       "resource_usage": "Not publicly documented",
       "terminal_bench_score_from_leaderboard": "43.2% ± 1.3"
-    }
+    },
+    "description": ""
   },
   {
     "name": "OpenHands",
@@ -680,7 +707,8 @@
       "task_success_rate": 0.413,
       "resource_usage": "Not publicly documented; depends on hosting environment and model",
       "terminal_bench_score_from_leaderboard": "41.3% ± 0.7"
-    }
+    },
+    "description": "OpenHands is an open-source AI coding agent and framework from Daytona that aims to let agents perform end-to-end software development tasks."
   },
   {
     "name": "devin",
@@ -703,7 +731,8 @@
       "swe_bench_score": 13.86,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Devin is the world's first fully autonomous AI software engineer, created by Cognition. It is designed to be a tireless, skilled teammate that can work alongside human engineers or independently complete tasks."
   },
   {
     "name": "Roo Code",
@@ -722,7 +751,8 @@
       "swe_bench_score": "Not applicable",
       "task_success_rate": null,
       "resource_usage": "Not applicable"
-    }
+    },
+    "description": "ROO.AI is a platform for frontline digital automation. It uses a combination of a visual interface, Bots, and AI Agents to provide guidance and automated data collection for workers in industries like manufacturing, construction, and energy.  While ROO.AI uses \"AI Agents\", it is not a coding assistant or a developer tool in the same way as other agents in this list. The \"Roo Code\" name is likely a misnomer or refers to an internal project."
   },
   {
     "name": "ChatGPT agent",
@@ -744,7 +774,8 @@
       "swe_bench_source": "https://cognition.ai/blog/swe-bench-technical-report",
       "task_success_rate": null,
       "resource_usage": "GPT-4 (assisted). GPT-3.5 (assisted) scored 1.34% on SWE-bench"
-    }
+    },
+    "description": ""
   },
   {
     "name": "Minimax Agent",
@@ -767,7 +798,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "No public benchmarks found"
-    }
+    },
+    "description": ""
   },
   {
     "name": "Aider",
@@ -790,7 +822,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Aider is an open-source command-line pair programming tool that uses large language models to edit your codebase."
   },
   {
     "name": "Jules",
@@ -814,7 +847,8 @@
       "swe_bench_source": "https://aiagentindex.mit.edu/jules/",
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Jules is an experimental, asynchronous coding agent developed by Google. It is designed to assist developers by handling various coding tasks, allowing them to focus on more critical aspects of their projects. Jules integrates with GitHub and works by cloning repositories into a secure cloud environment to perform tasks."
   },
   {
     "name": "Goose",
@@ -836,7 +870,8 @@
       "task_success_rate": 0.42,
       "resource_usage": "Depends on local hardware and model; no public metrics",
       "terminal_bench_score_from_leaderboard": "42.0% ± 1.3"
-    }
+    },
+    "description": "Goose is an open-source, on-machine AI agent from Block that automates engineering tasks autonomously."
   },
   {
     "name": "Open SWE",
@@ -860,7 +895,8 @@
       "terminal_bench_source": null,
       "task_success_rate": null,
       "resource_usage": null
-    }
+    },
+    "description": "Open SWE is an open-source, asynchronous coding agent from LangChain. Built on the LangGraph framework, it autonomously analyzes repositories, plans changes, and implements code updates while running in a cloud-hosted sandbox."
   },
   {
     "name": "Terminus",
@@ -882,7 +918,8 @@
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.399,
       "resource_usage": "Not publicly documented; depends on remote environment and model"
-    }
+    },
+    "description": "Terminus is a research-preview AI agent built for evaluating language models directly in a terminal environment."
   },
   {
     "name": "Cline",
@@ -906,7 +943,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Cline is an open-source AI coding agent that gives you direct, transparent access to frontier AI models with no limits, no surprises, and no model ecosystem lock-in. It is developed by Cline Bot Inc."
   },
   {
     "name": "Perplexity",
@@ -925,7 +963,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Perplexity is an AI-powered search engine that answers questions with cited sources."
   },
   {
     "name": "Warp",
@@ -955,7 +994,8 @@
       "resource_usage": "Not publicly documented; depends on local hardware and active agents",
       "swe_bench_score": "71%",
       "terminal_bench_score_from_leaderboard": "52.0% ± 1.0"
-    }
+    },
+    "description": "Warp is an agentic development environment and terminal that enables fast, native interactions with multiple AI agents across the development workflow."
   },
   {
     "name": "SQLAI.ai",
@@ -976,7 +1016,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "SQLAI.ai is an AI-powered SQL multi-tool that helps users generate, optimize, and understand SQL queries. It supports a wide range of SQL and NoSQL database engines."
   },
   {
     "name": "Cursor",
@@ -1008,7 +1049,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Cursor is an AI code editor designed to help developers build software faster. It is developed by Anysphere and offers a range of AI-powered features to enhance the coding experience."
   },
   {
     "name": "Replit AI",
@@ -1034,7 +1076,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Replit AI is an AI-powered software development platform that allows users to build and deploy applications and websites using natural language prompts. It is designed to be accessible to both technical and non-technical creators."
   },
   {
     "name": "LogiQCLI",
@@ -1056,7 +1099,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "Not publicly documented"
-    }
+    },
+    "description": "LogiQCLI is the AI Agent from Logz.io, part of their Observability IQ suite. It provides a chat-based interface for users to interact with their data, offering real-time insights into metrics, anomalies, trends, and overall system health."
   },
   {
     "name": "chat.z.ai",
@@ -1079,6 +1123,7 @@
       "swe_bench_score": 64.2,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": ""
   }
 ]
