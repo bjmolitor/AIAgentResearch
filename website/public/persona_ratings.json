@@ -1494,5 +1494,39 @@
       "rating": 5,
       "reasoning": "This is a core strength of Open SWE. It uses a multi-agent architecture (Manager, Planner, Programmer, Reviewer) built on LangGraph, a framework specifically designed for orchestrating agentic workflows. The ability to trigger runs from GitHub issues, manage them through a UI, and have the agent automatically create pull requests is a clear demonstration of sophisticated workflow and agent orchestration. The Manager agent's ability to route messages and coordinate between the other agents is a key feature here."
     }
+  },
+  "swe_agent": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "SWE-agent lets language models autonomously use tools to fix issues in real GitHub repositories, enabling highly automated software workflows."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "The project provides detailed documentation and Codespaces tutorials, but setup requires command line use, API keys, and Docker."
+    },
+    "code_quality_testing": {
+      "rating": 4,
+      "reasoning": "The repository emphasizes testing and quality with Pytest, code coverage, and pre-commit checks, supporting reliable fixes."
+    },
+    "codebase_comprehension": {
+      "rating": 5,
+      "reasoning": "SWE-agent uses shell tools and version control to explore repositories, letting the model understand and modify codebases effectively."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "The agent focuses on text-based code tasks and does not offer image, audio, or other multimodal capabilities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "It targets software engineering tasks rather than data science workflows, offering limited support for diverse data sources or experiments."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Interaction happens through the command line; there are no visual or drag-and-drop interfaces."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Configuration is managed through a single YAML file, giving the model flexibility but without a dedicated multi-agent orchestration layer."
+    }
   }
 }
