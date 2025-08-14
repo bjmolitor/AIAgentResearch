@@ -3,17 +3,24 @@
 This repository contains a curated list of AI agents, categorized and profiled to provide a comprehensive overview of the current landscape. The goal of this project is to offer a structured and detailed comparison of various AI agents, focusing on their features, capabilities, and benchmarks.
 
 ## We're live!
-You can browse the results of this research here: [Netlify](https://aiagentresearch.netlify.app/)
+
+You can browse the results of this research on our website: [https://aiagentresearch.netlify.app/](https://aiagentresearch.netlify.app/)
+
+The website provides a comprehensive overview of the AI agents that have been profiled. It features:
+
+*   **An Agent Leaderboard:** A table view of all the agents, with key information such as their category, benchmarks, and a link to their homepage.
+*   **Detailed Agent Pages:** Clicking on an agent's name opens a detailed view with more information about the agent, including its key features, supported models, and persona ratings.
+*   **Persona-Based Recommendations:** A "Can you recommend something?" feature that helps users find the best agent for their needs based on their user persona.
 
 ## Project Structure
 
 The repository is organized as follows:
 
-- **Agent JSON files**: Each agent's subdirectory contains a structured `agent_<name>.json` file with all collected data about that agent. These files conform to `agents.schema.json` and serve as the source of truth for the repository.
+- **`agents/`**: This directory contains individual folders for each AI agent. Every folder includes an `agent_<name>.json` file with structured data about the agent, a `profile.md` with a human-readable summary, and a `persona_ratings_<name>.json` file with the agent's ratings for different user personas.
 
-- **`agents/`**: This directory contains individual folders for each AI agent. Every folder includes the `agent_<name>.json` file and a `profile.md` with a human-readable summary.
+- **`website/`**: This directory contains the source code for the project's website. The website is a React application that displays the data from the `agents/` directory in a user-friendly way. It also includes the consolidated JSON files that are used to populate the website.
 
-- **`VISION.md`**: This document outlines the long-term vision for this project, including plans for automated research and report generation.
+- **`VISION.md`**: This document outlines the long-term vision for this project.
 
 ## Profiled Agents
 
@@ -77,7 +84,7 @@ Contributions to this project are welcome. If you would like to add a new agent 
 
 1.  **Fork the repository.**
 2.  **Add or update the agent's data in the appropriate `agent_<name>.json` file inside `agents/<name>/`.** Please ensure that the data is accurate and well-sourced.
-3.  **Create or update the corresponding `profile.md` file.** This can be done manually or with a script that generates the Markdown from the JSON data.
+3.  **Create or update the corresponding `profile.md` and `persona_ratings_<name>.json` files.**
 4.  **Submit a pull request.**
 
 Please ensure that your contributions are well-documented and follow the existing structure of the project.
