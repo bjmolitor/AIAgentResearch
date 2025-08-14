@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Orchestrates multiple agents through crews and flows to automate complex tasks with minimal oversight."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Setup requires Python knowledge and understanding of multi-agent concepts despite good documentation."
   },
   "code_quality_testing": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Focuses on orchestration and provides no native tools for testing or enforcing code quality."
   },
   "codebase_comprehension": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Agents can integrate custom tools, but the framework lacks built-in features for navigating large codebases."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Supports text-based agents and tool calls but offers no dedicated multimodal creativity features."
   },
   "data_experimental_flexibility": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Open-source Python framework lets developers connect external APIs and data sources for custom experiments."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "Configured through code and YAML with no drag-and-drop or no-code interface."
   },
   "workflow_agent_orchestration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "Designed specifically for coordinating crews of agents and deterministic flows with event-driven control."
   }
 }

@@ -4,6 +4,10 @@
 
 CrewAI is a Python framework for orchestrating role-playing, autonomous AI agents. It empowers developers to build and deploy sophisticated multi-agent systems that can work together to solve complex tasks.
 
+Beyond simple agent chats, CrewAI introduces the concepts of "crews" and "flows" to give developers fine-grained control over how agents collaborate. Crews allow autonomous agents to share context and delegate tasks, while Flows enable deterministic, event-driven execution paths for production-ready automation.
+
+The framework is lean and standalone—not tied to other orchestration stacks—and emphasizes deep customization. Developers can adjust prompts, tools, and behaviors at every level, combine multiple crews inside a single flow, and integrate with external APIs or data sources. A large community and extensive documentation support experimentation from small prototypes to enterprise workloads.
+
 ## Key Information
 
 - **Developer:** CrewAI Inc.
