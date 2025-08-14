@@ -117,3 +117,4 @@ function AgentDetailModal({ agent, onClose }) {
 
 export default AgentDetailModal;
 
+
