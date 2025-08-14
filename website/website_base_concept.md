@@ -58,9 +58,9 @@ Clicking on a specific persona will navigate the user to a detailed page for tha
 
 To facilitate the development of the website, the agent and persona data, which is originally spread across multiple files in the repository, has been consolidated into a few key JSON files. These files will serve as the primary data source for the website.
 
-- **`website/agents.json`**: An array of all agent objects, consolidated from the individual `agents/*/agent_*.json` files. This file will power the main agent table on the landing page.
-- **`website/persona_ratings.json`**: An object where keys are agent names and values are the corresponding persona rating objects. This will be used to calculate recommendations.
-- **`website/personas.json`**: An object where keys are persona names and values are the content of their profile markdown files. This will be used for the "Can you recommend something?" feature.
+- **`website/public/agents.json`**: An array of all agent objects, consolidated from the individual `agents/*/agent_*.json` files. This file will power the main agent table on the landing page.
+- **`website/public/persona_ratings.json`**: An object where keys are agent names and values are the corresponding persona rating objects. This will be used to calculate recommendations.
+- **`website/public/personas.json`**: An object where keys are persona names and values are the content of their profile markdown files. This will be used for the "Can you recommend something?" feature.
 
 The website will be a static application (HTML, CSS, JavaScript) that fetches these JSON files to populate its content. This approach simplifies the architecture and leverages the existing data structure of the repository. Any updates to the agent or persona data in the main repository will require a regeneration of these consolidated JSON files.
 
