@@ -1,7 +1,7 @@
 {
   "automation_productivity": {
     "rating": 4,
-    "reasoning": "Cody is designed to improve developer productivity with features like intelligent code completion, chat-based assistance for generating and modifying code, and an 'auto-edit' feature. Case studies from companies like Coinbase and Qualtrics claim significant time savings and faster task completion [1, 2]. The main limitation is that the most powerful productivity features are primarily available in the paid Enterprise plan."
+    "reasoning": "Cody is designed to improve developer productivity with features like intelligent code completion, chat-based assistance for generating and modifying code, and an 'auto-edit' feature. Case studies from companies like Coinbase and Qualtrics claim significant time savings and faster task completion. The main limitation is that the most powerful productivity features are primarily available in the paid Enterprise plan."
   },
   "beginner_friendly_onboarding": {
     "rating": 2,

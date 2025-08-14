@@ -30,5 +30,6 @@
   "workflow_agent_orchestration": {
     "rating": 3,
     "reasoning": "Configuration is managed through a single YAML file, giving the model flexibility but without a dedicated multi-agent orchestration layer."
+
   }
 }
