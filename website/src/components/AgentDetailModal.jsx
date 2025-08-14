@@ -72,8 +72,8 @@ function AgentDetailModal({ agent, onClose }) {
         <div className="flex flex-col md:flex-row gap-4 mb-4">
           <div className="border border-sparky-blue p-4 flex-1">
             <h3 className="font-archia mb-2">Description</h3>
-            <p className="text-sm">
-              {agent.description || "No description available."}
+            <p className="text-sm whitespace-pre-line">
+              {agent.long_description || agent.description || "No description available."}
             </p>
           </div>
           <div className="border border-sparky-blue p-4 flex-1">
