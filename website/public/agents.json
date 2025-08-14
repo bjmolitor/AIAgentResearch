@@ -280,7 +280,8 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "DeepCode AI, developed by Snyk, is a powerful tool for automated code review, emphasizing static application security testing (SAST). It uses sophisticated algorithms to analyze your code repositories and identifies security vulnerabilities and quality issues by scanning code in real-time."
+    "description": "DeepCode AI, developed by Snyk, is a powerful tool for automated code review, emphasizing static application security testing (SAST). It uses sophisticated algorithms to analyze your code repositories and identifies security vulnerabilities and quality issues by scanning code in real-time.",
+    "long_description": "DeepCode AI is Snyk's AI-powered static application security testing service. It combines symbolic analysis with generative models and Snyk's extensive vulnerability database to highlight insecure patterns, prioritize fixes by risk, and suggest automated remediation. Integrations with IDEs, Git platforms, and CI/CD pipelines let teams scan Java, JavaScript, Python, TypeScript, C#, Go, and more while they code."
   },
   {
     "name": "GitHub Copilot",
