@@ -46,7 +46,7 @@ function AgentDetailModal({ agent, onClose }) {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
-      <div className="bg-background-blue text-white p-6 rounded-md shadow-lg max-w-lg w-full overflow-y-auto max-h-full">
+      <div className="bg-background-blue text-white p-6 rounded-md shadow-lg w-[90vw] max-h-full overflow-y-auto">
         <div className="flex justify-between items-start mb-4">
           <h2 className="text-2xl font-archia">{agent.name}</h2>
           <button
@@ -58,49 +58,51 @@ function AgentDetailModal({ agent, onClose }) {
           </button>
         </div>
         <p className="mb-2"><span className="font-archia">Developer:</span> {agent.developer}</p>
-        <p className="mb-4"><span className="font-archia">Pricing:</span> {agent.pricing_model}</p>
+        <p className="mb-2"><span className="font-archia">Pricing:</span> {agent.pricing_model}</p>
         <div className="mb-4">
-          <h3 className="font-archia mb-1">Key Features:</h3>
-          <ul className="list-disc list-inside text-sm space-y-1">
-            {agent.key_features?.map((feature, index) => (
-              <li key={index}>{feature}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-archia mb-1">Supported Models:</h3>
-          <ul className="list-disc list-inside text-sm space-y-1">
-            {agent.supported_models?.map((model, index) => (
-              <li key={index}>{model}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-archia mb-1">Persona Ratings:</h3>
-          <ul className="list-disc list-inside text-sm space-y-2">
-            {criteria.map((c) => {
-              const info = agentRatings[c.id];
-              if (!info) return null;
-              return (
-                <li key={c.id}>
-                  <div className="font-archia">
-                    {c.name}: {renderStars(info.rating)}
-                  </div>
-                  <p className="ml-4">{info.reasoning}</p>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="text-right">
           <a
             href={agent.website}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-sparky-blue text-stratos-blue px-4 py-2 rounded font-archia mr-2"
+            className="inline-block bg-sparky-blue text-stratos-blue px-4 py-2 rounded font-archia"
           >
             Visit Website
           </a>
+        </div>
+        <div className="flex flex-col md:flex-row gap-4 mb-4">
+          <div className="border border-sparky-blue p-4 flex-1">
+            <h3 className="font-archia mb-2">Key Features</h3>
+            <ul className="list-disc list-inside text-sm space-y-1">
+              {agent.key_features?.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="border border-sparky-blue p-4 flex-1">
+            <h3 className="font-archia mb-2">Supported Models</h3>
+            <ul className="list-disc list-inside text-sm space-y-1">
+              {agent.supported_models?.map((model, index) => (
+                <li key={index}>{model}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+          {criteria.map((c) => {
+            const info = agentRatings[c.id] || {};
+            return (
+              <div key={c.id} className="border border-sparky-blue p-4">
+                <div className="font-archia mb-2">
+                  {c.name}: {renderStars(info.rating)}
+                </div>
+                <p className="text-sm">
+                  {info.reasoning || "No reasoning provided."}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+        <div className="text-right">
           <button
             onClick={onClose}
             className="bg-sparky-blue text-stratos-blue px-4 py-2 rounded font-archia"
