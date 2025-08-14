@@ -443,36 +443,36 @@
   },
   "deepcode_ai": {
     "automation_productivity": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 4,
+      "reasoning": "Automatically scans code in IDEs and CI pipelines, suggesting fixes and prioritizing risks to reduce manual review."
     },
     "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 2,
+      "reasoning": "Free tier and documentation exist, but setup requires linking repositories and understanding security workflows."
     },
     "code_quality_testing": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 5,
+      "reasoning": "Provides deep static analysis with an extensive vulnerability database and offers security autofixes."
     },
     "codebase_comprehension": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 4,
+      "reasoning": "Analyzes whole repositories using ASTs to surface context-aware issues."
     },
     "creative_multimodal_exploration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 1,
+      "reasoning": "Focused solely on text-based code analysis without image or audio capabilities."
     },
     "data_experimental_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 1,
+      "reasoning": "No built-in data analysis or experiment tracking beyond code scanning."
     },
     "visual_no_code_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 1,
+      "reasoning": "Offers code review tools but no drag-and-drop or visual builders."
     },
     "workflow_agent_orchestration": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "Integrates with Git platforms and CI/CD pipelines to enforce security checks, though not a full orchestration system."
     }
   },
   "devin": {

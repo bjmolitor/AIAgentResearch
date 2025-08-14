@@ -4,6 +4,8 @@
 
 DeepCode AI, developed by Snyk, is a powerful tool for automated code review, emphasizing static application security testing (SAST). It uses sophisticated algorithms to analyze your code repositories and identifies security vulnerabilities and quality issues by scanning code in real-time.
 
+The service combines symbolic analysis with generative models and Snyk's vast vulnerability database to highlight insecure patterns, prioritize fixes by risk, and even suggest automated remediation where possible. Developers can catch issues before merging and maintain secure coding practices across projects.
+
 ## Key Information
 
 - **Developer:** Snyk
@@ -41,3 +43,13 @@ Snyk offers a free plan with limited tests. Paid plans (Team and Enterprise) are
 ## Getting Started
 
 To get started with DeepCode AI, you can visit the [official website](https://snyk.io/platform/deepcode-ai/) and sign up for a plan.
+
+## Integrations and Language Support
+
+DeepCode AI plugs into GitHub, GitLab, Bitbucket, and common CI/CD systems. IDE extensions for JetBrains, Visual Studio Code, and the Snyk web dashboard let teams review code as they write it. The service supports popular languages such as Java, JavaScript, Python, TypeScript, C#, and Go.
+
+## Ideal Use Cases
+
+- Security auditing of pull requests before merge
+- Continuous monitoring of repositories for new vulnerabilities
+- Enforcing secure coding practices in DevOps pipelines
