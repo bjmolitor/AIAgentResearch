@@ -34,11 +34,14 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
   }, []);
 
   const filteredByNames = filterNames
-    ? agents.filter(
-        (a) =>
-          filterNames.includes(a.name) ||
-          filterNames.includes(a.name.replace(/\s+/g, '_'))
-      )
+    ? filterNames
+        .map((name) =>
+          agents.find(
+            (a) =>
+              a.name === name || a.name.replace(/\s+/g, '_') === name
+          )
+        )
+        .filter(Boolean)
     : agents;
 
   const filteredAgents = searchTerm
