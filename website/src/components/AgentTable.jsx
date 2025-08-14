@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
   const [agents, setAgents] = useState([]);
-  const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
+  // Default sort alphabetically by name
+  const [sortConfig, setSortConfig] = useState({ key: "name", direction: "asc" });
   const [ratings, setRatings] = useState({});
   const [criteria, setCriteria] = useState([]);
   const [selectedCriteria, setSelectedCriteria] = useState([]);
@@ -43,7 +44,8 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
         };
       }
       if (prev.key === "_avg") {
-        return { key: null, direction: "asc" };
+        // When removing criteria, revert to alphabetical order
+        return { key: "name", direction: "asc" };
       }
       return prev;
     });
@@ -96,9 +98,13 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
   const sortedAgents = sortConfig.key
     ? [...agentsWithAverage].sort((a, b) => {
         const aValue =
-          sortConfig.key === "_avg" ? a._avg ?? -1 : a[sortConfig.key] || "";
+          sortConfig.key === "_avg"
+            ? a._avg ?? -1
+            : (a[sortConfig.key] || "").toString().toLowerCase();
         const bValue =
-          sortConfig.key === "_avg" ? b._avg ?? -1 : b[sortConfig.key] || "";
+          sortConfig.key === "_avg"
+            ? b._avg ?? -1
+            : (b[sortConfig.key] || "").toString().toLowerCase();
         if (aValue < bValue) {
           return sortConfig.direction === "asc" ? -1 : 1;
         }
