@@ -37,7 +37,6 @@ The following agents have been profiled in this repository:
 - AskCodi (`agents/AskCodi`)
 - Cline (`agents/Cline`)
 - CodeGPT (`agents/CodeGPT`)
-- CodeWP (`agents/CodeWP`)
 - Cursor (`agents/Cursor`)
 - DeepCode AI (`agents/DeepCode_AI`)
 - GitHub Copilot (`agents/GitHub_Copilot`)
