@@ -1,5 +1,9 @@
 # chat.z.ai
 
+## Overview
+
+chat.z.ai is Zhipu AI's web-based interface for its General Language Model (GLM) family. It offers long-context conversations with GLM-4.5 models and provides tools for coding assistance, web browsing, plugin-based extensions, and function calling to build full-stack applications.
+
 ## Basic Info
 
 - **Website:** https://chat.z.ai/

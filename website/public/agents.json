@@ -1017,7 +1017,8 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "SQLAI.ai is an AI-powered SQL multi-tool that helps users generate, optimize, and understand SQL queries. It supports a wide range of SQL and NoSQL database engines."
+    "description": "SQLAI.ai is an AI-powered SQL multi-tool that helps users generate, optimize, and understand SQL queries. It supports a wide range of SQL and NoSQL database engines.",
+    "long_description": "The platform turns natural-language requests into executable SQL, explains and validates existing queries, converts syntax between databases, and recommends indexes for performance tuning. Users can connect live MySQL, PostgreSQL, SQL Server, Oracle, Snowflake, BigQuery, or MongoDB instances, run queries through the web interface, and export results."
   },
   {
     "name": "Cursor",
@@ -1124,6 +1125,6 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": ""
+    "description": "chat.z.ai is Zhipu AI's web interface for its GLM models, offering long-context conversations with GLM-4.5 and tools for coding assistance, web browsing, plugins, and function calling to build full-stack applications."
   }
 ]
