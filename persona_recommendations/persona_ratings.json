@@ -271,40 +271,6 @@
       "reasoning": "Research to be done."
     }
   },
-  "CodeWP": {
-    "automation_productivity": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "code_quality_testing": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "codebase_comprehension": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "data_experimental_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "visual_no_code_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
-    }
-  },
   "Codex CLI": {
     "automation_productivity": {
       "rating": 3,

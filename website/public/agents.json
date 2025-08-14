@@ -108,27 +108,6 @@
     }
   },
   {
-    "name": "CodeWP",
-    "website": "https://codewp.ai/",
-    "developer": "WPAI, Inc.",
-    "key_features": [
-      "AI chat and coding tools trained specifically for WordPress.",
-      "Can create accurate, complex WordPress plugins and code snippets.",
-      "Can troubleshoot and fix fatal errors.",
-      "Has a security scanning feature.",
-      "Has a community where users can share snippets."
-    ],
-    "supported_models": [
-      "Proprietary AI models"
-    ],
-    "pricing_model": "Free plan with limited actions. Paid plans (Pro and Agency) with more features and higher limits, starting at $18/month.",
-    "benchmarks": {
-      "swe_bench_score": null,
-      "task_success_rate": null,
-      "resource_usage": ""
-    }
-  },
-  {
     "name": "LangGraph",
     "website": "https://langchain-ai.github.io/langgraph/",
     "developer": "LangChain, Inc.",
