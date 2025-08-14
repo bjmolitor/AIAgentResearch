@@ -3,22 +3,34 @@ import { useEffect, useState } from "react";
 function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
   const [agents, setAgents] = useState([]);
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
+  const [ratings, setRatings] = useState({});
+  const [criteria, setCriteria] = useState([]);
 
   useEffect(() => {
-    async function loadAgents() {
+    async function loadData() {
       try {
-        const response = await fetch('/agents.json');
-        if (!response.ok) {
-          throw new Error('Failed to fetch agent data');
+        const [agentsRes, ratingsRes, criteriaRes] = await Promise.all([
+          fetch("/agents.json"),
+          fetch("/persona_ratings.json"),
+          fetch("/persona_criteria.json"),
+        ]);
+        if (!agentsRes.ok || !ratingsRes.ok || !criteriaRes.ok) {
+          throw new Error("Failed to fetch data");
         }
-        const data = await response.json();
-        setAgents(data);
+        const [agentsData, ratingsData, criteriaData] = await Promise.all([
+          agentsRes.json(),
+          ratingsRes.json(),
+          criteriaRes.json(),
+        ]);
+        setAgents(agentsData);
+        setRatings(ratingsData);
+        setCriteria(criteriaData);
       } catch (err) {
         console.error(err);
       }
     }
 
-    loadAgents();
+    loadData();
   }, []);
 
   const filteredByNames = filterNames
@@ -48,6 +60,13 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
         return 0;
       })
     : filteredAgents;
+
+  const renderStars = (rating) => {
+    if (!rating) return "☆☆☆☆☆";
+    const filled = "★".repeat(rating);
+    const empty = "☆".repeat(5 - rating);
+    return filled + empty;
+  };
 
   const handleSort = (key) => {
     setSortConfig((prev) => ({
@@ -80,6 +99,11 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
             >
               Pricing
             </th>
+            {criteria.map((c) => (
+              <th key={c.id} className="px-2 py-2 font-archia">
+                {c.name}
+              </th>
+            ))}
           </tr>
         </thead>
         <tbody>
@@ -96,6 +120,11 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
               </td>
               <td className="px-4 py-2">{agent.developer}</td>
               <td className="px-4 py-2">{agent.pricing_model}</td>
+              {criteria.map((c) => (
+                <td key={c.id} className="px-2 py-2 text-center">
+                  {renderStars(ratings[agent.name]?.[c.id]?.rating)}
+                </td>
+              ))}
             </tr>
           ))}
         </tbody>

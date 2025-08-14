@@ -1,0 +1,89 @@
+[
+  {
+    "id": "beginner_friendly_onboarding",
+    "name": "Beginner-Friendly Onboarding",
+    "description": "simple setup, guided learning, and budget-conscious access.",
+    "personas": [
+      "Beginner Student Creator",
+      "Vibe Coder Entrepreneur",
+      "No-Code App Builder",
+      "Business User Automation Seeker"
+    ]
+  },
+  {
+    "id": "visual_no_code_development",
+    "name": "Visual/No-Code Development",
+    "description": "drag-and-drop building, component templates, and one-click deployment for rapid prototyping.",
+    "personas": [
+      "No-Code App Builder",
+      "Business User Automation Seeker",
+      "Vibe Coder Entrepreneur",
+      "Creative Designer Technologist"
+    ]
+  },
+  {
+    "id": "automation_productivity",
+    "name": "Automation & Productivity",
+    "description": "reduce manual work and adapt workflows for efficiency.",
+    "personas": [
+      "Business User Automation Seeker",
+      "Self-Employed Consultant",
+      "DevOps Automation Engineer",
+      "QA Test Specialist"
+    ]
+  },
+  {
+    "id": "data_experimental_flexibility",
+    "name": "Data & Experimental Flexibility",
+    "description": "connect to diverse data sources and manage scalable, reproducible experiments.",
+    "personas": [
+      "Data Scientist",
+      "Professional Researcher",
+      "AI Application Engineer",
+      "Self-Employed Consultant"
+    ]
+  },
+  {
+    "id": "workflow_agent_orchestration",
+    "name": "Workflow & Agent Orchestration",
+    "description": "compose complex pipelines, coordinate agents, and manage infrastructure or CI/CD.",
+    "personas": [
+      "AI Application Engineer",
+      "DevOps Automation Engineer",
+      "Self-Employed Consultant",
+      "Professional Researcher"
+    ]
+  },
+  {
+    "id": "codebase_comprehension",
+    "name": "Codebase Comprehension",
+    "description": "navigate large codebases and surface architectural context quickly.",
+    "personas": [
+      "Returning Engineering Manager",
+      "Traditional IDE Software Engineer",
+      "QA Test Specialist"
+    ]
+  },
+  {
+    "id": "code_quality_testing",
+    "name": "Code Quality & Testing",
+    "description": "automated test generation, bug detection, and debugging support for reliable code.",
+    "personas": [
+      "QA Test Specialist",
+      "Traditional IDE Software Engineer",
+      "Self-Employed Consultant",
+      "DevOps Automation Engineer"
+    ]
+  },
+  {
+    "id": "creative_multimodal_exploration",
+    "name": "Creative Multimodal Exploration",
+    "description": "support imaginative features and experimentation across text, image, or audio.",
+    "personas": [
+      "Creative Designer Technologist",
+      "Vibe Coder Entrepreneur",
+      "AI Application Engineer",
+      "Beginner Student Creator"
+    ]
+  }
+]
