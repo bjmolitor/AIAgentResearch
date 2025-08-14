@@ -1,4 +1,4 @@
-# Open AI Agent Research ([MIT licensed – contributors wanted.](https://github.com/bjmolitor/AIAgentResearch))
+# Open AI Agent Research
 
 This repository contains a curated list of AI agents, categorized and profiled to provide a comprehensive overview of the current landscape. The goal of this project is to offer a structured and detailed comparison of various AI agents, focusing on their features, capabilities, and benchmarks.
 
