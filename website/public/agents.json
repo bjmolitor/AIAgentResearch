@@ -80,7 +80,8 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "AskCodi is an AI coding assistant from Assistiv AI that provides a wide range of tools to help developers write, refactor, and test their code."
+    "description": "AskCodi is an AI coding assistant from Assistiv AI that provides a wide range of tools to help developers write, refactor, and test their code.",
+    "long_description": "AskCodi pairs a web playground with IDE plugins to generate and refactor code in many languages. It can draft unit tests, SQL queries, regex, and infrastructure files like Dockerfiles or CI/CD pipelines while also explaining code, detecting bugs, and analyzing Big-O performance."
   },
   {
     "name": "SWE-agent",

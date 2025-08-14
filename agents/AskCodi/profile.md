@@ -2,7 +2,9 @@
 
 ## Overview
 
-AskCodi is an AI coding assistant from Assistiv AI that provides a wide range of tools to help developers write, refactor, and test their code.
+AskCodi is a developer productivity platform from Assistiv AI. It combines a web-based playground with IDE extensions to help developers generate, refactor, and test code across many languages. The service includes specialized generators for documentation, infrastructure files, and even SQL or regex snippets, letting users offload repetitive work to the assistant.
+
+Launched by Assistiv AI in 2021, AskCodi aims to streamline day-to-day programming tasks rather than replace developers. It taps into models from multiple providers so that users can choose between speed and quality, and it exposes most features through both the web app and editor plugins.
 
 ## Key Features
 
@@ -12,6 +14,18 @@ AskCodi is an AI coding assistant from Assistiv AI that provides a wide range of
 - Includes a Big-O analyzer, bug detector, and code explainer.
 - Has a sandbox for building and testing front-end code.
 - Integrates with VS Code, JetBrains, and Sublime Text.
+
+## Integrations and Workflow
+
+AskCodi offers official extensions for Visual Studio Code, JetBrains IDEs, and Sublime Text. These plugins expose the full suite of generators directly inside the editor and can pull context from open files to improve suggestions. The web sandbox, called **Codi Web**, provides a multi-file workspace for quick experiments and includes one-click export to GitHub. AskCodi also supplies a browser extension for generating code from documentation pages and an API for custom integrations.
+
+## Detailed Capabilities
+
+- **Code generation and refactoring:** Draft functions, translate between languages, and rewrite existing code for clarity or style.
+- **Infrastructure helpers:** Create Dockerfiles, Kubernetes manifests, CI/CD pipelines, and Makefiles.
+- **Quality tools:** Big-O complexity analysis, bug detection, code explanations, and automatic unit test generation.
+- **Documentation modules:** Generate comments, README files, and other developer docs from source code.
+- **Learning aids:** Explanation mode breaks down unfamiliar snippets step by step to help users understand new patterns.
 
 ## Supported Models
 
