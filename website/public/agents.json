@@ -460,13 +460,13 @@
       "MiniMax Hailuo 02 (Video)",
       "MiniMax Speech 02 (Audio)"
     ],
-    "pricing_model": "MiniMax-M1 (text): Starts at $0.4/M tokens input, Speech-02-HD (audio): $100 per 1M characters, MiniMax Hailuo 02 (video): Starting from $0.28 per video",
+    "pricing_model": "MiniMax M1 (text): $0.40 per 1M input tokens; Speech-02-HD (audio): $100 per 1M characters; Hailuo 02 (video): from $0.28 per video",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "No public benchmarks found"
     },
-    "description": ""
+    "description": "Minimax Agent is part of the MiniMax platform, delivering multimodal AI for text, audio, and video generation. It uses long-context models and toolkits to help developers build autonomous applications and creative media workflows."
   },
   {
     "name": "Gemini CLI",
@@ -795,13 +795,13 @@
       "MiniMax Hailuo 02 (Video)",
       "MiniMax Speech 02 (Audio)"
     ],
-    "pricing_model": "MiniMax M1 from $0.4 per 1M input tokens; Speech-02-HD from $100 per 1M characters; Hailuo 02 video from $0.28 per video",
+    "pricing_model": "MiniMax M1 (text): $0.40 per 1M input tokens; Speech-02-HD (audio): $100 per 1M characters; Hailuo 02 (video): from $0.28 per video",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": "No public benchmarks found"
     },
-    "description": ""
+    "description": "Minimax Agent is part of the MiniMax platform, delivering multimodal AI for text, audio, and video generation. It uses long-context models and toolkits to help developers build autonomous applications and creative media workflows."
   },
   {
     "name": "Aider",
