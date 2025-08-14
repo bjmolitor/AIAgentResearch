@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function AgentTable() {
+function AgentTable({ onAgentClick }) {
   const [agents, setAgents] = useState([]);
 
   useEffect(() => {
@@ -33,7 +33,15 @@ function AgentTable() {
         <tbody>
           {agents.map((agent) => (
             <tr key={agent.name} className="odd:bg-white even:bg-background-blue/10">
-              <td className="px-4 py-2"><a href={agent.website} className="underline" target="_blank" rel="noopener noreferrer">{agent.name}</a></td>
+              <td className="px-4 py-2">
+                <button
+                  type="button"
+                  onClick={() => onAgentClick(agent)}
+                  className="underline text-left"
+                >
+                  {agent.name}
+                </button>
+              </td>
               <td className="px-4 py-2">{agent.developer}</td>
               <td className="px-4 py-2">{agent.pricing_model}</td>
             </tr>
