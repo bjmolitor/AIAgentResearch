@@ -1019,40 +1019,6 @@
       "reasoning": "Minimax provides strong building blocks for workflow orchestration through its multimodal API, allowing for the creation of complex pipelines (e.g., text-to-speech-to-video). The existence of a product named 'Minimax Agent' is a strong, albeit unsubstantiated, indicator of their focus on this area. The cloud-based API simplifies infrastructure management. The rating is held back from a 5 due to the lack of concrete details and documentation about the 'Agent' product."
     }
   },
-  "open_swe": {
-    "automation_productivity": {
-      "rating": 5,
-      "reasoning": "Open SWE is designed for automation. The GitHub webhook integration allows for a fully automated workflow, from issue creation to pull request. The agent can work asynchronously in the cloud, handling multiple tasks in parallel. This directly addresses the need to reduce manual work and adapt workflows for efficiency. The multi-agent architecture with a dedicated planner and reviewer also contributes to productivity by ensuring that the generated code is of high quality, reducing the need for manual review cycles. [1, 2]"
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 4,
-      "reasoning": "The onboarding process for the hosted version is straightforward: connect GitHub, add an API key, and start. The documentation is clear and provides a good starting point. The existence of a UI with a manual mode, where users can review and approve plans, is a great feature for beginners who want to understand how the agent works before giving it full autonomy. The open-source nature of the project also allows for community support. The only reason it's not a 5 is that setting up a self-hosted version requires some technical expertise. [1, 3]"
-    },
-    "code_quality_testing": {
-      "rating": 4,
-      "reasoning": "The agent has a 'Reviewer' component that checks for common errors, runs tests, and formats code before opening a pull request. This action-review loop is a strong feature for ensuring code quality. It also runs tests, which is a key aspect of this criterion. While it doesn't explicitly mention automated test *generation*, its ability to run existing tests and its focus on code quality before creating a PR warrants a high rating. [1]"
-    },
-    "codebase_comprehension": {
-      "rating": 5,
-      "reasoning": "The agent has a dedicated 'Planner' component that is responsible for analyzing the request and researching the codebase. This includes viewing files and running searches to create a detailed execution plan. This demonstrates a strong capability for understanding the context of a codebase before making changes. The fact that it can work on existing repositories and contribute to them like a human developer is a testament to its codebase comprehension abilities. [1, 4]"
-    },
-    "creative_multimodal_exploration": {
-      "rating": 1,
-      "reasoning": "There is no evidence that Open SWE supports any multimodal capabilities. It is a text-based coding assistant focused on software development tasks. It does not appear to have any features for working with images, audio, or other media. [1, 2, 3]"
-    },
-    "data_experimental_flexibility": {
-      "rating": 2,
-      "reasoning": "Open SWE is designed for software engineering tasks, not data science or experimental research. While it is flexible in its ability to work with different codebases, there is no mention of features for connecting to diverse data sources, managing experiments, or other tasks typically associated with data science workflows. It could be used to write code for such experiments, but that is not its core advertised purpose. [1, 2, 3]"
-    },
-    "visual_no_code_development": {
-      "rating": 1,
-      "reasoning": "Open SWE is a code-centric agent. It is designed to write and modify code in existing repositories. It does not have any features for visual or no-code development, such as drag-and-drop interfaces or component templates. [1, 2, 3]"
-    },
-    "workflow_agent_orchestration": {
-      "rating": 5,
-      "reasoning": "This is a core strength of Open SWE. It uses a multi-agent architecture (Manager, Planner, Programmer, Reviewer) built on LangGraph, a framework specifically designed for orchestrating agentic workflows. The ability to trigger runs from GitHub issues, manage them through a UI, and have the agent automatically create pull requests is a clear demonstration of sophisticated workflow and agent orchestration. The Manager agent's ability to route messages and coordinate between the other agents is a key feature here. [1, 4, 5]"
-    }
-  },
   "openai_codex": {
     "automation_productivity": {
       "rating": 5,
@@ -1291,40 +1257,6 @@
       "reasoning": "Cody is not a full-fledged agent orchestration platform, but it does have an 'Agentic Chat' feature that exhibits some agent-like capabilities. This feature can autonomously use tools like Code Search, terminal commands (with permission), and web search to gather context and answer questions. While this is a step towards agentic workflows, it is not designed for composing complex pipelines or managing infrastructure in the way that a dedicated orchestration tool would."
     }
   },
-  "sqlai_ai": {
-    "automation_productivity": {
-      "rating": 4,
-      "reasoning": "SQLAI.ai is designed to automate and accelerate SQL-related tasks. Its key features, such as AI-powered query generation, optimization, validation, and explanation, directly address the goal of reducing manual work and improving productivity for SQL developers. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 4,
-      "reasoning": "The agent profile highlights a 'High' ease of use and a 'Straightforward' onboarding experience. The availability of a free trial and a budget-friendly starting price of $6/month makes it accessible for beginners. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "code_quality_testing": {
-      "rating": 3,
-      "reasoning": "SQLAI.ai contributes to code quality by 'validating' and 'optimizing' SQL queries. However, the profile does not mention any features for automated test generation or advanced debugging support. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "codebase_comprehension": {
-      "rating": 3,
-      "reasoning": "The tool's ability to 'explain' and 'simplify' SQL queries can help users understand existing SQL code. However, this capability is limited to SQL and does not extend to understanding larger, more complex codebases. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 1,
-      "reasoning": "The agent is specialized for SQL and does not offer any features for creative or multimodal exploration involving text, images, or audio. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "data_experimental_flexibility": {
-      "rating": 3,
-      "reasoning": "SQLAI.ai supports a wide range of SQL and NoSQL databases and can connect to data sources, which provides some data flexibility. However, the profile does not mention any capabilities for managing scalable or reproducible experiments. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "visual_no_code_development": {
-      "rating": 1,
-      "reasoning": "The profile for SQLAI.ai does not mention any features related to visual or no-code development, such as drag-and-drop interfaces or pre-built templates. The tool is described as a 'SQL multi-tool,' indicating a focus on code-based interaction. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 1,
-      "reasoning": "There is no information in the agent's profile to suggest that it supports workflow orchestration, agent coordination, or CI/CD integration. Its features are focused on individual SQL query tasks. The evaluation is based on the information in the profile.md file, as external research was not possible."
-    }
-  },
   "tabnine": {
     "automation_productivity": {
       "rating": 5,
@@ -1493,6 +1425,74 @@
     "workflow_agent_orchestration": {
       "rating": 4,
       "reasoning": "Warp supports running and managing multiple AI agents in parallel. Its 'Workflows' and 'Notebooks' features allow for the creation and sharing of complex command sequences, and it integrates with external tools like the GitHub CLI and Vercel for deployment. [5]"
+    }
+  },
+  "sqlai": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "SQLAI.ai is designed to automate and accelerate SQL-related tasks. Its key features, such as AI-powered query generation, optimization, validation, and explanation, directly address the goal of reducing manual work and improving productivity for SQL developers. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "The agent profile highlights a 'High' ease of use and a 'Straightforward' onboarding experience. The availability of a free trial and a budget-friendly starting price of $6/month makes it accessible for beginners. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "SQLAI.ai contributes to code quality by 'validating' and 'optimizing' SQL queries. However, the profile does not mention any features for automated test generation or advanced debugging support. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "The tool's ability to 'explain' and 'simplify' SQL queries can help users understand existing SQL code. However, this capability is limited to SQL and does not extend to understanding larger, more complex codebases. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "The agent is specialized for SQL and does not offer any features for creative or multimodal exploration involving text, images, or audio. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "SQLAI.ai supports a wide range of SQL and NoSQL databases and can connect to data sources, which provides some data flexibility. However, the profile does not mention any capabilities for managing scalable or reproducible experiments. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "The profile for SQLAI.ai does not mention any features related to visual or no-code development, such as drag-and-drop interfaces or pre-built templates. The tool is described as a 'SQL multi-tool,' indicating a focus on code-based interaction. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 1,
+      "reasoning": "There is no information in the agent's profile to suggest that it supports workflow orchestration, agent coordination, or CI/CD integration. Its features are focused on individual SQL query tasks. The evaluation is based on the information in the profile.md file, as external research was not possible."
+    }
+  },
+  "swe_agent": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "Open SWE is designed for automation. The GitHub webhook integration allows for a fully automated workflow, from issue creation to pull request. The agent can work asynchronously in the cloud, handling multiple tasks in parallel. This directly addresses the need to reduce manual work and adapt workflows for efficiency. The multi-agent architecture with a dedicated planner and reviewer also contributes to productivity by ensuring that the generated code is of high quality, reducing the need for manual review cycles. [1, 2]"
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "The onboarding process for the hosted version is straightforward: connect GitHub, add an API key, and start. The documentation is clear and provides a good starting point. The existence of a UI with a manual mode, where users can review and approve plans, is a great feature for beginners who want to understand how the agent works before giving it full autonomy. The open-source nature of the project also allows for community support. The only reason it's not a 5 is that setting up a self-hosted version requires some technical expertise. [1, 3]"
+    },
+    "code_quality_testing": {
+      "rating": 4,
+      "reasoning": "The agent has a 'Reviewer' component that checks for common errors, runs tests, and formats code before opening a pull request. This action-review loop is a strong feature for ensuring code quality. It also runs tests, which is a key aspect of this criterion. While it doesn't explicitly mention automated test *generation*, its ability to run existing tests and its focus on code quality before creating a PR warrants a high rating. [1]"
+    },
+    "codebase_comprehension": {
+      "rating": 5,
+      "reasoning": "The agent has a dedicated 'Planner' component that is responsible for analyzing the request and researching the codebase. This includes viewing files and running searches to create a detailed execution plan. This demonstrates a strong capability for understanding the context of a codebase before making changes. The fact that it can work on existing repositories and contribute to them like a human developer is a testament to its codebase comprehension abilities. [1, 4]"
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "There is no evidence that Open SWE supports any multimodal capabilities. It is a text-based coding assistant focused on software development tasks. It does not appear to have any features for working with images, audio, or other media. [1, 2, 3]"
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Open SWE is designed for software engineering tasks, not data science or experimental research. While it is flexible in its ability to work with different codebases, there is no mention of features for connecting to diverse data sources, managing experiments, or other tasks typically associated with data science workflows. It could be used to write code for such experiments, but that is not its core advertised purpose. [1, 2, 3]"
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Open SWE is a code-centric agent. It is designed to write and modify code in existing repositories. It does not have any features for visual or no-code development, such as drag-and-drop interfaces or component templates. [1, 2, 3]"
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "This is a core strength of Open SWE. It uses a multi-agent architecture (Manager, Planner, Programmer, Reviewer) built on LangGraph, a framework specifically designed for orchestrating agentic workflows. The ability to trigger runs from GitHub issues, manage them through a UI, and have the agent automatically create pull requests is a clear demonstration of sophisticated workflow and agent orchestration. The Manager agent's ability to route messages and coordinate between the other agents is a key feature here. [1, 4, 5]"
     }
   }
 }
