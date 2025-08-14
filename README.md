@@ -2,6 +2,9 @@
 
 This repository contains a curated list of AI agents, categorized and profiled to provide a comprehensive overview of the current landscape. The goal of this project is to offer a structured and detailed comparison of various AI agents, focusing on their features, capabilities, and benchmarks.
 
+## We're live!
+You can browse the results of this research here: ([Netlify](https://aiagentresearch.netlify.app/)
+
 ## Project Structure
 
 The repository is organized as follows:
