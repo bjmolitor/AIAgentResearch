@@ -776,7 +776,8 @@
       "task_success_rate": null,
       "resource_usage": "GPT-4 (assisted). GPT-3.5 (assisted) scored 1.34% on SWE-bench"
     },
-    "description": ""
+    "description": "An optional agent mode in ChatGPT that can browse the web, run code, and compile multi-step research.",
+    "long_description": "Users guide the agent through iterative, interruptible workflows. It employs Deep Research, a remote browser called Operator, and a sandboxed terminal to execute Python, analyze data, and generate files across web, desktop, and mobile clients."
   },
   {
     "name": "Minimax Agent",

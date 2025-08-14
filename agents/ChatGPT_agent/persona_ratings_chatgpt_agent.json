@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "The agent can automate multi-step tasks via its Operator for browsing and a sandboxed terminal to run scripts or build reports, reducing manual effort."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "It is available directly inside the ChatGPT interface with a simple agent mode toggle and works across platforms without setup beyond a ChatGPT subscription."
   },
   "code_quality_testing": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "The terminal can execute linters and tests, but there are no dedicated code-quality analysis tools."
   },
   "codebase_comprehension": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "The agent can read and search code through the terminal, yet it lacks specialized features for navigating large codebases."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Using the latest multimodal models and a remote browser, it can combine text, images, and web content for creative output."
   },
   "data_experimental_flexibility": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "The terminal runs Python and handles file uploads for analysis, though the environment is sandboxed with limited resources."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "ChatGPT remains a text-based interface and does not provide drag-and-drop or no-code app builders."
   },
   "workflow_agent_orchestration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "While it coordinates tasks across its built-in tools, it cannot orchestrate multiple agents or complex external pipelines."
   }
 }
