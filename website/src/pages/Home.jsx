@@ -1,9 +1,12 @@
+import { useState } from "react";
 import AgentTable from "../components/AgentTable";
 
 function Home({ onAgentClick, onOpenPersonas }) {
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <div>
-      <div className="mb-4">
+      <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-center">
         <button
           type="button"
           onClick={onOpenPersonas}
@@ -11,8 +14,15 @@ function Home({ onAgentClick, onOpenPersonas }) {
         >
           Can you recommend something?
         </button>
+        <input
+          type="text"
+          placeholder="Search agents..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="border px-2 py-1 rounded font-archia text-stratos-blue"
+        />
       </div>
-      <AgentTable onAgentClick={onAgentClick} />
+      <AgentTable onAgentClick={onAgentClick} searchTerm={searchTerm} />
     </div>
   );
 }
