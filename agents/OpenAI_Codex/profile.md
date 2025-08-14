@@ -1,30 +1,30 @@
 # OpenAI Codex
 
 ## Overview
-OpenAI Codex is a descendant of GPT-3 that translates natural language into code.
+Within ChatGPT, OpenAI Codex acts as a conversational coding assistant that turns natural language prompts into executable code directly in the chat interface.
 
 ## Key Information
 - **Developer:** OpenAI
-- **Website:** [https://openai.com/blog/openai-codex](https://openai.com/blog/openai-codex)
-- **Pricing:** Usage-based via the OpenAI API
+- **Website:** [https://openai.com/chatgpt](https://openai.com/chatgpt)
+- **Pricing:** Included with ChatGPT Plus and enterprise plans
 
 ## Key Features
-- Translates natural language into code
+- Generates and edits code through conversational prompts
 - Supports multiple programming languages
-- Available via API or integrated tools
+- Provides inline explanations and debugging help inside ChatGPT
 
 ## Supported Models
-- Codex series (e.g., code-davinci-002, code-cushman-001)
+- Integrated into ChatGPT; specific model names are not exposed
 
 ## Benchmarks
 - **SWE-bench score:** Not available
 - **Task Success Rate:** Not available
-- **Resource Usage:** Depends on API usage; no public metrics
+- **Resource Usage:** Not publicly reported
 
 ## Qualitative Assessment
-- **Ease of Use:** Moderate – API usage requires programming knowledge.
-- **Documentation Quality:** Moderate – basic API references and guides.
-- **Onboarding Experience:** Moderate – requires API key setup and integration work.
+- **Ease of Use:** High – accessible through the ChatGPT interface with no setup.
+- **Documentation Quality:** Moderate – basic help center guidance.
+- **Onboarding Experience:** High – users simply start a ChatGPT conversation.
 
 ## Missing Data
-OpenAI has not published benchmark results or resource usage statistics for the Codex model as of May 2025.
+OpenAI has not published benchmark results or detailed resource metrics for Codex features within ChatGPT as of May 2025.

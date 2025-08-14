@@ -155,23 +155,23 @@
   },
   {
     "name": "OpenAI Codex",
-    "website": "https://openai.com/blog/openai-codex",
+    "website": "https://openai.com/chatgpt",
     "developer": "OpenAI",
     "key_features": [
-      "Translates natural language into code",
+      "Generates and edits code through conversational prompts",
       "Supports multiple programming languages",
-      "Available via API or integrated tools"
+      "Provides inline explanations and debugging help inside ChatGPT"
     ],
     "supported_models": [
-      "Codex series (e.g., code-davinci-002, code-cushman-001)"
+      "Integrated into ChatGPT; specific model names are not exposed"
     ],
-    "pricing_model": "Usage-based via the OpenAI API",
+    "pricing_model": "Available to ChatGPT Plus and enterprise subscribers",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
-      "resource_usage": "Depends on API usage; no public metrics"
+      "resource_usage": "Not publicly reported"
     },
-    "description": "OpenAI Codex is a descendant of GPT-3 that translates natural language into code."
+    "description": "OpenAI Codex is the coding assistant built into ChatGPT that turns natural language prompts into code."
   },
   {
     "name": "Letta",
