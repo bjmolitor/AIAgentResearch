@@ -1,19 +1,19 @@
 {
   "name": "OpenAI Codex",
-  "website": "https://openai.com/blog/openai-codex",
+  "website": "https://openai.com/chatgpt",
   "developer": "OpenAI",
   "key_features": [
-    "Translates natural language into code",
+    "Generates and edits code from natural language prompts within ChatGPT",
     "Supports multiple programming languages",
-    "Available via API or integrated tools"
+    "Provides conversational explanations and debugging assistance"
   ],
   "supported_models": [
-    "Codex series (e.g., code-davinci-002, code-cushman-001)"
+    "Integrated into ChatGPT; specific model names are not exposed"
   ],
-  "pricing_model": "Usage-based via the OpenAI API",
+  "pricing_model": "Available to ChatGPT Plus and enterprise subscribers",
   "benchmarks": {
     "swe_bench_score": null,
     "task_success_rate": null,
-    "resource_usage": "Depends on API usage; no public metrics"
+    "resource_usage": "Not publicly reported"
   }
 }

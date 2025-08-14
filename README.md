@@ -34,7 +34,6 @@ The following agents have been profiled in this repository:
 - LogiQCLI (`agents/LogiQCLI`)
 - Qwen CLI (`agents/Qwen_CLI`)
 - Warp (`agents/Warp`)
-- OpenAI Codex (`agents/OpenAI_Codex`)
 - Aider (`agents/Aider`)
 
 ### IDE-Embedded Agents
@@ -56,6 +55,7 @@ The following agents have been profiled in this repository:
 
 ### Web & Virtualized Agents
 - ChatGPT agent (`agents/ChatGPT_agent`)
+- OpenAI Codex (`agents/OpenAI_Codex`)
 - devin (`agents/devin`)
 - enginelabs (`agents/enginelabs`)
 - Figma Make (`agents/Figma_Make`)
