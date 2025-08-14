@@ -13,6 +13,8 @@
     "Latest models available to ChatGPT users"
   ],
   "pricing_model": "Subscription-based with usage limits (Pro: 400 messages/month, Plus: 40 messages/month)",
+  "description": "An optional agent mode in ChatGPT that can browse the web, run code, and compile multi-step research.",
+  "long_description": "Users guide the agent through iterative, interruptible workflows. It employs Deep Research, a remote browser called Operator, and a sandboxed terminal to execute Python, analyze data, and generate files across web, desktop, and mobile clients.",
   "benchmarks": {
     "swe_bench_score": 4.04,
     "swe_bench_source": "https://cognition.ai/blog/swe-bench-technical-report",
