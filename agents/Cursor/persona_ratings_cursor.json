@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 5,
+    "reasoning": "Agent Mode automatically finds context, runs commands, and iterates on errors, dramatically reducing manual coding work [1]."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "A free tier, straightforward installation, and clear docs make it approachable for new users even though it targets developers [2][3]."
   },
   "code_quality_testing": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Cursor can generate tests and execute them in the integrated terminal, looping to fix failing cases to help maintain quality [4]."
   },
   "codebase_comprehension": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "@ references and custom retrieval pull relevant files and symbols so the assistant can answer questions about a repository [1][5]."
   },
   "creative_multimodal_exploration": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Prompts can include images and web search results, enabling some multimodal exploration while remaining code-centric [6]."
   },
   "data_experimental_flexibility": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "The editor relies on the user's environment for data access and offers no built-in experiment tracking or datasets [7]."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "Cursor is a code-first IDE without drag-and-drop or visual builders for no-code development [2]."
   },
   "workflow_agent_orchestration": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Agent Mode handles multi-step tasks and runs commands but operates as a single assistant rather than coordinating multiple agents [1]."
   }
 }
