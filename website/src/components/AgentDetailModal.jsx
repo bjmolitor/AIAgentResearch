@@ -58,6 +58,21 @@ function AgentDetailModal({ agent, onClose }) {
           </button>
         </div>
         <p className="mb-2"><span className="font-archia">Developer:</span> {agent.developer}</p>
+        {agent.release_date && (
+          <p className="mb-2">
+            <span className="font-archia">Release Date:</span> {agent.release_date}
+          </p>
+        )}
+        {agent.github_stars && (
+          <p className="mb-2">
+            <span className="font-archia">GitHub Stars:</span> {agent.github_stars}
+          </p>
+        )}
+        {agent.requirements && (
+          <p className="mb-2">
+            <span className="font-archia">Requirements:</span> {agent.requirements}
+          </p>
+        )}
         <p className="mb-2"><span className="font-archia">Pricing:</span> {agent.pricing_model}</p>
         <div className="mb-4">
           <a
@@ -100,6 +115,17 @@ function AgentDetailModal({ agent, onClose }) {
             </div>
           </div>
         </div>
+        {agent.installation && (
+          <div className="border border-sparky-blue p-4 mb-4">
+            <h3 className="font-archia mb-2">Installation</h3>
+            <pre className="text-sm whitespace-pre-wrap">{agent.installation}</pre>
+          </div>
+        )}
+        {agent.privacy && (
+          <p className="mb-4">
+            <span className="font-archia">Privacy:</span> {agent.privacy}
+          </p>
+        )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
           {criteria.map((c) => {
             const info = agentRatings[c.id] || {};
