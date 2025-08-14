@@ -1,5 +1,48 @@
+import { useEffect, useState } from "react";
+
 function AgentDetailModal({ agent, onClose }) {
+  const [ratings, setRatings] = useState({});
+  const [criteria, setCriteria] = useState([]);
+
+  useEffect(() => {
+    async function loadData() {
+      try {
+        const [ratingsRes, criteriaRes] = await Promise.all([
+          fetch("/persona_ratings.json"),
+          fetch("/persona_criteria.json"),
+        ]);
+        if (!ratingsRes.ok || !criteriaRes.ok) {
+          throw new Error("Failed to fetch ratings data");
+        }
+        const [ratingsData, criteriaData] = await Promise.all([
+          ratingsRes.json(),
+          criteriaRes.json(),
+        ]);
+        setRatings(ratingsData);
+        setCriteria(criteriaData);
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    if (agent) {
+      loadData();
+    }
+  }, [agent]);
+
   if (!agent) return null;
+
+  const renderStars = (rating) => {
+    if (!rating) return "☆☆☆☆☆";
+    const filled = "★".repeat(rating);
+    const empty = "☆".repeat(5 - rating);
+    return filled + empty;
+  };
+
+  const agentKey = agent.name
+    ?.toLowerCase()
+    .replace(/\s+/g, "_");
+  const agentRatings = ratings[agentKey] || {};
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
@@ -30,6 +73,23 @@ function AgentDetailModal({ agent, onClose }) {
             {agent.supported_models?.map((model, index) => (
               <li key={index}>{model}</li>
             ))}
+          </ul>
+        </div>
+        <div className="mb-4">
+          <h3 className="font-archia mb-1">Persona Ratings:</h3>
+          <ul className="list-disc list-inside text-sm space-y-2">
+            {criteria.map((c) => {
+              const info = agentRatings[c.id];
+              if (!info) return null;
+              return (
+                <li key={c.id}>
+                  <div className="font-archia">
+                    {c.name}: {renderStars(info.rating)}
+                  </div>
+                  <p className="ml-4">{info.reasoning}</p>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="text-right">
