@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
     "rating": 5,
-    "reasoning": "Warp is designed to enhance developer productivity within the terminal. It features AI-powered command suggestions, reusable workflows, and the ability to manage multiple agents, all of which automate and accelerate common development tasks. [1]"
+    "reasoning": "Warp is designed to enhance developer productivity within the terminal. It features AI-powered command suggestions, reusable workflows, and the ability to manage multiple agents, all of which automate and accelerate common development tasks."
   },
   "beginner_friendly_onboarding": {
     "rating": 4,
-    "reasoning": "Warp offers a generous free tier with access to powerful AI models, making it accessible for beginners. The documentation includes a clear quickstart guide. However, it does not offer educational discounts, which is a drawback for students. [2]"
+    "reasoning": "Warp offers a generous free tier with access to powerful AI models, making it accessible for beginners. The documentation includes a clear quickstart guide. However, it does not offer educational discounts, which is a drawback for students."
   },
   "visual_no_code_development": {
     "rating": 1,
-    "reasoning": "Warp is a terminal-based tool focused on a command-line interface. It does not offer any visual or no-code development capabilities like drag-and-drop builders or pre-built components. [3]"
+    "reasoning": "Warp is a terminal-based tool focused on a command-line interface. It does not offer any visual or no-code development capabilities like drag-and-drop builders or pre-built components."
   },
   "data_experimental_flexibility": {
     "rating": 3,
-    "reasoning": "As a terminal, Warp allows users to interact with any data source via command-line tools. The 'Notebooks' feature can be used for some experimental work, but it lacks the rich features of specialized data science environments like Jupyter. [4]"
+    "reasoning": "As a terminal, Warp allows users to interact with any data source via command-line tools. The 'Notebooks' feature can be used for some experimental work, but it lacks the rich features of specialized data science environments like Jupyter."
   },
   "workflow_agent_orchestration": {
     "rating": 4,
-    "reasoning": "Warp supports running and managing multiple AI agents in parallel. Its 'Workflows' and 'Notebooks' features allow for the creation and sharing of complex command sequences, and it integrates with external tools like the GitHub CLI and Vercel for deployment. [5]"
+    "reasoning": "Warp supports running and managing multiple AI agents in parallel. Its 'Workflows' and 'Notebooks' features allow for the creation and sharing of complex command sequences, and it integrates with external tools like the GitHub CLI and Vercel for deployment."
   },
   "codebase_comprehension": {
     "rating": 4,
-    "reasoning": "The 'Codebase Context' feature allows Warp's AI to understand the user's code, which improves the accuracy of code generation and navigation. Users can also ask the AI to explain code snippets, which aids in understanding. [6]"
+    "reasoning": "The 'Codebase Context' feature allows Warp's AI to understand the user's code, which improves the accuracy of code generation and navigation. Users can also ask the AI to explain code snippets, which aids in understanding."
   },
   "code_quality_testing": {
     "rating": 3,
-    "reasoning": "Warp's AI can assist with debugging and writing unit tests, and the terminal provides syntax and error highlighting. However, it does not include dedicated tools for static analysis, automated test generation, or advanced debugging. [7]"
+    "reasoning": "Warp's AI can assist with debugging and writing unit tests, and the terminal provides syntax and error highlighting. However, it does not include dedicated tools for static analysis, automated test generation, or advanced debugging."
   },
   "creative_multimodal_exploration": {
     "rating": 2,
-    "reasoning": "Warp includes voice input for prompts, which is a multimodal feature. It does not, however, support other creative or multimodal interactions like image or audio generation. [8]"
+    "reasoning": "Warp includes voice input for prompts, which is a multimodal feature. It does not, however, support other creative or multimodal interactions like image or audio generation."
   }
 }
