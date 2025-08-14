@@ -39,9 +39,15 @@ function AgentDetailModal({ agent, onClose }) {
     return filled + empty;
   };
 
-  const agentKey = agent.name
-    ?.toLowerCase()
-    .replace(/\s+/g, "_");
+  const getAgentKey = (name) => {
+    if (!name) return "";
+    const lower = name.toLowerCase();
+    const base = lower.split(".")[0];
+    const withSpaces = base.replace(/\s+/g, "_");
+    return withSpaces.replace(/[^a-z0-9_]/g, "_");
+  };
+
+  const agentKey = getAgentKey(agent.name);
   const agentRatings = ratings[agentKey] || {};
 
   return (
