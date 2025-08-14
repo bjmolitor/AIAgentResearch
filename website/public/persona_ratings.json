@@ -137,36 +137,36 @@
   },
   "askcodi": {
     "automation_productivity": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 4,
+      "reasoning": "Generators for code, pipelines, and infrastructure automate many repetitive tasks and speed up development."
     },
     "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 4,
+      "reasoning": "A free tier and editor plugins with simple sign-up make it approachable for new developers."
     },
     "code_quality_testing": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "Includes unit test generation, bug detection, and Big-O analysis, though deeper testing workflows are limited."
     },
     "codebase_comprehension": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "Code explanations and bug detector help understand unfamiliar code but large-scale repository analysis is minimal."
     },
     "creative_multimodal_exploration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 1,
+      "reasoning": "The assistant is text-only and lacks support for images, audio, or other modalities."
     },
     "data_experimental_flexibility": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 2,
+      "reasoning": "Supports multiple model providers but offers little for data management or experiment tracking."
     },
     "visual_no_code_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 1,
+      "reasoning": "Focused on code editing; it does not provide drag-and-drop or template-driven interfaces."
     },
     "workflow_agent_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 2,
+      "reasoning": "Automates individual coding tasks but lacks facilities for coordinating multi-agent workflows."
     }
   },
   "chat.z.ai": {
