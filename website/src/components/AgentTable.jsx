@@ -68,6 +68,9 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
     return filled + empty;
   };
 
+  const getAgentKey = (name) =>
+    name?.toLowerCase().replace(/\s+/g, "_");
+
   const handleSort = (key) => {
     setSortConfig((prev) => ({
       key,
@@ -122,7 +125,9 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
               <td className="px-4 py-2">{agent.pricing_model}</td>
               {criteria.map((c) => (
                 <td key={c.id} className="px-2 py-2 text-center">
-                  {renderStars(ratings[agent.name]?.[c.id]?.rating)}
+                  {renderStars(
+                    ratings[getAgentKey(agent.name)]?.[c.id]?.rating
+                  )}
                 </td>
               ))}
             </tr>
