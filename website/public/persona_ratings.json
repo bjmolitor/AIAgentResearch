@@ -171,36 +171,36 @@
   },
   "chat.z.ai": {
     "automation_productivity": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 4,
+      "reasoning": "chat.z.ai uses Zhipu's GLM models with native function calling and plugin support, enabling automation such as tool invocation and web browsing."
     },
     "beginner_friendly_onboarding": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "The service is accessible through a free web interface, but most guidance is in Chinese, which can complicate onboarding for non-Chinese speakers."
     },
     "code_quality_testing": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "GLM models can generate code and provide reviews or tests when prompted, but the platform lacks built-in static analysis or test frameworks."
     },
     "codebase_comprehension": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "With a 128k token context and code-aware reasoning, the agent can digest sizeable repositories, yet it offers no specialized navigation or repository indexing tools."
     },
     "creative_multimodal_exploration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 4,
+      "reasoning": "GLM-4.5 supports multimodal inputs and outputs, including image generation and understanding via plugins like CogView, allowing creative exploration beyond text."
     },
     "data_experimental_flexibility": {
       "rating": 3,
-      "reasoning": "Research to be done."
+      "reasoning": "Function calling and retrieval let the model interact with external data sources, but advanced data-science tooling or experiment tracking are not provided."
     },
     "visual_no_code_development": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 2,
+      "reasoning": "The platform focuses on code generation and conversational guidance without drag-and-drop builders or dedicated no-code interfaces."
     },
     "workflow_agent_orchestration": {
-      "rating": 3,
-      "reasoning": "Research to be done."
+      "rating": 2,
+      "reasoning": "While it can call tools within a session, chat.z.ai does not manage multi-step workflows or coordinate multiple agents."
     }
   },
   "chatgpt_agent": {
