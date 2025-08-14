@@ -624,7 +624,8 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "CrewAI is a Python framework for orchestrating role-playing, autonomous AI agents. It empowers developers to build and deploy sophisticated multi-agent systems that can work together to solve complex tasks."
+    "description": "CrewAI is a Python framework for orchestrating role-playing, autonomous AI agents. It empowers developers to build and deploy sophisticated multi-agent systems that can work together to solve complex tasks.",
+    "long_description": "Beyond simple agent chats, CrewAI lets developers compose role-based \"crews\" of agents and deterministic \"flows\" for event-driven automation. The lean, standalone framework offers deep customization over prompts, tools, and execution paths, enabling production-ready multi-agent systems."
   },
   {
     "name": "CodeGPT",
