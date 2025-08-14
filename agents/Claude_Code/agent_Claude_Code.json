@@ -2,6 +2,12 @@
   "name": "Claude Code",
   "website": "https://docs.anthropic.com/en/docs/claude-code/overview",
   "developer": "Anthropic",
+  "description": "Terminal-based coding assistant that understands your codebase and handles git workflows through natural language commands.",
+  "release_date": "2025-02-22",
+  "github_stars": 29800,
+  "requirements": "Node.js 18+",
+  "installation": "npm install -g @anthropic-ai/claude-code",
+  "privacy": "Feedback sent with /bug is stored for 30 days and not used for training.",
   "key_features": [
     "Build features from natural language descriptions.",
     "Debug and fix issues from error messages.",
