@@ -33,7 +33,7 @@ function PersonasOverlay({ isOpen, onClose }) {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
-      <div className="bg-background-blue text-white p-6 rounded-md shadow-lg max-w-3xl w-full max-h-full overflow-y-auto">
+      <div className="bg-background-blue text-white p-6 rounded-md shadow-lg max-w-5xl w-full max-h-full overflow-y-auto">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-archia">Select a Persona</h2>
           <button
@@ -44,7 +44,7 @@ function PersonasOverlay({ isOpen, onClose }) {
             &times;
           </button>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {personas.map((persona) => (
             <Link
               key={persona.id}
