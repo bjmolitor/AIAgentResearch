@@ -2,43 +2,43 @@
 
 ## Overview
 
-SWE-agent is an open-source, cloud-based coding agent from LangChain that can autonomously understand, plan, and execute code changes across entire repositories. It is built with LangGraph and features a multi-agent architecture.
+SWE-agent is an open-source research agent that lets large language models autonomously use developer tools to fix issues in real GitHub repositories.
 
 ## Key Information
 
-- **Developer:** LangChain
-- **Website:** [https://github.com/langchain-ai/open-swe](https://github.com/langchain-ai/open-swe)
-- **Pricing:** Open-source, with users paying for the underlying model APIs.
+- **Developer:** Princeton University and Stanford University researchers
+- **Website:** [https://swe-agent.com/](https://swe-agent.com/)
+- **Pricing:** Open-source, with users paying for the underlying model APIs and compute.
 
 ## Key Features
 
-- **Autonomous code changes:** Understands, plans, and executes code changes across entire repositories.
-- **Multi-agent architecture:** Uses a Manager, Planner, and Programmer to orchestrate the workflow.
-- **Human-in-the-loop:** Allows for manual review and approval of the execution plan.
-- **Cloud-based and asynchronous:** Runs in the acloud and can work on multiple tasks in parallel.
-- **GitHub integration:** Can be triggered by GitHub webhooks and opens pull requests when done.
+- **State-of-the-art on SWE-bench:** Outperforms other open-source agents on the benchmark.
+- **Free-flowing & generalizable:** Gives maximal agency to the model and is configured through a single YAML file.
+- **Tool-based autonomy:** Uses shell commands, version control, and other tools to analyze codebases, run tests, and create patches.
+- **Research-friendly:** Simple and hackable design geared toward experimentation.
+- **Supports varied tasks:** Can fix issues, find vulnerabilities, or perform custom workflows.
 
 ## Supported Models
 
-- Anthropic's models (e.g., Claude)
+- GPT-4o
+- Claude Sonnet 4
 
 ## Benchmarks
 
-- **SWE-bench score:** Not available
+- **SWE-bench score:** State-of-the-art among open-source projects
 - **Task Success Rate:** Not available
 - **Resource Usage:** Not available
 
 ## Qualitative Assessment
 
-- **Ease of Use:** High
+- **Ease of Use:** Moderate (command-line setup required)
 - **Documentation Quality:** High
-- **Onboarding Experience:** Straightforward
+- **Onboarding Experience:** Documented CLI and Codespaces tutorials
 
 ## Pricing
 
-Open SWE is an open-source project. The hosted version at [swe.langchain.com](https://swe.langchain.com/) requires an Anthropic API key, so the pricing is based on the usage of the underlying model.
+SWE-agent is free and open-source. Costs are limited to the model APIs and compute needed to run the sandbox environment.
 
 ## Getting Started
 
-To get started with Open SWE, you can visit the [official website](https://swe.langchain.com/) or check out the [GitHub repository](https://github.com/langchain-ai/open-swe).
-
+Visit the [documentation](https://swe-agent.com/latest/) or explore the [GitHub repository](https://github.com/SWE-agent/SWE-agent) to get started.
