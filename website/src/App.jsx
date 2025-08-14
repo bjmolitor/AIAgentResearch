@@ -28,15 +28,18 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-gray-100 p-4">
-        <h1 className="text-2xl font-bold text-stratos-blue">Open AI Agent Research</h1>
-        <a
-          href="https://github.com/bjmolitor/AIAgentResearch"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-stratos-blue underline"
-        >
-          MIT licensed - contributors wanted.
-        </a>
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <h1 className="text-2xl font-bold text-stratos-blue">Open AI Agent Research</h1>
+          <a
+            href="https://github.com/bjmolitor/AIAgentResearch"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-stratos-blue underline"
+          >
+            (MIT licensed - contributors wanted.)
+          </a>
+        </div>
+
       </header>
       <main className="flex-grow p-4">
         <Routes>
