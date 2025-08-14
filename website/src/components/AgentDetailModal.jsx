@@ -69,38 +69,38 @@ function AgentDetailModal({ agent, onClose }) {
             Visit Website
           </a>
         </div>
-        <div className="mb-4">
-          <h3 className="font-archia mb-1">Key Features:</h3>
-          <ul className="list-disc list-inside text-sm space-y-1">
-            {agent.key_features?.map((feature, index) => (
-              <li key={index}>{feature}</li>
-            ))}
-          </ul>
+        <div className="flex flex-col md:flex-row gap-4 mb-4">
+          <div className="border border-sparky-blue p-4 flex-1">
+            <h3 className="font-archia mb-2">Key Features</h3>
+            <ul className="list-disc list-inside text-sm space-y-1">
+              {agent.key_features?.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="border border-sparky-blue p-4 flex-1">
+            <h3 className="font-archia mb-2">Supported Models</h3>
+            <ul className="list-disc list-inside text-sm space-y-1">
+              {agent.supported_models?.map((model, index) => (
+                <li key={index}>{model}</li>
+              ))}
+            </ul>
+          </div>
         </div>
-        <div className="mb-4">
-          <h3 className="font-archia mb-1">Supported Models:</h3>
-          <ul className="list-disc list-inside text-sm space-y-1">
-            {agent.supported_models?.map((model, index) => (
-              <li key={index}>{model}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="mb-4">
-          <h3 className="font-archia mb-1">Persona Ratings:</h3>
-          <ul className="list-disc list-inside text-sm space-y-2">
-            {criteria.map((c) => {
-              const info = agentRatings[c.id];
-              if (!info) return null;
-              return (
-                <li key={c.id}>
-                  <div className="font-archia">
-                    {c.name}: {renderStars(info.rating)}
-                  </div>
-                  <p className="ml-4">{info.reasoning}</p>
-                </li>
-              );
-            })}
-          </ul>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+          {criteria.map((c) => {
+            const info = agentRatings[c.id] || {};
+            return (
+              <div key={c.id} className="border border-sparky-blue p-4">
+                <div className="font-archia mb-2">
+                  {c.name}: {renderStars(info.rating)}
+                </div>
+                <p className="text-sm">
+                  {info.reasoning || "No reasoning provided."}
+                </p>
+              </div>
+            );
+          })}
         </div>
         <div className="text-right">
           <button
