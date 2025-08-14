@@ -1087,7 +1087,7 @@
       "reasoning": "The foundation for this is present but not fully developed. The architecture includes a `microagents` directory, and the concept is mentioned in the developer documentation, which indicates that agent orchestration is a planned feature [5]. The mention of 'Parallel Work Capability' in the official description also points to this [6]. However, the lack of user-facing documentation means it's not a mature capability yet. The rating is neutral, acknowledging the potential but the current lack of a finished feature."
     }
   },
-  "perplexity_labs": {
+  "perplexity": {
     "automation_productivity": {
       "rating": 4,
       "reasoning": "Perplexity AI excels at automating the research and information-gathering phase of a developer's workflow. Its ability to synthesize information from real-time web results and provide cited sources can significantly reduce the manual effort required to understand new technologies, troubleshoot issues, or find code examples. While it doesn't automate CI/CD or infrastructure tasks, it boosts productivity by accelerating knowledge acquisition [1]."
@@ -1461,7 +1461,7 @@
       "reasoning": "There is no information in the agent's profile to suggest that it supports workflow orchestration, agent coordination, or CI/CD integration. Its features are focused on individual SQL query tasks. The evaluation is based on the information in the profile.md file, as external research was not possible."
     }
   },
-  "swe_agent": {
+  "open_swe": {
     "automation_productivity": {
       "rating": 5,
       "reasoning": "Open SWE is designed for automation. The GitHub webhook integration allows for a fully automated workflow, from issue creation to pull request. The agent can work asynchronously in the cloud, handling multiple tasks in parallel. This directly addresses the need to reduce manual work and adapt workflows for efficiency. The multi-agent architecture with a dedicated planner and reviewer also contributes to productivity by ensuring that the generated code is of high quality, reducing the need for manual review cycles. [1, 2]"
