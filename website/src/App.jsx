@@ -1,7 +1,9 @@
 import { useState } from "react";
-import AgentTable from "./components/AgentTable";
+import { Routes, Route } from "react-router-dom";
 import AgentDetailModal from "./components/AgentDetailModal";
 import PersonasOverlay from "./components/PersonasOverlay";
+import Home from "./pages/Home";
+import PersonaDetail from "./pages/PersonaDetail";
 
 function App() {
   const [selectedAgent, setSelectedAgent] = useState(null);
@@ -29,16 +31,21 @@ function App() {
         <h1 className="text-2xl font-bold text-stratos-blue">AI Agent Research</h1>
       </header>
       <main className="flex-grow p-4">
-        <div className="mb-4">
-          <button
-            type="button"
-            onClick={handleOpenPersonas}
-            className="bg-stratos-blue text-white px-4 py-2 rounded font-archia"
-          >
-            Can you recommend something?
-          </button>
-        </div>
-        <AgentTable onAgentClick={handleAgentClick} />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Home
+                onAgentClick={handleAgentClick}
+                onOpenPersonas={handleOpenPersonas}
+              />
+            }
+          />
+          <Route
+            path="/personas/:id"
+            element={<PersonaDetail onAgentClick={handleAgentClick} />}
+          />
+        </Routes>
       </main>
       <footer className="bg-gray-100 p-4 text-center">
         <p className="text-stratos-blue">&copy; 2024 AI Agent Research</p>

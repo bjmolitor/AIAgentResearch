@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function AgentTable({ onAgentClick }) {
+function AgentTable({ onAgentClick, filterNames }) {
   const [agents, setAgents] = useState([]);
 
   useEffect(() => {
@@ -20,6 +20,14 @@ function AgentTable({ onAgentClick }) {
     loadAgents();
   }, []);
 
+  const displayedAgents = filterNames
+    ? agents.filter(
+        (a) =>
+          filterNames.includes(a.name) ||
+          filterNames.includes(a.name.replace(/\s+/g, '_'))
+      )
+    : agents;
+
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full text-sm text-stratos-blue border border-background-blue">
@@ -31,7 +39,7 @@ function AgentTable({ onAgentClick }) {
           </tr>
         </thead>
         <tbody>
-          {agents.map((agent) => (
+          {displayedAgents.map((agent) => (
             <tr key={agent.name} className="odd:bg-white even:bg-background-blue/10">
               <td className="px-4 py-2">
                 <button

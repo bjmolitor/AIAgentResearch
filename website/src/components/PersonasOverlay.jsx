@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function PersonasOverlay({ isOpen, onClose }) {
   const [personas, setPersonas] = useState([]);
@@ -45,10 +46,15 @@ function PersonasOverlay({ isOpen, onClose }) {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {personas.map((persona) => (
-            <div key={persona.id} className="bg-sparky-blue text-background-blue p-4 rounded">
+            <Link
+              key={persona.id}
+              to={`/personas/${persona.id}`}
+              onClick={onClose}
+              className="bg-sparky-blue text-background-blue p-4 rounded"
+            >
               <h3 className="font-archia text-lg mb-2">{persona.title}</h3>
               <p className="text-sm">{persona.description}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
