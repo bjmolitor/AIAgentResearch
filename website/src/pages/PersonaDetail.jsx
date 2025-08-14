@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import AgentTable from "../components/AgentTable";
+import { getAgentKey } from "../utils/agentKey";
 
 function PersonaDetail({ onAgentClick }) {
   const { id } = useParams();
@@ -74,21 +75,18 @@ function PersonaDetail({ onAgentClick }) {
           .filter((c) => c.personas.includes(title))
           .map((c) => c.id);
 
-        const getAgentKey = (name) =>
-          name?.toLowerCase().replace(/\s+/g, "_");
-
         const sortedNames = [...recommendedNames]
           .sort((a, b) => {
             const aAvg =
               personaCriteriaIds.reduce(
                 (sum, id) =>
-                  sum + (ratingsData[getAgentKey(a)]?.[id]?.rating || 0),
+                  sum + (ratingsData[getAgentKey(a, ratingsData)]?.[id]?.rating || 0),
                 0
               ) / personaCriteriaIds.length;
             const bAvg =
               personaCriteriaIds.reduce(
                 (sum, id) =>
-                  sum + (ratingsData[getAgentKey(b)]?.[id]?.rating || 0),
+                  sum + (ratingsData[getAgentKey(b, ratingsData)]?.[id]?.rating || 0),
                 0
               ) / personaCriteriaIds.length;
             return bAvg - aAvg;
