@@ -1,34 +1,34 @@
 {
   "automation_productivity": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "Kilo can plan tasks, modify code, run tests, and open pull requests, automating significant portions of the development workflow."
   },
   "beginner_friendly_onboarding": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "The service is invite-only and requires connecting a GitHub repository, which is less approachable for casual users."
   },
   "code_quality_testing": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "It executes project tests and iterates on failures before submitting a pull request, helping maintain code quality."
   },
   "codebase_comprehension": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 4,
+    "reasoning": "The agent analyzes the entire repository to plan edits and cite relevant files in its changes."
   },
   "creative_multimodal_exploration": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "Kilo focuses on text-based coding tasks and offers limited support for multimodal creativity."
   },
   "data_experimental_flexibility": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 2,
+    "reasoning": "It targets software engineering rather than exploratory data analysis or experimentation."
   },
   "visual_no_code_development": {
-    "rating": 3,
-    "reasoning": "Research to be done."
+    "rating": 1,
+    "reasoning": "The tool works through code and Git workflows without providing visual or drag-and-drop builders."
   },
   "workflow_agent_orchestration": {
     "rating": 3,
-    "reasoning": "Research to be done."
+    "reasoning": "Kilo sequences planning, editing, and testing steps autonomously but does not coordinate multiple distinct agents."
   }
 }

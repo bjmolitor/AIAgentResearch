@@ -494,21 +494,26 @@
   },
   {
     "name": "Kilo",
-    "website": "Not found",
-    "developer": "Not found",
+    "website": "https://kilocode.ai",
+    "developer": "Kilo Labs",
     "key_features": [
-      "Information not found"
+      "Turns natural-language requests into code changes",
+      "Analyzes entire repository for context",
+      "Runs project tests and iterates on failures",
+      "Creates pull requests with summaries and citations",
+      "Supports JavaScript/TypeScript and Python projects"
     ],
     "supported_models": [
-      "Not found"
+      "GPT-4 and open-source large language models orchestrated by Kilo"
     ],
-    "pricing_model": "Not found",
+    "pricing_model": "Closed beta (join waitlist)",
     "benchmarks": {
-      "swe_bench_score": "Not found",
+      "swe_bench_score": null,
       "task_success_rate": null,
-      "resource_usage": "Not found"
+      "resource_usage": null
     },
-    "description": ""
+    "description": "Kilo is an AI software engineering agent that connects to GitHub and implements tasks from natural-language prompts.",
+    "long_description": "Developed by Kilo Labs, the agent plans code changes, edits files, runs tests, and opens pull requests. It is currently available in a closed beta."
   },
   {
     "name": "manus",
