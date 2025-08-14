@@ -1,15 +1,15 @@
 {
   "automation_productivity": {
     "rating": 4,
-    "reasoning": "Perplexity AI excels at automating the research and information-gathering phase of a developer's workflow. Its ability to synthesize information from real-time web results and provide cited sources can significantly reduce the manual effort required to understand new technologies, troubleshoot issues, or find code examples. While it doesn't automate CI/CD or infrastructure tasks, it boosts productivity by accelerating knowledge acquisition [1]."
+    "reasoning": "Perplexity AI excels at automating the research and information-gathering phase of a developer's workflow. Its ability to synthesize information from real-time web results and provide cited sources can significantly reduce the manual effort required to understand new technologies, troubleshoot issues, or find code examples. While it doesn't automate CI/CD or infrastructure tasks, it boosts productivity by accelerating knowledge acquisition."
   },
   "beginner_friendly_onboarding": {
     "rating": 4,
-    "reasoning": "The platform is very approachable for beginners. It has a generous free tier, making it budget-conscious. The core interface is a search engine, which is a familiar paradigm for most users. The eWeek review notes its ease of implementation is 'Easy' [1]. It loses a point for not having specific, guided learning paths for using it as a coding assistant."
+    "reasoning": "The platform is very approachable for beginners. It has a generous free tier, making it budget-conscious. The core interface is a search engine, which is a familiar paradigm for most users. The eWeek review notes its ease of implementation is 'Easy'. It loses a point for not having specific, guided learning paths for using it as a coding assistant."
   },
   "code_quality_testing": {
     "rating": 3,
-    "reasoning": "As a capable large language model, Perplexity AI can assist with code quality tasks on an interactive basis. It can generate unit tests for a given piece of code, help debug by suggesting fixes, and explain errors. However, it does not offer specialized or automated tools for static analysis or integration into a CI/CD testing pipeline. Its support is ad-hoc rather than systematic [1]."
+    "reasoning": "As a capable large language model, Perplexity AI can assist with code quality tasks on an interactive basis. It can generate unit tests for a given piece of code, help debug by suggesting fixes, and explain errors. However, it does not offer specialized or automated tools for static analysis or integration into a CI/CD testing pipeline. Its support is ad-hoc rather than systematic."
   },
   "codebase_comprehension": {
     "rating": 2,
@@ -17,7 +17,7 @@
   },
   "creative_multimodal_exploration": {
     "rating": 2,
-    "reasoning": "Perplexity's core strength is in providing factual, cited answers, not in creative exploration. The eWeek review explicitly contrasts it with more creative tools like ChatGPT, and it lacks multimodal capabilities for image or audio [1]. While code generation is a creative task, the platform's focus is on accuracy and research, making it less suited for imaginative or artistic applications."
+    "reasoning": "Perplexity's core strength is in providing factual, cited answers, not in creative exploration. The eWeek review explicitly contrasts it with more creative tools like ChatGPT, and it lacks multimodal capabilities for image or audio. While code generation is a creative task, the platform's focus is on accuracy and research, making it less suited for imaginative or artistic applications."
   },
   "data_experimental_flexibility": {
     "rating": 3,

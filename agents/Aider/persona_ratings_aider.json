@@ -1,19 +1,19 @@
 {
   "automation_productivity": {
     "rating": 4,
-    "reasoning": "Chat-based CLI applies model suggestions as Git patches, auto-commits and runs tests for iterative fixes, reducing manual edits [1][2]."
+    "reasoning": "Chat-based CLI applies model suggestions as Git patches, auto-commits and runs tests for iterative fixes, reducing manual edits."
   },
   "beginner_friendly_onboarding": {
     "rating": 3,
-    "reasoning": "Simple installation via pip and open-source usage, but requires command-line familiarity and API keys [1][2]."
+    "reasoning": "Simple installation via pip and open-source usage, but requires command-line familiarity and API keys."
   },
   "code_quality_testing": {
     "rating": 4,
-    "reasoning": "Can run unit tests automatically and propose corrections based on failures, improving reliability [2]."
+    "reasoning": "Can run unit tests automatically and propose corrections based on failures, improving reliability."
   },
   "codebase_comprehension": {
     "rating": 4,
-    "reasoning": "LLM-enabled to edit multiple files with context and apply patches across a repository, aiding navigation [1][2]."
+    "reasoning": "LLM-enabled to edit multiple files with context and apply patches across a repository, aiding navigation."
   },
   "creative_multimodal_exploration": {
     "rating": 1,
@@ -21,7 +21,7 @@
   },
   "data_experimental_flexibility": {
     "rating": 2,
-    "reasoning": "Supports multiple LLM backends including local models, but lacks broader data or experiment management features [1]."
+    "reasoning": "Supports multiple LLM backends including local models, but lacks broader data or experiment management features."
   },
   "visual_no_code_development": {
     "rating": 1,
@@ -29,6 +29,6 @@
   },
   "workflow_agent_orchestration": {
     "rating": 2,
-    "reasoning": "Provides basic git integration but no tools for orchestrating multi-agent pipelines or CI/CD [1][2]."
+    "reasoning": "Provides basic git integration but no tools for orchestrating multi-agent pipelines or CI/CD."
   }
 }
