@@ -1,0 +1,24 @@
+{
+  "name": "CAMEL",
+  "website": "https://github.com/camel-ai/camel",
+  "developer": "CAMEL-AI community",
+  "key_features": [
+    "Large-scale multi-agent simulations up to millions of agents",
+    "Dynamic communication and role-playing between agents",
+    "Stateful memory for multi-step interactions",
+    "Automated data generation with tool integration"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4 family",
+    "Anthropic Claude models",
+    "Meta Llama and Mistral variants",
+    "Other providers via unified ModelType"
+  ],
+  "pricing_model": "Open-source (Apache-2.0)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
+

@@ -1,0 +1,35 @@
+{
+  "automation_productivity": {
+    "rating": 4,
+    "reasoning": "Facilitates multi-agent collaboration and task automation through role-playing agents."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 2,
+    "reasoning": "Requires Python setup and understanding of agent configurations."
+  },
+  "code_quality_testing": {
+    "rating": 2,
+    "reasoning": "Primarily a research framework without built-in testing utilities."
+  },
+  "codebase_comprehension": {
+    "rating": 3,
+    "reasoning": "Agents can coordinate on complex tasks but lack dedicated code navigation tools."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Focuses on text-based interactions; multimodal support is limited."
+  },
+  "data_experimental_flexibility": {
+    "rating": 4,
+    "reasoning": "Supports data generation, multiple benchmarks, and diverse agent types."
+  },
+  "visual_no_code_development": {
+    "rating": 1,
+    "reasoning": "Provides no visual interface; usage is code-driven."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 4,
+    "reasoning": "Enables orchestration of multiple agents with dynamic communication."
+  }
+}
+
