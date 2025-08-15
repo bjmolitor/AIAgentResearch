@@ -7,7 +7,7 @@ Minimax Agent is part of the MiniMax platform, delivering multimodal AI for text
 ## Key Information
 
 - **Developer:** MiniMax
-- **Website:** [https://www.minimaxi.com/](https://www.minimaxi.com/)
+- **Website:** [https://agent.minimax.io/](https://agent.minimax.io/)
 - **Pricing:** Usage-based API pricing
 
 ## Key Features
