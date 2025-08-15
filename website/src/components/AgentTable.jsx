@@ -238,7 +238,6 @@ const AgentTable = forwardRef(function AgentTable(
     const headers = [
       "Name",
       "Website",
-      "Developer",
       "Pricing",
       ...criteria.map((c) => c.name),
     ];
@@ -248,7 +247,6 @@ const AgentTable = forwardRef(function AgentTable(
       return [
         agent.name,
         agent.website,
-        agent.developer,
         categorizePricing(agent.pricing_model),
         ...criteria.map((c) => ratings[key]?.[c.id]?.rating ?? ""),
       ];
@@ -306,7 +304,6 @@ const AgentTable = forwardRef(function AgentTable(
           <tr>
             <th className="px-4 py-2 font-archia">Name</th>
             <th className="px-4 py-2 font-archia text-center">Website</th>
-            <th className="px-4 py-2 font-archia">Developer</th>
             <th className="px-4 py-2 font-archia">Pricing</th>
             {criteria.map((c) => (
               <th key={c.id} className="px-2 py-2 font-archia">
@@ -369,7 +366,6 @@ const AgentTable = forwardRef(function AgentTable(
                   <span className="sr-only">{agent.website}</span>
                 </a>
               </td>
-              <td className="px-4 py-2">{agent.developer}</td>
               <td className="px-4 py-2">
                 {categorizePricing(agent.pricing_model)}
               </td>
