@@ -1477,6 +1477,8 @@
       "Mistral"
     ],
     "pricing_model": "Open Source (MIT)",
+    "description": "Open-source Python framework that applies Pydantic's type validation to building structured, model-agnostic LLM agents.",
+    "long_description": "Created by the team behind Pydantic, Pydantic AI brings FastAPI-style ergonomics to building LLM agents. The open-source framework validates structured outputs with Pydantic models, works with a wide range of providers, ties into Logfire for monitoring, and offers optional dependency injection, streaming responses, and graph-based workflow composition for production-grade applications.",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
