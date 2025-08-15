@@ -39,13 +39,13 @@ function AgentDetailModal({ agent, onClose }) {
     return filled + empty;
   };
 
-  const getAgentKey = (name) => {
-    if (!name) return "";
-    const lower = name.toLowerCase();
-    const base = lower.split(".")[0];
-    const withSpaces = base.replace(/\s+/g, "_");
-    return withSpaces.replace(/[^a-z0-9_]/g, "_");
-  };
+    const getAgentKey = (name) => {
+      if (!name) return "";
+      return name
+        .toLowerCase()
+        .replace(/\s+/g, "_")
+        .replace(/[^a-z0-9._]/g, "_");
+    };
 
   const agentKey = getAgentKey(agent.name);
   const agentRatings = ratings[agentKey] || {};
