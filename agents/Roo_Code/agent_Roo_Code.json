@@ -1,19 +1,21 @@
 {
   "name": "Roo Code",
   "website": "https://github.com/RooCodeInc/Roo-Code",
-  "developer": "ROO.AI",
+  "developer": "Roo Code Inc.",
   "key_features": [
-    "NOTE: Roo Code is not a publicly available product. The information is based on the ROO.AI platform.",
-    "Connected worker technology with a visual interface, Bots, and AI Agents.",
-    "Uses cloud-based custom AI models or APIs like ChatGPT for AI Agent assistance."
+    "AI-powered autonomous coding agent inside VS Code",
+    "Reads and writes files in the workspace",
+    "Runs terminal commands and automates browser actions",
+    "Supports custom modes and tools via the Model Context Protocol (MCP)",
+    "Integrates with OpenAI-compatible or custom APIs and local models"
   ],
   "supported_models": [
-    "Cloud-based custom AI models or APIs like ChatGPT"
+    "Any OpenAI-compatible or custom API/model (including local models via MCP)"
   ],
-  "pricing_model": "Not specified for a 'Roo Code' product. ROO.AI has its own pricing model for its platform.",
+  "pricing_model": "Free (open source)",
   "benchmarks": {
-    "swe_bench_score": "Not applicable",
+    "swe_bench_score": null,
     "task_success_rate": null,
-    "resource_usage": "Not applicable"
+    "resource_usage": ""
   }
 }
