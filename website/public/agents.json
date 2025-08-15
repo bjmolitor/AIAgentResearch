@@ -245,7 +245,7 @@
       "Grok 4",
       "Kimi K2"
     ],
-    "pricing_model": "$10 per month, with the first month discounted to $3.",
+    "pricing_model": "$10 per month.",
     "benchmarks": {
       "swe_bench_score": "Top score on SWE-bench Verified as of July 2025",
       "swe_bench_source": "https://www.datacamp.com/tutorial/trae-ai",
@@ -784,7 +784,7 @@
       "MiniMax Hailuo 02 (Video)",
       "MiniMax Speech 02 (Audio)"
     ],
-    "pricing_model": "MiniMax M1 (text): $0.40 per 1M input tokens; Speech-02-HD (audio): $100 per 1M characters; Hailuo 02 (video): from $0.28 per video",
+    "pricing_model": "MiniMax M1 (text): $0.40 per 1M input tokens; Speech-02-HD (audio): $100 per 1M characters; Hailuo 02 (video): $0.28 per video.",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -1280,29 +1280,6 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
-  },
-  {
-    "name": "Minimax agent",
-    "website": "https://www.minimaxi.com/",
-    "developer": "MiniMax",
-    "key_features": [
-      "Text Model (MiniMax M1) with 1M token input",
-      "Video Model (MiniMax Hailuo 02) with 1080p output",
-      "Audio Model (MiniMax Speech 02) for speech generation",
-      "MCP Server for developers (Video, Image, Speech generation, Voice Cloning)",
-      "AI-native applications: MiniMax Chat, MiniMax Agent, Hailuo Video, MiniMax Audio, Talkie"
-    ],
-    "supported_models": [
-      "MiniMax M1 (Text)",
-      "MiniMax Hailuo 02 (Video)",
-      "MiniMax Speech 02 (Audio)"
-    ],
-    "pricing_model": "MiniMax-M1 (text): Starts at $0.4/M tokens input, Speech-02-HD (audio): $100 per 1M characters, MiniMax Hailuo 02 (video): Starting from $0.28 per video",
-    "benchmarks": {
-      "swe_bench_score": null,
-      "task_success_rate": null,
-      "resource_usage": "No public benchmarks found"
     }
   },
   {
