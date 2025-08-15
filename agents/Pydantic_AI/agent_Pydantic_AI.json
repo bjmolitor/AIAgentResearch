@@ -1,0 +1,28 @@
+{
+  "name": "Pydantic AI",
+  "website": "https://ai.pydantic.dev/",
+  "developer": "Pydantic",
+  "key_features": [
+    "Model-agnostic support for providers like OpenAI, Anthropic, Gemini, Deepseek, Ollama, Groq, Cohere and Mistral.",
+    "Built-in Pydantic validation for type-safe, structured responses.",
+    "Seamless integration with Pydantic Logfire for real-time monitoring and debugging.",
+    "Optional dependency injection system for delivering data and services to agents.",
+    "Supports streamed responses and graph-based workflow composition."
+  ],
+  "supported_models": [
+    "OpenAI",
+    "Anthropic",
+    "Gemini",
+    "Deepseek",
+    "Ollama",
+    "Groq",
+    "Cohere",
+    "Mistral"
+  ],
+  "pricing_model": "Open Source (MIT)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}

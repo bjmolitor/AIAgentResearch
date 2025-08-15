@@ -74,7 +74,8 @@
     "Name": "Pydantic AI",
     "Website": "https://ai.pydantic.dev/",
     "Description": "A Python framework for building AI agents with strong type validation and structured outputs. Developed by the team behind the Pydantic library, it leverages Pydantic for schema enforcement, making agent outputs more reliable and development more manageable.",
-    "Reason for inclusion": "Pydantic AI targets the need for robust, production-grade agent development, introducing typed schemas and validation into LLM workflows—an important innovation in agent design not represented in the current list."
+    "Reason for inclusion": "Pydantic AI targets the need for robust, production-grade agent development, introducing typed schemas and validation into LLM workflows—an important innovation in agent design not represented in the current list.",
+    "Added": true
   },
   {
     "Name": "Bee Agent Framework",
