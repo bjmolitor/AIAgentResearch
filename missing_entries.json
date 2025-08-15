@@ -51,7 +51,8 @@
     "Name": "AgentVerse",
     "Website": "https://github.com/OpenBMB/AgentVerse",
     "Description": "An open-source research platform for multi-agent collaboration and simulations. It provides an environment to configure multiple LLM-based agents with different roles that can interact with each other to solve tasks or model complex scenarios.",
-    "Reason for inclusion": "AgentVerse expands the scope into multi-agent systems research, demonstrating how multiple AI agents can be orchestrated together—an area not covered by the existing entries but relevant to advanced agent applications."
+    "Reason for inclusion": "AgentVerse expands the scope into multi-agent systems research, demonstrating how multiple AI agents can be orchestrated together—an area not covered by the existing entries but relevant to advanced agent applications.",
+    "added": true
   },
   {
     "Name": "CAMEL",

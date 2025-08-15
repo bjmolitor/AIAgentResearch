@@ -1,0 +1,22 @@
+{
+  "name": "AgentVerse",
+  "website": "https://github.com/OpenBMB/AgentVerse",
+  "developer": "OpenBMB",
+  "key_features": [
+    "Task-solving framework for collaborative multi-agent systems",
+    "Simulation framework for multi-agent environments",
+    "Supports local LLMs such as LLaMA and Vicuna",
+    "Demos including NLP Classroom, Prisoner's Dilemma, and Software Design",
+    "Extensible configuration of agents and environments"
+  ],
+  "supported_models": [
+    "OpenAI models",
+    "Local LLMs like LLaMA and Vicuna"
+  ],
+  "pricing_model": "Free and open-source (Apache 2.0 license)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
