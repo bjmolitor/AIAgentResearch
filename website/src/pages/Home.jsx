@@ -75,6 +75,7 @@ function Home({ onAgentClick, onOpenPersonas }) {
         ref={tableRef}
         onAgentClick={onAgentClick}
         searchTerm={searchTerm}
+        allowCriterionSelection
       />
     </div>
   );
