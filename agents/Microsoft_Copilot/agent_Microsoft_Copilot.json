@@ -1,0 +1,25 @@
+{
+  "name": "Microsoft Copilot",
+  "website": "https://www.microsoft.com/en-us/microsoft-copilot",
+  "developer": "Microsoft",
+  "key_features": [
+    "Contextual chat across Windows, Edge, and Microsoft 365",
+    "Writes and summarizes content in Word, Outlook, and Teams",
+    "Generates images and code snippets",
+    "Data analysis in Excel with natural language",
+    "Plugin support and Microsoft Graph integration",
+    "Available as desktop app and web side panel"
+  ],
+  "supported_models": [
+    "GPT-4",
+    "GPT-4o",
+    "DALL-E 3",
+    "Microsoft Phi family"
+  ],
+  "pricing_model": "Free tier, Copilot Pro, Copilot for Microsoft 365",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
