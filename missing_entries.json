@@ -3,19 +3,22 @@
     "Name": "OpenAI Agents SDK (Swarm)",
     "Website": "https://openai.github.io/openai-agents-python/",
     "Description": "OpenAI’s official agent SDK, formerly known as Swarm, which provides minimalist building blocks (agents, tools, handoffs, guardrails) for creating autonomous LLM agents with built-in support for OpenAI models and function calling.",
-    "Reason for inclusion": "As a production-ready toolkit from OpenAI for autonomous agents, it represents a key developer framework in 2025 that was not yet covered in the original list."
+    "Reason for inclusion": "As a production-ready toolkit from OpenAI for autonomous agents, it represents a key developer framework in 2025 that was not yet covered in the original list.",
+    "status": "added"
   },
   {
     "Name": "SuperAGI",
     "Website": "https://superagi.com/",
     "Description": "An open-source AI \"agent OS\" that enables running persistent, multi-step agents with a web UI for monitoring. It includes a suite of tools, memory management, and a marketplace for extending agent capabilities.",
-    "Reason for inclusion": "SuperAGI is a prominent general-purpose agent platform that allows users to deploy and manage autonomous agents, fitting the scope of both automation and developer-oriented agent frameworks."
+    "Reason for inclusion": "SuperAGI is a prominent general-purpose agent platform that allows users to deploy and manage autonomous agents, fitting the scope of both automation and developer-oriented agent frameworks.",
+    "status": "added"
   },
   {
     "Name": "AutoGPT",
     "Website": "https://github.com/Significant-Gravitas/Auto-GPT",
     "Description": "An experimental open-source application that chains GPT-4 thoughts to autonomously attempt complex tasks. It was one of the first projects to popularize autonomous AI agents that self-prompt, use tools, and iterate towards a goal.",
-    "Reason for inclusion": "AutoGPT drew massive attention as a proof-of-concept for goal-driven AI autonomy, directly aligning with general-purpose AI agents and inspiring many subsequent agent frameworks."
+    "Reason for inclusion": "AutoGPT drew massive attention as a proof-of-concept for goal-driven AI autonomy, directly aligning with general-purpose AI agents and inspiring many subsequent agent frameworks.",
+    "Status": "added"
   },
   {
     "Name": "BabyAGI",
@@ -27,13 +30,15 @@
     "Name": "AgentGPT",
     "Website": "https://github.com/reworkd/AgentGPT",
     "Description": "A browser-based platform for launching custom autonomous GPT agents directly from a web interface. Users can name an agent, give it a goal, and watch it attempt to achieve objectives via iterative reasoning and tool use.",
-    "Reason for inclusion": "AgentGPT made autonomous agents accessible to non-technical users via a simple UI, highlighting the trend of user-friendly AI agent tools and falling within the general-purpose agent category."
+    "Reason for inclusion": "AgentGPT made autonomous agents accessible to non-technical users via a simple UI, highlighting the trend of user-friendly AI agent tools and falling within the general-purpose agent category.",
+    "Status": "added"
   },
   {
     "Name": "Hugging Face Transformers Agents",
     "Website": "https://huggingface.co/docs/transformers/agents",
     "Description": "An extension of Hugging Face’s Transformers library that allows LLMs to use tools and APIs in a structured way. It comes with built-in support for numerous tools (e.g. web search, image generation) enabling quick creation of agentic applications.",
-    "Reason for inclusion": "This toolkit represents a well-known open-source solution for adding tool-use and agent behavior to language models, broadening the list’s coverage of developer frameworks."
+    "Reason for inclusion": "This toolkit represents a well-known open-source solution for adding tool-use and agent behavior to language models, broadening the list’s coverage of developer frameworks.",
+    "status": "added"
   },
   {
     "Name": "Fixie.ai",
@@ -75,7 +80,8 @@
     "Name": "Bee Agent Framework",
     "Website": "https://www.ibm.com/blogs/research/2023/08/bee-agent-framework/",
     "Description": "IBM Research’s open-source no-code toolkit for creating and orchestrating AI agents. Bee emphasizes easy assembly of agents and tools with safety and memory controls, enabling complex workflows (including pausing/resuming state) without writing code.",
-    "Reason for inclusion": "Developed by a major research lab, Bee Agent Framework demonstrates enterprise interest in agentic systems. Its inclusion shows the diversity of approaches (no-code, IBM-backed) in the agent ecosystem beyond the currently listed solutions."
+    "Reason for inclusion": "Developed by a major research lab, Bee Agent Framework demonstrates enterprise interest in agentic systems. Its inclusion shows the diversity of approaches (no-code, IBM-backed) in the agent ecosystem beyond the currently listed solutions.",
+    "status": "added"
   },
   {
     "Name": "Salesforce Agentforce",
@@ -87,19 +93,29 @@
     "Name": "IBM watsonx Orchestrate",
     "Website": "https://www.ibm.com/products/watsonx-orchestrate",
     "Description": "A commercial AI automation solution by IBM that uses generative AI to create digital workers for business tasks. It provides a no-code interface to build workflow agents that can interact with enterprise applications (HR, ERP, CRM, etc.), automating tasks with auditable, secure integrations.",
-    "Reason for inclusion": "IBM watsonx Orchestrate is a flagship example of an enterprise-focused AI agent platform. Including it extends the list to large-scale productivity agents and demonstrates the commercial side of AI-driven workflow automation."
+    "Reason for inclusion": "IBM watsonx Orchestrate is a flagship example of an enterprise-focused AI agent platform. Including it extends the list to large-scale productivity agents and demonstrates the commercial side of AI-driven workflow automation.",
+    "Status": "added"
   },
   {
     "Name": "Adept (ACT-1)",
     "Website": "https://www.adept.ai/",
     "Description": "Adept is a startup building a general-purpose AI assistant called ACT-1 that can perform actions across existing software via natural language commands. ACT-1 (\"Action Transformer\") observes user interfaces and takes actions like clicking or typing to execute multi-step tasks on the user's behalf.",
-    "Reason for inclusion": "Adept’s ACT-1 is a high-profile example of a general AI agent aimed at automating any computer task. Its approach to directly operating software makes it relevant to the discussion of productivity agents and not represented by any entry in the current list."
+    "Reason for inclusion": "Adept’s ACT-1 is a high-profile example of a general AI agent aimed at automating any computer task. Its approach to directly operating software makes it relevant to the discussion of productivity agents and not represented by any entry in the current list.",
+    "Status": "added"
   },
   {
     "Name": "Inflection Pi",
     "Website": "https://pi.ai/",
     "Description": "A personal AI assistant created by Inflection AI, designed to be conversational, supportive, and there for the user at any time. Pi interacts via chat or voice, helping with questions, advice, or casual conversation, focusing on personal support and knowledge.",
     "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications.",
+    "status": "added"
+    "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications."
+  },
+  {
+    "Name": "Microsoft Copilot",
+    "Website": "https://www.microsoft.com/en-us/microsoft-copilot",
+    "Description": "Microsoft’s cross-platform AI assistant for Windows, web, and Microsoft 365 that drafts content, answers questions, and automates tasks.",
+    "Reason for inclusion": "Major vendor ecosystem assistant that spans productivity and automation, now tracked in the research list.",
     "status": "added"
   }
 ]

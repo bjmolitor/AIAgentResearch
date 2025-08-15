@@ -1,0 +1,23 @@
+{
+  "name": "SAP Joule",
+  "website": "https://www.sap.com/products/artificial-intelligence/joule.html",
+  "developer": "SAP",
+  "key_features": [
+    "AI copilot for SAP applications",
+    "Context-aware insights from SAP data",
+    "Natural language interface",
+    "Cross-application integration across SAP cloud solutions",
+    "Built on SAP Business Technology Platform",
+    "Security and compliance controls"
+  ],
+  "supported_models": [
+    "Large language models via SAP's AI Core",
+    "Third-party models (e.g., OpenAI) through SAP's generative AI hub"
+  ],
+  "pricing_model": "Included with select SAP cloud subscriptions (details not public)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
