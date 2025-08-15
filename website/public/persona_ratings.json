@@ -815,7 +815,7 @@
       "reasoning": "Integrates with Figma projects but lacks broader automation orchestration."
     }
   },
-  "fixie.ai": {
+  "fixie_ai": {
     "automation_productivity": {
       "rating": 4,
       "reasoning": "Hosted agents and skill integrations allow Fixie.ai to automate enterprise workflows across tools."

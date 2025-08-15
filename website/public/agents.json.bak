@@ -1284,7 +1284,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Fixie.ai is a platform for building and hosting AI agents that connect to external tools and data sources, enabling organizations to automate workflows and deploy conversational assistants."
   },
   {
     "name": "BabyAGI",
