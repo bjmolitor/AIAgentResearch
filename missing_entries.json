@@ -3,7 +3,8 @@
     "Name": "OpenAI Agents SDK (Swarm)",
     "Website": "https://openai.github.io/openai-agents-python/",
     "Description": "OpenAI’s official agent SDK, formerly known as Swarm, which provides minimalist building blocks (agents, tools, handoffs, guardrails) for creating autonomous LLM agents with built-in support for OpenAI models and function calling.",
-    "Reason for inclusion": "As a production-ready toolkit from OpenAI for autonomous agents, it represents a key developer framework in 2025 that was not yet covered in the original list."
+    "Reason for inclusion": "As a production-ready toolkit from OpenAI for autonomous agents, it represents a key developer framework in 2025 that was not yet covered in the original list.",
+    "status": "added"
   },
   {
     "Name": "SuperAGI",

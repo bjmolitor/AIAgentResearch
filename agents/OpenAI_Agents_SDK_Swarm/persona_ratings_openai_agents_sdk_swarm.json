@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 4,
+    "reasoning": "The SDK enables developers to automate multi-step workflows with composable agents and tools."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 2,
+    "reasoning": "It targets Python developers and requires manual setup from source."
+  },
+  "code_quality_testing": {
+    "rating": 2,
+    "reasoning": "Quality and testing depend on user-implemented tools; the SDK offers no built-in code analysis."
+  },
+  "codebase_comprehension": {
+    "rating": 2,
+    "reasoning": "While agents can be configured to read repositories, there is no dedicated code exploration capability."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Multimodal support depends on the models and tools chosen; the core library is text-focused."
+  },
+  "data_experimental_flexibility": {
+    "rating": 3,
+    "reasoning": "The framework can orchestrate data analysis via custom tools but provides no native notebooks or datasets."
+  },
+  "visual_no_code_development": {
+    "rating": 1,
+    "reasoning": "Developers must write Python code; there is no visual or drag-and-drop interface."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 5,
+    "reasoning": "Agents, handoffs, guardrails, and tracing offer strong support for complex multi-agent orchestration."
+  }
+}

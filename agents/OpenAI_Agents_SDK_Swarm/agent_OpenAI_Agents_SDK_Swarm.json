@@ -1,0 +1,27 @@
+{
+  "name": "OpenAI Agents SDK (Swarm)",
+  "website": "https://openai.github.io/openai-agents-python/",
+  "developer": "OpenAI",
+  "key_features": [
+    "Lightweight Python framework for multi-agent workflows",
+    "Handoffs for transferring control between agents",
+    "Guardrails for input and output validation",
+    "Session management for conversation history",
+    "Tracing UI for debugging agent runs",
+    "Provider-agnostic design supporting 100+ LLMs"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4.1",
+    "OpenAI GPT-4o",
+    "100+ LLMs via LiteLLM"
+  ],
+  "pricing_model": "Open-source MIT license; pay for underlying model and compute usage.",
+  "description": "OpenAI’s official agent SDK, formerly known as Swarm, providing minimal components to build custom LLM agents.",
+  "long_description": "The Agents SDK offers agents, tools, handoffs, guardrails, sessions, and tracing to compose autonomous multi-agent applications. It integrates with OpenAI Responses and Chat Completions APIs and other models through LiteLLM.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  }
+}
