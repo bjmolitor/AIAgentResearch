@@ -1380,7 +1380,9 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "Semantic Kernel is an open-source SDK by Microsoft for building AI agents and multi-agent systems.",
+    "long_description": "It provides a modular skill library, planners, and connectors to integrate language models into applications with memory and tool use, and it powers products like Microsoft 365 Copilot."
   },
   {
     "name": "OpenAI Agents SDK (Swarm)",
