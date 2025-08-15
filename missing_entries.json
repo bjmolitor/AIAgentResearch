@@ -87,7 +87,8 @@
     "Name": "IBM watsonx Orchestrate",
     "Website": "https://www.ibm.com/products/watsonx-orchestrate",
     "Description": "A commercial AI automation solution by IBM that uses generative AI to create digital workers for business tasks. It provides a no-code interface to build workflow agents that can interact with enterprise applications (HR, ERP, CRM, etc.), automating tasks with auditable, secure integrations.",
-    "Reason for inclusion": "IBM watsonx Orchestrate is a flagship example of an enterprise-focused AI agent platform. Including it extends the list to large-scale productivity agents and demonstrates the commercial side of AI-driven workflow automation."
+    "Reason for inclusion": "IBM watsonx Orchestrate is a flagship example of an enterprise-focused AI agent platform. Including it extends the list to large-scale productivity agents and demonstrates the commercial side of AI-driven workflow automation.",
+    "Status": "added"
   },
   {
     "Name": "Adept (ACT-1)",
