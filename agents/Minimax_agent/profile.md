@@ -2,7 +2,7 @@
 
 ## Basic Info
 - **Name:** Minimax agent
-- **Website:** https://www.minimaxi.com/
+- **Website:** https://agent.minimax.io/
 - **Developer:** MiniMax
 
 ## Key Features

@@ -1,6 +1,6 @@
 {
   "name": "Minimax Agent",
-  "website": "https://www.minimaxi.com/",
+  "website": "https://agent.minimax.io/",
   "developer": "MiniMax",
   "key_features": [
     "MiniMax M1 text model with 1M token context window",
