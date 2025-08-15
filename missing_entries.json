@@ -93,7 +93,8 @@
     "Name": "Adept (ACT-1)",
     "Website": "https://www.adept.ai/",
     "Description": "Adept is a startup building a general-purpose AI assistant called ACT-1 that can perform actions across existing software via natural language commands. ACT-1 (\"Action Transformer\") observes user interfaces and takes actions like clicking or typing to execute multi-step tasks on the user's behalf.",
-    "Reason for inclusion": "Adept’s ACT-1 is a high-profile example of a general AI agent aimed at automating any computer task. Its approach to directly operating software makes it relevant to the discussion of productivity agents and not represented by any entry in the current list."
+    "Reason for inclusion": "Adept’s ACT-1 is a high-profile example of a general AI agent aimed at automating any computer task. Its approach to directly operating software makes it relevant to the discussion of productivity agents and not represented by any entry in the current list.",
+    "Status": "added"
   },
   {
     "Name": "Inflection Pi",
