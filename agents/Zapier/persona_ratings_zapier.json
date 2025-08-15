@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 5,
+    "reasoning": "Automates tasks across thousands of apps, with multi-step workflows, conditional logic, and AI Actions that reduce manual effort."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 4,
+    "reasoning": "Web-based interface with templates and natural language Zap creation is accessible, though complex workflows require some learning."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Platform focuses on app automation and provides no built-in tools for code quality or testing."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "Does not analyze or understand source code; workflows operate at the application level."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 3,
+    "reasoning": "Integrations with AI services allow text and media generation, but creativity depends on connected apps rather than native features."
+  },
+  "data_experimental_flexibility": {
+    "rating": 4,
+    "reasoning": "Supports custom JavaScript/Python steps and connections to many data sources, enabling flexible data handling."
+  },
+  "visual_no_code_development": {
+    "rating": 5,
+    "reasoning": "Drag-and-drop builder enables complex automations without coding knowledge."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 4,
+    "reasoning": "Handles multi-step processes with branching, scheduling, and AI-driven actions, providing strong orchestration capabilities."
+  }
+}
