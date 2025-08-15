@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 4,
+    "reasoning": "Automates CRM tasks such as case resolution and record updates through autonomous agents."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 2,
+    "reasoning": "Requires familiarity with Salesforce administration and setup within the Einstein platform."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Focused on CRM workflows rather than software development or testing."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "Does not analyze or navigate code repositories."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Supports conversational interfaces but limited multimodal creation features."
+  },
+  "data_experimental_flexibility": {
+    "rating": 3,
+    "reasoning": "Leverages Salesforce Data Cloud and allows connection to different LLMs via Einstein trust layer."
+  },
+  "visual_no_code_development": {
+    "rating": 4,
+    "reasoning": "Offers low-code configuration through Salesforce Flow for building agent actions."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 4,
+    "reasoning": "Executes multi-step business processes and escalates to humans when necessary."
+  }
+}
