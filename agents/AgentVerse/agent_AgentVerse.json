@@ -18,5 +18,7 @@
     "swe_bench_score": null,
     "task_success_rate": null,
     "resource_usage": ""
-  }
+  },
+  "description": "AgentVerse is an open-source framework for orchestrating LLM-driven agents that collaborate in configurable environments.",
+  "long_description": "Developers compose multiple role-playing agents and simulate interactions to solve tasks or study complex scenarios. The platform supports OpenAI and local models like LLaMA or Vicuna, includes demos such as NLP Classroom and Prisoner's Dilemma, and allows extensible configuration of agents and environments."
 }
