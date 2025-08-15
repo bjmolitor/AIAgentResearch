@@ -1,6 +1,6 @@
 # Roo Code
 
-**Note:** "Roo Code" does not appear to be a publicly available product. The information below is based on the [ROO.AI](https://roo.ai/) platform, which is a connected worker platform for manufacturing and other industries.
+**Note:** "Roo Code" does not appear to be a publicly available product. The information below is based on the [Roo Code](https://github.com/RooCodeInc/Roo-Code) project, which is a connected worker platform for manufacturing and other industries.
 
 ## Overview
 
@@ -11,7 +11,7 @@ While ROO.AI uses "AI Agents", it is not a coding assistant or a developer tool 
 ## Key Information
 
 - **Developer:** ROO.AI
-- **Website:** [https://roo.ai/](https://roo.ai/)
+- **Website:** [https://github.com/RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code)
 - **Pricing:** Not specified for a 'Roo Code' product. ROO.AI has its own pricing model for its platform.
 
 ## Key Features
