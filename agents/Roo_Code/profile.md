@@ -1,36 +1,35 @@
 # Roo Code
 
-**Note:** "Roo Code" does not appear to be a publicly available product. The information below is based on the [Roo Code](https://github.com/RooCodeInc/Roo-Code) project, which is a connected worker platform for manufacturing and other industries.
-
 ## Overview
 
-ROO.AI is a platform for frontline digital automation. It uses a combination of a visual interface, Bots, and AI Agents to provide guidance and automated data collection for workers in industries like manufacturing, construction, and energy.
-
-While ROO.AI uses "AI Agents", it is not a coding assistant or a developer tool in the same way as other agents in this list. The "Roo Code" name is likely a misnomer or refers to an internal project.
+Roo Code is an open-source Visual Studio Code extension that brings a team of AI agents into the editor. The assistant communicates in natural language, reads and writes project files, runs terminal commands, automates browser actions, and integrates with any OpenAI-compatible or custom model API. Multiple modes let developers tailor the agent for coding, architecture planning, debugging, Q&A, and more.
 
 ## Key Information
 
-- **Developer:** ROO.AI
+- **Developer:** Roo Code Inc.
 - **Website:** [https://github.com/RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code)
-- **Pricing:** Not specified for a 'Roo Code' product. ROO.AI has its own pricing model for its platform.
+- **Pricing:** Free (open source)
 
 ## Key Features
 
-- Connected worker technology with a visual interface, Bots, and AI Agents.
-- Uses cloud-based custom AI models or APIs like ChatGPT for AI Agent assistance.
+- AI-powered autonomous coding agent inside VS Code
+- Reads and writes files, executes terminal commands, and controls a web browser
+- Supports custom modes and tools via the Model Context Protocol (MCP)
+- Works with OpenAI-compatible or custom APIs and local models
 
 ## Supported Models
 
-- Cloud-based custom AI models or APIs like ChatGPT
+- Any OpenAI-compatible or custom API/model (including local models via MCP)
 
 ## Benchmarks
 
-- **SWE-bench score:** Not applicable
-- **Task Success Rate:** Not applicable
-- **Resource Usage:** Not applicable
+- **SWE-bench score:** Not available
+- **Task Success Rate:** Not available
+- **Resource Usage:** Not available
 
 ## Qualitative Assessment
 
-- **Ease of Use:** Not applicable
-- **Documentation Quality:** Not applicable
-- **Onboarding Experience:** Not applicable
+- **Ease of Use:** Quick start with VS Code extension and documentation
+- **Documentation Quality:** Comprehensive docs and community resources
+- **Onboarding Experience:** Install from VS Marketplace and connect a model provider
+
