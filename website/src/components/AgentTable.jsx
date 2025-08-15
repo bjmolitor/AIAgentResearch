@@ -122,14 +122,6 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
     return filled + empty;
   };
 
-  const handleSort = (key) => {
-    setSortConfig((prev) => ({
-      key,
-      direction:
-        prev.key === key && prev.direction === "asc" ? "desc" : "asc",
-    }));
-  };
-
   const toggleCriterion = (id) => {
     setSelectedCriteria((prev) =>
       prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]
@@ -141,33 +133,13 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
       <table className="min-w-full text-sm text-stratos-blue border border-background-blue">
         <thead className="bg-background-blue text-white">
           <tr>
-            <th
-              className="px-4 py-2 font-archia cursor-pointer"
-              onClick={() => handleSort("name")}
-            >
-              Name
-            </th>
-            <th
-              className="px-4 py-2 font-archia cursor-pointer"
-              onClick={() => handleSort("developer")}
-            >
-              Developer
-            </th>
-            <th
-              className="px-4 py-2 font-archia cursor-pointer"
-              onClick={() => handleSort("pricing_model")}
-            >
-              Pricing
-            </th>
+            <th className="px-4 py-2 font-archia">Name</th>
+            <th className="px-4 py-2 font-archia">Developer</th>
+            <th className="px-4 py-2 font-archia">Pricing</th>
             {criteria.map((c) => (
               <th key={c.id} className="px-2 py-2 font-archia">
                 <div className="flex items-center justify-center gap-1">
-                  <span
-                    className="cursor-pointer"
-                    onClick={() => handleSort("_avg")}
-                  >
-                    {c.name}
-                  </span>
+                  <span>{c.name}</span>
                   <button type="button" onClick={() => toggleCriterion(c.id)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
