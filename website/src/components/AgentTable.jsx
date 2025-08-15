@@ -142,6 +142,50 @@ const AgentTable = forwardRef(function AgentTable(
     return filled + empty;
   };
 
+  const categorizePricing = (pricing) => {
+    if (!pricing) {
+      return "undisclosed (or part of a larger subscription or license)";
+    }
+    const lower = pricing.toLowerCase();
+
+    if (
+      (lower.includes("free") && !lower.includes("paid")) ||
+      (lower.includes("open-source") && !lower.includes("cost"))
+    ) {
+      return "Free (including usage!)";
+    }
+
+    if (
+      lower.includes("usage") ||
+      lower.includes("pay-as-you-go") ||
+      lower.includes("api key") ||
+      (lower.includes("based on") && lower.includes("api"))
+    ) {
+      return "Variable by (API-) usage";
+    }
+
+    if (lower.includes("credit")) {
+      const amounts = pricing.match(/\$[0-9]+(?:\.[0-9]+)?/g);
+      return amounts
+        ? `Flat rate with credits (${amounts.join(", ")})`
+        : "Flat rate with credits";
+    }
+
+    if (lower.includes("limit") || lower.includes("tier")) {
+      const amounts = pricing.match(/\$[0-9]+(?:\.[0-9]+)?/g);
+      return amounts
+        ? `Flat rate with usage limits (${amounts.join(", ")})`
+        : "Flat rate with usage limits";
+    }
+
+    const amounts = pricing.match(/\$[0-9]+(?:\.[0-9]+)?/g);
+    if (amounts) {
+      return `Flat rate (${amounts.join(", ")})`;
+    }
+
+    return "undisclosed (or part of a larger subscription or license)";
+  };
+
   const toggleCriterion = (id) => {
     setSelectedCriteria((prev) =>
       prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]
@@ -163,7 +207,7 @@ const AgentTable = forwardRef(function AgentTable(
         agent.name,
         agent.website,
         agent.developer,
-        agent.pricing_model,
+        categorizePricing(agent.pricing_model),
         ...criteria.map((c) => ratings[key]?.[c.id]?.rating ?? ""),
       ];
     });
@@ -269,7 +313,9 @@ const AgentTable = forwardRef(function AgentTable(
                 </a>
               </td>
               <td className="px-4 py-2">{agent.developer}</td>
-              <td className="px-4 py-2">{agent.pricing_model}</td>
+              <td className="px-4 py-2">
+                {categorizePricing(agent.pricing_model)}
+              </td>
               {criteria.map((c) => (
                 <td key={c.id} className="px-2 py-2 text-center">
                   {renderStars(
