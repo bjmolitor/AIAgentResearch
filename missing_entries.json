@@ -1,122 +1,86 @@
 [
   {
-    "Name": "OpenAI Agents SDK (Swarm)",
-    "Website": "https://openai.github.io/openai-agents-python/",
-    "Description": "OpenAI’s official agent SDK, formerly known as Swarm, which provides minimalist building blocks (agents, tools, handoffs, guardrails) for creating autonomous LLM agents with built-in support for OpenAI models and function calling.",
-    "Reason for inclusion": "As a production-ready toolkit from OpenAI for autonomous agents, it represents a key developer framework in 2025 that was not yet covered in the original list.",
-    "status": "added"
+    "Name": "Datafold Migration Agent (DMA)",
+    "Website": "https://www.datafold.com/data-migration",
+    "Developer": "Datafold",
+    "Pricing": "Enterprise solution; contact for pricing (contractual timeline guarantee):contentReference[oaicite:0]{index=0}",
+    "Beginner-Friendly Onboarding": 2,
+    "Visual/No-Code Development": 1,
+    "Automation & Productivity": 5,
+    "Data & Experimental Flexibility": 4,
+    "Workflow & Agent Orchestration": 4,
+    "Codebase Comprehension": 2,
+    "Code Quality & Testing": 4,
+    "Creative Multimodal Exploration": 1
   },
   {
-    "Name": "SuperAGI",
-    "Website": "https://superagi.com/",
-    "Description": "An open-source AI \"agent OS\" that enables running persistent, multi-step agents with a web UI for monitoring. It includes a suite of tools, memory management, and a marketplace for extending agent capabilities.",
-    "Reason for inclusion": "SuperAGI is a prominent general-purpose agent platform that allows users to deploy and manage autonomous agents, fitting the scope of both automation and developer-oriented agent frameworks.",
-    "status": "added"
+    "Name": "Informatica CLAIRE Copilot",
+    "Website": "https://www.informatica.com/",
+    "Developer": "Informatica",
+    "Pricing": "Included with IDMC platform (GA for data integration in May 2025):contentReference[oaicite:1]{index=1}",
+    "Beginner-Friendly Onboarding": 4,
+    "Visual/No-Code Development": 5,
+    "Automation & Productivity": 5,
+    "Data & Experimental Flexibility": 5,
+    "Workflow & Agent Orchestration": 5,
+    "Codebase Comprehension": 1,
+    "Code Quality & Testing": 2,
+    "Creative Multimodal Exploration": 1
   },
   {
-    "Name": "AutoGPT",
-    "Website": "https://github.com/Significant-Gravitas/Auto-GPT",
-    "Description": "An experimental open-source application that chains GPT-4 thoughts to autonomously attempt complex tasks. It was one of the first projects to popularize autonomous AI agents that self-prompt, use tools, and iterate towards a goal.",
-    "Reason for inclusion": "AutoGPT drew massive attention as a proof-of-concept for goal-driven AI autonomy, directly aligning with general-purpose AI agents and inspiring many subsequent agent frameworks.",
-    "Status": "added"
+    "Name": "Matillion ‘Maia’",
+    "Website": "https://www.matillion.com/",
+    "Developer": "Matillion",
+    "Pricing": "Invitation-only preview (announced June 2025):contentReference[oaicite:2]{index=2}",
+    "Beginner-Friendly Onboarding": 4,
+    "Visual/No-Code Development": 5,
+    "Automation & Productivity": 5,
+    "Data & Experimental Flexibility": 5,
+    "Workflow & Agent Orchestration": 5,
+    "Codebase Comprehension": 1,
+    "Code Quality & Testing": 2,
+    "Creative Multimodal Exploration": 1
   },
   {
-    "Name": "BabyAGI",
-    "Website": "https://github.com/yoheinakajima/babyagi",
-    "Description": "An open-source task management agent that uses an LLM to generate, prioritize, and execute tasks in a loop. It's a simplified prototype demonstrating how an AI could break down objectives and act autonomously.",
-    "Reason for inclusion": "BabyAGI is relevant as an early, influential example of a productivity-focused autonomous agent, illustrating core ideas in task decomposition and execution that underpin many later frameworks.",
-    "added": true
+    "Name": "Microsoft Fabric Data Factory Copilot",
+    "Website": "https://learn.microsoft.com/en-us/fabric/data-factory/copilot-fabric-data-factory",
+    "Developer": "Microsoft",
+    "Pricing": "Preview feature in Microsoft Fabric (requires paid capacity):contentReference[oaicite:3]{index=3}",
+    "Beginner-Friendly Onboarding": 4,
+    "Visual/No-Code Development": 5,
+    "Automation & Productivity": 4,
+    "Data & Experimental Flexibility": 5,
+    "Workflow & Agent Orchestration": 3,
+    "Codebase Comprehension": 2,
+    "Code Quality & Testing": 2,
+    "Creative Multimodal Exploration": 1
   },
   {
-    "Name": "AgentGPT",
-    "Website": "https://github.com/reworkd/AgentGPT",
-    "Description": "A browser-based platform for launching custom autonomous GPT agents directly from a web interface. Users can name an agent, give it a goal, and watch it attempt to achieve objectives via iterative reasoning and tool use.",
-    "Reason for inclusion": "AgentGPT made autonomous agents accessible to non-technical users via a simple UI, highlighting the trend of user-friendly AI agent tools and falling within the general-purpose agent category.",
-    "Status": "added"
+    "Name": "Alteryx AiDIN Copilot",
+    "Website": "https://www.alteryx.com/",
+    "Developer": "Alteryx, Inc.",
+    "Pricing": "Beta release in 2024; full availability expected soon:contentReference[oaicite:4]{index=4}",
+    "Beginner-Friendly Onboarding": 5,
+    "Visual/No-Code Development": 5,
+    "Automation & Productivity": 5,
+    "Data & Experimental Flexibility": 4,
+    "Workflow & Agent Orchestration": 3,
+    "Codebase Comprehension": 2,
+    "Code Quality & Testing": 2,
+    "Creative Multimodal Exploration": 1
   },
   {
-    "Name": "Fixie.ai",
-    "Website": "https://fixie.ai/",
-    "Description": "A platform for building and hosting AI agents that connect to external tools and data sources. It provides a marketplace of ready-made agent skills and a framework for developers to create custom agents for enterprise workflows.",
-    "Reason for inclusion": "Fixie.ai is a notable commercial solution for agent-based automation, illustrating the emerging ecosystem of cloud platforms for customized AI assistants and workflow automation.",
-    "status": "added"
-  },
-  {
-    "Name": "Semantic Kernel",
-    "Website": "https://github.com/microsoft/semantic-kernel",
-    "Description": "An open-source SDK by Microsoft for creating AI copilots and complex agents using a skill library, planners, and connectors. It focuses on integrating LLMs into applications with memory, tool use, and iterative planning, and is used in products like Microsoft 365 Copilot.",
-    "Reason for inclusion": "Semantic Kernel fits the list as a developer framework for AI orchestration, offering an enterprise-friendly, model-agnostic approach that complements tools like LangChain.",
-    "added": true
-  },
-  {
-    "Name": "AgentVerse",
-    "Website": "https://github.com/OpenBMB/AgentVerse",
-    "Description": "An open-source research platform for multi-agent collaboration and simulations. It provides an environment to configure multiple LLM-based agents with different roles that can interact with each other to solve tasks or model complex scenarios.",
-    "Reason for inclusion": "AgentVerse expands the scope into multi-agent systems research, demonstrating how multiple AI agents can be orchestrated together—an area not covered by the existing entries but relevant to advanced agent applications.",
-    "added": true
-  },
-  {
-    "Name": "CAMEL",
-    "Website": "https://github.com/camel-ai/camel",
-    "Description": "An open-source framework (Communicative Agents for 'Mind' Exploration) that assigns roles to two or more AI agents to communicate and collaborate on solving problems. It emphasizes role-playing interactions between AI assistant and user agents to accomplish goals.",
-    "Reason for inclusion": "CAMEL showcases an innovative multi-agent collaboration approach, aligning with the list’s interest in agent frameworks and demonstrating a unique technique for achieving complex tasks via AI-to-AI communication.",
-    "status": "added"
-  },
-  {
-    "Name": "ChatDev",
-    "Website": "https://github.com/OpenBMB/ChatDev",
-    "Description": "A multi-agent system that simulates a software development team with different AI agents (e.g., Manager, Developer, Tester) collaborating to design, code, test, and document a software project. It provides a visual interface to observe agent interactions.",
-    "Reason for inclusion": "ChatDev is a cutting-edge example of domain-specific AI agents working together, illustrating the power of specialized agents and teamwork in automation—which complements the general-purpose agents in the existing list.",
-    "status": "added"
-  },
-  {
-    "Name": "Pydantic AI",
-    "Website": "https://ai.pydantic.dev/",
-    "Description": "A Python framework for building AI agents with strong type validation and structured outputs. Developed by the team behind the Pydantic library, it leverages Pydantic for schema enforcement, making agent outputs more reliable and development more manageable.",
-    "Reason for inclusion": "Pydantic AI targets the need for robust, production-grade agent development, introducing typed schemas and validation into LLM workflows—an important innovation in agent design not represented in the current list.",
-    "Added": true
-  },
-  {
-    "Name": "Bee Agent Framework",
-    "Website": "https://www.ibm.com/blogs/research/2023/08/bee-agent-framework/",
-    "Description": "IBM Research’s open-source no-code toolkit for creating and orchestrating AI agents. Bee emphasizes easy assembly of agents and tools with safety and memory controls, enabling complex workflows (including pausing/resuming state) without writing code.",
-    "Reason for inclusion": "Developed by a major research lab, Bee Agent Framework demonstrates enterprise interest in agentic systems. Its inclusion shows the diversity of approaches (no-code, IBM-backed) in the agent ecosystem beyond the currently listed solutions.",
-    "status": "added"
-  },
-  {
-    "Name": "Salesforce Agentforce",
-    "Website": "https://www.salesforce.com/products/einstein/agentforce/",
-    "Description": "Salesforce’s generative AI agent platform (part of Einstein GPT) that lets organizations build autonomous agents for CRM and customer support tasks. It integrates with Salesforce data and workflows, enabling agents to act on records, automate service processes, and hand off to humans when needed.",
-    "Reason for inclusion": "Agentforce represents a major enterprise implementation of AI agents in a specific domain, highlighting how intelligent assistants are being deployed commercially. It's within scope as a productivity and automation tool not yet covered in the list.",
-    "added": true
-  },
-  {
-    "Name": "IBM watsonx Orchestrate",
-    "Website": "https://www.ibm.com/products/watsonx-orchestrate",
-    "Description": "A commercial AI automation solution by IBM that uses generative AI to create digital workers for business tasks. It provides a no-code interface to build workflow agents that can interact with enterprise applications (HR, ERP, CRM, etc.), automating tasks with auditable, secure integrations.",
-    "Reason for inclusion": "IBM watsonx Orchestrate is a flagship example of an enterprise-focused AI agent platform. Including it extends the list to large-scale productivity agents and demonstrates the commercial side of AI-driven workflow automation.",
-    "Status": "added"
-  },
-  {
-    "Name": "Adept (ACT-1)",
-    "Website": "https://www.adept.ai/",
-    "Description": "Adept is a startup building a general-purpose AI assistant called ACT-1 that can perform actions across existing software via natural language commands. ACT-1 (\"Action Transformer\") observes user interfaces and takes actions like clicking or typing to execute multi-step tasks on the user's behalf.",
-    "Reason for inclusion": "Adept’s ACT-1 is a high-profile example of a general AI agent aimed at automating any computer task. Its approach to directly operating software makes it relevant to the discussion of productivity agents and not represented by any entry in the current list.",
-    "Status": "added"
-  },
-  {
-    "Name": "Inflection Pi",
-    "Website": "https://pi.ai/",
-    "Description": "A personal AI assistant created by Inflection AI, designed to be conversational, supportive, and there for the user at any time. Pi interacts via chat or voice, helping with questions, advice, or casual conversation, focusing on personal support and knowledge.",
-    "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications.",
-    "status": "added"
-    "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications."
-  },
-  {
-    "Name": "Microsoft Copilot",
-    "Website": "https://www.microsoft.com/en-us/microsoft-copilot",
-    "Description": "Microsoft’s cross-platform AI assistant for Windows, web, and Microsoft 365 that drafts content, answers questions, and automates tasks.",
-    "Reason for inclusion": "Major vendor ecosystem assistant that spans productivity and automation, now tracked in the research list.",
-    "status": "added"
+    "Name": "SnapLogic SnapGPT",
+    "Website": "https://www.snaplogic.com/products/snapgpt",
+    "Developer": "SnapLogic",
+    "Pricing": "Available to SnapLogic customers (GA since July 2023):contentReference[oaicite:5]{index=5}",
+    "Beginner-Friendly Onboarding": 4,
+    "Visual/No-Code Development": 5,
+    "Automation & Productivity": 5,
+    "Data & Experimental Flexibility": 5,
+    "Workflow & Agent Orchestration": 3,
+    "Codebase Comprehension": 3,
+    "Code Quality & Testing": 4,
+    "Creative Multimodal Exploration": 1
   }
 ]
