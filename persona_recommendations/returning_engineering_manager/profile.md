@@ -4,6 +4,8 @@ A manager who stepped away from daily coding and wants to regain hands-on experi
 
 ### Key Criteria
 - **Codebase Comprehension** – regain context across large or unfamiliar projects.
+- **Beginner-Friendly Onboarding** – re-enter coding with guided setup.
+- **Automation & Productivity** – delegate routine tasks for faster ramp-up.
 
 ## Recommended Tools
 - **GitHub_Copilot** – quickly recall syntax and patterns with inline guidance.

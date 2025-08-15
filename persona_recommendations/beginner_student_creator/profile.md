@@ -4,6 +4,7 @@ Students and hobbyists starting their coding journey and eager to learn through 
 
 ### Key Criteria
 - **Beginner-Friendly Onboarding** – simple setup, guidance, and affordability.
+- **Visual/No-Code Development** – build apps through drag-and-drop components.
 - **Creative Multimodal Exploration** – experiment with text, image, or audio outputs.
 
 ## Recommended Tools
