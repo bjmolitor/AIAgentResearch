@@ -1553,7 +1553,9 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "AI assistant across Windows, Edge, and Microsoft 365 that uses GPT-4 and Microsoft Graph to draft content, analyze data, generate images and code, and answer questions in context.",
+    "long_description": "Microsoft Copilot combines large language models with data from Microsoft Graph and the web to help people work across Microsoft 365 apps, Windows, and Edge. It drafts and summarizes content, analyzes spreadsheets, creates images and code snippets, and responds to natural-language queries with contextual answers."
   },
   {
     "name": "Bee Agent Framework",
