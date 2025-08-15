@@ -1,0 +1,23 @@
+{
+  "name": "AgentGPT",
+  "website": "https://agentgpt.reworkd.ai/",
+  "developer": "Reworkd AI",
+  "key_features": [
+    "Browser-based agent deployment",
+    "Goal-driven task generation",
+    "Automatic task execution loop",
+    "Open-source Next.js + FastAPI stack"
+  ],
+  "supported_models": [
+    "OpenAI GPT-3.5",
+    "OpenAI GPT-4"
+  ],
+  "pricing_model": "Open-source project; hosted version requires user-provided API keys and incurs usage costs.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "description": "AgentGPT is a web platform for assembling autonomous GPT agents.",
+  "long_description": "Users name an agent and set a goal; the system iteratively creates and executes tasks with GPT-4 or GPT-3.5, displaying progress in a browser interface."
+}

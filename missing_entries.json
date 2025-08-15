@@ -27,7 +27,8 @@
     "Name": "AgentGPT",
     "Website": "https://github.com/reworkd/AgentGPT",
     "Description": "A browser-based platform for launching custom autonomous GPT agents directly from a web interface. Users can name an agent, give it a goal, and watch it attempt to achieve objectives via iterative reasoning and tool use.",
-    "Reason for inclusion": "AgentGPT made autonomous agents accessible to non-technical users via a simple UI, highlighting the trend of user-friendly AI agent tools and falling within the general-purpose agent category."
+    "Reason for inclusion": "AgentGPT made autonomous agents accessible to non-technical users via a simple UI, highlighting the trend of user-friendly AI agent tools and falling within the general-purpose agent category.",
+    "Status": "added"
   },
   {
     "Name": "Hugging Face Transformers Agents",
