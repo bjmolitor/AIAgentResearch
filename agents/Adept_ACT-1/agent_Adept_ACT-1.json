@@ -11,7 +11,7 @@
   "supported_models": [
     "ACT-1 (Action Transformer)"
   ],
-  "pricing_model": null,
+  "pricing_model": "Pricing not publicly disclosed (research project)",
   "benchmarks": {
     "swe_bench_score": null,
     "task_success_rate": null,

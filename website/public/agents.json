@@ -484,7 +484,7 @@
     "supported_models": [
       "GPT-4 and open-source large language models orchestrated by Kilo"
     ],
-    "pricing_model": "Closed beta (join waitlist)",
+    "pricing_model": "Open-source; users provide API keys and pay for model usage",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -738,7 +738,7 @@
     "supported_models": [
       "Any OpenAI-compatible or custom API/model (including local models via MCP)"
     ],
-    "pricing_model": "Free (open source)",
+    "pricing_model": "Open-source; users provide API keys and pay for model usage",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -1366,7 +1366,7 @@
     "supported_models": [
       "ACT-1 (Action Transformer)"
     ],
-    "pricing_model": null,
+    "pricing_model": "Pricing not publicly disclosed (research project)",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
