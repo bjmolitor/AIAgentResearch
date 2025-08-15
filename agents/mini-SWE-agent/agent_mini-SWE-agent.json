@@ -16,5 +16,7 @@
     "swe_bench_source": "https://swe-agent.com/",
     "task_success_rate": null,
     "resource_usage": ""
-  }
+  },
+  "description": "A 100-line open-source coding agent that autonomously fixes GitHub issues, offering a minimal, hackable alternative to SWE-agent.",
+  "long_description": "mini-SWE-agent condenses the core workflow of SWE-agent into roughly a hundred lines of Python. Built by the Princeton and Stanford team behind SWE-bench, it reads repositories, plans edits, applies patches, runs tests, and can open pull requests. The lightweight design makes it easy to customize and deploy while still solving around 65% of SWE-bench Verified tasks."
 }

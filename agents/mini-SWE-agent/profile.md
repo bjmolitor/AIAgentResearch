@@ -2,7 +2,7 @@
 
 ## Overview
 
-mini-SWE-agent is a lightweight version of SWE-agent, implemented in just 100 lines of code. It is designed to be a simple and hackable agent for fixing issues in real GitHub repositories.
+mini-SWE-agent condenses the core workflow of SWE-agent into roughly 100 lines of Python. Built by the Princeton and Stanford team behind SWE-bench, it reads repositories, plans changes, edits files, runs tests, and can open pull requests. The minimal footprint makes it easy to inspect, customize, and deploy while still resolving about 65% of SWE-bench Verified issues.
 
 ## Key Information
 
