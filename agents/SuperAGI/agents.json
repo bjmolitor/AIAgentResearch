@@ -1,0 +1,22 @@
+{
+  "name": "SuperAGI",
+  "website": "https://superagi.com/",
+  "developer": "TransformerOptimus",
+  "key_features": [
+    "Provision, spawn, and deploy autonomous AI agents.",
+    "Extend agent capabilities with tools from a marketplace.",
+    "Graphical user interface and action console for agent interaction.",
+    "Multiple vector database integrations and agent memory storage.",
+    "Performance telemetry with optimized token usage."
+  ],
+  "supported_models": [
+    "OpenAI API models",
+    "Custom fine-tuned models"
+  ],
+  "pricing_model": "Open-source; optional SuperAGI Cloud",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
