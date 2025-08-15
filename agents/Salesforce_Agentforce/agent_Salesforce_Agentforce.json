@@ -13,6 +13,7 @@
     "Bring-your-own models such as OpenAI and Anthropic"
   ],
   "pricing_model": "Enterprise licensing through Salesforce Einstein 1 platform",
+  "description": "Salesforce Agentforce is a generative AI platform in the Einstein 1 ecosystem that lets companies build trusted agents to automate CRM and customer service workflows, using the Einstein Trust Layer for secure data access and customization through Flow and Apex.",
   "benchmarks": {
     "swe_bench_score": null,
     "swe_bench_source": null,
