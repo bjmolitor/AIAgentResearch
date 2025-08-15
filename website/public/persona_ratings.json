@@ -1,4 +1,106 @@
 {
+  "adept_act_1": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "ACT-1 is explicitly designed to execute multi-step computer tasks on behalf of the user, turning natural language instructions into actions across software. Its focus on automating routine workflows makes it highly oriented toward productivity."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "The system is not publicly available and currently requires joining a waitlist, so there is limited documentation or guided onboarding for new users."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "The agent does not provide tools for writing or testing code; quality assurance features are out of scope."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "ACT-1 targets general computer operation rather than reading or understanding source code."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "While ACT-1 observes the visual interface of applications, it is primarily focused on task execution rather than creative generation across modalities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "The agent can manipulate data in existing tools like spreadsheets or web forms, but it lacks native features for data experimentation or pipeline management."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Users can automate workflows through natural language without writing code, yet customization and control remain limited."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "ACT-1 can carry out multi-step procedures across different applications, demonstrating strong cross-tool orchestration, although it currently operates as a single agent."
+    }
+  },
+  "agentgpt": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Agents plan and execute tasks autonomously in a loop, but complex workflows may require manual oversight."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "The browser interface lets users launch agents with minimal setup aside from supplying an API key."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "AgentGPT is not focused on software development or testing capabilities."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "It lacks features for navigating or understanding source code."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Supports text-based reasoning and web search, but multimodal generation is limited."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Relies on external APIs and offers little built-in data or experiment management."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "The graphical web UI enables configuration without coding, though customization is constrained."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 2,
+      "reasoning": "Designed for single-agent operation without advanced multi-agent orchestration."
+    }
+  },
+  "agentverse": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "The task-solving framework can automate collaborative tasks, but it requires substantial setup and customization."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "Installation and configuration rely on Python skills, and documentation is still maturing."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "While demos include software development roles, the framework does not focus on integrated testing or quality tools."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "AgentVerse targets multi-agent coordination rather than understanding existing codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Some simulation demos involve interactive environments, but multimodal capabilities are limited."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Open-source design and support for both OpenAI and local models allow flexible experimentation across scenarios."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Configuration is code-driven with no visual or no-code interface."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "Orchestrating multiple agents and roles is the core strength of the platform."
+    }
+  },
   "aider": {
     "automation_productivity": {
       "rating": 4,
@@ -169,6 +271,142 @@
       "reasoning": "Automates individual coding tasks but lacks facilities for coordinating multi-agent workflows."
     }
   },
+  "autogpt": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Chains tasks and uses tools to pursue goals autonomously, enabling significant workflow automation."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 1,
+      "reasoning": "Requires manual environment setup, API keys, and command-line knowledge."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Provides no built-in testing or code quality enforcement."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Focuses on task execution rather than navigating or understanding codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Plugins and tool use allow some multimodal capabilities, but it's not centered on creative media."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Open-source framework lets users extend agents with custom tools and data sources."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Interaction is primarily via CLI, with no drag-and-drop or no-code builder."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 2,
+      "reasoning": "Designed around a single autonomous agent; lacks native multi-agent orchestration features."
+    }
+  },
+  "babyagi": {
+    "automation_productivity": {
+      "rating": 3,
+      "reasoning": "Loops through creating, prioritizing, and executing tasks to pursue an objective, illustrating autonomous task management."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Minimal Python script with clear README, but requires environment setup and API keys."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Provides no features for testing or code quality; focused on task execution."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Does not analyze or navigate existing codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "Operates on text tasks only and lacks multimodal capabilities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Open-source Python framework with pluggable vector databases and custom functions, enabling some experimentation."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Primarily configured through code; no visual or no-code interface."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 2,
+      "reasoning": "Manages a single loop of tasks but lacks advanced multi-agent or flow orchestration features."
+    }
+  },
+  "bee_agent_framework": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Workflows, tools, and caching enable automated multi-step tasks and efficient execution."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "Quickstart templates and no-code orientation lower the barrier for new users."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Bee Agent Framework does not provide dedicated features for testing or code quality."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "The framework focuses on agent orchestration rather than code understanding."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Tool integrations could connect to various services, but multimodal support is limited."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "RAG modules and backend connectors support data-driven experiments, though not a full data science stack."
+    },
+    "visual_no_code_development": {
+      "rating": 4,
+      "reasoning": "Designed as a no-code toolkit with modular components to assemble agents visually."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "Workflows and multi-agent support are core to the framework, enabling complex orchestration."
+    }
+  },
+  "camel": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Facilitates multi-agent collaboration and task automation through role-playing agents."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "Requires Python setup and understanding of agent configurations."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "Primarily a research framework without built-in testing utilities."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Agents can coordinate on complex tasks but lack dedicated code navigation tools."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Focuses on text-based interactions; multimodal support is limited."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Supports data generation, multiple benchmarks, and diverse agent types."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Provides no visual interface; usage is code-driven."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "Enables orchestration of multiple agents with dynamic communication."
+    }
+  },
   "chat.z.ai": {
     "automation_productivity": {
       "rating": 4,
@@ -201,6 +439,40 @@
     "workflow_agent_orchestration": {
       "rating": 2,
       "reasoning": "While it can call tools within a session, chat.z.ai does not manage multi-step workflows or coordinate multiple agents."
+    }
+  },
+  "chatdev": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Coordinated agents automatically design, code, test and document software projects"
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "Requires command-line setup and API key configuration"
+    },
+    "code_quality_testing": {
+      "rating": 4,
+      "reasoning": "Includes dedicated Tester and Reviewer agents for validation"
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Agents follow structured roles but have limited large-scale repository understanding"
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Focuses on software generation with minor support for visual design via Art Designer"
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Not primarily aimed at data science workflows"
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Operated through code and configuration files without drag-and-drop interfaces"
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "Multi-agent framework with MacNet enables complex DAG-based orchestration"
     }
   },
   "chatgpt_agent": {
@@ -577,6 +849,40 @@
       "reasoning": "Integrates with Figma projects but lacks broader automation orchestration."
     }
   },
+  "fixie.ai": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Hosted agents and skill integrations allow Fixie.ai to automate enterprise workflows across tools."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "SDKs and examples help new users, but building skills typically requires developer experience."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "Platform is not oriented toward software testing or code quality beyond executing agent code."
+    },
+    "codebase_comprehension": {
+      "rating": 2,
+      "reasoning": "While agents can access repositories via connectors, the service is not primarily for code understanding."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Agents can combine text, APIs, and data sources, enabling some multimodal interactions."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Connectors to knowledge bases and APIs offer data flexibility, though experiment tracking is limited."
+    },
+    "visual_no_code_development": {
+      "rating": 2,
+      "reasoning": "Fixie.ai provides a dashboard but primarily expects code-based agent creation."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "The platform orchestrates agents and skills, supporting complex multi-step workflows."
+    }
+  },
   "gemini_cli": {
     "automation_productivity": {
       "rating": 5,
@@ -711,6 +1017,108 @@
     "workflow_agent_orchestration": {
       "rating": 5,
       "reasoning": "Workflow and agent orchestration is a core strength of Goose. It allows users to create and reuse complex workflows through its 'Recipes' feature. It integrates with common developer tools like Jira, GitHub, and Slack, and can be incorporated into CI/CD pipelines. Its extensibility through plugins and the Model Context Protocol (MCP) allows it to orchestrate a wide range of tools and agents, making it a powerful hub for developer workflows."
+    }
+  },
+  "hugging_face_transformers_agents": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Agents can chain tools and iterate on observations to automate complex tasks."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Open-source Python package with examples, but requires coding knowledge and model setup."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "Primarily focused on tool use and reasoning rather than software testing workflows."
+    },
+    "codebase_comprehension": {
+      "rating": 2,
+      "reasoning": "Provides no dedicated code navigation features beyond what custom tools supply."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 4,
+      "reasoning": "Built-in tools cover web browsing, image generation and speech-to-text for multimodal tasks."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Supports plugging in custom tools and models from the Hugging Face Hub."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Usage is code-driven with no graphical builder."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Agent framework enables multi-agent setups and sharing via the Hub but lacks dedicated orchestration UI."
+    }
+  },
+  "ibm_watsonx_orchestrate": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Digital workers automate multi-step business tasks across enterprise apps, boosting productivity."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "The no-code builder and Developer Edition ease entry, but enterprise setup may require guidance."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "The platform focuses on workflow automation rather than code analysis or testing."
+    },
+    "codebase_comprehension": {
+      "rating": 2,
+      "reasoning": "Designed for business processes, not for navigating or understanding software codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Uses language models for task automation but offers limited multimodal creative tools."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Supports integration with various enterprise data sources, though experimentation is constrained by governance."
+    },
+    "visual_no_code_development": {
+      "rating": 4,
+      "reasoning": "Provides a drag-and-drop interface to build workflows and digital workers without programming."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "Designed to orchestrate tasks across multiple apps and services through digital workers."
+    }
+  },
+  "inflection_pi": {
+    "automation_productivity": {
+      "rating": 2,
+      "reasoning": "Pi can offer general advice and reminders through conversation but lacks built-in automation or task execution features."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 5,
+      "reasoning": "Users access Pi through a simple web or mobile interface with minimal setup, making it highly approachable for newcomers."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "The assistant is not intended for code analysis or testing and provides no specialized developer tools."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Pi does not interact with code repositories or provide features to understand or navigate codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Pi supports both text and voice, enabling conversational audio interactions, but it lacks broader multimodal creativity tools like image or video generation."
+    },
+    "data_experimental_flexibility": {
+      "rating": 1,
+      "reasoning": "There is no support for connecting to external datasets or running data experiments within the assistant."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Pi provides a chat-style interface without visual building blocks or no-code development features."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 1,
+      "reasoning": "The assistant does not orchestrate multi-step workflows or coordinate other agents; it focuses on single-turn conversations."
     }
   },
   "jules": {
@@ -883,6 +1291,40 @@
       "reasoning": "Letta is fundamentally a platform for workflow and agent orchestration. It allows developers to build, deploy, and manage stateful agents, which can be versioned and integrated into larger applications via REST APIs. This makes it well-suited for creating complex, automated workflows and orchestrating multiple agents."
     }
   },
+  "lindy": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Lindy connects to email, chat, and calendars to automate follow-ups and other repetitive tasks, reducing manual effort."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Setup involves connecting external accounts and configuring workflows, which is manageable but not entirely plug-and-play."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "The platform focuses on task automation rather than code analysis or test generation."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Lindy is not designed for navigating or understanding software codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Primarily text-based, though it can handle emails and attachments; it offers limited support for other modalities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Integrates with various services and APIs, allowing experimentation with different data sources."
+    },
+    "visual_no_code_development": {
+      "rating": 2,
+      "reasoning": "Provides a web interface for configuring assistants but lacks a full drag-and-drop development environment."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Supports multi-step workflows within a single assistant but offers limited multi-agent orchestration features."
+    }
+  },
   "logiqcli": {
     "automation_productivity": {
       "rating": 4,
@@ -949,6 +1391,40 @@
     "workflow_agent_orchestration": {
       "rating": 5,
       "reasoning": "Manus excels in this area. The Fintech Weekly article explicitly mentions that it 'functions like an executive overseeing specialized sub-agents, each tasked with solving different aspects of a problem'. This multi-agent architecture is a core feature that enables it to compose and execute complex pipelines and workflows autonomously. The YouTube review also describes it as a 'complete computer-using agent running in the cloud' that can orchestrate various tools and actions."
+    }
+  },
+  "microsoft_copilot": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "Copilot accelerates everyday work across Microsoft 365 apps, automating drafting, summarization, and data analysis tasks to boost productivity."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "Users can access Copilot through familiar Microsoft interfaces and guided tutorials, though some features require a Microsoft 365 subscription."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Copilot does not natively provide code quality or testing capabilities beyond simple code snippets."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "The product targets general productivity and offers minimal tooling for understanding or navigating source code."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 4,
+      "reasoning": "Supports text, image generation, and multi-turn conversations, enabling creative content development across modalities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Excel integrations allow natural-language data analysis, but the tool lacks advanced experiment management features."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "Integrations with Power Apps and other Microsoft services allow some no-code automation, though capabilities remain limited."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Copilot can trigger actions across Microsoft services and plug-ins, offering moderate workflow orchestration inside the Microsoft ecosystem."
     }
   },
   "mini-swe-agent": {
@@ -1019,6 +1495,108 @@
       "reasoning": "Minimax provides strong building blocks for workflow orchestration through its multimodal API, allowing for the creation of complex pipelines (e.g., text-to-speech-to-video). The existence of a product named 'Minimax Agent' is a strong, albeit unsubstantiated, indicator of their focus on this area. The cloud-based API simplifies infrastructure management. The rating is held back from a 5 due to the lack of concrete details and documentation about the 'Agent' product."
     }
   },
+  "n8n": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "Visual workflows with 400+ integrations automate complex processes and repetitive tasks."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Cloud offering and templates ease setup but building workflows still needs some technical understanding."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Designed for automation rather than code analysis or testing features."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Does not focus on navigating or understanding software codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "AI nodes can generate text or images via external models but multimodal tools are limited."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Supports custom scripting and diverse APIs, enabling flexible data workflows."
+    },
+    "visual_no_code_development": {
+      "rating": 5,
+      "reasoning": "Drag-and-drop editor enables building workflows without writing code."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "Connects multiple services and LLMs into orchestrated multi-step processes."
+    }
+  },
+  "open_swe": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "Open SWE is designed for automation. The GitHub webhook integration allows for a fully automated workflow, from issue creation to pull request. The agent can work asynchronously in the cloud, handling multiple tasks in parallel. This directly addresses the need to reduce manual work and adapt workflows for efficiency. The multi-agent architecture with a dedicated planner and reviewer also contributes to productivity by ensuring that the generated code is of high quality, reducing the need for manual review cycles."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "The onboarding process for the hosted version is straightforward: connect GitHub, add an API key, and start. The documentation is clear and provides a good starting point. The existence of a UI with a manual mode, where users can review and approve plans, is a great feature for beginners who want to understand how the agent works before giving it full autonomy. The open-source nature of the project also allows for community support. The only reason it's not a 5 is that setting up a self-hosted version requires some technical expertise."
+    },
+    "code_quality_testing": {
+      "rating": 4,
+      "reasoning": "The agent has a 'Reviewer' component that checks for common errors, runs tests, and formats code before opening a pull request. This action-review loop is a strong feature for ensuring code quality. It also runs tests, which is a key aspect of this criterion. While it doesn't explicitly mention automated test *generation*, its ability to run existing tests and its focus on code quality before creating a PR warrants a high rating."
+    },
+    "codebase_comprehension": {
+      "rating": 5,
+      "reasoning": "The agent has a dedicated 'Planner' component that is responsible for analyzing the request and researching the codebase. This includes viewing files and running searches to create a detailed execution plan. This demonstrates a strong capability for understanding the context of a codebase before making changes. The fact that it can work on existing repositories and contribute to them like a human developer is a testament to its codebase comprehension abilities."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "There is no evidence that Open SWE supports any multimodal capabilities. It is a text-based coding assistant focused on software development tasks. It does not appear to have any features for working with images, audio, or other media."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Open SWE is designed for software engineering tasks, not data science or experimental research. While it is flexible in its ability to work with different codebases, there is no mention of features for connecting to diverse data sources, managing experiments, or other tasks typically associated with data science workflows. It could be used to write code for such experiments, but that is not its core advertised purpose."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Open SWE is a code-centric agent. It is designed to write and modify code in existing repositories. It does not have any features for visual or no-code development, such as drag-and-drop interfaces or component templates."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "This is a core strength of Open SWE. It uses a multi-agent architecture (Manager, Planner, Programmer, Reviewer) built on LangGraph, a framework specifically designed for orchestrating agentic workflows. The ability to trigger runs from GitHub issues, manage them through a UI, and have the agent automatically create pull requests is a clear demonstration of sophisticated workflow and agent orchestration. The Manager agent's ability to route messages and coordinate between the other agents is a key feature here."
+    }
+  },
+  "openai_agents_sdk_swarm": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "The SDK enables developers to automate multi-step workflows with composable agents and tools."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "It targets Python developers and requires manual setup from source."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "Quality and testing depend on user-implemented tools; the SDK offers no built-in code analysis."
+    },
+    "codebase_comprehension": {
+      "rating": 2,
+      "reasoning": "While agents can be configured to read repositories, there is no dedicated code exploration capability."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Multimodal support depends on the models and tools chosen; the core library is text-focused."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "The framework can orchestrate data analysis via custom tools but provides no native notebooks or datasets."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Developers must write Python code; there is no visual or drag-and-drop interface."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "Agents, handoffs, guardrails, and tracing offer strong support for complex multi-agent orchestration."
+    }
+  },
   "openai_codex": {
     "automation_productivity": {
       "rating": 3,
@@ -1026,7 +1604,7 @@
     },
     "beginner_friendly_onboarding": {
       "rating": 4,
-      "reasoning": "Using Codex inside ChatGPT requires no installation—users simply open a chat and describe the task."
+      "reasoning": "Using Codex inside ChatGPT requires no installation\u2014users simply open a chat and describe the task."
     },
     "code_quality_testing": {
       "rating": 2,
@@ -1119,6 +1697,74 @@
     "workflow_agent_orchestration": {
       "rating": 1,
       "reasoning": "Perplexity AI is a user-facing tool for information retrieval and code generation. It has no features for composing complex pipelines, coordinating other agents, or managing infrastructure and CI/CD. It cannot be used for workflow orchestration."
+    }
+  },
+  "perplexity_labs": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Perplexity AI excels at automating the research and information-gathering phase of a developer's workflow. Its ability to synthesize information from real-time web results and provide cited sources can significantly reduce the manual effort required to understand new technologies, troubleshoot issues, or find code examples. While it doesn't automate CI/CD or infrastructure tasks, it boosts productivity by accelerating knowledge acquisition."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "The platform is very approachable for beginners. It has a generous free tier, making it budget-conscious. The core interface is a search engine, which is a familiar paradigm for most users. The eWeek review notes its ease of implementation is 'Easy'. It loses a point for not having specific, guided learning paths for using it as a coding assistant."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "As a capable large language model, Perplexity AI can assist with code quality tasks on an interactive basis. It can generate unit tests for a given piece of code, help debug by suggesting fixes, and explain errors. However, it does not offer specialized or automated tools for static analysis or integration into a CI/CD testing pipeline. Its support is ad-hoc rather than systematic."
+    },
+    "codebase_comprehension": {
+      "rating": 2,
+      "reasoning": "Perplexity's knowledge is based on the public web and the information provided in a prompt. It cannot connect to and analyze a local or private codebase. A developer can paste snippets of code to get explanations, but it cannot independently navigate a repository or provide high-level architectural context for a private project. Its comprehension is limited to the code it is explicitly shown."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Perplexity's core strength is in providing factual, cited answers, not in creative exploration. The eWeek review explicitly contrasts it with more creative tools like ChatGPT, and it lacks multimodal capabilities for image or audio. While code generation is a creative task, the platform's focus is on accuracy and research, making it less suited for imaginative or artistic applications."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "The platform offers excellent flexibility in connecting to diverse data sources, as it uses the entire live web. However, it is not designed for managing scalable, reproducible experiments in a data science context. It is a tool for querying and summarizing external information, not for managing structured experimental workflows, versioning data, or tracking model performance."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Perplexity AI is a text-based, conversational search engine. It has no features for visual or no-code development, such as a drag-and-drop UI builder, component templates, or one-click deployment. This is outside of its intended purpose."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 1,
+      "reasoning": "Perplexity AI is a user-facing tool for information retrieval and code generation. It has no features for composing complex pipelines, coordinating other agents, or managing infrastructure and CI/CD. It cannot be used for workflow orchestration."
+    }
+  },
+  "pydantic_ai": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Type enforcement and dependency injection streamline building reliable agents."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Documentation includes tutorials and examples, but assumes familiarity with Python and typed models."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Integration with Pydantic Logfire aids debugging and monitoring, though it lacks built-in testing suites."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Pydantic AI targets agent development rather than analyzing existing codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Supports various LLM providers but offers limited out-of-the-box tools for multimodal experimentation."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Model-agnostic design and structured validation allow experimentation with multiple providers and data schemas."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "The framework is code-centric with no visual or no-code builder."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Graph support enables custom workflows, but orchestration features are still evolving compared to dedicated tools."
     }
   },
   "qwen_cli": {
@@ -1223,6 +1869,108 @@
       "reasoning": "Roo Code itself is described as having 'autonomous coding capabilities', suggesting some agent-like functionality. The integration with Portkey adds a layer of orchestration, but it is focused on managing LLM requests (fallbacks, load balancing, routing) rather than orchestrating complex, multi-agent workflows."
     }
   },
+  "salesforce_agentforce": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Automates CRM tasks such as case resolution and record updates through autonomous agents."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "Requires familiarity with Salesforce administration and setup within the Einstein platform."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Focused on CRM workflows rather than software development or testing."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Does not analyze or navigate code repositories."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Supports conversational interfaces but limited multimodal creation features."
+    },
+    "data_experimental_flexibility": {
+      "rating": 3,
+      "reasoning": "Leverages Salesforce Data Cloud and allows connection to different LLMs via Einstein trust layer."
+    },
+    "visual_no_code_development": {
+      "rating": 4,
+      "reasoning": "Offers low-code configuration through Salesforce Flow for building agent actions."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "Executes multi-step business processes and escalates to humans when necessary."
+    }
+  },
+  "sap_joule": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Joule automates routine SAP tasks and surfaces contextual insights to accelerate business workflows across SAP applications."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Existing SAP users can access Joule within familiar interfaces, but setup and availability depend on enterprise configurations."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Joule focuses on business process assistance rather than software development or code testing."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "The assistant does not analyze programming code or software architectures."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "Joule primarily handles text-based enterprise data without notable multimodal creation capabilities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "It can draw on SAP business data for analysis but offers limited tooling for open-ended experimentation."
+    },
+    "visual_no_code_development": {
+      "rating": 2,
+      "reasoning": "Natural language interaction reduces the need for custom code, yet it does not provide a visual builder for creating applications."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "Joule connects across SAP's cloud suite to coordinate tasks and processes, supporting cross-application orchestration."
+    }
+  },
+  "semantic_kernel": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Planners, connectors, and skill abstractions streamline building AI agents that automate tasks across services."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "Extensive documentation and quickstart templates exist for C#, Python, and Java, though the framework's breadth can be overwhelming for absolute beginners."
+    },
+    "code_quality_testing": {
+      "rating": 2,
+      "reasoning": "Semantic Kernel does not provide testing or code quality tooling, leaving this responsibility to the developer."
+    },
+    "codebase_comprehension": {
+      "rating": 2,
+      "reasoning": "There is no built-in capability for understanding existing codebases; such tools must be implemented on top of the SDK."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Supports multimodal inputs and local model execution, but requires additional configuration and code to explore these capabilities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 5,
+      "reasoning": "Model-agnostic design and numerous connectors to external tools and vector stores enable wide experimentation with data and models."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Semantic Kernel is a code-first SDK with no visual builder or no-code interface."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 5,
+      "reasoning": "The framework provides planners and multi-agent orchestration features for building collaborative agent workflows."
+    }
+  },
   "sourcegraph_cody": {
     "automation_productivity": {
       "rating": 4,
@@ -1255,6 +2003,108 @@
     "workflow_agent_orchestration": {
       "rating": 3,
       "reasoning": "Cody is not a full-fledged agent orchestration platform, but it does have an 'Agentic Chat' feature that exhibits some agent-like capabilities. This feature can autonomously use tools like Code Search, terminal commands (with permission), and web search to gather context and answer questions. While this is a step towards agentic workflows, it is not designed for composing complex pipelines or managing infrastructure in the way that a dedicated orchestration tool would."
+    }
+  },
+  "sqlai": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Generates, optimizes, validates and converts SQL, removing much of the manual query-writing and tuning work."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "Web-based interface with a free trial and clear pricing makes initial signup and experimentation straightforward."
+    },
+    "code_quality_testing": {
+      "rating": 3,
+      "reasoning": "Validation tools and index suggestions improve query quality, though automated test generation is absent."
+    },
+    "codebase_comprehension": {
+      "rating": 3,
+      "reasoning": "Explanation features help users understand existing SQL, but comprehension is limited to isolated queries."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "Focused solely on text-based SQL tasks without image, audio, or other creative modalities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Supports numerous SQL and NoSQL engines and lets users run queries against connected data sources."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Provides a code-centric editor rather than drag-and-drop or template-driven interfaces."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 1,
+      "reasoning": "No features for coordinating agents or integrating with CI/CD pipelines were identified."
+    }
+  },
+  "superagi": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "Designed for building autonomous agents with tooling and workflows to automate complex tasks."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 4,
+      "reasoning": "SuperAGI offers a hosted cloud version and step-by-step docs, though users must provide their own API keys."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "It does not focus on testing or QA features."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "The framework is not aimed at analyzing existing codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "Marketplace toolkits include interfaces to services like DALL-E, enabling some multimodal capabilities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Supports multiple vector databases and custom models, enabling diverse experimentation."
+    },
+    "visual_no_code_development": {
+      "rating": 2,
+      "reasoning": "It provides a GUI and action console but overall is a developer-focused framework rather than a no-code builder."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "Agents can be provisioned, deployed and extended with toolkits and workflows for multi-step tasks."
+    }
+  },
+  "swe_agent": {
+    "automation_productivity": {
+      "rating": 5,
+      "reasoning": "SWE-agent lets language models autonomously use tools to fix issues in real GitHub repositories, enabling highly automated software workflows."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "The project provides detailed documentation and Codespaces tutorials, but setup requires command line use, API keys, and Docker."
+    },
+    "code_quality_testing": {
+      "rating": 4,
+      "reasoning": "The repository emphasizes testing and quality with Pytest, code coverage, and pre-commit checks, supporting reliable fixes."
+    },
+    "codebase_comprehension": {
+      "rating": 5,
+      "reasoning": "SWE-agent uses shell tools and version control to explore repositories, letting the model understand and modify codebases effectively."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 1,
+      "reasoning": "The agent focuses on text-based code tasks and does not offer image, audio, or other multimodal capabilities."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "It targets software engineering tasks rather than data science workflows, offering limited support for diverse data sources or experiments."
+    },
+    "visual_no_code_development": {
+      "rating": 1,
+      "reasoning": "Interaction happens through the command line; there are no visual or drag-and-drop interfaces."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Configuration is managed through a single YAML file, giving the model flexibility but without a dedicated multi-agent orchestration layer."
     }
   },
   "tabnine": {
@@ -1427,108 +2277,6 @@
       "reasoning": "Warp supports running and managing multiple AI agents in parallel. Its 'Workflows' and 'Notebooks' features allow for the creation and sharing of complex command sequences, and it integrates with external tools like the GitHub CLI and Vercel for deployment."
     }
   },
-  "sqlai": {
-    "automation_productivity": {
-      "rating": 4,
-      "reasoning": "Generates, optimizes, validates and converts SQL, removing much of the manual query-writing and tuning work."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 4,
-      "reasoning": "Web-based interface with a free trial and clear pricing makes initial signup and experimentation straightforward."
-    },
-    "code_quality_testing": {
-      "rating": 3,
-      "reasoning": "Validation tools and index suggestions improve query quality, though automated test generation is absent."
-    },
-    "codebase_comprehension": {
-      "rating": 3,
-      "reasoning": "Explanation features help users understand existing SQL, but comprehension is limited to isolated queries."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 1,
-      "reasoning": "Focused solely on text-based SQL tasks without image, audio, or other creative modalities."
-    },
-    "data_experimental_flexibility": {
-      "rating": 4,
-      "reasoning": "Supports numerous SQL and NoSQL engines and lets users run queries against connected data sources."
-    },
-    "visual_no_code_development": {
-      "rating": 1,
-      "reasoning": "Provides a code-centric editor rather than drag-and-drop or template-driven interfaces."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 1,
-      "reasoning": "No features for coordinating agents or integrating with CI/CD pipelines were identified."
-    }
-  },
-  "open_swe": {
-    "automation_productivity": {
-      "rating": 5,
-      "reasoning": "Open SWE is designed for automation. The GitHub webhook integration allows for a fully automated workflow, from issue creation to pull request. The agent can work asynchronously in the cloud, handling multiple tasks in parallel. This directly addresses the need to reduce manual work and adapt workflows for efficiency. The multi-agent architecture with a dedicated planner and reviewer also contributes to productivity by ensuring that the generated code is of high quality, reducing the need for manual review cycles."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 4,
-      "reasoning": "The onboarding process for the hosted version is straightforward: connect GitHub, add an API key, and start. The documentation is clear and provides a good starting point. The existence of a UI with a manual mode, where users can review and approve plans, is a great feature for beginners who want to understand how the agent works before giving it full autonomy. The open-source nature of the project also allows for community support. The only reason it's not a 5 is that setting up a self-hosted version requires some technical expertise."
-    },
-    "code_quality_testing": {
-      "rating": 4,
-      "reasoning": "The agent has a 'Reviewer' component that checks for common errors, runs tests, and formats code before opening a pull request. This action-review loop is a strong feature for ensuring code quality. It also runs tests, which is a key aspect of this criterion. While it doesn't explicitly mention automated test *generation*, its ability to run existing tests and its focus on code quality before creating a PR warrants a high rating."
-    },
-    "codebase_comprehension": {
-      "rating": 5,
-      "reasoning": "The agent has a dedicated 'Planner' component that is responsible for analyzing the request and researching the codebase. This includes viewing files and running searches to create a detailed execution plan. This demonstrates a strong capability for understanding the context of a codebase before making changes. The fact that it can work on existing repositories and contribute to them like a human developer is a testament to its codebase comprehension abilities."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 1,
-      "reasoning": "There is no evidence that Open SWE supports any multimodal capabilities. It is a text-based coding assistant focused on software development tasks. It does not appear to have any features for working with images, audio, or other media."
-    },
-    "data_experimental_flexibility": {
-      "rating": 2,
-      "reasoning": "Open SWE is designed for software engineering tasks, not data science or experimental research. While it is flexible in its ability to work with different codebases, there is no mention of features for connecting to diverse data sources, managing experiments, or other tasks typically associated with data science workflows. It could be used to write code for such experiments, but that is not its core advertised purpose."
-    },
-    "visual_no_code_development": {
-      "rating": 1,
-      "reasoning": "Open SWE is a code-centric agent. It is designed to write and modify code in existing repositories. It does not have any features for visual or no-code development, such as drag-and-drop interfaces or component templates."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 5,
-      "reasoning": "This is a core strength of Open SWE. It uses a multi-agent architecture (Manager, Planner, Programmer, Reviewer) built on LangGraph, a framework specifically designed for orchestrating agentic workflows. The ability to trigger runs from GitHub issues, manage them through a UI, and have the agent automatically create pull requests is a clear demonstration of sophisticated workflow and agent orchestration. The Manager agent's ability to route messages and coordinate between the other agents is a key feature here."
-    }
-  },
-  "swe_agent": {
-    "automation_productivity": {
-      "rating": 5,
-      "reasoning": "SWE-agent lets language models autonomously use tools to fix issues in real GitHub repositories, enabling highly automated software workflows."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "The project provides detailed documentation and Codespaces tutorials, but setup requires command line use, API keys, and Docker."
-    },
-    "code_quality_testing": {
-      "rating": 4,
-      "reasoning": "The repository emphasizes testing and quality with Pytest, code coverage, and pre-commit checks, supporting reliable fixes."
-    },
-    "codebase_comprehension": {
-      "rating": 5,
-      "reasoning": "SWE-agent uses shell tools and version control to explore repositories, letting the model understand and modify codebases effectively."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 1,
-      "reasoning": "The agent focuses on text-based code tasks and does not offer image, audio, or other multimodal capabilities."
-    },
-    "data_experimental_flexibility": {
-      "rating": 2,
-      "reasoning": "It targets software engineering tasks rather than data science workflows, offering limited support for diverse data sources or experiments."
-    },
-    "visual_no_code_development": {
-      "rating": 1,
-      "reasoning": "Interaction happens through the command line; there are no visual or drag-and-drop interfaces."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 3,
-      "reasoning": "Configuration is managed through a single YAML file, giving the model flexibility but without a dedicated multi-agent orchestration layer."
-    }
-  },
   "zapier": {
     "automation_productivity": {
       "rating": 5,
@@ -1561,74 +2309,6 @@
     "workflow_agent_orchestration": {
       "rating": 4,
       "reasoning": "Handles multi-step processes with branching, scheduling, and AI-driven actions, providing strong orchestration capabilities."
-    }
-  },
-  "n8n": {
-    "automation_productivity": {
-      "rating": 5,
-      "reasoning": "Visual workflows with 400+ integrations automate complex processes and repetitive tasks."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "Cloud offering and templates ease setup but building workflows still needs some technical understanding."
-    },
-    "code_quality_testing": {
-      "rating": 1,
-      "reasoning": "Designed for automation rather than code analysis or testing features."
-    },
-    "codebase_comprehension": {
-      "rating": 1,
-      "reasoning": "Does not focus on navigating or understanding software codebases."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 2,
-      "reasoning": "AI nodes can generate text or images via external models but multimodal tools are limited."
-    },
-    "data_experimental_flexibility": {
-      "rating": 4,
-      "reasoning": "Supports custom scripting and diverse APIs, enabling flexible data workflows."
-    },
-    "visual_no_code_development": {
-      "rating": 5,
-      "reasoning": "Drag-and-drop editor enables building workflows without writing code."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 5,
-      "reasoning": "Connects multiple services and LLMs into orchestrated multi-step processes."
-    }
-  },
-  "lindy": {
-    "automation_productivity": {
-      "rating": 4,
-      "reasoning": "Lindy connects to email, chat, and calendars to automate follow-ups and other repetitive tasks, reducing manual effort."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "Setup involves connecting external accounts and configuring workflows, which is manageable but not entirely plug-and-play."
-    },
-    "code_quality_testing": {
-      "rating": 1,
-      "reasoning": "The platform focuses on task automation rather than code analysis or test generation."
-    },
-    "codebase_comprehension": {
-      "rating": 1,
-      "reasoning": "Lindy is not designed for navigating or understanding software codebases."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 2,
-      "reasoning": "Primarily text-based, though it can handle emails and attachments; it offers limited support for other modalities."
-    },
-    "data_experimental_flexibility": {
-      "rating": 3,
-      "reasoning": "Integrates with various services and APIs, allowing experimentation with different data sources."
-    },
-    "visual_no_code_development": {
-      "rating": 2,
-      "reasoning": "Provides a web interface for configuring assistants but lacks a full drag-and-drop development environment."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 3,
-      "reasoning": "Supports multi-step workflows within a single assistant but offers limited multi-agent orchestration features."
     }
   }
 }
