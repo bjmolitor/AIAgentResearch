@@ -1,0 +1,23 @@
+{
+  "name": "Fixie.ai",
+  "website": "https://fixie.ai/",
+  "developer": "Fixie",
+  "key_features": [
+    "Hosted agent runtime with API and chat integrations",
+    "Skill and knowledge base system for external data and APIs",
+    "Marketplace of pre-built skills and agents",
+    "Supports multiple LLM backends",
+    "Enterprise security and deployment options"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4 and GPT-3.5",
+    "Anthropic Claude",
+    "Other LLMs via pluggable backends"
+  ],
+  "pricing_model": "Contact for pricing (free developer tier available)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}

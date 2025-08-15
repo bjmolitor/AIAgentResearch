@@ -45,7 +45,8 @@
     "Name": "Fixie.ai",
     "Website": "https://fixie.ai/",
     "Description": "A platform for building and hosting AI agents that connect to external tools and data sources. It provides a marketplace of ready-made agent skills and a framework for developers to create custom agents for enterprise workflows.",
-    "Reason for inclusion": "Fixie.ai is a notable commercial solution for agent-based automation, illustrating the emerging ecosystem of cloud platforms for customized AI assistants and workflow automation."
+    "Reason for inclusion": "Fixie.ai is a notable commercial solution for agent-based automation, illustrating the emerging ecosystem of cloud platforms for customized AI assistants and workflow automation.",
+    "status": "added"
   },
   {
     "Name": "Semantic Kernel",
