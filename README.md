@@ -69,6 +69,13 @@ The following agents have been profiled in this repository:
 - v0.app (`agents/v0.app`)
 - n8n (`agents/n8n`)
 - Zapier (`agents/Zapier`)
+- AgentGPT (`agents/AgentGPT`)
+- Adept (ACT-1) (`agents/Adept_ACT-1`)
+- Fixie.ai (`agents/Fixie.ai`)
+- IBM watsonx Orchestrate (`agents/IBM_watsonx_Orchestrate`)
+- Inflection Pi (`agents/Inflection_Pi`)
+- Microsoft Copilot (`agents/Microsoft_Copilot`)
+- Salesforce Agentforce (`agents/Salesforce_Agentforce`)
 
 ### Agent Frameworks
 - CrewAI (`agents/CrewAI`)
@@ -79,6 +86,17 @@ The following agents have been profiled in this repository:
 - OpenHands (`agents/OpenHands`)
 - SWE-agent (`agents/SWE-agent`)
 - Terminus (`agents/Terminus`)
+- OpenAI Agents SDK (Swarm) (`agents/OpenAI_Agents_SDK_Swarm`)
+- SuperAGI (`agents/SuperAGI`)
+- AutoGPT (`agents/AutoGPT`)
+- BabyAGI (`agents/BabyAGI`)
+- Hugging Face Transformers Agents (`agents/Hugging_Face_Transformers_Agents`)
+- Semantic Kernel (`agents/Semantic_Kernel`)
+- AgentVerse (`agents/AgentVerse`)
+- CAMEL (`agents/CAMEL`)
+- ChatDev (`agents/ChatDev`)
+- Pydantic AI (`agents/Pydantic_AI`)
+- Bee Agent Framework (`agents/Bee_Agent_Framework`)
 
 ## Contributing
 

@@ -192,9 +192,9 @@
     ],
     "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
     "benchmarks": {
-      "terminal_bench_score": "42.5% ± 0.8",
+      "terminal_bench_score": "42.5% \u00b1 0.8",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-      "terminal_bench_score_from_leaderboard": "42.5% ± 0.8"
+      "terminal_bench_score_from_leaderboard": "42.5% \u00b1 0.8"
     },
     "description": "Letta is a platform for building stateful AI agents that retain long-term memory and expose their capabilities through REST APIs. Built on MemGPT, it offers tools to visualize agent reasoning and integrate custom tools across multiple frameworks."
   },
@@ -217,11 +217,11 @@
     ],
     "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
     "benchmarks": {
-      "terminal_bench_score": "20.0% ± 1.5",
+      "terminal_bench_score": "20.0% \u00b1 1.5",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.2,
       "resource_usage": "Runs locally; resource usage depends on chosen model",
-      "terminal_bench_score_from_leaderboard": "20.0% ± 1.5"
+      "terminal_bench_score_from_leaderboard": "20.0% \u00b1 1.5"
     },
     "description": "Codex CLI is an open-source coding agent from OpenAI that runs locally on your computer and interacts with your terminal."
   },
@@ -346,7 +346,7 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is in the process of being integrated into Amazon Q Developer."
+    "description": "Amazon CodeWhisperer is a machine learning (ML)\u2013powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is in the process of being integrated into Amazon Q Developer."
   },
   {
     "name": "Tabnine",
@@ -668,11 +668,11 @@
     "benchmarks": {
       "swe_bench_score": 49,
       "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
-      "terminal_bench_score": "43.2% ± 1.3",
+      "terminal_bench_score": "43.2% \u00b1 1.3",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.432,
       "resource_usage": "Not publicly documented",
-      "terminal_bench_score_from_leaderboard": "43.2% ± 1.3"
+      "terminal_bench_score_from_leaderboard": "43.2% \u00b1 1.3"
     },
     "description": "Terminal-based coding assistant that understands your codebase and handles git workflows through natural language commands."
   },
@@ -692,11 +692,11 @@
     ],
     "pricing_model": "Open-source under the MIT License; free for self-hosting with optional paid hosting via Daytona",
     "benchmarks": {
-      "terminal_bench_score": "41.3% ± 0.7",
+      "terminal_bench_score": "41.3% \u00b1 0.7",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.413,
       "resource_usage": "Not publicly documented; depends on hosting environment and model",
-      "terminal_bench_score_from_leaderboard": "41.3% ± 0.7"
+      "terminal_bench_score_from_leaderboard": "41.3% \u00b1 0.7"
     },
     "description": "OpenHands is an open-source AI coding agent and framework from Daytona that aims to let agents perform end-to-end software development tasks."
   },
@@ -856,11 +856,11 @@
     ],
     "pricing_model": "Open-source",
     "benchmarks": {
-      "terminal_bench_score": "42.0% ± 1.3",
+      "terminal_bench_score": "42.0% \u00b1 1.3",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.42,
       "resource_usage": "Depends on local hardware and model; no public metrics",
-      "terminal_bench_score_from_leaderboard": "42.0% ± 1.3"
+      "terminal_bench_score_from_leaderboard": "42.0% \u00b1 1.3"
     },
     "description": "Goose is an open-source, on-machine AI agent from Block that automates engineering tasks autonomously."
   },
@@ -905,7 +905,7 @@
     ],
     "pricing_model": "Research project, likely free to use.",
     "benchmarks": {
-      "terminal_bench_score": "39.9% ± 1.0",
+      "terminal_bench_score": "39.9% \u00b1 1.0",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.399,
       "resource_usage": "Not publicly documented; depends on remote environment and model"
@@ -984,7 +984,7 @@
       "task_success_rate": 0.52,
       "resource_usage": "Not publicly documented; depends on local hardware and active agents",
       "swe_bench_score": "71%",
-      "terminal_bench_score_from_leaderboard": "52.0% ± 1.0"
+      "terminal_bench_score_from_leaderboard": "52.0% \u00b1 1.0"
     },
     "description": "Warp is an agentic development environment and terminal that enables fast, native interactions with multiple AI agents across the development workflow."
   },
@@ -1136,7 +1136,7 @@
     ],
     "pricing_model": "Freemium with paid plans starting at $19.99/month",
     "description": "Zapier is a web-based automation service that connects apps and automates workflows with a visual builder and optional AI features.",
-    "long_description": "Zapier lets users build \"Zaps\" that trigger actions across thousands of services. Its drag-and-drop interface, code steps, and AI Actions allow both non‑technical and technical users to automate complex multi-step processes without managing infrastructure.",
+    "long_description": "Zapier lets users build \"Zaps\" that trigger actions across thousands of services. Its drag-and-drop interface, code steps, and AI Actions allow both non\u2011technical and technical users to automate complex multi-step processes without managing infrastructure.",
     "benchmarks": {
       "swe_bench_score": null,
       "swe_bench_source": null,
@@ -1188,5 +1188,489 @@
       "resource_usage": ""
     },
     "description": "Lindy is a platform for building AI assistants that automate routine knowledge work across email, chat, and calendars."
+  },
+  {
+    "name": "AgentGPT",
+    "website": "https://agentgpt.reworkd.ai/",
+    "developer": "Reworkd AI",
+    "key_features": [
+      "Browser-based agent deployment",
+      "Goal-driven task generation",
+      "Automatic task execution loop",
+      "Open-source Next.js + FastAPI stack"
+    ],
+    "supported_models": [
+      "OpenAI GPT-3.5",
+      "OpenAI GPT-4"
+    ],
+    "pricing_model": "Open-source project; hosted version requires user-provided API keys and incurs usage costs.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    },
+    "description": "AgentGPT is a web platform for assembling autonomous GPT agents.",
+    "long_description": "Users name an agent and set a goal; the system iteratively creates and executes tasks with GPT-4 or GPT-3.5, displaying progress in a browser interface."
+  },
+  {
+    "name": "CAMEL",
+    "website": "https://github.com/camel-ai/camel",
+    "developer": "CAMEL-AI community",
+    "key_features": [
+      "Large-scale multi-agent simulations up to millions of agents",
+      "Dynamic communication and role-playing between agents",
+      "Stateful memory for multi-step interactions",
+      "Automated data generation with tool integration"
+    ],
+    "supported_models": [
+      "OpenAI GPT-4 family",
+      "Anthropic Claude models",
+      "Meta Llama and Mistral variants",
+      "Other providers via unified ModelType"
+    ],
+    "pricing_model": "Open-source (Apache-2.0)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Salesforce Agentforce",
+    "website": "https://www.salesforce.com/products/einstein/agentforce/",
+    "developer": "Salesforce",
+    "key_features": [
+      "Native Salesforce integration across CRM applications",
+      "Einstein Trust Layer for security and governance",
+      "Autonomous workflow execution with human handoff",
+      "Customizable actions via Flow and Apex"
+    ],
+    "supported_models": [
+      "Salesforce Einstein GPT",
+      "Bring-your-own models such as OpenAI and Anthropic"
+    ],
+    "pricing_model": "Enterprise licensing through Salesforce Einstein 1 platform",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "terminal_bench_score": null,
+      "terminal_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    }
+  },
+  {
+    "name": "Fixie.ai",
+    "website": "https://fixie.ai/",
+    "developer": "Fixie",
+    "key_features": [
+      "Hosted agent runtime with API and chat integrations",
+      "Skill and knowledge base system for external data and APIs",
+      "Marketplace of pre-built skills and agents",
+      "Supports multiple LLM backends",
+      "Enterprise security and deployment options"
+    ],
+    "supported_models": [
+      "OpenAI GPT-4 and GPT-3.5",
+      "Anthropic Claude",
+      "Other LLMs via pluggable backends"
+    ],
+    "pricing_model": "Contact for pricing (free developer tier available)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Minimax agent",
+    "website": "https://www.minimaxi.com/",
+    "developer": "MiniMax",
+    "key_features": [
+      "Text Model (MiniMax M1) with 1M token input",
+      "Video Model (MiniMax Hailuo 02) with 1080p output",
+      "Audio Model (MiniMax Speech 02) for speech generation",
+      "MCP Server for developers (Video, Image, Speech generation, Voice Cloning)",
+      "AI-native applications: MiniMax Chat, MiniMax Agent, Hailuo Video, MiniMax Audio, Talkie"
+    ],
+    "supported_models": [
+      "MiniMax M1 (Text)",
+      "MiniMax Hailuo 02 (Video)",
+      "MiniMax Speech 02 (Audio)"
+    ],
+    "pricing_model": "MiniMax-M1 (text): Starts at $0.4/M tokens input, Speech-02-HD (audio): $100 per 1M characters, MiniMax Hailuo 02 (video): Starting from $0.28 per video",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": "No public benchmarks found"
+    }
+  },
+  {
+    "name": "BabyAGI",
+    "website": "https://github.com/yoheinakajima/babyagi",
+    "developer": "Yohei Nakajima",
+    "key_features": [
+      "Autonomous task creation and prioritization",
+      "Function registry with dependency graph",
+      "Vector database memory for context",
+      "Dashboard for function management and logging",
+      "Open-source and extensible Python framework"
+    ],
+    "supported_models": [
+      "OpenAI models",
+      "Llama family"
+    ],
+    "pricing_model": "Open-source project under MIT license.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    },
+    "description": "BabyAGI is an experimental framework for building self-improving autonomous agents.",
+    "long_description": "Originally released in 2023 as a minimalist LLM-powered task agent, BabyAGI now provides a function-based framework that registers, stores, and executes tasks with a dependency graph, persistent memory, and a web dashboard for monitoring and key management."
+  },
+  {
+    "name": "Hugging Face Transformers Agents",
+    "website": "https://huggingface.co/docs/transformers/agents",
+    "developer": "Hugging Face",
+    "key_features": [
+      "Extensible agent framework spun out into the standalone smolagents library",
+      "Allows language models to call tools for tasks like web search, code execution, and image generation",
+      "Supports iterative reasoning with memory to refine tool calls",
+      "Agents and tools can be shared via the Hugging Face Hub",
+      "Llama-3-70B-Instruct agent outperformed GPT-4 based agents on the GAIA benchmark"
+    ],
+    "supported_models": [
+      "Llama-3-70B-Instruct",
+      "Mixtral-8x7B",
+      "OpenAI GPT-4",
+      "Any model available through the Hugging Face Hub"
+    ],
+    "pricing_model": "Open-source; users pay for model inference or hosting",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "terminal_bench_score": null,
+      "terminal_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "AgentVerse",
+    "website": "https://github.com/OpenBMB/AgentVerse",
+    "developer": "OpenBMB",
+    "key_features": [
+      "Task-solving framework for collaborative multi-agent systems",
+      "Simulation framework for multi-agent environments",
+      "Supports local LLMs such as LLaMA and Vicuna",
+      "Demos including NLP Classroom, Prisoner's Dilemma, and Software Design",
+      "Extensible configuration of agents and environments"
+    ],
+    "supported_models": [
+      "OpenAI models",
+      "Local LLMs like LLaMA and Vicuna"
+    ],
+    "pricing_model": "Free and open-source (Apache 2.0 license)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "ChatDev",
+    "website": "https://github.com/OpenBMB/ChatDev",
+    "developer": "OpenBMB",
+    "key_features": [
+      "Virtual software company with multi-agent roles",
+      "Visualizer for observing real-time or replayed agent logs",
+      "Supports Git integration, Docker execution, and incremental development",
+      "Human-Agent Interaction mode for manual participation",
+      "MacNet framework for scalable DAG-style collaboration"
+    ],
+    "supported_models": [
+      "GPT-3.5 Turbo",
+      "GPT-4",
+      "GPT-4-32K"
+    ],
+    "pricing_model": "Open-source (Apache-2.0), free",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Adept (ACT-1)",
+    "website": "https://www.adept.ai/",
+    "developer": "Adept AI Labs",
+    "key_features": [
+      "Translates natural language commands into actions across existing software",
+      "Observes the user interface to interact with web and desktop applications",
+      "Performs multi-step workflows such as navigating websites or filling forms",
+      "Learns from human demonstrations to improve task execution"
+    ],
+    "supported_models": [
+      "ACT-1 (Action Transformer)"
+    ],
+    "pricing_model": null,
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Semantic Kernel",
+    "website": "https://github.com/microsoft/semantic-kernel",
+    "developer": "Microsoft",
+    "key_features": [
+      "Model-agnostic framework with connectors for OpenAI, Azure OpenAI, Hugging Face, and NVIDIA NIM.",
+      "Modular skill system combining native code, prompt templates, and plugins.",
+      "Planners for goal-based orchestration and multi-agent workflows.",
+      "Built-in memory and vector store connectors for context persistence.",
+      "Supports C#, Python, and Java with enterprise-ready tooling."
+    ],
+    "supported_models": [
+      "OpenAI and Azure OpenAI models",
+      "Hugging Face and NVIDIA NIM models",
+      "Local models via Ollama, LM Studio, or ONNX"
+    ],
+    "pricing_model": "Open-source (Apache 2.0 license)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "OpenAI Agents SDK (Swarm)",
+    "website": "https://openai.github.io/openai-agents-python/",
+    "developer": "OpenAI",
+    "key_features": [
+      "Lightweight Python framework for multi-agent workflows",
+      "Handoffs for transferring control between agents",
+      "Guardrails for input and output validation",
+      "Session management for conversation history",
+      "Tracing UI for debugging agent runs",
+      "Provider-agnostic design supporting 100+ LLMs"
+    ],
+    "supported_models": [
+      "OpenAI GPT-4.1",
+      "OpenAI GPT-4o",
+      "100+ LLMs via LiteLLM"
+    ],
+    "pricing_model": "Open-source MIT license; pay for underlying model and compute usage.",
+    "description": "OpenAI\u2019s official agent SDK, formerly known as Swarm, providing minimal components to build custom LLM agents.",
+    "long_description": "The Agents SDK offers agents, tools, handoffs, guardrails, sessions, and tracing to compose autonomous multi-agent applications. It integrates with OpenAI Responses and Chat Completions APIs and other models through LiteLLM.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    }
+  },
+  {
+    "name": "SuperAGI",
+    "website": "https://superagi.com/",
+    "developer": "TransformerOptimus",
+    "key_features": [
+      "Provision, spawn, and deploy autonomous AI agents.",
+      "Extend agent capabilities with tools from a marketplace.",
+      "Graphical user interface and action console for agent interaction.",
+      "Multiple vector database integrations and agent memory storage.",
+      "Performance telemetry with optimized token usage."
+    ],
+    "supported_models": [
+      "OpenAI API models",
+      "Custom fine-tuned models"
+    ],
+    "pricing_model": "Open-source; optional SuperAGI Cloud",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "IBM watsonx Orchestrate",
+    "website": "https://www.ibm.com/products/watsonx-orchestrate",
+    "developer": "IBM",
+    "key_features": [
+      "Digital workers for automating business tasks",
+      "No-code workflow builder with prebuilt skills",
+      "Connectors to enterprise apps such as Slack, Workday, and SAP",
+      "Python-based Agent Development Kit (ADK) and CLI",
+      "Auditable and secure integrations"
+    ],
+    "supported_models": [
+      "IBM Granite and other foundation models available via watsonx.ai"
+    ],
+    "pricing_model": "Commercial subscription with free Developer Edition",
+    "description": "Enterprise platform for building AI-powered digital workers that automate workflows across business applications.",
+    "long_description": "watsonx Orchestrate combines a no-code interface, prebuilt skills, and IBM foundation models to let users design digital workers that execute tasks in HR, CRM, ERP, and other systems. The platform offers a developer-focused ADK and local sandbox, with governance and audit features for enterprise deployments.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    }
+  },
+  {
+    "name": "Pydantic AI",
+    "website": "https://ai.pydantic.dev/",
+    "developer": "Pydantic",
+    "key_features": [
+      "Model-agnostic support for providers like OpenAI, Anthropic, Gemini, Deepseek, Ollama, Groq, Cohere and Mistral.",
+      "Built-in Pydantic validation for type-safe, structured responses.",
+      "Seamless integration with Pydantic Logfire for real-time monitoring and debugging.",
+      "Optional dependency injection system for delivering data and services to agents.",
+      "Supports streamed responses and graph-based workflow composition."
+    ],
+    "supported_models": [
+      "OpenAI",
+      "Anthropic",
+      "Gemini",
+      "Deepseek",
+      "Ollama",
+      "Groq",
+      "Cohere",
+      "Mistral"
+    ],
+    "pricing_model": "Open Source (MIT)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "SAP Joule",
+    "website": "https://www.sap.com/products/artificial-intelligence/joule.html",
+    "developer": "SAP",
+    "key_features": [
+      "AI copilot for SAP applications",
+      "Context-aware insights from SAP data",
+      "Natural language interface",
+      "Cross-application integration across SAP cloud solutions",
+      "Built on SAP Business Technology Platform",
+      "Security and compliance controls"
+    ],
+    "supported_models": [
+      "Large language models via SAP's AI Core",
+      "Third-party models (e.g., OpenAI) through SAP's generative AI hub"
+    ],
+    "pricing_model": "Included with select SAP cloud subscriptions (details not public)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Inflection Pi",
+    "website": "https://pi.ai/",
+    "developer": "Inflection AI",
+    "key_features": [
+      "Supportive conversational personal AI",
+      "Voice and text interaction with real-time transcription",
+      "Accessible via web and mobile apps"
+    ],
+    "supported_models": [
+      "Inflection AI's proprietary models (Inflection-2 family)"
+    ],
+    "pricing_model": "Free tier with optional Pi Pro subscription",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "terminal_bench_score": null,
+      "terminal_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    },
+    "description": "A personal AI assistant that engages in empathetic conversation over chat or voice.",
+    "long_description": "Pi stands for \"Personal Intelligence\" and is developed by Inflection AI. It focuses on friendly, supportive dialogue and offers both text and voice interactions across web and mobile platforms."
+  },
+  {
+    "name": "Microsoft Copilot",
+    "website": "https://www.microsoft.com/en-us/microsoft-copilot",
+    "developer": "Microsoft",
+    "key_features": [
+      "Contextual chat across Windows, Edge, and Microsoft 365",
+      "Writes and summarizes content in Word, Outlook, and Teams",
+      "Generates images and code snippets",
+      "Data analysis in Excel with natural language",
+      "Plugin support and Microsoft Graph integration",
+      "Available as desktop app and web side panel"
+    ],
+    "supported_models": [
+      "GPT-4",
+      "GPT-4o",
+      "DALL-E 3",
+      "Microsoft Phi family"
+    ],
+    "pricing_model": "Free tier, Copilot Pro, Copilot for Microsoft 365",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    }
+  },
+  {
+    "name": "Bee Agent Framework",
+    "website": "https://framework.beeai.dev/",
+    "developer": "IBM Research (BeeAI project)",
+    "key_features": [
+      "Agents module for reasoning and action",
+      "Workflows for multi-agent orchestration",
+      "Backend connectors to multiple LLM providers",
+      "Tool integrations such as web search, weather, and code execution",
+      "Retrieval-augmented generation (RAG) system",
+      "Memory management strategies",
+      "Observability with events and logging",
+      "Serve module supporting protocols like A2A and MCP",
+      "Caching for performance optimization",
+      "Serialization for persistent agent state"
+    ],
+    "supported_models": [
+      "OpenAI GPT",
+      "DeepSeek R1",
+      "LLaMa 3.3",
+      "IBM watsonx"
+    ],
+    "pricing_model": "Open-source (Apache 2.0 license)",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    },
+    "description": "Open-source toolkit for building production-ready multi-agent systems in Python or TypeScript.",
+    "long_description": "Bee Agent Framework provides modular components\u2014agents, workflows, tools, memory, and more\u2014to assemble and orchestrate complex AI applications without extensive coding."
+  },
+  {
+    "name": "AutoGPT",
+    "website": "https://github.com/Significant-Gravitas/Auto-GPT",
+    "developer": "Significant Gravitas",
+    "key_features": [
+      "Autonomous task chaining",
+      "Tool and API integration",
+      "Memory management for context retention",
+      "Web browsing and information gathering",
+      "File operations and content creation",
+      "Self-prompting and task breakdown"
+    ],
+    "supported_models": [
+      "GPT-4",
+      "GPT-3.5"
+    ],
+    "pricing_model": "Open-source (MIT) for classic components, cloud-hosted platform in closed beta.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    },
+    "description": "AutoGPT is a platform for creating and managing continuous AI agents that automate complex workflows.",
+    "long_description": "AutoGPT began as an experimental project to demonstrate autonomous GPT-4 operation, showcasing goal decomposition, tool use, memory and self-prompting. It has evolved into a platform for building, deploying and monitoring agents with benchmarking and UI support."
   }
 ]
