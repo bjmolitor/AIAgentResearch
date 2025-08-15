@@ -26,10 +26,10 @@ function Home({ onAgentClick, onOpenPersonas }) {
             Export
           </button>
           {showExport && (
-            <div className="absolute z-10 mt-1 bg-white border rounded shadow">
+            <div className="absolute z-10 mt-1 bg-white border rounded shadow dark:bg-stratos-blue dark:text-white">
               <button
                 type="button"
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-stratos-blue/80"
                 onClick={() => {
                   tableRef.current?.exportData("json");
                   setShowExport(false);
@@ -39,7 +39,7 @@ function Home({ onAgentClick, onOpenPersonas }) {
               </button>
               <button
                 type="button"
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-stratos-blue/80"
                 onClick={() => {
                   tableRef.current?.exportData("csv");
                   setShowExport(false);
@@ -49,7 +49,7 @@ function Home({ onAgentClick, onOpenPersonas }) {
               </button>
               <button
                 type="button"
-                className="block w-full px-4 py-2 text-left hover:bg-gray-100"
+                className="block w-full px-4 py-2 text-left hover:bg-gray-100 dark:hover:bg-stratos-blue/80"
                 onClick={() => {
                   tableRef.current?.exportData("md");
                   setShowExport(false);
