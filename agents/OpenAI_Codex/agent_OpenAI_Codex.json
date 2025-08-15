@@ -1,11 +1,12 @@
 {
   "name": "OpenAI Codex",
-  "website": "https://openai.com/chatgpt",
+  "website": "https://chatgpt.com/codex",
   "developer": "OpenAI",
   "key_features": [
-    "Generates and edits code from natural language prompts within ChatGPT",
-    "Supports multiple programming languages",
-    "Provides conversational explanations and debugging assistance"
+    "Generates and edits code from conversational prompts inside ChatGPT",
+    "Executes snippets in a sandbox to validate output",
+    "Supports multiple programming languages and frameworks",
+    "Provides conversational explanations, refactoring suggestions, and debugging assistance"
   ],
   "supported_models": [
     "Integrated into ChatGPT; specific model names are not exposed"
