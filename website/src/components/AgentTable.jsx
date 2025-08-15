@@ -128,8 +128,90 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
     );
   };
 
+  const exportData = (format) => {
+    const headers = [
+      "Name",
+      "Developer",
+      "Pricing",
+      ...criteria.map((c) => c.name),
+    ];
+
+    const rows = sortedAgents.map((agent) => {
+      const key = getAgentKey(agent.name);
+      return [
+        agent.name,
+        agent.developer,
+        agent.pricing_model,
+        ...criteria.map((c) => ratings[key]?.[c.id]?.rating ?? ""),
+      ];
+    });
+
+    let content = "";
+    let mime = "text/plain";
+    if (format === "json") {
+      const jsonData = rows.map((row) =>
+        Object.fromEntries(headers.map((h, i) => [h, row[i]]))
+      );
+      content = JSON.stringify(jsonData, null, 2);
+      mime = "application/json";
+    } else if (format === "csv") {
+      const csvRows = [
+        headers.join(","),
+        ...rows.map((row) =>
+          row
+            .map((cell) => {
+              const value = (cell ?? "").toString().replace(/"/g, '""');
+              return `"${value}"`;
+            })
+            .join(",")
+        ),
+      ];
+      content = csvRows.join("\n");
+      mime = "text/csv";
+    } else if (format === "md") {
+      const mdRows = [
+        `| ${headers.join(" | ")} |`,
+        `| ${headers.map(() => "---").join(" | ")} |`,
+        ...rows.map((row) => `| ${row.join(" | ")} |`),
+      ];
+      content = mdRows.join("\n");
+      mime = "text/markdown";
+    }
+
+    const blob = new Blob([content], { type: mime });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `agent-table.${format}`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <div className="overflow-x-auto">
+      <div className="flex gap-2 mb-2">
+        <button
+          type="button"
+          className="px-2 py-1 border rounded"
+          onClick={() => exportData("json")}
+        >
+          Export JSON
+        </button>
+        <button
+          type="button"
+          className="px-2 py-1 border rounded"
+          onClick={() => exportData("csv")}
+        >
+          Export CSV
+        </button>
+        <button
+          type="button"
+          className="px-2 py-1 border rounded"
+          onClick={() => exportData("md")}
+        >
+          Export MD
+        </button>
+      </div>
       <table className="min-w-full text-sm text-stratos-blue border border-background-blue">
         <thead className="bg-background-blue text-white">
           <tr>
