@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 3,
+    "reasoning": "Agents plan and execute tasks autonomously in a loop, but complex workflows may require manual oversight."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 4,
+    "reasoning": "The browser interface lets users launch agents with minimal setup aside from supplying an API key."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "AgentGPT is not focused on software development or testing capabilities."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "It lacks features for navigating or understanding source code."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Supports text-based reasoning and web search, but multimodal generation is limited."
+  },
+  "data_experimental_flexibility": {
+    "rating": 2,
+    "reasoning": "Relies on external APIs and offers little built-in data or experiment management."
+  },
+  "visual_no_code_development": {
+    "rating": 3,
+    "reasoning": "The graphical web UI enables configuration without coding, though customization is constrained."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 2,
+    "reasoning": "Designed for single-agent operation without advanced multi-agent orchestration."
+  }
+}
