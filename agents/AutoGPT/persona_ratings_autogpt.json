@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 4,
+    "reasoning": "Chains tasks and uses tools to pursue goals autonomously, enabling significant workflow automation."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 1,
+    "reasoning": "Requires manual environment setup, API keys, and command-line knowledge."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Provides no built-in testing or code quality enforcement."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "Focuses on task execution rather than navigating or understanding codebases."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Plugins and tool use allow some multimodal capabilities, but it's not centered on creative media."
+  },
+  "data_experimental_flexibility": {
+    "rating": 3,
+    "reasoning": "Open-source framework lets users extend agents with custom tools and data sources."
+  },
+  "visual_no_code_development": {
+    "rating": 1,
+    "reasoning": "Interaction is primarily via CLI, with no drag-and-drop or no-code builder."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 2,
+    "reasoning": "Designed around a single autonomous agent; lacks native multi-agent orchestration features."
+  }
+}

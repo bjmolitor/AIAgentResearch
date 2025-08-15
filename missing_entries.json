@@ -17,7 +17,8 @@
     "Name": "AutoGPT",
     "Website": "https://github.com/Significant-Gravitas/Auto-GPT",
     "Description": "An experimental open-source application that chains GPT-4 thoughts to autonomously attempt complex tasks. It was one of the first projects to popularize autonomous AI agents that self-prompt, use tools, and iterate towards a goal.",
-    "Reason for inclusion": "AutoGPT drew massive attention as a proof-of-concept for goal-driven AI autonomy, directly aligning with general-purpose AI agents and inspiring many subsequent agent frameworks."
+    "Reason for inclusion": "AutoGPT drew massive attention as a proof-of-concept for goal-driven AI autonomy, directly aligning with general-purpose AI agents and inspiring many subsequent agent frameworks.",
+    "Status": "added"
   },
   {
     "Name": "BabyAGI",

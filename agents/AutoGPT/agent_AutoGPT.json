@@ -1,0 +1,25 @@
+{
+  "name": "AutoGPT",
+  "website": "https://github.com/Significant-Gravitas/Auto-GPT",
+  "developer": "Significant Gravitas",
+  "key_features": [
+    "Autonomous task chaining",
+    "Tool and API integration",
+    "Memory management for context retention",
+    "Web browsing and information gathering",
+    "File operations and content creation",
+    "Self-prompting and task breakdown"
+  ],
+  "supported_models": [
+    "GPT-4",
+    "GPT-3.5"
+  ],
+  "pricing_model": "Open-source (MIT) for classic components, cloud-hosted platform in closed beta.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "description": "AutoGPT is a platform for creating and managing continuous AI agents that automate complex workflows.",
+  "long_description": "AutoGPT began as an experimental project to demonstrate autonomous GPT-4 operation, showcasing goal decomposition, tool use, memory and self-prompting. It has evolved into a platform for building, deploying and monitoring agents with benchmarking and UI support."
+}
