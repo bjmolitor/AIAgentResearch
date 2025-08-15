@@ -10,7 +10,8 @@
     "Name": "SuperAGI",
     "Website": "https://superagi.com/",
     "Description": "An open-source AI \"agent OS\" that enables running persistent, multi-step agents with a web UI for monitoring. It includes a suite of tools, memory management, and a marketplace for extending agent capabilities.",
-    "Reason for inclusion": "SuperAGI is a prominent general-purpose agent platform that allows users to deploy and manage autonomous agents, fitting the scope of both automation and developer-oriented agent frameworks."
+    "Reason for inclusion": "SuperAGI is a prominent general-purpose agent platform that allows users to deploy and manage autonomous agents, fitting the scope of both automation and developer-oriented agent frameworks.",
+    "status": "added"
   },
   {
     "Name": "AutoGPT",
