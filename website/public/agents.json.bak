@@ -38,7 +38,7 @@
     "supported_models": [
       "Qwen3-Coder"
     ],
-    "pricing_model": "Free with Qwen OAuth (2,000 requests/day) or other regional free tiers. Also supports API key usage from Alibaba Cloud, OpenRouter, and other OpenAI-compatible providers.",
+    "pricing_model": "Based on API key usage from Alibaba Cloud or third-party services like OpenRouter.",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -74,7 +74,7 @@
       "Gemini 2.5 Pro",
       "Mistral Large 2"
     ],
-    "pricing_model": "7-day free trial, with paid plans (Premium and Ultimate) starting at $149.99/year.",
+    "pricing_model": "Free plan with limited features. Paid plans (Premium and Ultimate) with more features and higher limits, starting at $149.99/year.",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -167,7 +167,7 @@
     "supported_models": [
       "Integrated into ChatGPT; specific model names are not exposed"
     ],
-    "pricing_model": "Available to ChatGPT Plus ($20/month) and enterprise subscribers",
+    "pricing_model": "Available to ChatGPT Plus and enterprise subscribers",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -190,7 +190,7 @@
     "supported_models": [
       "Model-agnostic"
     ],
-    "pricing_model": "Cloud-based platform with Free, Pro ($20/month), Scale ($750/month), and Enterprise tiers.",
+    "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
     "benchmarks": {
       "terminal_bench_score": "42.5% ± 0.8",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
@@ -245,7 +245,7 @@
       "Grok 4",
       "Kimi K2"
     ],
-    "pricing_model": "Free tier with limits. Paid plans are not yet publicly available.",
+    "pricing_model": "$10 per month.",
     "benchmarks": {
       "swe_bench_score": "Top score on SWE-bench Verified as of July 2025",
       "swe_bench_source": "https://www.datacamp.com/tutorial/trae-ai",
@@ -314,7 +314,7 @@
       "Gemini 2.0 Flash",
       "Models from OpenAI, GitHub, and Microsoft"
     ],
-    "pricing_model": "Tiered (Free, Pro - $10/month, Pro+ - $39/month, Business, Enterprise)",
+    "pricing_model": "Tiered (Free, Pro, Business, Enterprise)",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -368,7 +368,7 @@
       "Other models for chat and code completion",
       "Large-language models"
     ],
-    "pricing_model": "Tiered (Free, Pro - $10/month, Enterprise). A free trial is also available.",
+    "pricing_model": "Tiered (Dev, Enterprise)",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -410,7 +410,7 @@
     "supported_models": [
       "Proprietary Figma generative models (details undisclosed)"
     ],
-    "pricing_model": "Included with Figma subscription (Free, Professional from $12/user/month); AI features currently in beta",
+    "pricing_model": "Included with Figma subscription; AI features currently in beta",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -437,7 +437,7 @@
       "OpenAI (o3)",
       "Google"
     ],
-    "pricing_model": "Tiered (Intern - $0/month, Junior - $395/month, Senior - $995/month, Staff - Custom)",
+    "pricing_model": "Tiered (Intern, Junior, Senior, Staff)",
     "benchmarks": {
       "terminal_bench_score": "#2",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
@@ -461,7 +461,7 @@
     "supported_models": [
       "Gemini"
     ],
-    "pricing_model": "Free tier with 60 requests/min and 1,000 requests/day. Can also be used with a Gemini API Key or as part of a Gemini Code Assist subscription.",
+    "pricing_model": "Subscription-based (part of Gemini Code Assist)",
     "benchmarks": {
       "swe_bench_score": "18.00% (for SWE-agent + GPT 4)",
       "swe_bench_source": "https://www.swebench.com/",
@@ -484,7 +484,7 @@
     "supported_models": [
       "GPT-4 and open-source large language models orchestrated by Kilo"
     ],
-    "pricing_model": "Open source. Users can bring their own API key or use Kilo's API at cost.",
+    "pricing_model": "Closed beta (join waitlist)",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -505,7 +505,7 @@
       "Multimodal"
     ],
     "supported_models": [],
-    "pricing_model": "Credit-based system with a free tier and paid plans (Basic, Plus, Pro).",
+    "pricing_model": "Proprietary",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -527,7 +527,7 @@
     "supported_models": [
       "Wide variety of models through its integration system"
     ],
-    "pricing_model": "Tiered (Developer - $0/month, Plus - $39/month, Enterprise - Custom)",
+    "pricing_model": "Tiered (Free, Plus, Enterprise)",
     "benchmarks": {
       "swe_bench_score": 0.486,
       "task_success_rate": null,
@@ -547,7 +547,7 @@
     "supported_models": [
       "Not specified (leverages OpenAI models)"
     ],
-    "pricing_model": "Free, Premium ($20/month), Team ($30/user/month), and Enterprise plans.",
+    "pricing_model": "Free tier with paid usage-based plans",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -628,7 +628,7 @@
       "Gemini",
       "Llama"
     ],
-    "pricing_model": "Tiered (Free, BYOK - $7.2/month, Teams - $30/month, Business - Custom)",
+    "pricing_model": "Tiered (Free, Plus, Enterprise)",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -690,7 +690,7 @@
     "supported_models": [
       "Model-agnostic"
     ],
-    "pricing_model": "Open-source under the MIT License; free for self-hosting with optional paid usage-based hosting via Daytona",
+    "pricing_model": "Open-source under the MIT License; free for self-hosting with optional paid hosting via Daytona",
     "benchmarks": {
       "terminal_bench_score": "41.3% ± 0.7",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
@@ -716,7 +716,7 @@
     "supported_models": [
       "Not specified"
     ],
-    "pricing_model": "Tiered (Core - starting at $20, Teams - $500/month, Enterprise - Custom). Pricing is based on Agent Compute Units (ACUs).",
+    "pricing_model": "Tiered (Core, Teams). Pricing is based on Agent Compute Units (ACUs).",
     "benchmarks": {
       "swe_bench_score": 13.86,
       "task_success_rate": null,
@@ -738,7 +738,7 @@
     "supported_models": [
       "Any OpenAI-compatible or custom API/model (including local models via MCP)"
     ],
-    "pricing_model": "Open-source; users provide API keys and pay for model usage",
+    "pricing_model": "Free (open source)",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -760,7 +760,7 @@
     "supported_models": [
       "Latest models available to ChatGPT users"
     ],
-    "pricing_model": "Available with ChatGPT Plus ($20/month, 400 tasks/month), Team ($30-50/user/month), and Enterprise (custom) plans.",
+    "pricing_model": "Subscription-based with usage limits (Pro: 400 messages/month, Plus: 40 messages/month)",
     "benchmarks": {
       "swe_bench_score": 4.04,
       "swe_bench_source": "https://cognition.ai/blog/swe-bench-technical-report",
@@ -786,7 +786,7 @@
       "MiniMax Hailuo 02 (Video)",
       "MiniMax Speech 02 (Audio)"
     ],
-    "pricing_model": "MiniMax M1: $0.40/1M input tokens, $2.10/1M output tokens. abab6.5s: $0.15/1M tokens. speech-01: $30/1M characters. Voice Cloning: $15/voice. Hailuo 02 (video): $0.625/generation.",
+    "pricing_model": "MiniMax M1 (text): $0.40 per 1M input tokens; Speech-02-HD (audio): $100 per 1M characters; Hailuo 02 (video): $0.28 per video.",
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
@@ -834,7 +834,7 @@
     "supported_models": [
       "Gemini 2.5 Pro"
     ],
-    "pricing_model": "Tiered (Jules, Jules in Pro, Jules in Ultra)",
+    "pricing_model": "Tiered (Free, Pro, Ultra)",
     "benchmarks": {
       "swe_bench_score": 52.2,
       "swe_bench_source": "https://aiagentindex.mit.edu/jules/",
@@ -1366,7 +1366,7 @@
     "supported_models": [
       "ACT-1 (Action Transformer)"
     ],
-    "pricing_model": "Pricing not publicly disclosed (research project)",
+    "pricing_model": null,
     "benchmarks": {
       "swe_bench_score": null,
       "task_success_rate": null,
