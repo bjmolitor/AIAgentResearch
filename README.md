@@ -90,7 +90,6 @@ The following agents have been profiled in this repository:
 - SuperAGI (`agents/SuperAGI`)
 - AutoGPT (`agents/AutoGPT`)
 - BabyAGI (`agents/BabyAGI`)
-- Hugging Face Transformers Agents (`agents/Hugging_Face_Transformers_Agents`)
 - Semantic Kernel (`agents/Semantic_Kernel`)
 - AgentVerse (`agents/AgentVerse`)
 - CAMEL (`agents/CAMEL`)

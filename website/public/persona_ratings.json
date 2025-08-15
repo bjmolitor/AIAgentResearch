@@ -1019,40 +1019,6 @@
       "reasoning": "Workflow and agent orchestration is a core strength of Goose. It allows users to create and reuse complex workflows through its 'Recipes' feature. It integrates with common developer tools like Jira, GitHub, and Slack, and can be incorporated into CI/CD pipelines. Its extensibility through plugins and the Model Context Protocol (MCP) allows it to orchestrate a wide range of tools and agents, making it a powerful hub for developer workflows."
     }
   },
-  "hugging_face_transformers_agents": {
-    "automation_productivity": {
-      "rating": 4,
-      "reasoning": "Agents can chain tools and iterate on observations to automate complex tasks."
-    },
-    "beginner_friendly_onboarding": {
-      "rating": 3,
-      "reasoning": "Open-source Python package with examples, but requires coding knowledge and model setup."
-    },
-    "code_quality_testing": {
-      "rating": 2,
-      "reasoning": "Primarily focused on tool use and reasoning rather than software testing workflows."
-    },
-    "codebase_comprehension": {
-      "rating": 2,
-      "reasoning": "Provides no dedicated code navigation features beyond what custom tools supply."
-    },
-    "creative_multimodal_exploration": {
-      "rating": 4,
-      "reasoning": "Built-in tools cover web browsing, image generation and speech-to-text for multimodal tasks."
-    },
-    "data_experimental_flexibility": {
-      "rating": 3,
-      "reasoning": "Supports plugging in custom tools and models from the Hugging Face Hub."
-    },
-    "visual_no_code_development": {
-      "rating": 1,
-      "reasoning": "Usage is code-driven with no graphical builder."
-    },
-    "workflow_agent_orchestration": {
-      "rating": 3,
-      "reasoning": "Agent framework enables multi-agent setups and sharing via the Hub but lacks dedicated orchestration UI."
-    }
-  },
   "ibm_watsonx_orchestrate": {
     "automation_productivity": {
       "rating": 4,
@@ -1604,7 +1570,7 @@
     },
     "beginner_friendly_onboarding": {
       "rating": 4,
-      "reasoning": "Using Codex inside ChatGPT requires no installation\u2014users simply open a chat and describe the task."
+      "reasoning": "Using Codex inside ChatGPT requires no installation—users simply open a chat and describe the task."
     },
     "code_quality_testing": {
       "rating": 2,
