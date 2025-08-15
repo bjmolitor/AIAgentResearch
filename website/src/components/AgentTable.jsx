@@ -219,7 +219,7 @@ const AgentTable = forwardRef(function AgentTable(
         <thead className="bg-background-blue text-white dark:bg-stratos-blue">
           <tr>
             <th className="px-4 py-2 font-archia">Name</th>
-            <th className="px-4 py-2 font-archia">Website</th>
+            <th className="px-4 py-2 font-archia text-center">Website</th>
             <th className="px-4 py-2 font-archia">Developer</th>
             <th className="px-4 py-2 font-archia">Pricing</th>
             {criteria.map((c) => (
@@ -258,14 +258,29 @@ const AgentTable = forwardRef(function AgentTable(
                   {agent.name}
                 </button>
               </td>
-              <td className="px-4 py-2">
+              <td className="px-4 py-2 text-center">
                 <a
                   href={agent.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline"
+                  aria-label={`${agent.name} website`}
+                  className="inline-block"
                 >
-                  {agent.website}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                    />
+                  </svg>
+                  <span className="sr-only">{agent.website}</span>
                 </a>
               </td>
               <td className="px-4 py-2">{agent.developer}</td>
