@@ -81,7 +81,8 @@
     "Name": "Salesforce Agentforce",
     "Website": "https://www.salesforce.com/products/einstein/agentforce/",
     "Description": "Salesforce’s generative AI agent platform (part of Einstein GPT) that lets organizations build autonomous agents for CRM and customer support tasks. It integrates with Salesforce data and workflows, enabling agents to act on records, automate service processes, and hand off to humans when needed.",
-    "Reason for inclusion": "Agentforce represents a major enterprise implementation of AI agents in a specific domain, highlighting how intelligent assistants are being deployed commercially. It's within scope as a productivity and automation tool not yet covered in the list."
+    "Reason for inclusion": "Agentforce represents a major enterprise implementation of AI agents in a specific domain, highlighting how intelligent assistants are being deployed commercially. It's within scope as a productivity and automation tool not yet covered in the list.",
+    "added": true
   },
   {
     "Name": "IBM watsonx Orchestrate",

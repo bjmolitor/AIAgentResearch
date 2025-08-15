@@ -1,0 +1,24 @@
+{
+  "name": "Salesforce Agentforce",
+  "website": "https://www.salesforce.com/products/einstein/agentforce/",
+  "developer": "Salesforce",
+  "key_features": [
+    "Native Salesforce integration across CRM applications",
+    "Einstein Trust Layer for security and governance",
+    "Autonomous workflow execution with human handoff",
+    "Customizable actions via Flow and Apex"
+  ],
+  "supported_models": [
+    "Salesforce Einstein GPT",
+    "Bring-your-own models such as OpenAI and Anthropic"
+  ],
+  "pricing_model": "Enterprise licensing through Salesforce Einstein 1 platform",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "terminal_bench_score": null,
+    "terminal_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  }
+}
