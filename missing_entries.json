@@ -35,7 +35,8 @@
     "Name": "Hugging Face Transformers Agents",
     "Website": "https://huggingface.co/docs/transformers/agents",
     "Description": "An extension of Hugging Face’s Transformers library that allows LLMs to use tools and APIs in a structured way. It comes with built-in support for numerous tools (e.g. web search, image generation) enabling quick creation of agentic applications.",
-    "Reason for inclusion": "This toolkit represents a well-known open-source solution for adding tool-use and agent behavior to language models, broadening the list’s coverage of developer frameworks."
+    "Reason for inclusion": "This toolkit represents a well-known open-source solution for adding tool-use and agent behavior to language models, broadening the list’s coverage of developer frameworks.",
+    "status": "added"
   },
   {
     "Name": "Fixie.ai",
