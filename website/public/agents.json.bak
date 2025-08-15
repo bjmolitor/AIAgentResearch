@@ -1429,7 +1429,8 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "SuperAGI is a developer-focused open-source framework for building, running, and monitoring autonomous AI agents. It offers concurrent agent orchestration, an extensible tool marketplace, memory and telemetry features, and supports self-hosted or SuperAGI Cloud deployments."
   },
   {
     "name": "IBM watsonx Orchestrate",
