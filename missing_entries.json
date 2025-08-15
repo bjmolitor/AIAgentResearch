@@ -78,7 +78,8 @@
     "Name": "Bee Agent Framework",
     "Website": "https://www.ibm.com/blogs/research/2023/08/bee-agent-framework/",
     "Description": "IBM Research’s open-source no-code toolkit for creating and orchestrating AI agents. Bee emphasizes easy assembly of agents and tools with safety and memory controls, enabling complex workflows (including pausing/resuming state) without writing code.",
-    "Reason for inclusion": "Developed by a major research lab, Bee Agent Framework demonstrates enterprise interest in agentic systems. Its inclusion shows the diversity of approaches (no-code, IBM-backed) in the agent ecosystem beyond the currently listed solutions."
+    "Reason for inclusion": "Developed by a major research lab, Bee Agent Framework demonstrates enterprise interest in agentic systems. Its inclusion shows the diversity of approaches (no-code, IBM-backed) in the agent ecosystem beyond the currently listed solutions.",
+    "status": "added"
   },
   {
     "Name": "Salesforce Agentforce",
