@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { getAgentKey } from "../utils/getAgentKey";
 
 function AgentDetailModal({ agent, onClose }) {
   const [ratings, setRatings] = useState({});
@@ -38,14 +39,6 @@ function AgentDetailModal({ agent, onClose }) {
     const empty = "☆".repeat(5 - rating);
     return filled + empty;
   };
-
-    const getAgentKey = (name) => {
-      if (!name) return "";
-      return name
-        .toLowerCase()
-        .replace(/\s+/g, "_")
-        .replace(/[^a-z0-9._]/g, "_");
-    };
 
   const agentKey = getAgentKey(agent.name);
   const agentRatings = ratings[agentKey] || {};

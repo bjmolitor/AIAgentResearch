@@ -4,6 +4,7 @@ import {
   forwardRef,
   useImperativeHandle,
 } from "react";
+import { getAgentKey } from "../utils/getAgentKey";
 
 const AgentTable = forwardRef(function AgentTable(
   {
@@ -86,16 +87,6 @@ const AgentTable = forwardRef(function AgentTable(
         a.name.toLowerCase().includes(searchTerm.toLowerCase())
       )
     : filteredByNames;
-
-  const getAgentKey = (name) => {
-    if (!name) return "";
-    const lower = name.toLowerCase();
-    const base = lower.split(".")[0];
-    const withSpaces = base.replace(/\s+/g, "_");
-    const sanitized = withSpaces.replace(/[^a-z0-9_]/g, "_");
-    const candidates = [sanitized, lower, withSpaces];
-    return candidates.find((k) => ratings[k]) || sanitized;
-  };
 
   const computeAverage = (agent) => {
     const key = getAgentKey(agent.name);
