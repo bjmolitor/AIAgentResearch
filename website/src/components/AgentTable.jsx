@@ -10,9 +10,9 @@ const AgentTable = forwardRef(function AgentTable(
     onAgentClick,
     filterNames,
     searchTerm = "",
-    initialCriteria = [],
+    initialCriteria,
     limit,
-    allowCriterionSelection = true,
+    allowCriterionSelection = false,
   },
   ref
 ) {
@@ -21,10 +21,10 @@ const AgentTable = forwardRef(function AgentTable(
   const [sortConfig, setSortConfig] = useState({ key: "name", direction: "asc" });
   const [ratings, setRatings] = useState({});
   const [criteria, setCriteria] = useState([]);
-  const [selectedCriteria, setSelectedCriteria] = useState(initialCriteria);
+  const [selectedCriteria, setSelectedCriteria] = useState(initialCriteria ?? []);
 
   useEffect(() => {
-    setSelectedCriteria(initialCriteria);
+    setSelectedCriteria(initialCriteria ?? []);
   }, [initialCriteria]);
 
   useEffect(() => {
