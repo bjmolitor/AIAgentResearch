@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 4,
+    "reasoning": "Hosted agents and skill integrations allow Fixie.ai to automate enterprise workflows across tools."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 3,
+    "reasoning": "SDKs and examples help new users, but building skills typically requires developer experience."
+  },
+  "code_quality_testing": {
+    "rating": 2,
+    "reasoning": "Platform is not oriented toward software testing or code quality beyond executing agent code."
+  },
+  "codebase_comprehension": {
+    "rating": 2,
+    "reasoning": "While agents can access repositories via connectors, the service is not primarily for code understanding."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 3,
+    "reasoning": "Agents can combine text, APIs, and data sources, enabling some multimodal interactions."
+  },
+  "data_experimental_flexibility": {
+    "rating": 3,
+    "reasoning": "Connectors to knowledge bases and APIs offer data flexibility, though experiment tracking is limited."
+  },
+  "visual_no_code_development": {
+    "rating": 2,
+    "reasoning": "Fixie.ai provides a dashboard but primarily expects code-based agent creation."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 4,
+    "reasoning": "The platform orchestrates agents and skills, supporting complex multi-step workflows."
+  }
+}
