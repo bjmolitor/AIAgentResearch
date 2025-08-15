@@ -45,7 +45,8 @@
     "Name": "Semantic Kernel",
     "Website": "https://github.com/microsoft/semantic-kernel",
     "Description": "An open-source SDK by Microsoft for creating AI copilots and complex agents using a skill library, planners, and connectors. It focuses on integrating LLMs into applications with memory, tool use, and iterative planning, and is used in products like Microsoft 365 Copilot.",
-    "Reason for inclusion": "Semantic Kernel fits the list as a developer framework for AI orchestration, offering an enterprise-friendly, model-agnostic approach that complements tools like LangChain."
+    "Reason for inclusion": "Semantic Kernel fits the list as a developer framework for AI orchestration, offering an enterprise-friendly, model-agnostic approach that complements tools like LangChain.",
+    "added": true
   },
   {
     "Name": "AgentVerse",
