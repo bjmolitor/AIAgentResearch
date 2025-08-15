@@ -107,6 +107,8 @@
     "Name": "Inflection Pi",
     "Website": "https://pi.ai/",
     "Description": "A personal AI assistant created by Inflection AI, designed to be conversational, supportive, and there for the user at any time. Pi interacts via chat or voice, helping with questions, advice, or casual conversation, focusing on personal support and knowledge.",
+    "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications.",
+    "status": "added"
     "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications."
   },
   {
@@ -114,6 +116,6 @@
     "Website": "https://www.microsoft.com/en-us/microsoft-copilot",
     "Description": "Microsoft’s cross-platform AI assistant for Windows, web, and Microsoft 365 that drafts content, answers questions, and automates tasks.",
     "Reason for inclusion": "Major vendor ecosystem assistant that spans productivity and automation, now tracked in the research list.",
-    "added": true
+    "status": "added"
   }
 ]
