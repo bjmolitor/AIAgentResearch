@@ -67,6 +67,7 @@ The following agents have been profiled in this repository:
 - chat.z.ai (`agents/chat.z.ai`)
 - Perplexity Labs (`agents/Perplexity_Labs`)
 - v0.app (`agents/v0.app`)
+- Zapier (`agents/Zapier`)
 
 ### Agent Frameworks
 - CrewAI (`agents/CrewAI`)

@@ -1,0 +1,28 @@
+{
+  "name": "Zapier",
+  "website": "https://zapier.com/",
+  "developer": "Zapier Inc.",
+  "key_features": [
+    "No-code workflow automation connecting thousands of apps",
+    "Drag-and-drop visual builder with multi-step workflows and conditional logic",
+    "AI-powered natural language automation builder and Zapier AI Actions",
+    "Code steps for custom JavaScript or Python",
+    "Extensive template library and shared Zaps"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4 and GPT-3.5",
+    "Anthropic Claude",
+    "Google Gemini"
+  ],
+  "pricing_model": "Freemium with paid plans starting at $19.99/month",
+  "description": "Zapier is a web-based automation service that connects apps and automates workflows with a visual builder and optional AI features.",
+  "long_description": "Zapier lets users build \"Zaps\" that trigger actions across thousands of services. Its drag-and-drop interface, code steps, and AI Actions allow both non\u2011technical and technical users to automate complex multi-step processes without managing infrastructure.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "terminal_bench_score": null,
+    "terminal_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  }
+}
