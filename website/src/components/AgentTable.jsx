@@ -203,8 +203,8 @@ const AgentTable = forwardRef(function AgentTable(
 
   return (
     <div className="overflow-x-auto">
-      <table className="min-w-full text-sm text-stratos-blue border border-background-blue">
-        <thead className="bg-background-blue text-white">
+      <table className="min-w-full text-sm text-stratos-blue dark:text-gray-100 border border-background-blue dark:border-gray-700">
+        <thead className="bg-background-blue text-white dark:bg-stratos-blue">
           <tr>
             <th className="px-4 py-2 font-archia">Name</th>
             <th className="px-4 py-2 font-archia">Website</th>
@@ -236,7 +236,7 @@ const AgentTable = forwardRef(function AgentTable(
         </thead>
         <tbody>
           {sortedAgents.map((agent) => (
-            <tr key={agent.name} className="odd:bg-white even:bg-background-blue/10">
+            <tr key={agent.name} className="odd:bg-white even:bg-background-blue/10 dark:odd:bg-gray-800 dark:even:bg-gray-700">
               <td className="px-4 py-2">
                 <button
                   type="button"

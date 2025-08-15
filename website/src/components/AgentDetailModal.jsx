@@ -52,7 +52,7 @@ function AgentDetailModal({ agent, onClose }) {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
-      <div className="bg-background-blue text-white p-6 rounded-md shadow-lg w-[90vw] max-h-full overflow-y-auto">
+      <div className="bg-background-blue dark:bg-gray-800 text-white p-6 rounded-md shadow-lg w-[90vw] max-h-full overflow-y-auto">
         <div className="flex justify-between items-start mb-4">
           <h2 className="text-2xl font-archia">{agent.name}</h2>
           <button

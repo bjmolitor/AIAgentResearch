@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import AgentTable from "../components/AgentTable";
+import ThemeSelector from "../components/ThemeSelector";
 
 function Home({ onAgentClick, onOpenPersonas }) {
   const [searchTerm, setSearchTerm] = useState("");
@@ -65,8 +66,9 @@ function Home({ onAgentClick, onOpenPersonas }) {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="border px-2 py-1 rounded font-archia text-stratos-blue"
-        />
+        />      
       </div>
+      <ThemeSelector />
       <AgentTable
         ref={tableRef}
         onAgentClick={onAgentClick}

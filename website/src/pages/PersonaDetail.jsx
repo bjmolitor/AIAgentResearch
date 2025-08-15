@@ -110,16 +110,16 @@ function PersonaDetail({ onAgentClick }) {
   }
 
   return (
-    <div className="text-stratos-blue">
+    <div className="text-stratos-blue dark:text-white">
       <Link to="/" className="underline">
         &larr; Back
       </Link>
-      <div className="border border-background-blue p-4 mb-4">
+      <div className="border border-background-blue dark:border-gray-700 p-4 mb-4">
         <h2 className="text-2xl font-archia mb-2">{persona.title}</h2>
         <p className="mb-0">{persona.description}</p>
       </div>
       <div className="flex flex-col md:flex-row gap-4 mb-4">
-        <div className="border border-background-blue p-4 flex-1">
+        <div className="border border-background-blue dark:border-gray-700 p-4 flex-1">
           <h3 className="text-xl font-archia mb-2">Key Criteria</h3>
           <ul className="list-disc pl-5">
             {persona.keyCriteria.map((item) => (
@@ -130,7 +130,7 @@ function PersonaDetail({ onAgentClick }) {
             ))}
           </ul>
         </div>
-        <div className="border border-background-blue p-4 flex-1">
+        <div className="border border-background-blue dark:border-gray-700 p-4 flex-1">
           <h3 className="text-xl font-archia mb-2">Why These Tools</h3>
           <ul className="list-disc pl-5">
             {persona.whyLines.map((line) => (
