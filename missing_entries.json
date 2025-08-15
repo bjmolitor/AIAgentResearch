@@ -57,7 +57,8 @@
     "Name": "CAMEL",
     "Website": "https://github.com/camel-ai/camel",
     "Description": "An open-source framework (Communicative Agents for 'Mind' Exploration) that assigns roles to two or more AI agents to communicate and collaborate on solving problems. It emphasizes role-playing interactions between AI assistant and user agents to accomplish goals.",
-    "Reason for inclusion": "CAMEL showcases an innovative multi-agent collaboration approach, aligning with the list’s interest in agent frameworks and demonstrating a unique technique for achieving complex tasks via AI-to-AI communication."
+    "Reason for inclusion": "CAMEL showcases an innovative multi-agent collaboration approach, aligning with the list’s interest in agent frameworks and demonstrating a unique technique for achieving complex tasks via AI-to-AI communication.",
+    "status": "added"
   },
   {
     "Name": "ChatDev",
