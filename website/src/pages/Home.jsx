@@ -66,9 +66,11 @@ function Home({ onAgentClick, onOpenPersonas }) {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="border px-2 py-1 rounded font-archia text-stratos-blue"
-        />      
+        />
+        <div className="ml-auto">
+          <ThemeSelector />
+        </div>
       </div>
-      <ThemeSelector />
       <AgentTable
         ref={tableRef}
         onAgentClick={onAgentClick}
