@@ -8,7 +8,7 @@ IBM watsonx Orchestrate is an AI-driven automation platform that creates digital
 
 - **Developer:** IBM
 - **Website:** [https://www.ibm.com/products/watsonx-orchestrate](https://www.ibm.com/products/watsonx-orchestrate)
-- **Pricing:** Enterprise licensing; free Developer Edition available for local experimentation.
+- **Pricing:** 30-day free trial, then commercial subscription.
 
 ## Key Features
 
@@ -24,7 +24,7 @@ IBM foundation models available in watsonx.ai, including the Granite series and 
 
 ## Pricing Model
 
-Commercial subscription with usage-based licensing; contact IBM for detailed pricing. A free Developer Edition is provided for local development.
+30-day free trial, then commercial subscription.
 
 ## Benchmarks
 

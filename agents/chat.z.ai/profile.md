@@ -25,7 +25,7 @@ chat.z.ai is Zhipu AI's web-based interface for its General Language Model (GLM)
 
 ## Pricing
 
-- Freemium/Open-Source
+- Free
 
 ## Benchmarks
 
