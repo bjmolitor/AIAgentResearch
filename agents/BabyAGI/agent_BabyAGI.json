@@ -1,0 +1,24 @@
+{
+  "name": "BabyAGI",
+  "website": "https://github.com/yoheinakajima/babyagi",
+  "developer": "Yohei Nakajima",
+  "key_features": [
+    "Autonomous task creation and prioritization",
+    "Function registry with dependency graph",
+    "Vector database memory for context",
+    "Dashboard for function management and logging",
+    "Open-source and extensible Python framework"
+  ],
+  "supported_models": [
+    "OpenAI models",
+    "Llama family"
+  ],
+  "pricing_model": "Open-source project under MIT license.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "description": "BabyAGI is an experimental framework for building self-improving autonomous agents.",
+  "long_description": "Originally released in 2023 as a minimalist LLM-powered task agent, BabyAGI now provides a function-based framework that registers, stores, and executes tasks with a dependency graph, persistent memory, and a web dashboard for monitoring and key management."
+}

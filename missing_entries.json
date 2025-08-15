@@ -21,7 +21,8 @@
     "Name": "BabyAGI",
     "Website": "https://github.com/yoheinakajima/babyagi",
     "Description": "An open-source task management agent that uses an LLM to generate, prioritize, and execute tasks in a loop. It's a simplified prototype demonstrating how an AI could break down objectives and act autonomously.",
-    "Reason for inclusion": "BabyAGI is relevant as an early, influential example of a productivity-focused autonomous agent, illustrating core ideas in task decomposition and execution that underpin many later frameworks."
+    "Reason for inclusion": "BabyAGI is relevant as an early, influential example of a productivity-focused autonomous agent, illustrating core ideas in task decomposition and execution that underpin many later frameworks.",
+    "added": true
   },
   {
     "Name": "AgentGPT",
