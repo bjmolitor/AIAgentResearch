@@ -192,9 +192,9 @@
     ],
     "pricing_model": "Cloud-based platform with a free tier and enterprise options.",
     "benchmarks": {
-      "terminal_bench_score": "42.5% \u00b1 0.8",
+      "terminal_bench_score": "42.5% ± 0.8",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
-      "terminal_bench_score_from_leaderboard": "42.5% \u00b1 0.8"
+      "terminal_bench_score_from_leaderboard": "42.5% ± 0.8"
     },
     "description": "Letta is a platform for building stateful AI agents that retain long-term memory and expose their capabilities through REST APIs. Built on MemGPT, it offers tools to visualize agent reasoning and integrate custom tools across multiple frameworks."
   },
@@ -217,11 +217,11 @@
     ],
     "pricing_model": "Requires an OpenAI API key or a paid OpenAI account (Plus/Pro).",
     "benchmarks": {
-      "terminal_bench_score": "20.0% \u00b1 1.5",
+      "terminal_bench_score": "20.0% ± 1.5",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.2,
       "resource_usage": "Runs locally; resource usage depends on chosen model",
-      "terminal_bench_score_from_leaderboard": "20.0% \u00b1 1.5"
+      "terminal_bench_score_from_leaderboard": "20.0% ± 1.5"
     },
     "description": "Codex CLI is an open-source coding agent from OpenAI that runs locally on your computer and interacts with your terminal."
   },
@@ -346,7 +346,7 @@
       "task_success_rate": null,
       "resource_usage": ""
     },
-    "description": "Amazon CodeWhisperer is a machine learning (ML)\u2013powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is in the process of being integrated into Amazon Q Developer."
+    "description": "Amazon CodeWhisperer is a machine learning (ML)–powered service that helps improve developer productivity by generating code recommendations based on their comments in natural language and code in the integrated development environment (IDE). It is in the process of being integrated into Amazon Q Developer."
   },
   {
     "name": "Tabnine",
@@ -668,11 +668,11 @@
     "benchmarks": {
       "swe_bench_score": 49,
       "swe_bench_source": "https://www.anthropic.com/research/swe-bench-sonnet",
-      "terminal_bench_score": "43.2% \u00b1 1.3",
+      "terminal_bench_score": "43.2% ± 1.3",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.432,
       "resource_usage": "Not publicly documented",
-      "terminal_bench_score_from_leaderboard": "43.2% \u00b1 1.3"
+      "terminal_bench_score_from_leaderboard": "43.2% ± 1.3"
     },
     "description": "Terminal-based coding assistant that understands your codebase and handles git workflows through natural language commands."
   },
@@ -692,11 +692,11 @@
     ],
     "pricing_model": "Open-source under the MIT License; free for self-hosting with optional paid hosting via Daytona",
     "benchmarks": {
-      "terminal_bench_score": "41.3% \u00b1 0.7",
+      "terminal_bench_score": "41.3% ± 0.7",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.413,
       "resource_usage": "Not publicly documented; depends on hosting environment and model",
-      "terminal_bench_score_from_leaderboard": "41.3% \u00b1 0.7"
+      "terminal_bench_score_from_leaderboard": "41.3% ± 0.7"
     },
     "description": "OpenHands is an open-source AI coding agent and framework from Daytona that aims to let agents perform end-to-end software development tasks."
   },
@@ -856,11 +856,11 @@
     ],
     "pricing_model": "Open-source",
     "benchmarks": {
-      "terminal_bench_score": "42.0% \u00b1 1.3",
+      "terminal_bench_score": "42.0% ± 1.3",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.42,
       "resource_usage": "Depends on local hardware and model; no public metrics",
-      "terminal_bench_score_from_leaderboard": "42.0% \u00b1 1.3"
+      "terminal_bench_score_from_leaderboard": "42.0% ± 1.3"
     },
     "description": "Goose is an open-source, on-machine AI agent from Block that automates engineering tasks autonomously."
   },
@@ -905,7 +905,7 @@
     ],
     "pricing_model": "Research project, likely free to use.",
     "benchmarks": {
-      "terminal_bench_score": "39.9% \u00b1 1.0",
+      "terminal_bench_score": "39.9% ± 1.0",
       "terminal_bench_source": "https://www.tbench.ai/leaderboard",
       "task_success_rate": 0.399,
       "resource_usage": "Not publicly documented; depends on remote environment and model"
@@ -984,7 +984,7 @@
       "task_success_rate": 0.52,
       "resource_usage": "Not publicly documented; depends on local hardware and active agents",
       "swe_bench_score": "71%",
-      "terminal_bench_score_from_leaderboard": "52.0% \u00b1 1.0"
+      "terminal_bench_score_from_leaderboard": "52.0% ± 1.0"
     },
     "description": "Warp is an agentic development environment and terminal that enables fast, native interactions with multiple AI agents across the development workflow."
   },
@@ -1136,7 +1136,7 @@
     ],
     "pricing_model": "Freemium with paid plans starting at $19.99/month",
     "description": "Zapier is a web-based automation service that connects apps and automates workflows with a visual builder and optional AI features.",
-    "long_description": "Zapier lets users build \"Zaps\" that trigger actions across thousands of services. Its drag-and-drop interface, code steps, and AI Actions allow both non\u2011technical and technical users to automate complex multi-step processes without managing infrastructure.",
+    "long_description": "Zapier lets users build \"Zaps\" that trigger actions across thousands of services. Its drag-and-drop interface, code steps, and AI Actions allow both non‑technical and technical users to automate complex multi-step processes without managing infrastructure.",
     "benchmarks": {
       "swe_bench_score": null,
       "swe_bench_source": null,
@@ -1166,5 +1166,27 @@
       "resource_usage": ""
     },
     "description": "n8n is an open-source workflow automation platform that combines a visual editor with optional code, enabling users to orchestrate APIs, databases, and AI models."
+  },
+  {
+    "name": "Lindy",
+    "website": "https://www.lindy.ai/",
+    "developer": "Lindy AI",
+    "key_features": [
+      "Automates knowledge work with customizable AI assistants",
+      "Connects to tools like Gmail, Slack, Notion, and calendars",
+      "Supports multi-step workflows and custom actions",
+      "Collaborative interface for monitoring and editing agent output"
+    ],
+    "supported_models": [
+      "OpenAI GPT-4 family",
+      "Anthropic Claude models"
+    ],
+    "pricing_model": "Early access; pricing not publicly disclosed",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    },
+    "description": "Lindy is a platform for building AI assistants that automate routine knowledge work across email, chat, and calendars."
   }
 ]
