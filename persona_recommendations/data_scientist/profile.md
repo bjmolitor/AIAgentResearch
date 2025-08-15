@@ -4,6 +4,9 @@ Practitioners focused on data pipelines, modeling, and analysis who want AI assi
 
 ### Key Criteria
 - **Data & Experimental Flexibility** – integrate with pipelines and ensure reproducibility.
+- **Workflow & Agent Orchestration** – coordinate multi-step pipelines.
+- **Automation & Productivity** – reduce manual data wrangling.
+- **Code Quality & Testing** – ensure reliable analyses and scripts.
 
 ## Recommended Tools
 - **LangChain** – build data-aware applications with complex toolchains.

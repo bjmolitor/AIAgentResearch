@@ -5,6 +5,7 @@ Entrepreneurs or domain experts assembling full applications through low-code in
 ### Key Criteria
 - **Beginner-Friendly Onboarding** – start building with minimal setup.
 - **Visual/No-Code Development** – drag-and-drop or template-based creation.
+- **Automation & Productivity** – streamline repetitive tasks when building apps.
 
 ## Recommended Tools
  - **Replit_AI** – build and deploy apps from a browser.

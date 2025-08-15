@@ -3,6 +3,7 @@
 Designers and artists exploring interactive or multimedia experiences with the help of AI.
 
 ### Key Criteria
+- **Beginner-Friendly Onboarding** – get started with minimal setup.
 - **Creative Multimodal Exploration** – mix text, image, and audio assets.
 - **Visual/No-Code Development** – prototype quickly with templates.
 
