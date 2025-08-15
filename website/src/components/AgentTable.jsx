@@ -12,7 +12,7 @@ const AgentTable = forwardRef(function AgentTable(
     searchTerm = "",
     initialCriteria = [],
     limit,
-    allowCriterionSelection = true,
+    allowCriterionSelection = false,
   },
   ref
 ) {
