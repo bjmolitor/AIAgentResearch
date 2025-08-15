@@ -86,6 +86,7 @@ function PersonaDetail({ onAgentClick }) {
         onAgentClick={onAgentClick}
         initialCriteria={persona.criteriaIds}
         limit={5}
+        allowCriterionSelection={false}
       />
     </div>
   );
