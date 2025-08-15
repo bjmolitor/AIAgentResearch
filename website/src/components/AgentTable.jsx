@@ -6,7 +6,13 @@ import {
 } from "react";
 
 const AgentTable = forwardRef(function AgentTable(
-  { onAgentClick, filterNames, searchTerm = "" },
+  {
+    onAgentClick,
+    filterNames,
+    searchTerm = "",
+    initialCriteria = [],
+    limit,
+  },
   ref
 ) {
   const [agents, setAgents] = useState([]);
@@ -14,7 +20,11 @@ const AgentTable = forwardRef(function AgentTable(
   const [sortConfig, setSortConfig] = useState({ key: "name", direction: "asc" });
   const [ratings, setRatings] = useState({});
   const [criteria, setCriteria] = useState([]);
-  const [selectedCriteria, setSelectedCriteria] = useState([]);
+  const [selectedCriteria, setSelectedCriteria] = useState(initialCriteria);
+
+  useEffect(() => {
+    setSelectedCriteria(initialCriteria);
+  }, [initialCriteria]);
 
   useEffect(() => {
     async function loadData() {
@@ -123,6 +133,8 @@ const AgentTable = forwardRef(function AgentTable(
       })
     : agentsWithAverage;
 
+  const displayedAgents = limit ? sortedAgents.slice(0, limit) : sortedAgents;
+
   const renderStars = (rating) => {
     if (!rating) return "☆☆☆☆☆";
     const filled = "★".repeat(rating);
@@ -145,7 +157,7 @@ const AgentTable = forwardRef(function AgentTable(
       ...criteria.map((c) => c.name),
     ];
 
-    const rows = sortedAgents.map((agent) => {
+    const rows = displayedAgents.map((agent) => {
       const key = getAgentKey(agent.name);
       return [
         agent.name,
@@ -235,7 +247,7 @@ const AgentTable = forwardRef(function AgentTable(
           </tr>
         </thead>
         <tbody>
-          {sortedAgents.map((agent) => (
+          {displayedAgents.map((agent) => (
             <tr key={agent.name} className="odd:bg-white even:bg-background-blue/10 dark:odd:bg-gray-800 dark:even:bg-gray-700">
               <td className="px-4 py-2">
                 <button
