@@ -16,7 +16,10 @@ That said, keeping research current is a big job. New tools pop up every week, a
 
 If you're excited about the future of AI agents, I'd love to have you on board. Visit the repo, leave feedback, and jump into the work.
 
+As said, it's free and open source with no monetization planned. Just created this page because I needed it and couldn't find something like it.
+
+Here's the page to look at: [https://aiagentresearch.netlify.app/](https://aiagentresearch.netlify.app/)
+
 The link above is for my deployment of the repo [https://github.com/bjmolitor/AIAgentResearch](https://github.com/bjmolitor/AIAgentResearch)
 
-Feel free to set up your own deployments...
 Looking forward to feedback in the comments.
