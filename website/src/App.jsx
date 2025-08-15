@@ -26,15 +26,15 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="bg-gray-100 p-4">
+    <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-stratos-blue dark:text-gray-100">
+      <header className="bg-gray-100 dark:bg-gray-800 p-4">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <h1 className="text-2xl font-bold text-stratos-blue">Open AI Agent Research</h1>
+          <h1 className="text-2xl font-bold text-stratos-blue dark:text-highlight-green">Open AI Agent Research</h1>
           <a
             href="https://github.com/bjmolitor/AIAgentResearch"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-stratos-blue underline"
+            className="text-stratos-blue dark:text-sparky-blue underline"
           >
             (MIT licensed - contributors wanted.)
           </a>
@@ -58,8 +58,8 @@ function App() {
           />
         </Routes>
       </main>
-      <footer className="bg-gray-100 p-4 text-center">
-        <p className="text-stratos-blue">&copy; 2024 Open AI Agent Research</p>
+      <footer className="bg-gray-100 dark:bg-gray-800 p-4 text-center">
+        <p className="text-stratos-blue dark:text-gray-100">&copy; 2024 Open AI Agent Research</p>
       </footer>
       <AgentDetailModal agent={selectedAgent} onClose={handleCloseModal} />
       <PersonasOverlay isOpen={showPersonas} onClose={handleClosePersonas} />
