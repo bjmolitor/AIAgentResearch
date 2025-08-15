@@ -1235,7 +1235,9 @@
       "swe_bench_score": null,
       "task_success_rate": null,
       "resource_usage": ""
-    }
+    },
+    "description": "CAMEL is an open-source framework for large-scale role-playing interactions among AI agents.",
+    "long_description": "It assigns complementary roles to language model agents so they can communicate, retain context, and collaborate on complex tasks with integrated tools."
   },
   {
     "name": "Salesforce Agentforce",
