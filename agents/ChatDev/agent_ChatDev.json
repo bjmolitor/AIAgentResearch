@@ -1,0 +1,23 @@
+{
+  "name": "ChatDev",
+  "website": "https://github.com/OpenBMB/ChatDev",
+  "developer": "OpenBMB",
+  "key_features": [
+    "Virtual software company with multi-agent roles",
+    "Visualizer for observing real-time or replayed agent logs",
+    "Supports Git integration, Docker execution, and incremental development",
+    "Human-Agent Interaction mode for manual participation",
+    "MacNet framework for scalable DAG-style collaboration"
+  ],
+  "supported_models": [
+    "GPT-3.5 Turbo",
+    "GPT-4",
+    "GPT-4-32K"
+  ],
+  "pricing_model": "Open-source (Apache-2.0), free",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}

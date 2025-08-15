@@ -63,7 +63,8 @@
     "Name": "ChatDev",
     "Website": "https://github.com/OpenBMB/ChatDev",
     "Description": "A multi-agent system that simulates a software development team with different AI agents (e.g., Manager, Developer, Tester) collaborating to design, code, test, and document a software project. It provides a visual interface to observe agent interactions.",
-    "Reason for inclusion": "ChatDev is a cutting-edge example of domain-specific AI agents working together, illustrating the power of specialized agents and teamwork in automation—which complements the general-purpose agents in the existing list."
+    "Reason for inclusion": "ChatDev is a cutting-edge example of domain-specific AI agents working together, illustrating the power of specialized agents and teamwork in automation—which complements the general-purpose agents in the existing list.",
+    "status": "added"
   },
   {
     "Name": "Pydantic AI",
