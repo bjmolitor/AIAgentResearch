@@ -1026,7 +1026,7 @@
     },
     "beginner_friendly_onboarding": {
       "rating": 4,
-      "reasoning": "Using Codex inside ChatGPT requires no installation\u2014users simply open a chat and describe the task."
+      "reasoning": "Using Codex inside ChatGPT requires no installation—users simply open a chat and describe the task."
     },
     "code_quality_testing": {
       "rating": 2,
@@ -1561,6 +1561,40 @@
     "workflow_agent_orchestration": {
       "rating": 4,
       "reasoning": "Handles multi-step processes with branching, scheduling, and AI-driven actions, providing strong orchestration capabilities."
+    }
+  },
+  "lindy": {
+    "beginner_friendly_onboarding": {
+      "rating": 3,
+      "reasoning": "Sign-up and onboarding are straightforward but currently oriented toward beta and enterprise users, limiting immediate accessibility."
+    },
+    "visual_no_code_development": {
+      "rating": 2,
+      "reasoning": "Provides a web interface for configuring workflows but lacks a full drag-and-drop builder for complex applications."
+    },
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "Focuses on automating administrative tasks like email and scheduling, significantly reducing manual workload."
+    },
+    "data_experimental_flexibility": {
+      "rating": 2,
+      "reasoning": "Integrations cover common business apps but offer limited tooling for data science experimentation."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 3,
+      "reasoning": "Capable of handling multi-step processes across services, though orchestration options are less customizable than dedicated frameworks."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Designed for operational tasks rather than understanding or navigating source code."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "Does not provide features for testing or improving code quality."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 2,
+      "reasoning": "Supports natural language interactions but offers limited built-in multimodal creativity tools."
     }
   }
 }

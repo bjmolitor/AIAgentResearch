@@ -1,0 +1,27 @@
+{
+  "name": "Lindy",
+  "website": "https://www.lindy.ai/",
+  "developer": "Lindy Inc.",
+  "key_features": [
+    "Autonomous AI assistant for operations and administrative tasks",
+    "Integrates with email, calendars, and business apps to automate workflows",
+    "Natural language interface for delegating tasks",
+    "Learns and adapts to user preferences over time",
+    "Handles multi-step processes across web applications"
+  ],
+  "supported_models": [
+    "OpenAI GPT-4",
+    "Anthropic Claude",
+    "Proprietary Lindy models"
+  ],
+  "pricing_model": "Enterprise and team plans; contact for pricing (beta access)",
+  "description": "Lindy is an AI-powered digital worker that performs administrative and operational tasks by operating software through natural language instructions.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "terminal_bench_score": null,
+    "terminal_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  }
+}
