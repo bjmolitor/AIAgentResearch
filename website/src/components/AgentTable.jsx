@@ -142,6 +142,78 @@ const AgentTable = forwardRef(function AgentTable(
     return filled + empty;
   };
 
+  const categorizePricing = (pricing) => {
+    if (!pricing) {
+      return "undisclosed (or part of a larger subscription or license)";
+    }
+
+    const lower = pricing.toLowerCase();
+    const amounts = pricing.match(/\$[0-9]+(?:\.[0-9]+)?/g) || [];
+    const parts = [];
+
+    const isOpenSource =
+      lower.includes("open-source") || lower.includes("open source");
+    const requiresKeyOrSelfHost =
+      lower.includes("api key") ||
+      lower.includes("api keys") ||
+      lower.includes("byok") ||
+      lower.includes("bring your own") ||
+      lower.includes("self-host") ||
+      lower.includes("self host") ||
+      lower.includes("self-hosted") ||
+      lower.includes("self hosted") ||
+      lower.includes("local deployment") ||
+      lower.includes("deploy locally");
+    const mentionsHostedFree =
+      lower.includes("hosted for free") ||
+      (lower.includes("saas") && lower.includes("free"));
+
+    if (
+      lower.includes("free tier") ||
+      lower.includes("limited free") ||
+      (lower.includes("free plan") && lower.includes("limit"))
+    ) {
+      parts.push("Limited free tier");
+    } else if (
+      lower.includes("free") &&
+      !lower.includes("trial") &&
+      (!isOpenSource || mentionsHostedFree) &&
+      !requiresKeyOrSelfHost
+    ) {
+      parts.push("Free (including usage!)");
+    }
+
+    if (
+      lower.includes("usage") ||
+      lower.includes("pay-as-you-go") ||
+      lower.includes("per token") ||
+      requiresKeyOrSelfHost ||
+      (isOpenSource && !mentionsHostedFree)
+    ) {
+      parts.push("Variable by (API-) usage");
+    } else if (lower.includes("credit")) {
+      parts.push(
+        amounts.length
+          ? `Flat rate with credits (${amounts.join(", ")})`
+          : "Flat rate with credits"
+      );
+    } else if (lower.includes("limit") || lower.includes("tier")) {
+      parts.push(
+        amounts.length
+          ? `Flat rate with usage limits (${amounts.join(", ")})`
+          : "Flat rate with usage limits"
+      );
+    } else if (amounts.length) {
+      parts.push(`Flat rate (${amounts.join(", ")})`);
+    }
+
+    if (parts.length === 0) {
+      parts.push("undisclosed (or part of a larger subscription or license)");
+    }
+
+    return parts.join(", ");
+  };
+
   const toggleCriterion = (id) => {
     setSelectedCriteria((prev) =>
       prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]
@@ -163,7 +235,7 @@ const AgentTable = forwardRef(function AgentTable(
         agent.name,
         agent.website,
         agent.developer,
-        agent.pricing_model,
+        categorizePricing(agent.pricing_model),
         ...criteria.map((c) => ratings[key]?.[c.id]?.rating ?? ""),
       ];
     });
@@ -269,7 +341,9 @@ const AgentTable = forwardRef(function AgentTable(
                 </a>
               </td>
               <td className="px-4 py-2">{agent.developer}</td>
-              <td className="px-4 py-2">{agent.pricing_model}</td>
+              <td className="px-4 py-2">
+                {categorizePricing(agent.pricing_model)}
+              </td>
               {criteria.map((c) => (
                 <td key={c.id} className="px-2 py-2 text-center">
                   {renderStars(
