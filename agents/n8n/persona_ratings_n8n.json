@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 5,
+    "reasoning": "Visual workflows with 400+ integrations automate complex processes and repetitive tasks."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 3,
+    "reasoning": "Cloud offering and templates ease setup but building workflows still needs some technical understanding."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Designed for automation rather than code analysis or testing features."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "Does not focus on navigating or understanding software codebases."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "AI nodes can generate text or images via external models but multimodal tools are limited."
+  },
+  "data_experimental_flexibility": {
+    "rating": 4,
+    "reasoning": "Supports custom scripting and diverse APIs, enabling flexible data workflows."
+  },
+  "visual_no_code_development": {
+    "rating": 5,
+    "reasoning": "Drag-and-drop editor enables building workflows without writing code."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 5,
+    "reasoning": "Connects multiple services and LLMs into orchestrated multi-step processes."
+  }
+}
