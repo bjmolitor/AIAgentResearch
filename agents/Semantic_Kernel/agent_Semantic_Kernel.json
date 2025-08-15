@@ -1,0 +1,23 @@
+{
+  "name": "Semantic Kernel",
+  "website": "https://github.com/microsoft/semantic-kernel",
+  "developer": "Microsoft",
+  "key_features": [
+    "Model-agnostic framework with connectors for OpenAI, Azure OpenAI, Hugging Face, and NVIDIA NIM.",
+    "Modular skill system combining native code, prompt templates, and plugins.",
+    "Planners for goal-based orchestration and multi-agent workflows.",
+    "Built-in memory and vector store connectors for context persistence.",
+    "Supports C#, Python, and Java with enterprise-ready tooling."
+  ],
+  "supported_models": [
+    "OpenAI and Azure OpenAI models",
+    "Hugging Face and NVIDIA NIM models",
+    "Local models via Ollama, LM Studio, or ONNX"
+  ],
+  "pricing_model": "Open-source (Apache 2.0 license)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
