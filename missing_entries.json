@@ -99,6 +99,7 @@
     "Name": "Inflection Pi",
     "Website": "https://pi.ai/",
     "Description": "A personal AI assistant created by Inflection AI, designed to be conversational, supportive, and there for the user at any time. Pi interacts via chat or voice, helping with questions, advice, or casual conversation, focusing on personal support and knowledge.",
-    "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications."
+    "Reason for inclusion": "Pi is an example of a consumer-facing intelligent assistant that, unlike developer frameworks, is directly available for everyday users. Including Inflection Pi broadens the list to general-purpose AI companions, reflecting the range of AI agent applications.",
+    "status": "added"
   }
 ]

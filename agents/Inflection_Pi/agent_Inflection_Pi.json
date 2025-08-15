@@ -1,0 +1,24 @@
+{
+  "name": "Inflection Pi",
+  "website": "https://pi.ai/",
+  "developer": "Inflection AI",
+  "key_features": [
+    "Supportive conversational personal AI",
+    "Voice and text interaction with real-time transcription",
+    "Accessible via web and mobile apps"
+  ],
+  "supported_models": [
+    "Inflection AI's proprietary models (Inflection-2 family)"
+  ],
+  "pricing_model": "Free tier with optional Pi Pro subscription",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "terminal_bench_score": null,
+    "terminal_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  },
+  "description": "A personal AI assistant that engages in empathetic conversation over chat or voice.",
+  "long_description": "Pi stands for \"Personal Intelligence\" and is developed by Inflection AI. It focuses on friendly, supportive dialogue and offers both text and voice interactions across web and mobile platforms."
+}

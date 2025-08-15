@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 2,
+    "reasoning": "Pi can offer general advice and reminders through conversation but lacks built-in automation or task execution features."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 5,
+    "reasoning": "Users access Pi through a simple web or mobile interface with minimal setup, making it highly approachable for newcomers."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "The assistant is not intended for code analysis or testing and provides no specialized developer tools."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "Pi does not interact with code repositories or provide features to understand or navigate codebases."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 3,
+    "reasoning": "Pi supports both text and voice, enabling conversational audio interactions, but it lacks broader multimodal creativity tools like image or video generation."
+  },
+  "data_experimental_flexibility": {
+    "rating": 1,
+    "reasoning": "There is no support for connecting to external datasets or running data experiments within the assistant."
+  },
+  "visual_no_code_development": {
+    "rating": 1,
+    "reasoning": "Pi provides a chat-style interface without visual building blocks or no-code development features."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 1,
+    "reasoning": "The assistant does not orchestrate multi-step workflows or coordinate other agents; it focuses on single-turn conversations."
+  }
+}
