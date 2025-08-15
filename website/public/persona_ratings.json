@@ -1393,7 +1393,7 @@
       "reasoning": "Copilot can trigger actions across Microsoft services and plug-ins, offering moderate workflow orchestration inside the Microsoft ecosystem."
     }
   },
-  "mini-swe-agent": {
+  "mini_swe_agent": {
     "automation_productivity": {
       "rating": 3,
       "reasoning": "Research to be done."
