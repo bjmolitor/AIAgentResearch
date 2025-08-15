@@ -1145,5 +1145,26 @@
       "task_success_rate": null,
       "resource_usage": null
     }
+  },
+  {
+    "name": "n8n",
+    "website": "https://n8n.io/",
+    "developer": "n8n GmbH",
+    "key_features": [
+      "Drag-and-drop workflow builder with 400+ integrations and templates",
+      "AI-native platform for building LangChain-based agent workflows",
+      "Extendable with JavaScript or Python and npm packages",
+      "Self-host or use n8n Cloud with enterprise features"
+    ],
+    "supported_models": [
+      "Integrates with OpenAI, Anthropic, Google Gemini and other LangChain-compatible models"
+    ],
+    "pricing_model": "Fair-code licensed; free self-hosting with paid cloud plans starting around $20/month",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "task_success_rate": null,
+      "resource_usage": ""
+    },
+    "description": "n8n is an open-source workflow automation platform that combines a visual editor with optional code, enabling users to orchestrate APIs, databases, and AI models."
   }
 ]
