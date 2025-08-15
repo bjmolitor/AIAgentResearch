@@ -1,6 +1,14 @@
-import { useEffect, useState } from "react";
+import {
+  useEffect,
+  useState,
+  forwardRef,
+  useImperativeHandle,
+} from "react";
 
-function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
+const AgentTable = forwardRef(function AgentTable(
+  { onAgentClick, filterNames, searchTerm = "" },
+  ref
+) {
   const [agents, setAgents] = useState([]);
   // Default sort alphabetically by name
   const [sortConfig, setSortConfig] = useState({ key: "name", direction: "asc" });
@@ -128,12 +136,78 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
     );
   };
 
+  const exportData = (format) => {
+    const headers = [
+      "Name",
+      "Website",
+      "Developer",
+      "Pricing",
+      ...criteria.map((c) => c.name),
+    ];
+
+    const rows = sortedAgents.map((agent) => {
+      const key = getAgentKey(agent.name);
+      return [
+        agent.name,
+        agent.website,
+        agent.developer,
+        agent.pricing_model,
+        ...criteria.map((c) => ratings[key]?.[c.id]?.rating ?? ""),
+      ];
+    });
+
+    let content = "";
+    let mime = "text/plain";
+    if (format === "json") {
+      const jsonData = rows.map((row) =>
+        Object.fromEntries(headers.map((h, i) => [h, row[i]]))
+      );
+      content = JSON.stringify(jsonData, null, 2);
+      mime = "application/json";
+    } else if (format === "csv") {
+      const csvRows = [
+        headers.join(","),
+        ...rows.map((row) =>
+          row
+            .map((cell) => {
+              const value = (cell ?? "").toString().replace(/"/g, '""');
+              return `"${value}"`;
+            })
+            .join(",")
+        ),
+      ];
+      content = csvRows.join("\n");
+      mime = "text/csv";
+    } else if (format === "md") {
+      const mdRows = [
+        `| ${headers.join(" | ")} |`,
+        `| ${headers.map(() => "---").join(" | ")} |`,
+        ...rows.map((row) => `| ${row.join(" | ")} |`),
+      ];
+      content = mdRows.join("\n");
+      mime = "text/markdown";
+    }
+
+    const blob = new Blob([content], { type: mime });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `agent-table.${format}`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  useImperativeHandle(ref, () => ({
+    exportData,
+  }));
+
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full text-sm text-stratos-blue border border-background-blue">
         <thead className="bg-background-blue text-white">
           <tr>
             <th className="px-4 py-2 font-archia">Name</th>
+            <th className="px-4 py-2 font-archia">Website</th>
             <th className="px-4 py-2 font-archia">Developer</th>
             <th className="px-4 py-2 font-archia">Pricing</th>
             {criteria.map((c) => (
@@ -172,6 +246,16 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
                   {agent.name}
                 </button>
               </td>
+              <td className="px-4 py-2">
+                <a
+                  href={agent.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  {agent.website}
+                </a>
+              </td>
               <td className="px-4 py-2">{agent.developer}</td>
               <td className="px-4 py-2">{agent.pricing_model}</td>
               {criteria.map((c) => (
@@ -190,6 +274,6 @@ function AgentTable({ onAgentClick, filterNames, searchTerm = "" }) {
       </table>
     </div>
   );
-}
+});
 
 export default AgentTable;
