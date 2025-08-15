@@ -1,0 +1,24 @@
+{
+  "name": "IBM watsonx Orchestrate",
+  "website": "https://www.ibm.com/products/watsonx-orchestrate",
+  "developer": "IBM",
+  "key_features": [
+    "Digital workers for automating business tasks",
+    "No-code workflow builder with prebuilt skills",
+    "Connectors to enterprise apps such as Slack, Workday, and SAP",
+    "Python-based Agent Development Kit (ADK) and CLI",
+    "Auditable and secure integrations"
+  ],
+  "supported_models": [
+    "IBM Granite and other foundation models available via watsonx.ai"
+  ],
+  "pricing_model": "Commercial subscription with free Developer Edition",
+  "description": "Enterprise platform for building AI-powered digital workers that automate workflows across business applications.",
+  "long_description": "watsonx Orchestrate combines a no-code interface, prebuilt skills, and IBM foundation models to let users design digital workers that execute tasks in HR, CRM, ERP, and other systems. The platform offers a developer-focused ADK and local sandbox, with governance and audit features for enterprise deployments.",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "swe_bench_source": null,
+    "task_success_rate": null,
+    "resource_usage": null
+  }
+}

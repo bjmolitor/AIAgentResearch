@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 4,
+    "reasoning": "Digital workers automate multi-step business tasks across enterprise apps, boosting productivity."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 3,
+    "reasoning": "The no-code builder and Developer Edition ease entry, but enterprise setup may require guidance."
+  },
+  "code_quality_testing": {
+    "rating": 2,
+    "reasoning": "The platform focuses on workflow automation rather than code analysis or testing."
+  },
+  "codebase_comprehension": {
+    "rating": 2,
+    "reasoning": "Designed for business processes, not for navigating or understanding software codebases."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Uses language models for task automation but offers limited multimodal creative tools."
+  },
+  "data_experimental_flexibility": {
+    "rating": 3,
+    "reasoning": "Supports integration with various enterprise data sources, though experimentation is constrained by governance."
+  },
+  "visual_no_code_development": {
+    "rating": 4,
+    "reasoning": "Provides a drag-and-drop interface to build workflows and digital workers without programming."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 4,
+    "reasoning": "Designed to orchestrate tasks across multiple apps and services through digital workers."
+  }
+}
