@@ -68,12 +68,14 @@ function Home({ onAgentClick, onOpenPersonas }) {
           className="border px-2 py-1 rounded font-archia text-stratos-blue"
         />      
       </div>
-      <ThemeSelector />
       <AgentTable
         ref={tableRef}
         onAgentClick={onAgentClick}
         searchTerm={searchTerm}
       />
+      <div className="mt-4 flex justify-end">
+        <ThemeSelector />
+      </div>
     </div>
   );
 }
