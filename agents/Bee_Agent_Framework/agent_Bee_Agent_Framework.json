@@ -1,0 +1,31 @@
+{
+  "name": "Bee Agent Framework",
+  "website": "https://framework.beeai.dev/",
+  "developer": "IBM Research (BeeAI project)",
+  "key_features": [
+    "Agents module for reasoning and action",
+    "Workflows for multi-agent orchestration",
+    "Backend connectors to multiple LLM providers",
+    "Tool integrations such as web search, weather, and code execution",
+    "Retrieval-augmented generation (RAG) system",
+    "Memory management strategies",
+    "Observability with events and logging",
+    "Serve module supporting protocols like A2A and MCP",
+    "Caching for performance optimization",
+    "Serialization for persistent agent state"
+  ],
+  "supported_models": [
+    "OpenAI GPT",
+    "DeepSeek R1",
+    "LLaMa 3.3",
+    "IBM watsonx"
+  ],
+  "pricing_model": "Open-source (Apache 2.0 license)",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "description": "Open-source toolkit for building production-ready multi-agent systems in Python or TypeScript.",
+  "long_description": "Bee Agent Framework provides modular components—agents, workflows, tools, memory, and more—to assemble and orchestrate complex AI applications without extensive coding."
+}
