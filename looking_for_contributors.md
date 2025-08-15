@@ -1,3 +1,5 @@
+## Created a page for orientation in the world of AI agents - Looking for contributors
+
 Hey folks,
 
 I've been working on **Open AI Agent Research**, an overview hub. It's basically a link collection with some explanations and homogenous ratings trying to recommend agentic solutions best-suited for specific personas or use-cases.
