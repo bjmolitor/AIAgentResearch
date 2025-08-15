@@ -491,8 +491,8 @@
       "task_success_rate": null,
       "resource_usage": null
     },
-    "description": "Kilo is an AI software engineering agent that connects to GitHub and implements tasks from natural-language prompts.",
-    "long_description": "Developed by Kilo Labs, the agent plans code changes, edits files, runs tests, and opens pull requests. It is currently available in a closed beta."
+    "description": "Kilo is an open-source VS Code extension that turns natural-language requests into code changes.",
+    "long_description": "Developed by Kilo Labs, the extension plans code changes, edits files, runs tests, and opens pull requests. It's freely available on the VS Code Marketplace with one-click installation."
   },
   {
     "name": "manus",

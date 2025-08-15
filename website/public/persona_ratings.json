@@ -1093,8 +1093,8 @@
       "reasoning": "Kilo can plan tasks, modify code, run tests, and open pull requests, automating significant portions of the development workflow."
     },
     "beginner_friendly_onboarding": {
-      "rating": 2,
-      "reasoning": "The service is invite-only and requires connecting a GitHub repository, which is less approachable for casual users."
+      "rating": 4,
+      "reasoning": "Kilo is an open-source VS Code extension that installs with one click, though users still need basic Git and API key setup."
     },
     "code_quality_testing": {
       "rating": 4,
