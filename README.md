@@ -70,7 +70,6 @@ The following agents have been profiled in this repository:
 - n8n (`agents/n8n`)
 - Zapier (`agents/Zapier`)
 - AgentGPT (`agents/AgentGPT`)
-- Adept (ACT-1) (`agents/Adept_ACT-1`)
 - Fixie.ai (`agents/Fixie.ai`)
 - IBM watsonx Orchestrate (`agents/IBM_watsonx_Orchestrate`)
 - Inflection Pi (`agents/Inflection_Pi`)
