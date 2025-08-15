@@ -7,6 +7,7 @@ import {
 
 const AgentTable = forwardRef(function AgentTable(
   {
+    onAgentClick,
     filterNames,
     searchTerm = "",
     initialCriteria = [],
@@ -218,6 +219,7 @@ const AgentTable = forwardRef(function AgentTable(
         <thead className="bg-background-blue text-white dark:bg-stratos-blue">
           <tr>
             <th className="px-4 py-2 font-archia">Name</th>
+            <th className="px-4 py-2 font-archia">Website</th>
             <th className="px-4 py-2 font-archia">Developer</th>
             <th className="px-4 py-2 font-archia">Pricing</th>
             {criteria.map((c) => (
@@ -248,13 +250,22 @@ const AgentTable = forwardRef(function AgentTable(
           {displayedAgents.map((agent) => (
             <tr key={agent.name} className="odd:bg-white even:bg-background-blue/10 dark:odd:bg-gray-800 dark:even:bg-gray-700">
               <td className="px-4 py-2">
+                <button
+                  type="button"
+                  onClick={() => onAgentClick(agent)}
+                  className="underline text-left"
+                >
+                  {agent.name}
+                </button>
+              </td>
+              <td className="px-4 py-2">
                 <a
                   href={agent.website}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                 >
-                  {agent.name}
+                  {agent.website}
                 </a>
               </td>
               <td className="px-4 py-2">{agent.developer}</td>
