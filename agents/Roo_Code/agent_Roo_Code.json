@@ -12,7 +12,7 @@
   "supported_models": [
     "Any OpenAI-compatible or custom API/model (including local models via MCP)"
   ],
-  "pricing_model": "Free (open source)",
+  "pricing_model": "Open-source; users provide API keys and pay for model usage",
   "benchmarks": {
     "swe_bench_score": null,
     "task_success_rate": null,

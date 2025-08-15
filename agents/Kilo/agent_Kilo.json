@@ -12,7 +12,7 @@
   "supported_models": [
     "GPT-4 and open-source large language models orchestrated by Kilo"
   ],
-  "pricing_model": "Closed beta (join waitlist)",
+  "pricing_model": "Open-source; users provide API keys and pay for model usage",
   "benchmarks": {
     "swe_bench_score": null,
     "task_success_rate": null,
