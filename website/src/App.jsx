@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 import AgentDetailModal from "./components/AgentDetailModal";
 import PersonasOverlay from "./components/PersonasOverlay";
 import Home from "./pages/Home";
 import PersonaDetail from "./pages/PersonaDetail";
+import Ziele from "./pages/Ziele";
+import Plaene from "./pages/Plaene";
 
 function App() {
   const [selectedAgent, setSelectedAgent] = useState(null);
@@ -28,18 +30,54 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-stratos-blue dark:text-gray-100">
       <header className="bg-gray-100 dark:bg-gray-800 p-4">
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <h1 className="text-2xl font-bold text-stratos-blue dark:text-highlight-green">Open AI Agent Research</h1>
-          <a
-            href="https://github.com/bjmolitor/AIAgentResearch"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-stratos-blue dark:text-sparky-blue underline"
-          >
-            (MIT licensed - contributors wanted.)
-          </a>
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <h1 className="text-2xl font-bold text-stratos-blue dark:text-highlight-green">Open AI Agent Research</h1>
+            <a
+              href="https://github.com/bjmolitor/AIAgentResearch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-stratos-blue dark:text-sparky-blue underline"
+            >
+              (MIT licensed - contributors wanted.)
+            </a>
+          </div>
+          <nav>
+            <ul className="flex gap-4">
+              <li>
+                <NavLink
+                  to="/"
+                  end
+                  className={({ isActive }) =>
+                    `px-3 py-2 ${isActive ? "border-b-2 border-stratos-blue" : ""}`
+                  }
+                >
+                  Infos
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/ziele"
+                  className={({ isActive }) =>
+                    `px-3 py-2 ${isActive ? "border-b-2 border-stratos-blue" : ""}`
+                  }
+                >
+                  Ziele
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/plaene"
+                  className={({ isActive }) =>
+                    `px-3 py-2 ${isActive ? "border-b-2 border-stratos-blue" : ""}`
+                  }
+                >
+                  Pläne
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
         </div>
-
       </header>
       <main className="flex-grow p-4">
         <Routes>
@@ -52,6 +90,8 @@ function App() {
               />
             }
           />
+          <Route path="/ziele" element={<Ziele />} />
+          <Route path="/plaene" element={<Plaene />} />
           <Route
             path="/personas/:id"
             element={<PersonaDetail onAgentClick={handleAgentClick} />}
