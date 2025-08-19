@@ -1,0 +1,34 @@
+{
+  "automation_productivity": {
+    "rating": 3,
+    "reasoning": "Generates full page wireframes from a prompt, automating initial layout work."
+  },
+  "beginner_friendly_onboarding": {
+    "rating": 4,
+    "reasoning": "Requires only a single prompt to start and runs in the Framer desktop app."
+  },
+  "code_quality_testing": {
+    "rating": 1,
+    "reasoning": "Designed for UI layout, not code testing."
+  },
+  "codebase_comprehension": {
+    "rating": 1,
+    "reasoning": "Does not interact with codebases."
+  },
+  "creative_multimodal_exploration": {
+    "rating": 2,
+    "reasoning": "Focuses on visual layout generation with limited multimodal capabilities."
+  },
+  "data_experimental_flexibility": {
+    "rating": 1,
+    "reasoning": "No support for data analysis or experiment tracking."
+  },
+  "visual_no_code_development": {
+    "rating": 4,
+    "reasoning": "Produces visual layouts without coding, giving a starting point for design."
+  },
+  "workflow_agent_orchestration": {
+    "rating": 1,
+    "reasoning": "Operates as a standalone design assistant without orchestration features."
+  }
+}
