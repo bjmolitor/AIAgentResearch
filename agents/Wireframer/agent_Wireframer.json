@@ -1,0 +1,21 @@
+{
+  "name": "Wireframer",
+  "website": "https://www.framer.com/wireframer/",
+  "developer": "Framer",
+  "key_features": [
+    "Generates responsive wireframes from a single text prompt",
+    "Produces clean layouts focused on hierarchy and flow",
+    "Desktop-based design tool"
+  ],
+  "supported_models": [
+    "Proprietary model"
+  ],
+  "pricing_model": "Free plan available with paid upgrades",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "description": "Wireframer by Framer converts prompts into structured, responsive pages.",
+  "long_description": "Wireframer generates clean, responsive layouts focused on hierarchy and flow, giving designers a solid foundation without locking them into a look."
+}
