@@ -1,0 +1,113 @@
+Crawl4AI
+Log10
+Screenpipe
+CICube
+Guardrails AI
+Vercel AI SDK
+TEN Framework
+AIWaves Agents
+OpenAI Swarm
+AutoAgent
+Dynamiq
+Amazon Bedrock AgentCore
+Firebase Studio
+Sema4.ai
+HeyBoss AI
+BlockSurvey
+Capalyze
+Edexia
+PortableDocs
+Model ML
+GLM‑4.5
+Jina AI
+Pinecone
+Dcup
+THEO
+Unitree R1
+3D AI Studio
+Samsung Ballie
+Mapless AI
+Intel Automotive Solutions
+Pydantic
+Outlines
+Hugging Face Transformers
+Scalenut
+Surfer SEO
+Synthesia
+Rytr
+BasedLabs AI
+Cryptohopper
+Bitget GetAgent
+ChainGPT AI Agent
+Exponent AI
+Theoriq AI
+EveryAnswer
+Skydis
+CloseBot.ai
+SiteGPT
+Tidio Copilot
+Mesha
+Digits
+Yield Seeker
+AQ22
+EasyFin AI
+SEObotAI
+CustomerFinderBot
+kwrds.ai
+LangChain Social Media Agent
+Surge AI
+Amazon SageMaker Studio Lab
+Paige AI
+Bright Data
+Palo Alto Networks Prisma AIRS
+Diagnostics AI (PCR AI)
+CrushOn.AI
+Lindy.ai
+Lucy
+11.ai
+Tarotap
+Taskade AI Agents
+Famous.ai
+ChatGPT Agent
+Proactor AI
+Maximus-AI
+Qwen3‑Coder
+Trae Agent
+Kiro AI IDE
+Harness AI Code Agent
+Kimi‑Dev
+AlphaEvolve
+Helpfull
+AlphaSense
+Isomorphic Labs
+AMIE
+Google AI Co-Scientist
+Sales Machines AI
+OneShot AI
+Virtuans AI
+Origami Agents
+Cara AI
+CoTester
+Keploy
+Diffblue Cover
+Flowtest AI
+nunu.ai
+aicut
+HeyGen
+InVideo AI
+Pictory AI
+Vidnoz AI
+Avaamo
+Sintra AI
+Suna by Kortix AI
+Hugging Face Open Computer Agent
+ActionAgents
+Vapi
+ElevenLabs
+Millis AI
+Synthflow AI
+Goodcall AI
+AirOps
+TeamDay.ai
+Google Opal
+Activepieces
