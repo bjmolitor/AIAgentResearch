@@ -3879,6 +3879,56 @@
       ],
       "autonomyLevel": 87,
       "mentionedInNewsletter": 1
+    },
+    {
+      "id": "notion-3-0",
+      "title": "Notion 3.0",
+      "shortDescription": "Notion 3.0 is a major update that introduces AI Agents to the platform, allowing users to automate tasks and workflows directly within Notion.",
+      "longDescription": "Notion 3.0 represents the biggest evolution of Notion yet, with a focus on AI Agents. These agents can perform any action a human can within Notion, such as creating documents, building databases, searching across integrated tools, and executing complex, multi-step workflows. This update transforms Notion into a powerful automated workspace, where agents act like teammates to handle manual work, significantly speeding up processes that used to take days.",
+      "links": [
+        "https://www.notion.com/blog/introducing-notion-3-0",
+        "https://www.notion.com/releases/2025-09-18",
+        "https://www.youtube.com/watch?v=R1cF4T4lgI4"
+      ],
+      "category": "productivity-agents",
+      "professions": [
+        "knowledge workers",
+        "project managers",
+        "students",
+        "teams",
+        "individuals"
+      ],
+      "industry": [
+        "Productivity",
+        "Software",
+        "Business",
+        "Education"
+      ],
+      "tags": [
+        "AI agent",
+        "productivity",
+        "workflow automation",
+        "knowledge management",
+        "collaboration"
+      ],
+      "accessModel": "closed-source",
+      "pricingModel": "freemium",
+      "autonomyLevel": 85,
+      "autonomyReasoning": "Notion 3.0's AI Agents can autonomously execute multi-step workflows, create and manage documents and databases, and integrate with other tools. This demonstrates a high level of autonomy, as the agents can handle complex tasks without direct human intervention for each step. However, the user still needs to initiate the tasks and set the goals for the agents.",
+      "dofollow": true,
+      "state": "approved",
+      "userId": "OwrYew8Dkda0jLET3p6ILVCVhY83",
+      "createdAt": "2025-09-25T03:31:06.689210Z",
+      "lastEditedAt": "2025-09-25T03:31:06.689210Z",
+      "magicNumber": 0,
+      "popularityLevel": 95,
+      "seoTitle": "notion-3-0",
+      "usefulFor": [
+        "Automating the creation of documents and databases.",
+        "Executing multi-step workflows across different tools.",
+        "Managing knowledge and projects more efficiently.",
+        "Collaborating with an AI teammate to speed up work."
+      ]
     }
   ],
   "programming-agents": [
