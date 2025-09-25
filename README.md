@@ -69,6 +69,7 @@ The following agents have been profiled in this repository:
 - v0.app (`agents/v0.app`)
 - n8n (`agents/n8n`)
 - Zapier (`agents/Zapier`)
+- Abacus.AI (`agents/Abacus.ai`)
 - AgentGPT (`agents/AgentGPT`)
 - Fixie.ai (`agents/Fixie.ai`)
 - IBM watsonx Orchestrate (`agents/IBM_watsonx_Orchestrate`)

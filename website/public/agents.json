@@ -1290,6 +1290,36 @@
     "description": "Fixie.ai is a platform for building and hosting AI agents that connect to external tools and data sources, enabling organizations to automate workflows and deploy conversational assistants."
   },
   {
+    "name": "Abacus.AI",
+    "website": "https://abacus.ai/",
+    "developer": "Abacus.AI",
+    "key_features": [
+      "DeepAgent general-purpose assistant that generates applications, presentations, and automated workflows from natural language prompts",
+      "Catalog of modular solutions spanning ChatLLM, Code LLM, Document Intelligence, Forecasting & Planning, Anomaly Detection, and Marketing & Growth personalization",
+      "Retrieval-augmented generation that blends real-time data pipelines with knowledge bases and vector search",
+      "No-code workflow orchestration and integrations for popular SaaS platforms, databases, and streaming data",
+      "Enterprise-grade guardrails, monitoring, and governance controls for large-scale AI deployments"
+    ],
+    "supported_models": [
+      "Abacus.AI foundation models",
+      "OpenAI GPT-4 family",
+      "Anthropic Claude models",
+      "Google Gemini models",
+      "Cohere Command models"
+    ],
+    "pricing_model": "Enterprise plans with custom pricing; consultation required.",
+    "benchmarks": {
+      "swe_bench_score": null,
+      "swe_bench_source": null,
+      "terminal_bench_score": null,
+      "terminal_bench_source": null,
+      "task_success_rate": null,
+      "resource_usage": null
+    },
+    "description": "Abacus.AI is an enterprise platform that combines its DeepAgent assistant with modular AI solutions so organizations can deploy chatbots, forecasting systems, and personalized workflows on their data.",
+    "long_description": "Abacus.AI provides an end-to-end environment for grounding large language models on enterprise knowledge, orchestrating workflows through DeepAgent, and deploying targeted solutions such as Document Intelligence, Marketing & Growth personalization, anomaly detection, forecasting, and code-focused assistants—all secured with enterprise guardrails and monitoring."
+  },
+  {
     "name": "BabyAGI",
     "website": "https://github.com/yoheinakajima/babyagi",
     "developer": "Yohei Nakajima",

@@ -33,6 +33,40 @@
       "reasoning": "Designed for single-agent operation without advanced multi-agent orchestration."
     }
   },
+  "abacus_ai": {
+    "automation_productivity": {
+      "rating": 4,
+      "reasoning": "DeepAgent automates multi-step enterprise workflows, letting teams deploy chatbots, forecasting flows, and marketing journeys without hand coding each task."
+    },
+    "beginner_friendly_onboarding": {
+      "rating": 2,
+      "reasoning": "Setup typically involves a sales-assisted onboarding to connect data sources and configure guardrails, which is heavier than self-serve tools."
+    },
+    "code_quality_testing": {
+      "rating": 1,
+      "reasoning": "The platform targets business AI applications and does not provide dedicated code quality or testing features."
+    },
+    "codebase_comprehension": {
+      "rating": 1,
+      "reasoning": "Abacus.AI is not designed for navigating or understanding existing software codebases."
+    },
+    "creative_multimodal_exploration": {
+      "rating": 3,
+      "reasoning": "DeepAgent can generate apps, presentations, and other assets, and the Document Intelligence modules support multimodal use cases."
+    },
+    "data_experimental_flexibility": {
+      "rating": 4,
+      "reasoning": "Modular solutions span personalization, anomaly detection, forecasting, and marketing analytics, and they ingest enterprise data streams for experimentation."
+    },
+    "visual_no_code_development": {
+      "rating": 3,
+      "reasoning": "The workflow builder offers a visual environment for composing automations, though advanced deployments still rely on technical configuration."
+    },
+    "workflow_agent_orchestration": {
+      "rating": 4,
+      "reasoning": "DeepAgent and the orchestration layer coordinate multi-step processes with guardrails, enabling sophisticated enterprise automations."
+    }
+  },
   "agentverse": {
     "automation_productivity": {
       "rating": 3,
