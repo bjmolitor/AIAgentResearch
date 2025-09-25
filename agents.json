@@ -6036,6 +6036,15 @@
   ],
   "workflow-automation-agents": [
     {
+      "title": "Bhindi",
+      "shortDescription": "Bhindi is your AI-powered sous-chef, connecting your favorite apps to whip up seamless workflows in a snap.",
+      "links": [
+        "https://bhindi.io/"
+      ],
+      "pricingModel": "freemium",
+      "category": "workflow-automation-agents"
+    },
+    {
       "logoUrl": "https://firebasestorage.googleapis.com/v0/b/aiagentstore.appspot.com/o/agentLogos%2Fn8n-n8-logo.jpg?alt=media&token=0a227246-5859-46a2-823d-f51d2b64870d",
       "usefulFor": [
         "Automating repetitive tasks by integrating multiple applications and services.",
