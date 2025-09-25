@@ -1,0 +1,20 @@
+{
+  "name": "Optimizely Opal",
+  "website": "https://www.optimizely.com/ai/",
+  "developer": "Optimizely",
+  "key_features": [
+    "AI agent orchestration platform for marketing",
+    "Create AI agents for any use case",
+    "Orchestrate agents across workflows",
+    "Scale impact without scaling costs"
+  ],
+  "supported_models": [
+    "Various LLMs (not specified)"
+  ],
+  "pricing_model": "Based on 'Opal credits' for AI model API calls",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  }
+}
