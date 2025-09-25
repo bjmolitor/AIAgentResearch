@@ -1,0 +1,26 @@
+{
+  "name": "Abacus.AI",
+  "website": "https://abacus.ai/",
+  "developer": "Abacus.AI",
+  "key_features": [
+    "DeepAgent general-purpose assistant that can build applications, presentations, and automated workflows from natural language prompts",
+    "Modular solutions for ChatLLM, Code LLM, document intelligence, forecasting and planning, anomaly detection, and marketing personalization",
+    "Unified platform for combining real-time data pipelines with retrieval-augmented generation over enterprise knowledge bases",
+    "No-code workflow orchestration with integrations for popular SaaS, databases, and event streams",
+    "Enterprise-grade security, guardrails, and monitoring to manage AI deployments at scale"
+  ],
+  "supported_models": [
+    "Abacus.AI foundation models",
+    "OpenAI GPT-4 family",
+    "Anthropic Claude models",
+    "Google Gemini models",
+    "Cohere Command models"
+  ],
+  "pricing_model": "Enterprise plans with custom pricing; consultation required",
+  "benchmarks": {
+    "swe_bench_score": null,
+    "task_success_rate": null,
+    "resource_usage": ""
+  },
+  "description": "Abacus.AI is an enterprise platform that pairs a general-purpose DeepAgent with modular AI solutions so organizations can launch chatbots, forecasting systems, and personalized workflows on their own data."
+}
